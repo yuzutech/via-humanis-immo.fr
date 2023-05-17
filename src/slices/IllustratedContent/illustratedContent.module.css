@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 3em;
+    line-height: 1.15em;
+    font-weight: 700;
+    color: var(--black-color)
+}
+
+.illustration {
+    max-width: 576px;
+    height: auto;
+}
+
+.text {
+    margin-left: 3em;
+    max-width: 576px;
+}
+
+.title {
+    padding-bottom: 0.5rem;
+}
+
+.paragraph:not(:last-child) {
+    padding-bottom: 1em;
+}

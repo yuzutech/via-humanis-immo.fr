@@ -1,0 +1,74 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "type": "Text",
+        "value": "Gestion locative"
+      },
+      "text": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Notre métier - Vous assurer d’optimiser la rentabilité de votre patrimoine immobilier, sur la durée  ",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Vous souhaitez bénéficier d’un mandat de gestion sans surprise et d’un accompagnement de qualité ?",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "  Nos offres adaptées répondent à vos objectifs et à vos attentes spécifiques.",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "\nNotre expertise vous sécurise, à vous de choisir l’une de nos offres de services intégrés : Liberté, On line/Confort ou Premium ?",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "illustration": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+          "width": 3935,
+          "height": 5894
+        },
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+        "width": 3935,
+        "height": 5894,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      }
+    },
+    "items": []
+  }
+]

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 2.5em;
+    margin-top: 4.25em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 2.5em;
+    margin-bottom: 0.75em;
+}
+
+.item {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: var(--brand-color);
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+.description {
+    color: var(--grey-color);
+    font-weight: 400;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gestion_locative",
+  "label": "Gestion locative",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "overview": { "type": "SharedSlice" },
+            "strengths": { "type": "SharedSlice" },
+            "contact_block": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}
