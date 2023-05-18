@@ -1,6 +1,6 @@
 import Menu from '@/app/menu'
 
-export default function GestionLocativeLayout({children}) {
+export default function ManagementLayout({children}) {
   return (
     <>
       <header>

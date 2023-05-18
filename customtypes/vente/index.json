@@ -1,6 +1,6 @@
 {
-  "id": "gestion_locative",
-  "label": "Gestion locative",
+  "id": "vente",
+  "label": "Vente",
   "repeatable": false,
   "status": true,
   "json": {

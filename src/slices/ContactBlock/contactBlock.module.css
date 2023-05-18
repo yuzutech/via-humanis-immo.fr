@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 5em;
+    background: rgba(var(--brand-color-rgb), 0.1);
+    border-radius: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    color: var(--grey-color-100);
+    max-width: 800px;
+    align-items: flex-start;
+}
+
+.paragraph:not(:last-child) {
+    padding-bottom: 1em;
+}
+
+.paragraph {
+    font-size: 1.125em;
+}
+
+.title {
+    font-size: 2.5em;
+    line-height: 1.05em;
+    font-weight: 700;
+    color: var(--black-color);
+    padding-bottom: 1rem;
+}
+
+.button {
+    color: #fff;
+    background-color: var(--brand-color);
+    padding: 1.15em 2.75em;
+    border-radius: 0.875em;
+    font-weight: 700;
+    font-size: 1.15em;
+    line-height: 1.1em;
+    margin-top: auto;
+    text-align: center;
+}
+.buttonText {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.buttonText::before {
+    display: block;
+    content: "";
+    width: 1em;
+    height: 1em;
+    background: url('/contact.svg') no-repeat;
+    background-size: contain;
+}

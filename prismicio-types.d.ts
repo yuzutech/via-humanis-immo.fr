@@ -6,44 +6,6 @@ import type * as prismic from "@prismicio/client";
 type Simplify<T> = {
   [KeyType in keyof T]: T[KeyType];
 };
-/** Content for Gestion locative documents */
-interface GestionLocativeDocumentData {
-  /**
-   * Slice Zone field in *Gestion locative*
-   *
-   * - **Field Type**: Slice Zone
-   * - **Placeholder**: *None*
-   * - **API ID Path**: gestion_locative.slices[]
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
-   *
-   */
-  slices: prismicT.SliceZone<GestionLocativeDocumentDataSlicesSlice>;
-}
-/**
- * Slice for *Gestion locative → Slice Zone*
- *
- */
-type GestionLocativeDocumentDataSlicesSlice =
-  | OverviewSlice
-  | StrengthsSlice
-  | ContactBlockSlice;
-/**
- * Gestion locative document from Prismic
- *
- * - **API ID**: `gestion_locative`
- * - **Repeatable**: `false`
- * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
- *
- * @typeParam Lang - Language API ID of the document.
- */
-export type GestionLocativeDocument<Lang extends string = string> =
-  prismicT.PrismicDocumentWithoutUID<
-    Simplify<GestionLocativeDocumentData>,
-    "gestion_locative",
-    Lang
-  >;
-export type AllDocumentTypes = GestionLocativeDocument;
 /**
  * Primary content in ContactBlock → Primary
  *
@@ -120,6 +82,137 @@ export type ContactBlockSlice = prismicT.SharedSlice<
   "contact_block",
   ContactBlockSliceVariation
 >;
+/**
+ * Primary content in Offers → Primary
+ *
+ */
+interface OffersSliceDefaultPrimary {
+  /**
+   * title field in *Offers → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * subtitle field in *Offers → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.primary.subtitle
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  subtitle: prismicT.KeyTextField;
+}
+/**
+ * Item in Offers → Items
+ *
+ */
+export interface OffersSliceDefaultItem {
+  /**
+   * icon field in *Offers → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.items[].icon
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  icon: prismicT.ImageField<never>;
+  /**
+   * name field in *Offers → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.items[].name
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  name: prismicT.KeyTextField;
+  /**
+   * tagline field in *Offers → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.items[].tagline
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  tagline: prismicT.KeyTextField;
+  /**
+   * description field in *Offers → Items*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.items[].description
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  description: prismicT.RichTextField;
+  /**
+   * button field in *Offers → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers.items[].button
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  button: prismicT.KeyTextField;
+  /**
+   * recommended field in *Offers → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers.items[].recommended
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  recommended: prismicT.BooleanField;
+  /**
+   * premium field in *Offers → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers.items[].premium
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  premium: prismicT.BooleanField;
+}
+/**
+ * Default variation for Offers Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type OffersSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<OffersSliceDefaultPrimary>,
+  Simplify<OffersSliceDefaultItem>
+>;
+/**
+ * Slice variation for *Offers*
+ *
+ */
+type OffersSliceVariation = OffersSliceDefault;
+/**
+ * Offers Shared Slice
+ *
+ * - **API ID**: `offers`
+ * - **Description**: `Offers`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type OffersSlice = prismicT.SharedSlice<"offers", OffersSliceVariation>;
 /**
  * Primary content in IllustratedContent → Primary
  *
@@ -344,18 +437,19 @@ declare module "@prismicio/client" {
     (
       repositoryNameOrEndpoint: string,
       options?: prismic.ClientConfig
-    ): prismic.Client<AllDocumentTypes>;
+    ): prismic.Client;
   }
   namespace Content {
     export type {
-      GestionLocativeDocumentData,
-      GestionLocativeDocumentDataSlicesSlice,
-      GestionLocativeDocument,
-      AllDocumentTypes,
       ContactBlockSliceDefaultPrimary,
       ContactBlockSliceDefault,
       ContactBlockSliceVariation,
       ContactBlockSlice,
+      OffersSliceDefaultPrimary,
+      OffersSliceDefaultItem,
+      OffersSliceDefault,
+      OffersSliceVariation,
+      OffersSlice,
       OverviewSliceDefaultPrimary,
       OverviewSliceDefault,
       OverviewSliceVariation,

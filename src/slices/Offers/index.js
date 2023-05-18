@@ -1,0 +1,43 @@
+import styles from './offers.module.css'
+import {PrismicRichText} from '@prismicio/react'
+import Image from 'next/image'
+import clsx from 'clsx'
+
+/**
+ * @typedef {import('@prismicio/client').Content.OffersSlice} OffersSlice
+ * @typedef {import('@prismicio/react').SliceComponentProps<OffersSlice>} OffersProps
+ * @param {OffersProps}
+ */
+const Offers = ({slice}) => {
+  console.log({slice})
+  return (
+    <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
+      <div className={styles.content}>
+        <h2 className={styles.title}>{slice.primary.title}</h2>
+        <h3 className={styles.subtitle}>{slice.primary.subtitle}</h3>
+        <div className={styles.items}>
+          {slice.items.map((item) => {
+            return (
+              <div className={clsx(styles.item, item.recommended && styles.recommended, item.premium && styles.premium)}
+                   key={item.key}>
+                <Image src={item.icon.url} alt={item.icon.alt || ''} aria-hidden={true} width="100" height="100"/>
+                <h4 className={styles.name}>{item.name}</h4>
+                <h5 className={styles.tagline}>{item.tagline}</h5>
+                <div className={styles.description}>
+                  <PrismicRichText
+                    field={item.description}
+                    components={{
+                      paragraph: ({children}) => <p className={styles.paragraph}>{children}</p>,
+                    }}
+                  />
+                  <a className={styles.button} href="#">{item.button}</a>
+                </div>
+              </div>)
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Offers

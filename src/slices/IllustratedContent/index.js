@@ -10,6 +10,7 @@ import Image from 'next/image'
 export default function IllustratedContent({slice}) {
   return (
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
+      <div className={styles.content} >
       <Image className={styles.illustration} src={slice.primary.illustration.url} alt={slice.primary.illustration.alt || ''} width="576" height="400" priority={true} aria-hidden={true}/>
       <div className={styles.text}>
         <h1 className={styles.title}>{slice.primary.title}</h1>
@@ -19,6 +20,7 @@ export default function IllustratedContent({slice}) {
             paragraph: ({children}) => <p className={styles.paragraph}>{children}</p>,
           }}
         />
+      </div>
       </div>
     </section>
   )

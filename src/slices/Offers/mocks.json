@@ -1,0 +1,355 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subtitle": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Nos offres sur mesure sont adaptées à vos objectifs et à votre budget."
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Vos attentes sont uniques !"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://placehold.co/100x100",
+								"width": 3456,
+								"height": 3456
+							},
+							"url": "https://placehold.co/100x100",
+							"width": 3456,
+							"height": 3456,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Offre Liberté"
+						}
+					],
+					[
+						"tagline",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Une formule adaptée"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Vous souhaitez nous confier la recherche de votre locataire et vous souhaitez conserver la gestion de votre bien. ",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Nos experts immobiliers, vous proposent une sélection rigoureuse de locataires, qu’ils sélectionnent à partir de critères objectifs.",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Notre connaissance et maitrise de la réglementation vous protègent et vous permettent de maitriser vos risques.  ",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Tarif : 50% ou 100% d’un mois de loyer ou bien un forfait de X € ?",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"button",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Je suis intéressé(e)"
+						}
+					],
+					[
+						"recommended",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
+						}
+					],
+					[
+						"premium",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": false
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Offre confort"
+						}
+					],
+					[
+						"tagline",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Un tarif ajusté"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Vous souhaitez nous confier la gestion locative complète de votre bien, à un tarif préférentiel, sans frais additionnels.",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "\n Notre offre On line/Confort ? vous assure d’une gestion en ligne fluide et efficace.  ",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Honoraires : 3.9% TTC du loyer.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"button",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Je suis intéressé(e)"
+						}
+					],
+					[
+						"icon",
+						{
+							"url": "https://placehold.co/100x100",
+							"origin": {
+								"id": "xnRg3xDcNnE",
+								"url": "https://placehold.co/100x100",
+								"width": 7173,
+								"height": 10041
+							},
+							"width": 7173,
+							"height": 10041,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								}
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"recommended",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
+						}
+					],
+					[
+						"premium",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": false
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Offre Premium"
+						}
+					],
+					[
+						"tagline",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Une solution inédite et différenciante"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Vous souhaitez avoir accès à l’ensemble de nos solutions de gestion opérationnelles. Notre offre premium vous correspond.  ",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Honoraires : 5.9% TTC ",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Honoraires : ",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "- IDF : XX% TTC…",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "- Région lyonnaise : XX% TTC",
+										"spans": []
+									},
+									"direction": "ltr"
+								},
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "- Sud de la France : XX% TTC",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"button",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Je suis intéressé(e)"
+						}
+					],
+					[
+						"icon",
+						{
+							"url": "https://placehold.co/100x100",
+							"origin": {
+								"id": "U1iYwZ8Dx7k",
+								"url": "https://placehold.co/100x100",
+								"width": 3337,
+								"height": 4171
+							},
+							"width": 3337,
+							"height": 4171,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								}
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"recommended",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
+						}
+					],
+					[
+						"premium",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": false
+						}
+					]
+				]
+			}
+		]
+	}
+]
