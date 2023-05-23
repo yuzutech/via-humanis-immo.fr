@@ -5,7 +5,8 @@ import dynamic from "next/dynamic";
 export const components = {
   contact_block: dynamic(() => import("./ContactBlock")),
   offers: dynamic(() => import("./Offers")),
+  offers_compare: dynamic(() => import("./OffersCompare")),
   overview: dynamic(() => import("./IllustratedContent")),
-  pricing_tier: dynamic(() => import("./PricingTier")),
+  projects: dynamic(() => import("./Projects")),
   strengths: dynamic(() => import("./Strengths")),
 };

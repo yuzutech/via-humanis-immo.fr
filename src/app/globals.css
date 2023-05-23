@@ -55,6 +55,7 @@
     --background-color-300: #D3D9DD;
 
     --black-color: #1D2A30;
+    --black-color-rgb: 29, 42, 48;
     --foreground-color: var(--black-color);
 }
 
@@ -117,4 +118,55 @@ a {
     html {
         color-scheme: dark;
     }
+}
+
+.react-tabs {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+    margin: 0 0 0 0.5em;
+    padding: 0;
+}
+
+.react-tabs__tab {
+    color: var(--grey-color-200);
+    font-weight: 700;
+    font-size: 1.25em;
+    border-bottom: 3px solid transparent;
+    display: inline-block;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.react-tabs__tab:not(:last-child) {
+    margin: 0 1.5rem 0 0;
+}
+
+.react-tabs__tab--selected {
+    color: var(--brand-color);
+    border-bottom: 3px solid var(--brand-color);
+}
+
+.react-tabs__tab--disabled {
+    color: GrayText;
+    cursor: default;
+}
+
+.react-tabs__tab:focus {
+    outline: none;
+}
+
+.react-tabs__tab-panel {
+    display: none;
+}
+
+.react-tabs__tab-panel--selected {
+    display: block;
+    margin-top: 1.15rem;
 }

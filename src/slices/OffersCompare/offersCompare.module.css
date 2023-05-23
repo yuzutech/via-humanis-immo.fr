@@ -1,0 +1,115 @@
+.title {
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.container {
+    display: flex;
+    gap: 2.5em;
+    padding-top: 4.25em;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1200px;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.header {
+    padding-bottom: 1.35em;
+}
+
+.header::before {
+    display: block;
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto auto 0.4em;
+}
+
+.traditionalAgencyHeader, .digitalAgencyHeader {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.traditionalAgencyHeader::before {
+    background-image: url('/traditional-agency.svg');
+}
+
+.digitalAgencyHeader::before {
+    background-image: url('/digital-agency.svg');
+}
+
+.vhiHeader::before {
+    background-image: url('/vhi-2x.png');
+}
+
+.checked {
+    display: block;
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background: url('/check.svg') no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+
+.highlighted {
+    background: url('/vhi-check.svg') no-repeat;
+    margin: auto;
+}
+
+.featureName {
+    color: var(--black-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.tab {
+    box-shadow: 0 0 12px 0 #0000000D;
+    background-color: white;
+    border-radius: 2.5em;
+    padding: 5.735em 5em;
+    color: var(--black-color)
+}
+
+.tbody > tr > td {
+    border-bottom: 1px solid rgba(var(--black-color-rgb), 0.1);
+    padding-bottom: 1.375em;
+    padding-top: 1.375em;
+}
+
+.vhText {
+    color: var(--brand-color);
+    font-size: 1.15em;
+    display: block;
+}
+
+.immoText {
+    color: var(--brand-color);
+    font-size: 0.8em;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+}
+
+.disclaimer {
+    color: var(--grey-color-100);
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 1.5em;
+}

@@ -13,7 +13,9 @@
             "overview": { "type": "SharedSlice" },
             "strengths": { "type": "SharedSlice" },
             "offers": { "type": "SharedSlice" },
-            "contact_block": { "type": "SharedSlice" }
+            "contact_block": { "type": "SharedSlice" },
+            "offers_compare": { "type": "SharedSlice" },
+            "projects": { "type": "SharedSlice" }
           }
         }
       }

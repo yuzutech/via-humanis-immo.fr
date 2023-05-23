@@ -9,7 +9,6 @@ import clsx from 'clsx'
  * @param {OffersProps}
  */
 const Offers = ({slice}) => {
-  console.log({slice})
   return (
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
       <div className={styles.content}>

@@ -1,0 +1,187 @@
+{
+  "id": "offers_compare",
+  "type": "SharedSlice",
+  "name": "OffersCompare",
+  "description": "OffersCompare",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": { "label": "title", "placeholder": "" }
+        },
+        "disclaimer": {
+          "type": "Text",
+          "config": { "label": "disclaimer", "placeholder": "" }
+        }
+      },
+      "items": {
+        "name": {
+          "type": "Text",
+          "config": { "label": "name", "placeholder": "" }
+        },
+        "feature1": {
+          "type": "Text",
+          "config": { "label": "feature1", "placeholder": "" }
+        },
+        "traditional_agency_feature1": {
+          "type": "Boolean",
+          "config": {
+            "label": "traditional_agency_feature1",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "digital_agency_feature1": {
+          "type": "Boolean",
+          "config": {
+            "label": "digital_agency_feature1",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "vhi_feature1": {
+          "type": "Boolean",
+          "config": {
+            "label": "vhi_feature1",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "feature2": {
+          "type": "Text",
+          "config": { "label": "feature2", "placeholder": "" }
+        },
+        "traditional_agency_feature2": {
+          "type": "Boolean",
+          "config": {
+            "label": "traditional_agency_feature2",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "digital_agency_feature2": {
+          "type": "Boolean",
+          "config": {
+            "label": "digital_agency_feature2",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "vhi_feature2": {
+          "type": "Boolean",
+          "config": {
+            "label": "vhi_feature2",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "feature3": {
+          "type": "Text",
+          "config": { "label": "feature3", "placeholder": "" }
+        },
+        "traditional_agency_feature3": {
+          "type": "Boolean",
+          "config": {
+            "label": "traditional_agency_feature3",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "digital_agency_feature3": {
+          "type": "Boolean",
+          "config": {
+            "label": "digital_agency_feature3",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "vhi_feature3": {
+          "type": "Boolean",
+          "config": {
+            "label": "vhi_feature3",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "feature4": {
+          "type": "Text",
+          "config": { "label": "feature4", "placeholder": "" }
+        },
+        "traditional_agency_feature4": {
+          "type": "Boolean",
+          "config": {
+            "label": "traditional_agency_feature4",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "digital_agency_feature4": {
+          "type": "Boolean",
+          "config": {
+            "label": "digital_agency_feature4",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "vhi_feature4": {
+          "type": "Boolean",
+          "config": {
+            "label": "vhi_feature4",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "feature5": {
+          "type": "Text",
+          "config": { "label": "feature5", "placeholder": "" }
+        },
+        "traditional_agency_feature5": {
+          "type": "Boolean",
+          "config": {
+            "label": "traditional_agency_feature5",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "digital_agency_feature5": {
+          "type": "Boolean",
+          "config": {
+            "label": "digital_agency_feature5",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "vhi_feature5": {
+          "type": "Boolean",
+          "config": {
+            "label": "vhi_feature5",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -6,6 +6,229 @@ import type * as prismic from "@prismicio/client";
 type Simplify<T> = {
   [KeyType in keyof T]: T[KeyType];
 };
+/** Content for Gestion documents */
+interface GestionDocumentData {
+  /**
+   * Slice Zone field in *Gestion*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: gestion.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+   *
+   */
+  slices: prismicT.SliceZone<GestionDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Gestion → Slice Zone*
+ *
+ */
+type GestionDocumentDataSlicesSlice =
+  | OverviewSlice
+  | StrengthsSlice
+  | OffersSlice
+  | ContactBlockSlice
+  | OffersCompareSlice
+  | ProjectsSlice;
+/**
+ * Gestion document from Prismic
+ *
+ * - **API ID**: `gestion`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type GestionDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<
+    Simplify<GestionDocumentData>,
+    "gestion",
+    Lang
+  >;
+/** Content for Location documents */
+interface LocationDocumentData {
+  /**
+   * Slice Zone field in *Location*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: location.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+   *
+   */
+  slices: prismicT.SliceZone<LocationDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Location → Slice Zone*
+ *
+ */
+type LocationDocumentDataSlicesSlice =
+  | OverviewSlice
+  | StrengthsSlice
+  | ContactBlockSlice;
+/**
+ * Location document from Prismic
+ *
+ * - **API ID**: `location`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type LocationDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<
+    Simplify<LocationDocumentData>,
+    "location",
+    Lang
+  >;
+/** Content for Projet documents */
+interface ProjectDocumentData {
+  /**
+   * title field in *Projet*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * type field in *Projet*
+   *
+   * - **Field Type**: Select
+   * - **Placeholder**: *None*
+   * - **Default Value**: Gestion
+   * - **API ID Path**: project.type
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/select
+   *
+   */
+  type: prismicT.SelectField<
+    "Gestion" | "Loué" | "En location" | "Achat" | "Vendu",
+    "filled"
+  >;
+  /**
+   * illustration field in *Projet*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.illustration
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  illustration: prismicT.ImageField<never>;
+  /**
+   * city field in *Projet*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.city
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  city: prismicT.KeyTextField;
+  /**
+   * date field in *Projet*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/date
+   *
+   */
+  date: prismicT.DateField;
+  /**
+   * description field in *Projet*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  description: prismicT.RichTextField;
+  /**
+   * Slice Zone field in *Projet*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+   *
+   */
+  slices: prismicT.SliceZone<ProjectDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Projet → Slice Zone*
+ *
+ */
+type ProjectDocumentDataSlicesSlice = never;
+/**
+ * Projet document from Prismic
+ *
+ * - **API ID**: `project`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type ProjectDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<
+    Simplify<ProjectDocumentData>,
+    "project",
+    Lang
+  >;
+/** Content for Vente documents */
+interface VenteDocumentData {
+  /**
+   * Slice Zone field in *Vente*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: vente.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+   *
+   */
+  slices: prismicT.SliceZone<VenteDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Vente → Slice Zone*
+ *
+ */
+type VenteDocumentDataSlicesSlice =
+  | OverviewSlice
+  | StrengthsSlice
+  | ContactBlockSlice;
+/**
+ * Vente document from Prismic
+ *
+ * - **API ID**: `vente`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type VenteDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<
+    Simplify<VenteDocumentData>,
+    "vente",
+    Lang
+  >;
+export type AllDocumentTypes =
+  | GestionDocument
+  | LocationDocument
+  | ProjectDocument
+  | VenteDocument;
 /**
  * Primary content in ContactBlock → Primary
  *
@@ -214,6 +437,293 @@ type OffersSliceVariation = OffersSliceDefault;
  */
 export type OffersSlice = prismicT.SharedSlice<"offers", OffersSliceVariation>;
 /**
+ * Primary content in OffersCompare → Primary
+ *
+ */
+interface OffersCompareSliceDefaultPrimary {
+  /**
+   * title field in *OffersCompare → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * disclaimer field in *OffersCompare → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.primary.disclaimer
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  disclaimer: prismicT.KeyTextField;
+}
+/**
+ * Item in OffersCompare → Items
+ *
+ */
+export interface OffersCompareSliceDefaultItem {
+  /**
+   * name field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.items[].name
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  name: prismicT.KeyTextField;
+  /**
+   * feature1 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.items[].feature1
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  feature1: prismicT.KeyTextField;
+  /**
+   * traditional_agency_feature1 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].traditional_agency_feature1
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  traditional_agency_feature1: prismicT.BooleanField;
+  /**
+   * digital_agency_feature1 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].digital_agency_feature1
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  digital_agency_feature1: prismicT.BooleanField;
+  /**
+   * vhi_feature1 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].vhi_feature1
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  vhi_feature1: prismicT.BooleanField;
+  /**
+   * feature2 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.items[].feature2
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  feature2: prismicT.KeyTextField;
+  /**
+   * traditional_agency_feature2 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].traditional_agency_feature2
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  traditional_agency_feature2: prismicT.BooleanField;
+  /**
+   * digital_agency_feature2 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].digital_agency_feature2
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  digital_agency_feature2: prismicT.BooleanField;
+  /**
+   * vhi_feature2 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].vhi_feature2
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  vhi_feature2: prismicT.BooleanField;
+  /**
+   * feature3 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.items[].feature3
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  feature3: prismicT.KeyTextField;
+  /**
+   * traditional_agency_feature3 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].traditional_agency_feature3
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  traditional_agency_feature3: prismicT.BooleanField;
+  /**
+   * digital_agency_feature3 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].digital_agency_feature3
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  digital_agency_feature3: prismicT.BooleanField;
+  /**
+   * vhi_feature3 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].vhi_feature3
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  vhi_feature3: prismicT.BooleanField;
+  /**
+   * feature4 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.items[].feature4
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  feature4: prismicT.KeyTextField;
+  /**
+   * traditional_agency_feature4 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].traditional_agency_feature4
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  traditional_agency_feature4: prismicT.BooleanField;
+  /**
+   * digital_agency_feature4 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].digital_agency_feature4
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  digital_agency_feature4: prismicT.BooleanField;
+  /**
+   * vhi_feature4 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].vhi_feature4
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  vhi_feature4: prismicT.BooleanField;
+  /**
+   * feature5 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.items[].feature5
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  feature5: prismicT.KeyTextField;
+  /**
+   * traditional_agency_feature5 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].traditional_agency_feature5
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  traditional_agency_feature5: prismicT.BooleanField;
+  /**
+   * digital_agency_feature5 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].digital_agency_feature5
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  digital_agency_feature5: prismicT.BooleanField;
+  /**
+   * vhi_feature5 field in *OffersCompare → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: offers_compare.items[].vhi_feature5
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  vhi_feature5: prismicT.BooleanField;
+}
+/**
+ * Default variation for OffersCompare Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type OffersCompareSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<OffersCompareSliceDefaultPrimary>,
+  Simplify<OffersCompareSliceDefaultItem>
+>;
+/**
+ * Slice variation for *OffersCompare*
+ *
+ */
+type OffersCompareSliceVariation = OffersCompareSliceDefault;
+/**
+ * OffersCompare Shared Slice
+ *
+ * - **API ID**: `offers_compare`
+ * - **Description**: `OffersCompare`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type OffersCompareSlice = prismicT.SharedSlice<
+  "offers_compare",
+  OffersCompareSliceVariation
+>;
+/**
  * Primary content in IllustratedContent → Primary
  *
  */
@@ -280,91 +790,66 @@ export type OverviewSlice = prismicT.SharedSlice<
   OverviewSliceVariation
 >;
 /**
- * Primary content in PricingTier → Primary
+ * Primary content in Projects → Primary
  *
  */
-interface PricingTierSliceDefaultPrimary {
+interface ProjectsSliceDefaultPrimary {
   /**
-   * name field in *PricingTier → Primary*
+   * title field in *Projects → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: pricing_tier.primary.name
+   * - **API ID Path**: projects.primary.title
    * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
    *
    */
-  name: prismicT.KeyTextField;
-  /**
-   * tagline field in *PricingTier → Primary*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: pricing_tier.primary.tagline
-   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-   *
-   */
-  tagline: prismicT.KeyTextField;
-  /**
-   * description field in *PricingTier → Primary*
-   *
-   * - **Field Type**: Rich Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: pricing_tier.primary.description
-   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
-   *
-   */
-  description: prismicT.RichTextField;
-  /**
-   * illustration field in *PricingTier → Primary*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: pricing_tier.primary.illustration
-   * - **Documentation**: https://prismic.io/docs/core-concepts/image
-   *
-   */
-  illustration: prismicT.ImageField<never>;
-  /**
-   * recommended field in *PricingTier → Primary*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: pricing_tier.primary.recommended
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  recommended: prismicT.BooleanField;
+  title: prismicT.KeyTextField;
 }
 /**
- * Default variation for PricingTier Slice
+ * Item in Projects → Items
+ *
+ */
+export interface ProjectsSliceDefaultItem {
+  /**
+   * project field in *Projects → Items*
+   *
+   * - **Field Type**: Content Relationship
+   * - **Placeholder**: *None*
+   * - **API ID Path**: projects.items[].project
+   * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
+   *
+   */
+  project: prismicT.RelationField<"project">;
+}
+/**
+ * Default variation for Projects Slice
  *
  * - **API ID**: `default`
  * - **Description**: `Default`
  * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
  *
  */
-export type PricingTierSliceDefault = prismicT.SharedSliceVariation<
+export type ProjectsSliceDefault = prismicT.SharedSliceVariation<
   "default",
-  Simplify<PricingTierSliceDefaultPrimary>,
-  never
+  Simplify<ProjectsSliceDefaultPrimary>,
+  Simplify<ProjectsSliceDefaultItem>
 >;
 /**
- * Slice variation for *PricingTier*
+ * Slice variation for *Projects*
  *
  */
-type PricingTierSliceVariation = PricingTierSliceDefault;
+type ProjectsSliceVariation = ProjectsSliceDefault;
 /**
- * PricingTier Shared Slice
+ * Projects Shared Slice
  *
- * - **API ID**: `pricing_tier`
- * - **Description**: `PricingTier`
+ * - **API ID**: `projects`
+ * - **Description**: `Projects`
  * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
  *
  */
-export type PricingTierSlice = prismicT.SharedSlice<
-  "pricing_tier",
-  PricingTierSliceVariation
+export type ProjectsSlice = prismicT.SharedSlice<
+  "projects",
+  ProjectsSliceVariation
 >;
 /**
  * Item in Strengths → Items
@@ -437,10 +922,23 @@ declare module "@prismicio/client" {
     (
       repositoryNameOrEndpoint: string,
       options?: prismic.ClientConfig
-    ): prismic.Client;
+    ): prismic.Client<AllDocumentTypes>;
   }
   namespace Content {
     export type {
+      GestionDocumentData,
+      GestionDocumentDataSlicesSlice,
+      GestionDocument,
+      LocationDocumentData,
+      LocationDocumentDataSlicesSlice,
+      LocationDocument,
+      ProjectDocumentData,
+      ProjectDocumentDataSlicesSlice,
+      ProjectDocument,
+      VenteDocumentData,
+      VenteDocumentDataSlicesSlice,
+      VenteDocument,
+      AllDocumentTypes,
       ContactBlockSliceDefaultPrimary,
       ContactBlockSliceDefault,
       ContactBlockSliceVariation,
@@ -450,14 +948,20 @@ declare module "@prismicio/client" {
       OffersSliceDefault,
       OffersSliceVariation,
       OffersSlice,
+      OffersCompareSliceDefaultPrimary,
+      OffersCompareSliceDefaultItem,
+      OffersCompareSliceDefault,
+      OffersCompareSliceVariation,
+      OffersCompareSlice,
       OverviewSliceDefaultPrimary,
       OverviewSliceDefault,
       OverviewSliceVariation,
       OverviewSlice,
-      PricingTierSliceDefaultPrimary,
-      PricingTierSliceDefault,
-      PricingTierSliceVariation,
-      PricingTierSlice,
+      ProjectsSliceDefaultPrimary,
+      ProjectsSliceDefaultItem,
+      ProjectsSliceDefault,
+      ProjectsSliceVariation,
+      ProjectsSlice,
       StrengthsSliceDefaultItem,
       StrengthsSliceDefault,
       StrengthsSliceVariation,

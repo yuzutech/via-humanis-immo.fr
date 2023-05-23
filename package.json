@@ -19,7 +19,8 @@
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-tabs": "^6.0.1"
   },
   "devDependencies": {
     "@prismicio/types": "^0.2.7",
