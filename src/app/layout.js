@@ -1,5 +1,6 @@
 import './globals.css'
 import {Sen} from 'next/font/google'
+import Footer from '@/app/footer'
 
 const sen = Sen({weight: ['400', '700', '800'], subsets: ['latin']})
 
@@ -11,7 +12,10 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang="en">
-    <body className={sen.className}>{children}</body>
+    <body className={sen.className}>
+      {children}
+      <Footer/>
+    </body>
     </html>
   )
 }
