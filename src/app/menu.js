@@ -4,11 +4,12 @@ import styles from './menu.module.css'
 import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
-import {usePathname} from 'next/navigation'
+import {usePathname, useRouter} from 'next/navigation'
 
 
 export default function Menu() {
   const pathname = usePathname()
+  const router = useRouter()
   const navLinks = [
     {href: '/gestion', name: 'Gestion'},
     {href: '/location', name: 'Location'},
@@ -16,7 +17,7 @@ export default function Menu() {
   ]
   return <nav className={styles.container}>
     <Image className={styles.logo} src="/via-humanis-immobilier.png" alt="logo" aria-hidden={true} width="48" height="44"/>
-    <div className={styles.brand}>
+    <div onClick={() => router.push('/')} className={styles.brand}>
       <div className={styles.title}>Via Humanis</div>
       <div className={styles.subtitle}>Immobilier</div>
     </div>

@@ -26,8 +26,8 @@ export default function Search() {
           </select>
         </div>
         <div className={clsx(styles.select, styles.localisation)}>
-          <select required>
-            <option value="" disabled selected hidden>Localisation</option>
+          <select defaultValue="">
+            <option value="" disabled hidden>Localisation</option>
             <option value="lyon">Lyon</option>
           </select>
         </div>

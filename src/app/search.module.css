@@ -38,6 +38,7 @@
 }
 
 .toggleOptions {
+    user-select: none;
     display: flex;
     flex-direction: column;
     color: var(--brand-color);
@@ -128,6 +129,7 @@
 }
 
 .searchButton {
+    cursor: pointer;
     color: white;
     background-color: var(--brand-color);
     border: none;
