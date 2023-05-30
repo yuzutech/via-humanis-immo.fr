@@ -50,7 +50,15 @@ const Projects = ({slice}) => {
   useEffect(() => {
     ;(async () => {
       const client = createClient()
-      setProjects(await client.getAllByIDs(slice.items.map((item) => item.project.id)))
+      if (slice.items) {
+        const ids = slice.items.map((item) => item.project.id).filter((item) => item)
+        if (ids) {
+          const projects = await client.getAllByIDs(ids)
+          setProjects(projects)
+        } else {
+          setProjects([])
+        }
+      }
     })()
   }, [slice])
   return (

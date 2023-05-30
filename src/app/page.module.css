@@ -89,6 +89,28 @@
     padding-bottom: 1rem;
 }
 
+.carousel {
+    overflow: auto;
+    padding-bottom: 1em;
+}
+
+.carousel::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 12px;
+    width: 12px;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(var(--brand-color-rgb), 0.8);
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: var(--brand-color);
+    border: 3px solid transparent;
+    border-radius: 12px;
+}
+
 .tagline {
     color: var(--black-color);
     font-size: 2.5rem;

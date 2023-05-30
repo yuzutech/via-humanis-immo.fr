@@ -6,6 +6,45 @@ import type * as prismic from "@prismicio/client";
 type Simplify<T> = {
   [KeyType in keyof T]: T[KeyType];
 };
+/** Content for Accueil documents */
+interface AccueilDocumentData {
+  /**
+   * Slice Zone field in *Accueil*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: accueil.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+   *
+   */
+  slices: prismicT.SliceZone<AccueilDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Accueil → Slice Zone*
+ *
+ */
+type AccueilDocumentDataSlicesSlice =
+  | TestimoniesSlice
+  | TeamCalloutSlice
+  | LatestNewsSlice
+  | ValuePropositionSlice
+  | ProjectsSlice;
+/**
+ * Accueil document from Prismic
+ *
+ * - **API ID**: `accueil`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type AccueilDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<
+    Simplify<AccueilDocumentData>,
+    "accueil",
+    Lang
+  >;
 /** Content for Gestion documents */
 interface GestionDocumentData {
   /**
@@ -225,6 +264,7 @@ export type VenteDocument<Lang extends string = string> =
     Lang
   >;
 export type AllDocumentTypes =
+  | AccueilDocument
   | GestionDocument
   | LocationDocument
   | ProjectDocument
@@ -304,6 +344,62 @@ type ContactBlockSliceVariation = ContactBlockSliceDefault;
 export type ContactBlockSlice = prismicT.SharedSlice<
   "contact_block",
   ContactBlockSliceVariation
+>;
+/**
+ * Primary content in LatestNews → Primary
+ *
+ */
+interface LatestNewsSliceDefaultPrimary {
+  /**
+   * title field in *LatestNews → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: latest_news.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * view_all_text_button field in *LatestNews → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: latest_news.primary.view_all_text_button
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  view_all_text_button: prismicT.KeyTextField;
+}
+/**
+ * Default variation for LatestNews Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type LatestNewsSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<LatestNewsSliceDefaultPrimary>,
+  never
+>;
+/**
+ * Slice variation for *LatestNews*
+ *
+ */
+type LatestNewsSliceVariation = LatestNewsSliceDefault;
+/**
+ * LatestNews Shared Slice
+ *
+ * - **API ID**: `latest_news`
+ * - **Description**: `LatestNews`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type LatestNewsSlice = prismicT.SharedSlice<
+  "latest_news",
+  LatestNewsSliceVariation
 >;
 /**
  * Primary content in Offers → Primary
@@ -917,6 +1013,296 @@ export type StrengthsSlice = prismicT.SharedSlice<
   "strengths",
   StrengthsSliceVariation
 >;
+/**
+ * Primary content in TeamCallout → Primary
+ *
+ */
+interface TeamCalloutSliceDefaultPrimary {
+  /**
+   * illustration field in *TeamCallout → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team_callout.primary.illustration
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  illustration: prismicT.ImageField<never>;
+  /**
+   * title field in *TeamCallout → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team_callout.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * text field in *TeamCallout → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team_callout.primary.text
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  text: prismicT.RichTextField;
+  /**
+   * contact_text_button field in *TeamCallout → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: Nous contacter
+   * - **API ID Path**: team_callout.primary.contact_text_button
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  contact_text_button: prismicT.KeyTextField;
+  /**
+   * about_text_button field in *TeamCallout → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: Qui sommes-nous ?
+   * - **API ID Path**: team_callout.primary.about_text_button
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  about_text_button: prismicT.KeyTextField;
+}
+/**
+ * Default variation for TeamCallout Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TeamCalloutSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<TeamCalloutSliceDefaultPrimary>,
+  never
+>;
+/**
+ * Slice variation for *TeamCallout*
+ *
+ */
+type TeamCalloutSliceVariation = TeamCalloutSliceDefault;
+/**
+ * TeamCallout Shared Slice
+ *
+ * - **API ID**: `team_callout`
+ * - **Description**: `TeamCallout`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TeamCalloutSlice = prismicT.SharedSlice<
+  "team_callout",
+  TeamCalloutSliceVariation
+>;
+/**
+ * Primary content in Testimonies → Primary
+ *
+ */
+interface TestimoniesSliceDefaultPrimary {
+  /**
+   * title field in *Testimonies → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * introduction field in *Testimonies → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.primary.introduction
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  introduction: prismicT.RichTextField;
+}
+/**
+ * Item in Testimonies → Items
+ *
+ */
+export interface TestimoniesSliceDefaultItem {
+  /**
+   * image field in *Testimonies → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.items[].image
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  image: prismicT.ImageField<never>;
+  /**
+   * name field in *Testimonies → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.items[].name
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  name: prismicT.KeyTextField;
+  /**
+   * info field in *Testimonies → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.items[].info
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  info: prismicT.KeyTextField;
+  /**
+   * date field in *Testimonies → Items*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.items[].date
+   * - **Documentation**: https://prismic.io/docs/core-concepts/date
+   *
+   */
+  date: prismicT.DateField;
+  /**
+   * testimony field in *Testimonies → Items*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: testimonies.items[].testimony
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  testimony: prismicT.RichTextField;
+}
+/**
+ * Default variation for Testimonies Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TestimoniesSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<TestimoniesSliceDefaultPrimary>,
+  Simplify<TestimoniesSliceDefaultItem>
+>;
+/**
+ * Slice variation for *Testimonies*
+ *
+ */
+type TestimoniesSliceVariation = TestimoniesSliceDefault;
+/**
+ * Testimonies Shared Slice
+ *
+ * - **API ID**: `testimonies`
+ * - **Description**: `Testimonies`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TestimoniesSlice = prismicT.SharedSlice<
+  "testimonies",
+  TestimoniesSliceVariation
+>;
+/**
+ * Primary content in ValueProposition → Primary
+ *
+ */
+interface ValuePropositionSliceDefaultPrimary {
+  /**
+   * illustration field in *ValueProposition → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: value_proposition.primary.illustration
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  illustration: prismicT.ImageField<never>;
+  /**
+   * text field in *ValueProposition → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: value_proposition.primary.text
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  text: prismicT.RichTextField;
+}
+/**
+ * Item in ValueProposition → Items
+ *
+ */
+export interface ValuePropositionSliceDefaultItem {
+  /**
+   * illustration field in *ValueProposition → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: value_proposition.items[].illustration
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  illustration: prismicT.ImageField<never>;
+  /**
+   * title field in *ValueProposition → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: value_proposition.items[].title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * text field in *ValueProposition → Items*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: value_proposition.items[].text
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  text: prismicT.RichTextField;
+}
+/**
+ * Default variation for ValueProposition Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type ValuePropositionSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<ValuePropositionSliceDefaultPrimary>,
+  Simplify<ValuePropositionSliceDefaultItem>
+>;
+/**
+ * Slice variation for *ValueProposition*
+ *
+ */
+type ValuePropositionSliceVariation = ValuePropositionSliceDefault;
+/**
+ * ValueProposition Shared Slice
+ *
+ * - **API ID**: `value_proposition`
+ * - **Description**: `ValueProposition`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type ValuePropositionSlice = prismicT.SharedSlice<
+  "value_proposition",
+  ValuePropositionSliceVariation
+>;
 declare module "@prismicio/client" {
   interface CreateClient {
     (
@@ -926,6 +1312,9 @@ declare module "@prismicio/client" {
   }
   namespace Content {
     export type {
+      AccueilDocumentData,
+      AccueilDocumentDataSlicesSlice,
+      AccueilDocument,
       GestionDocumentData,
       GestionDocumentDataSlicesSlice,
       GestionDocument,
@@ -943,6 +1332,10 @@ declare module "@prismicio/client" {
       ContactBlockSliceDefault,
       ContactBlockSliceVariation,
       ContactBlockSlice,
+      LatestNewsSliceDefaultPrimary,
+      LatestNewsSliceDefault,
+      LatestNewsSliceVariation,
+      LatestNewsSlice,
       OffersSliceDefaultPrimary,
       OffersSliceDefaultItem,
       OffersSliceDefault,
@@ -966,6 +1359,20 @@ declare module "@prismicio/client" {
       StrengthsSliceDefault,
       StrengthsSliceVariation,
       StrengthsSlice,
+      TeamCalloutSliceDefaultPrimary,
+      TeamCalloutSliceDefault,
+      TeamCalloutSliceVariation,
+      TeamCalloutSlice,
+      TestimoniesSliceDefaultPrimary,
+      TestimoniesSliceDefaultItem,
+      TestimoniesSliceDefault,
+      TestimoniesSliceVariation,
+      TestimoniesSlice,
+      ValuePropositionSliceDefaultPrimary,
+      ValuePropositionSliceDefaultItem,
+      ValuePropositionSliceDefault,
+      ValuePropositionSliceVariation,
+      ValuePropositionSlice,
     };
   }
 }

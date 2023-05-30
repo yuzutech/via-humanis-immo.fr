@@ -1,0 +1,23 @@
+{
+  "id": "accueil",
+  "label": "Accueil",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "testimonies": { "type": "SharedSlice" },
+            "team_callout": { "type": "SharedSlice" },
+            "latest_news": { "type": "SharedSlice" },
+            "value_proposition": { "type": "SharedSlice" },
+            "projects": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}

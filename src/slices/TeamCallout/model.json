@@ -1,0 +1,54 @@
+{
+  "id": "team_callout",
+  "type": "SharedSlice",
+  "name": "TeamCallout",
+  "description": "TeamCallout",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "illustration": {
+          "type": "Image",
+          "config": {
+            "label": "illustration",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": { "label": "title", "placeholder": "" }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "contact_text_button": {
+          "type": "Text",
+          "config": {
+            "label": "contact_text_button",
+            "placeholder": "Nous contacter"
+          }
+        },
+        "about_text_button": {
+          "type": "Text",
+          "config": {
+            "label": "about_text_button",
+            "placeholder": "Qui sommes-nous ?"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

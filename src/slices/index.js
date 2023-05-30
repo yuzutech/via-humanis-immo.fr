@@ -4,9 +4,13 @@ import dynamic from "next/dynamic";
 
 export const components = {
   contact_block: dynamic(() => import("./ContactBlock")),
+  latest_news: dynamic(() => import("./LatestNews")),
   offers: dynamic(() => import("./Offers")),
   offers_compare: dynamic(() => import("./OffersCompare")),
   overview: dynamic(() => import("./IllustratedContent")),
   projects: dynamic(() => import("./Projects")),
   strengths: dynamic(() => import("./Strengths")),
+  team_callout: dynamic(() => import("./TeamCallout")),
+  testimonies: dynamic(() => import("./Testimonies")),
+  value_proposition: dynamic(() => import("./ValueProposition")),
 };

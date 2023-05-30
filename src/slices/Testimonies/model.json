@@ -1,0 +1,58 @@
+{
+  "id": "testimonies",
+  "type": "SharedSlice",
+  "name": "Testimonies",
+  "description": "Testimonies",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": { "label": "title", "placeholder": "" }
+        },
+        "introduction": {
+          "type": "StructuredText",
+          "config": {
+            "label": "introduction",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+        },
+        "name": {
+          "type": "Text",
+          "config": { "label": "name", "placeholder": "" }
+        },
+        "info": {
+          "type": "Text",
+          "config": { "label": "info", "placeholder": "" }
+        },
+        "date": {
+          "type": "Date",
+          "config": { "label": "date", "placeholder": "" }
+        },
+        "testimony": {
+          "type": "StructuredText",
+          "config": {
+            "label": "testimony",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      }
+    }
+  ]
+}

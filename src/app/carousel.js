@@ -2,16 +2,39 @@
 
 import clsx from 'clsx'
 import styles from './carousel.module.css'
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import {useRouter} from 'next/navigation'
 
 export default function Carousel() {
   const router = useRouter()
   const [itemActive, setItemActive] = useState('gestion')
   const [learnMore, setLearnMore] = useState('')
+  const [width, setWidth] = useState(window.innerWidth)
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+  const isMobile = width <= 768;
+  const isDesktop = width >= 1024;
+  useEffect(() => {
+    if (isMobile) {
+      setItemActive('')
+      setLearnMore('')
+    }
+    if (isDesktop && itemActive === '') {
+      setItemActive('gestion')
+    }
+  }, [isMobile, isDesktop, itemActive])
+
   return (<section className={styles.container}>
     <div className={styles.items}>
-      <div onClick={() => router.push('/gestion')} onMouseEnter={() => setItemActive('gestion')} className={clsx(styles.item, styles.gestion, itemActive === 'gestion' && styles.active)}>
+      <div onClick={() => router.push('/gestion')} onMouseEnter={() => !isMobile && setItemActive('gestion')} className={clsx(styles.item, styles.gestion, itemActive === 'gestion' && styles.active)}>
         <div className={styles.close}>
           <h3><span>Gestion<wbr/></span> locative</h3>
         </div>
@@ -21,7 +44,7 @@ export default function Carousel() {
           <a href="#" className={clsx(styles.learnMore, learnMore === 'gestion' && styles.active)}>En savoir plus</a>
         </div>
       </div>
-      <div onClick={() => router.push('/location')} onMouseEnter={() => setItemActive('location')} className={clsx(styles.item, styles.location, itemActive === 'location' && styles.active)}>
+      <div onClick={() => router.push('/location')} onMouseEnter={() => !isMobile && setItemActive('location')} className={clsx(styles.item, styles.location, itemActive === 'location' && styles.active)}>
         <div className={styles.close}>
           <h3><span>Mise en<wbr/></span> location</h3>
         </div>
@@ -31,7 +54,7 @@ export default function Carousel() {
           <a href="#" className={clsx(styles.learnMore, learnMore === 'location' && styles.active)}>En savoir plus</a>
         </div>
       </div>
-      <div onClick={() => router.push('/vente')} onMouseEnter={() => setItemActive('vente')} className={clsx(styles.item, styles.vente, itemActive === 'vente' && styles.active)}>
+      <div onClick={() => router.push('/vente')} onMouseEnter={() => !isMobile && setItemActive('vente')} className={clsx(styles.item, styles.vente, itemActive === 'vente' && styles.active)}>
         <div className={styles.close}>
           <h3><span>Mise en<wbr/></span> vente</h3>
         </div>

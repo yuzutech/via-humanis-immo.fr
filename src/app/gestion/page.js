@@ -3,10 +3,10 @@ import IllustratedContent from '@/slices/IllustratedContent'
 import Strengths from '@/slices/Strengths'
 import Offers from '@/slices/Offers'
 import ContactBlock from '@/slices/ContactBlock'
-
-import {createClient} from '../../../prismicio.js'
 import OffersCompare from '@/slices/OffersCompare'
 import Projects from '@/slices/Projects'
+
+import {createClient} from '../../../prismicio.js'
 
 async function getPage() {
   const client = createClient()
