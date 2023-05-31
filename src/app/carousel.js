@@ -9,7 +9,7 @@ export default function Carousel() {
   const router = useRouter()
   const [itemActive, setItemActive] = useState('gestion')
   const [learnMore, setLearnMore] = useState('')
-  const [width, setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState(1024)
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
