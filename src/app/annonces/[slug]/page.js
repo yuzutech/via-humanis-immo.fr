@@ -2,6 +2,12 @@ import {getProperties, Property} from './pericles'
 import styles from './ads.module.css'
 import Image from 'next/image'
 
+export async function generateStaticParams() {
+  return [{
+    slug: '123'
+  }];
+}
+
 /**
  * @returns {Promise<Property[]>}
  */
