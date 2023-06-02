@@ -1,0 +1,159 @@
+.section {
+    padding-top: 3rem;
+    background-color: var(--background-color-100);
+    padding-bottom: 5rem;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2.25em;
+    gap: 4rem;
+}
+
+.property {
+    flex: 0.58;
+}
+
+.image {
+    border-radius: 1rem;
+}
+
+.contact {
+    flex: 0.366;
+    background: #FFFFFF;
+    box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.05);
+    border-radius: 1em;
+    padding: 2.5em;
+}
+
+.back {
+    color: var(--brand-color);
+    font-size: 1em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.back::before {
+    display: inline-flex;
+    content: "";
+    background-image: url('/arrow-back.svg');
+    width: 1.15rem;
+    height: 1.15rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    text-transform: lowercase;
+    display: flex;
+    gap: 0.35em
+}
+
+.title .city {
+    display: block;
+    text-transform: lowercase;
+}
+
+.title .city:first-letter {
+    text-transform: uppercase;
+}
+
+.type {
+    text-transform: capitalize;
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    border: 1px solid rgba(var(--black-color-rgb), 0.1);
+    color: var(--grey-color-100);
+    padding: 1.25em;
+    border-radius: 0.75em;
+}
+
+.localisation {
+    display: flex;
+    align-items: center;
+    color: var(--brand-color);
+    font-size: 1em;
+    font-weight: 700;
+    gap: 0.15em;
+}
+
+.localisation::before {
+    display: inline-flex;
+    content: "";
+    background-image: url('/location.svg');
+    width: 1.15rem;
+    height: 1.15rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.city {
+    text-transform: lowercase;
+}
+
+.city:first-letter {
+    text-transform: uppercase;
+}
+
+.area {
+    flex: 1;
+}
+
+.area::before {
+    content: " • ";
+}
+
+.price {
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--brand-color);
+}
+
+.text {
+    font-family: inherit;
+    font-size: 0.9375em;
+    color: var(--black-color);
+    line-height: 1.2em;
+    white-space: pre-line;
+}
+
+.geo h5,
+.energy h5,
+.description h5 {
+    font-size: 1em;
+    padding-bottom: 0.75em;
+}
+
+.geo {
+    padding-top: 4rem;
+}
+
+.description {
+    padding-top: 1.5em;
+    padding-bottom: 4em;
+}
+
+.energy h6 {
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+.address {
+    font-size: 0.9375em;
+}
