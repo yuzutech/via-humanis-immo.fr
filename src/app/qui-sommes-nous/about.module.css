@@ -1,0 +1,10 @@
+.section {
+    padding-top: 3rem;
+    background-color: var(--background-color-300);
+    padding-bottom: 5rem;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+}

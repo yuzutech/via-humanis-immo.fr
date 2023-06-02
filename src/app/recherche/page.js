@@ -1,22 +1,17 @@
-import {SliceZone} from '@prismicio/react'
-import IllustratedContent from '@/slices/IllustratedContent'
-import Strengths from '@/slices/Strengths'
-import Offers from '@/slices/Offers'
-import ContactBlock from '@/slices/ContactBlock'
-
-import {createClient} from '../../../prismicio.js'
-
-async function getPage() {
-  const client = createClient()
-  return client.getSingle('location')
-}
+import styles from './search.module.css'
+import SearchForm from '@/app/recherche/form'
 
 export default async function SearchPage() {
-  const page = await getPage()
-  return <SliceZone slices={page.data.slices} components={{
-    overview: IllustratedContent,
-    strengths: Strengths,
-    offers: Offers,
-    contact_block: ContactBlock
-  }}/>
+  return (
+    <section className={styles.section}>
+      <div className={styles.content}>
+        <h1>Vous souhaitez louer ou acheter votre futur logement ?</h1>
+
+          <SearchForm/>
+        <div className={styles.result}>
+
+        </div>
+      </div>
+    </section>
+  )
 }

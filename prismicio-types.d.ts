@@ -106,7 +106,9 @@ interface LocationDocumentData {
 type LocationDocumentDataSlicesSlice =
   | OverviewSlice
   | StrengthsSlice
-  | ContactBlockSlice;
+  | ContactBlockSlice
+  | EstimateFormSlice
+  | ProjectsSlice;
 /**
  * Location document from Prismic
  *
@@ -247,7 +249,9 @@ interface VenteDocumentData {
 type VenteDocumentDataSlicesSlice =
   | OverviewSlice
   | StrengthsSlice
-  | ContactBlockSlice;
+  | ContactBlockSlice
+  | EstimateFormSlice
+  | ProjectsSlice;
 /**
  * Vente document from Prismic
  *
@@ -344,6 +348,72 @@ type ContactBlockSliceVariation = ContactBlockSliceDefault;
 export type ContactBlockSlice = prismicT.SharedSlice<
   "contact_block",
   ContactBlockSliceVariation
+>;
+/**
+ * Primary content in EstimateForm → Primary
+ *
+ */
+interface EstimateFormSliceDefaultPrimary {
+  /**
+   * illustration field in *EstimateForm → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: estimate_form.primary.illustration
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  illustration: prismicT.ImageField<never>;
+  /**
+   * title field in *EstimateForm → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: estimate_form.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * description field in *EstimateForm → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: estimate_form.primary.description
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  description: prismicT.RichTextField;
+}
+/**
+ * Default variation for EstimateForm Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type EstimateFormSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<EstimateFormSliceDefaultPrimary>,
+  never
+>;
+/**
+ * Slice variation for *EstimateForm*
+ *
+ */
+type EstimateFormSliceVariation = EstimateFormSliceDefault;
+/**
+ * EstimateForm Shared Slice
+ *
+ * - **API ID**: `estimate_form`
+ * - **Description**: `EstimateForm`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type EstimateFormSlice = prismicT.SharedSlice<
+  "estimate_form",
+  EstimateFormSliceVariation
 >;
 /**
  * Primary content in LatestNews → Primary
@@ -1332,6 +1402,10 @@ declare module "@prismicio/client" {
       ContactBlockSliceDefault,
       ContactBlockSliceVariation,
       ContactBlockSlice,
+      EstimateFormSliceDefaultPrimary,
+      EstimateFormSliceDefault,
+      EstimateFormSliceVariation,
+      EstimateFormSlice,
       LatestNewsSliceDefaultPrimary,
       LatestNewsSliceDefault,
       LatestNewsSliceVariation,

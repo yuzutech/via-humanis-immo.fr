@@ -37,12 +37,16 @@
     padding-left: 2em;
     display: flex;
     list-style-type: none;
-    gap: 2em;
+    gap: 1em;
 }
 
 .navLink {
+    align-self: center;
     position: relative;
-    color: var(--grey-color-100)
+    color: var(--grey-color-100);
+    padding: 1em;
+    font-weight: 700;
+    font-size: 0.95em;
 }
 
 .navLink.active {
@@ -52,10 +56,12 @@
 .navLink::after {
     content: "";
     display: block;
+    position: absolute;
+    left: calc(50% - 8px);
+    bottom: 0.65em;
     width: 16px;
     height: 4px;
     background-color: transparent;
-    position: relative;
     margin-top: 0.25em;
     border-radius: 2px;
     margin-right: auto;
@@ -67,15 +73,11 @@
     background-color: var(--black-color);
 }
 
-.navLinks > li {
-    font-weight: 700;
-    font-size: 0.95em;
-}
-
 .end {
     display: flex;
     flex: auto;
     justify-content: flex-end;
+    gap: 0.5em;
 }
 
 .search {
@@ -96,15 +98,17 @@
     background-size: contain;
 }
 
-.navButtons {
-    padding-left: 2em;
+.buttons {
     display: flex;
-    list-style-type: none;
+    align-items: center;
     gap: 0.75em;
 }
 
 .button {
-    padding: 1em 1.15em;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 1rem 1.15rem;
     border-radius: 0.875em;
     font-weight: 700;
     font-size: 0.875em;
@@ -118,6 +122,29 @@
 
 .buttonSecondary {
     background-color: var(--grey-color-15);
+    color: var(--grey-color-100)
+}
+
+
+.button::after {
+    bottom: 0.7rem;
+}
+
+.buttonPrimary.active {
+    color: var(--brand-color);
+}
+
+.buttonPrimary.active::after {
+    color: var(--brand-color);
+    background-color: var(--brand-color);
+}
+
+.buttonSecondary.active {
+    color: var(--grey-color-100)
+}
+
+.buttonSecondary.active::after {
+    background-color: var(--grey-color-100);
     color: var(--grey-color-100)
 }
 

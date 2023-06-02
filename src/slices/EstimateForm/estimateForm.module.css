@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    gap: 2.5em;
+    padding-top: 4.25em;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5em;
+    background: linear-gradient(180deg, var(--background-color-200) 50%, transparent 50%);
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 2.5em;
+    padding: 5em;
+    gap: 3em;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: var(--black-color)
+}
+
+.text {
+    color: var(--grey-color-100);
+}
+
+.description {
+    padding-top: 0.5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    padding-top: 1.5em;
+}
+
+.row {
+    display: flex;
+    gap: 0.75em;
+}
+
+.select {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    vertical-align: top;
+}
+
+.select::after {
+    border: 2px solid #7D7D7D;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: .5rem;
+    width: .5rem;
+    margin-top: -.5rem;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    right: 1.35rem;
+    z-index: 4;
+}
+
+.select select {
+    min-width: 200px;
+    cursor: pointer;
+    display: block;
+    font-size: 0.95rem;
+    max-width: 100%;
+    outline: 0;
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 0.75rem;
+    color: #7D7D7D;
+    font-weight: 700;
+    -webkit-appearance: none;
+    align-items: center;
+    box-shadow: none;
+    height: 100%;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    padding: calc(1em - 1px) 3rem calc(1em - 1px) calc(1.3125rem - 1px);
+}
+
+.select select option {
+    font-size: 1.15rem;
+    color: var(--black-color)
+}
+
+.select select:focus {
+    border-color: #6b6b6b;
+    outline: none;
+}
+
+.input {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    font-size: 0.95rem;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.75rem;
+    color: #7D7D7D;
+    font-weight: 700;
+    -webkit-appearance: none;
+    box-shadow: none;
+    line-height: 1.5;
+    vertical-align: top;
+    padding: calc(1em - 1px) 3rem calc(1em - 1px) calc(1.3125rem - 1px);
+}
+
+.email {
+    background-color: rgba(var(--black-color-rgb), 0.05);
+    border: none;
+}
+
+.button {
+    min-width: 230px;
+    border-radius: 0.75em;
+    padding: 1.125rem 2em;
+    background-color: var(--brand-color);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

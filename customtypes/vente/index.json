@@ -12,7 +12,9 @@
           "choices": {
             "overview": { "type": "SharedSlice" },
             "strengths": { "type": "SharedSlice" },
-            "contact_block": { "type": "SharedSlice" }
+            "contact_block": { "type": "SharedSlice" },
+            "estimate_form": { "type": "SharedSlice" },
+            "projects": { "type": "SharedSlice" }
           }
         }
       }
