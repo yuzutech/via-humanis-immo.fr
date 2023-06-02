@@ -170,3 +170,7 @@ a {
     display: block;
     margin-top: 1.15rem;
 }
+
+header {
+    height: 90px;
+}

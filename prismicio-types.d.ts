@@ -6,6 +6,40 @@ import type * as prismic from "@prismicio/client";
 type Simplify<T> = {
   [KeyType in keyof T]: T[KeyType];
 };
+/** Content for Qui sommes nous documents */
+interface AboutDocumentData {
+  /**
+   * Slice Zone field in *Qui sommes nous*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: about.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+   *
+   */
+  slices: prismicT.SliceZone<AboutDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Qui sommes nous → Slice Zone*
+ *
+ */
+type AboutDocumentDataSlicesSlice = OverviewSlice;
+/**
+ * Qui sommes nous document from Prismic
+ *
+ * - **API ID**: `about`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type AboutDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<
+    Simplify<AboutDocumentData>,
+    "about",
+    Lang
+  >;
 /** Content for Accueil documents */
 interface AccueilDocumentData {
   /**
@@ -268,6 +302,7 @@ export type VenteDocument<Lang extends string = string> =
     Lang
   >;
 export type AllDocumentTypes =
+  | AboutDocument
   | AccueilDocument
   | GestionDocument
   | LocationDocument
@@ -1382,6 +1417,9 @@ declare module "@prismicio/client" {
   }
   namespace Content {
     export type {
+      AboutDocumentData,
+      AboutDocumentDataSlicesSlice,
+      AboutDocument,
       AccueilDocumentData,
       AccueilDocumentDataSlicesSlice,
       AccueilDocument,

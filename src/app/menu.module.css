@@ -4,6 +4,8 @@
     background: #FFFFFF;
     box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.2);
     padding: 1.25em 1.5em;
+    position: relative;
+    z-index: 99;
 }
 
 .logo {
@@ -78,6 +80,7 @@
     flex: auto;
     justify-content: flex-end;
     gap: 0.5em;
+    height: 50px;
 }
 
 .search {

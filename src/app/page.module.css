@@ -7,11 +7,17 @@
     min-height: 100vh;
 }
 
+.header {
+    background-color: var(--background-color-300);
+    display: flex;
+}
+
 .nav {
     background-color: var(--background-color-300);
     display: flex;
     align-items: center;
     padding: 1.25em 1.5em;
+    flex: 1;
 }
 
 .logo {
@@ -44,6 +50,7 @@
     display: flex;
     flex: auto;
     justify-content: flex-end;
+    height: 50px;
 }
 
 .navButtons {
@@ -54,11 +61,13 @@
 }
 
 .button {
-    padding: 1em 1.15em;
+    padding: 1rem 1.15rem;
     border-radius: 0.875em;
     font-weight: 700;
     font-size: 0.875em;
     line-height: 1.2em;
+    display: flex;
+    align-items: center;
 }
 
 .buttonPrimary {
