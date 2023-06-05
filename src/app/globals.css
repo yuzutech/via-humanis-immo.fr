@@ -171,10 +171,6 @@ a {
     margin-top: 1.15rem;
 }
 
-header {
-    height: 90px;
-}
-
 #geist-ui-modal h2 {
     display: flex;
     justify-content: space-between;

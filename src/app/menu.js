@@ -14,7 +14,7 @@ import logoStyles from './menuLogo.module.css'
 export default function Menu({variation = "primary"}) {
   const pathname = usePathname()
 
-  const [width, setWidth] = useState(0)
+  const [width, setWidth] = useState()
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth)
@@ -28,7 +28,7 @@ export default function Menu({variation = "primary"}) {
     }
   }, [])
 
-  const isMobile = width < 1024
+  const isMobile = width && width < 1024
   if (isMobile) {
     return <MobileMenu/>
   }

@@ -1,6 +1,4 @@
 import {SliceZone} from '@prismicio/react'
-import Image from 'next/image'
-import clsx from 'clsx'
 import Search from '@/app/search'
 import Carousel from '@/app/carousel'
 import Projects from '@/slices/Projects'
@@ -12,7 +10,6 @@ import Testimonies from '@/slices/Testimonies'
 import styles from './page.module.css'
 
 import {createClient} from '../../prismicio'
-import Link from 'next/link'
 import Menu from '@/app/menu'
 
 async function getPage() {

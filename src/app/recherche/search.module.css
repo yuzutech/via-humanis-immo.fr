@@ -1,7 +1,6 @@
 .section {
-    padding-top: 3rem;
     background-color: var(--background-color-100);
-    padding-bottom: 5rem;
+    padding: 3rem 1em 5rem;
 }
 
 .content {
@@ -12,4 +11,29 @@
 .title {
     font-size: 1.5em;
     padding-bottom: 2.5rem;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+.resultHeader {
+    color: var(--black-color);
+    font-weight: 400;
+}
+
+.resultList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
 }

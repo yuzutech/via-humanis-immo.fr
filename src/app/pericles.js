@@ -233,11 +233,26 @@ const createStream = (resolve, reject) => {
   return saxStream
 }
 
+/**
+ * @return Promise<Property[]>
+ */
 export async function getProperties() {
+  return Promise.all([
+      getPropertiesFromXml('via-humanis-immo.xml'),
+      getPropertiesFromXml('immogic.xml')
+    ]
+  ).then((result) => result.flat())
+}
+
+/**
+ * @param xmlFile
+ * @return Promise<Property[]>
+ */
+function getPropertiesFromXml(xmlFile) {
   const dataDirectory = path.join(process.cwd(), 'public', 'data', 'pericles')
   return new Promise((resolve, reject) => {
     const saxStream = createStream((offers) => resolve(offers), (error) => reject(error))
-    fs.open(path.join(dataDirectory, 'via-humanis-immo.xml'))
+    fs.open(path.join(dataDirectory, xmlFile))
       .then(fd => fd.createReadStream())
       .then(stream =>
         stream.on('error', (e) => {

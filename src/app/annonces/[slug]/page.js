@@ -1,6 +1,8 @@
-import {getProperties, Property} from './pericles'
+import {getProperties, Property} from '@/app/pericles'
 import styles from './ads.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
+import clsx from 'clsx'
 
 export async function generateStaticParams() {
   return [{
@@ -17,20 +19,30 @@ async function getData() {
 
 export default async function Page({params}) {
   const data = await getData()
-  const property = data[0]
+  const slug = params.slug
+  const property = data.find((property) => property.id === slug)
+  if (property === undefined) {
+    return (<section className={clsx(styles.section, styles.notFound)}>
+      <h4>L’annonce n’existe plus !</h4>
+      <Link href="/recherche" className={styles.back}>Retourner à la recherche</Link>
+    </section>)
+  }
   return (
     <section className={styles.section}>
       <div className={styles.content}>
-        <div className={styles.back}>Résultats de recherche</div>
+        <Link href={`/recherche?slug=${slug}`} className={styles.back}>Résultats de recherche</Link>
         <div className={styles.main}>
           <article className={styles.property}>
             <Image className={styles.image} src={'/data/pericles/images/' + property.mainImage} alt="" height="400" width="700"/>
             <div>
-              <h4 className={styles.title}><span className={styles.type}>{property.type}</span> <span
-                className={styles.city}>{property.city}</span></h4>
+              <h4 className={styles.title}>
+                <span className={styles.type}>{property.type}</span>{' '}
+                <span className={styles.city}>{property.city}</span>
+              </h4>
               <div className={styles.overview}>
-                <div className={styles.localisation}><span
-                  className={styles.city}>{property.city} - {property.postalCode}</span></div>
+                <div className={styles.localisation}>
+                  <span className={styles.city}>{property.city} - {property.postalCode}</span>
+                </div>
                 <div className={styles.area}>{property.floorArea}m², T{property.rooms}</div>
                 <div className={styles.price}>{property.price}€</div>
               </div>
