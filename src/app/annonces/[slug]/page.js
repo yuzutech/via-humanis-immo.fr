@@ -5,9 +5,10 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 export async function generateStaticParams() {
-  return [{
-    slug: '123'
-  }];
+  const properties = await getData()
+  return properties.map((property) => ({
+    slug: property.id
+  }))
 }
 
 /**
