@@ -13,6 +13,7 @@ import styles from './page.module.css'
 
 import {createClient} from '../../prismicio'
 import Link from 'next/link'
+import Menu from '@/app/menu'
 
 async function getPage() {
   const client = createClient()
@@ -23,25 +24,14 @@ export default async function App() {
   const page = await getPage()
   return (<>
       <header className={styles.header}>
-        <nav className={styles.nav}>
-          <Image className={styles.logo} src="/via-humanis-immobilier.png" alt="logo" aria-hidden={true} width="48" height="44"/>
-          <div className={styles.brand}>
-            <div className={styles.brandTitle}>Via Humanis</div>
-            <div className={styles.brandSubtitle}>Immobilier</div>
-          </div>
-          <div className={styles.end}>
-            <div className={styles.navButtons}>
-              <Link className={clsx(styles.button, styles.buttonPrimary)} href="/actualites">Nos actualités</Link>
-              <Link className={clsx(styles.button, styles.buttonSecondary)} href="/qui-sommes-nous">Qui sommes-nous&nbsp;?</Link>
-            </div>
-          </div>
-        </nav>
+        <Menu variation="home"/>
       </header>
       <Search/>
       <section className={styles.section}>
         <div className={styles.content}>
           <h1 className={styles.title}>Via Humanis Immobilier<br/><span className={styles.tagline}>Votre partenaire de confiance, dans la durée.</span>
           </h1>
+          <h1 className={styles.shortTitle}>Nous confier un bien</h1>
           <div>
             <nav className={styles.carousel}>
               <Carousel/>

@@ -1,10 +1,9 @@
 .container {
     display: flex;
     gap: 2.5em;
-    padding-top: 10em;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 5em;
+    padding: 10em 1em 5em;
 }
 
 .content {
@@ -35,6 +34,7 @@
 }
 
 .item {
+    flex: 1;
     background-color: #fff;
     border-radius: 1.5em;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);

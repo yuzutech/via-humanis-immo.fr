@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    background-color: var(--background-color-200);
+    height: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: space-between;
+}
+
+.containerHome {
+    background-color: var(--background-color-300);
+}
+
+.containerSearch {
+    background-color: var(--background-color-100);
+}
+
+.openMenuButton {
+    display: block;
+    content: "";
+    width: 3.5em;
+    height: 3.5em;
+    background: url('/open-menu.svg') no-repeat;
+    background-size: contain;
+}
+
+.menuLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.menuLink {
+    background-color: rgba(var(--brand-color-rgb), 0.1);
+    color: var(--brand-color);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    border-radius: 0.9rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.menuLink:nth-child(1),
+.menuLink:nth-child(4) {
+    margin-bottom: 1em;
+}
+
+.menuLink.active:nth-child(n+5) {
+    color: var(--black-color);
+}
+
+.menuLink.active {
+    color: var(--brand-color);
+}
+
+.menuLink.active::after {
+    background-color: var(--brand-color);
+}
+
+.menuLink.active:nth-child(n+5)::after {
+    background-color: var(--black-color);
+}
+
+.menuLink.active:nth-child(n+5) {
+    color: var(--black-color);
+}
+
+.menuLink.active:nth-child(n+5)::after {
+    background-color: var(--black-color);
+}
+
+.menuLink.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0.65rem;
+    width: 16px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.menuLink:nth-child(n+5) {
+    color: var(--grey-color-100);
+    background-color: rgba(var(--grey-color-rgb), 0.1);
+}
+
+.closeIcon {
+    display: block;
+    content: "";
+    height: 3rem;
+    min-width: 3rem;
+    background-size: contain;
+    align-self: flex-end;
+    background: url('/close.svg') no-repeat bottom;
+    position: absolute;
+    right: 0.9rem;
+    top: 0.9rem;
+    cursor: pointer;
+}

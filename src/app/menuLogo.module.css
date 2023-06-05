@@ -1,0 +1,31 @@
+.logo {
+    width: 3em;
+    height: auto;
+}
+
+.brand {
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+    white-space: nowrap;
+    align-items: center;
+    padding-right: clamp(1em, 2vw, 2em);
+    padding-left: clamp(0em, 2vw, 0.5em);
+}
+
+.wordmark {
+    display: block;
+}
+
+.title {
+    font-size: 1.125em;
+    line-height: 1.375em;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 0.8125em;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding-left: 1px;
+}

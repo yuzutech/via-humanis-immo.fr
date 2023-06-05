@@ -21,7 +21,6 @@
 
 .title {
     font-size: clamp(2em, 3.2vw, 3em);
-    /*font-size: 3em;*/
     line-height: 1.15em;
     font-weight: 700;
     color: var(--black-color);

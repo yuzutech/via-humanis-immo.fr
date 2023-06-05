@@ -35,6 +35,10 @@
     background-position-y: center;
 }
 
+.untouched {
+    flex: 0;
+}
+
 .open, .close {
     position: absolute;
     left: 2.5rem;
@@ -44,11 +48,23 @@
     margin-right: 2.5rem;
 }
 
+.close h3 {
+    line-height: 0.6em;
+}
+
+.open h3 {
+    line-height: 0.95em;
+}
+
 .open h3, .close h3 {
-    font-size: 2.5rem;
+    font-size: clamp(2em, 3.2vw, 2.5em);
     font-weight: 700;
-    line-height: 1.75rem;
     padding-bottom: 0.65rem;
+}
+
+.close.mobile h3 {
+    line-height: 1.1em;
+    padding-bottom: 0;
 }
 
 .close h3 span {
@@ -56,24 +72,28 @@
     font-weight: 400;
 }
 
+.close.mobile h3 span {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
 .active {
     flex: 1;
-    transition: all 500ms;
+    transition: all 250ms;
 }
 
 .open {
     opacity: 0;
-    transition: all 500ms;
+    transition: all 100ms;
 }
 
 .active .close {
     opacity: 0;
-    transition: all 500ms;
 }
 
 .active .open {
     opacity: 1;
-    transition: all 500ms;
+    transition: all 250ms;
 }
 
 .learnMore {

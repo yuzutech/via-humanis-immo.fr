@@ -12,7 +12,7 @@ const ValueProposition = ({slice}) => {
   return (
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
       <div className={styles.content}>
-        <header>
+        <header className={styles.header}>
           <Image src={slice.primary.illustration.url} alt={slice.primary.illustration.alt || ''} width="160" height="160" aria-hidden={true}/>
           <div className={styles.text}>
             <PrismicRichText

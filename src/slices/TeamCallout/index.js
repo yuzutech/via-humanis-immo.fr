@@ -16,7 +16,7 @@ const TeamCallout = ({ slice }) => {
   return (
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
       <div className={styles.content}>
-        <Image src={slice.primary.illustration.url}  alt={slice.primary.illustration.alt || ''} width="1200" height="320" aria-hidden={true}/>
+        <Image className={styles.illustration} src={slice.primary.illustration.url} alt={slice.primary.illustration.alt || ''} width="1200" height="320" aria-hidden={true}/>
         <div className={styles.text}>
           <h2 className={styles.title}>{slice.primary.title}</h2>
           <div>

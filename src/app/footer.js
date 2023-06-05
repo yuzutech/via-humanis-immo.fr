@@ -7,6 +7,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (<footer className={styles.container}>
+    <div className={styles.content}>
     <div className={styles.introduction}>
       <Image src="/via-humanis-immobilier-horizontal-white.png" alt="Logo Via Humanis Immobilier" aria-hidden={true} width="260" height="64"/>
       <Image src="/fnaim.png" alt="Logo FNAIM" aria-hidden={true} width="131" height="100"/>
@@ -28,6 +29,7 @@ export default function Footer() {
     </div>
     <div className={styles.copyright}>
       Copyright © 2022 - Via Humanis Immobilier, tous droits réservés - CGU
+    </div>
     </div>
   </footer>)
 }

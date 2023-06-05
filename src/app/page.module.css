@@ -9,7 +9,6 @@
 
 .header {
     background-color: var(--background-color-300);
-    display: flex;
 }
 
 .nav {
@@ -31,12 +30,14 @@
     padding-left: 0.5em;
     padding-right: 2em;
     cursor: pointer;
+    color: var(--black-color);
 }
 
 .brandTitle {
     font-size: 1.125em;
     line-height: 1.375em;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .brandSubtitle {
@@ -68,6 +69,7 @@
     line-height: 1.2em;
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .buttonPrimary {
@@ -81,9 +83,8 @@
 }
 
 .section {
-    padding-top: 3rem;
     background-color: var(--background-color-300);
-    padding-bottom: 5rem;
+    padding: 3rem 1em 5rem;
 }
 
 .content {
@@ -92,10 +93,30 @@
 }
 
 .title {
+    display: none;
     font-size: 1.15rem;
     font-weight: 400;
     color: var(--grey-color-100);
     padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        display: block;
+    }
+}
+
+.shortTitle {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .shortTitle {
+        display: block;
+        font-size: 1em;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
 }
 
 .carousel {

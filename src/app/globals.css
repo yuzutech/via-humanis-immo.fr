@@ -174,3 +174,24 @@ a {
 header {
     height: 90px;
 }
+
+#geist-ui-modal h2 {
+    display: flex;
+    justify-content: space-between;
+    color: #1e1e1e;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+#geist-ui-modal .position {
+    vertical-align: top;
+}
+
+#geist-ui-modal .position > [role=dialog] {
+    border-radius: 1.25rem;
+}
+
+body {
+    /* Geist Modal is adding a padding using style */
+    padding-right: 0 !important;
+}

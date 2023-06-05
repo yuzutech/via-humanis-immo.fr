@@ -10,6 +10,7 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
     "@prismicio/client": "^6.8.0",
     "@prismicio/helpers": "^2.3.9",
     "@prismicio/next": "^1.1.0",
