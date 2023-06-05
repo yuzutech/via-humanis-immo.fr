@@ -56,3 +56,7 @@
 .text {
     color: var(--grey-color-100)
 }
+
+.text > p:not(:last-child) {
+    padding-bottom: 1em;
+}
