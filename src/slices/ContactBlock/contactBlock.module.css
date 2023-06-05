@@ -4,10 +4,12 @@
     align-items: center;
     justify-content: center;
     padding-top: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .content {
-    display: flex;
+    display: grid;
     margin-bottom: 5em;
     background: rgba(var(--brand-color-rgb), 0.1);
     border-radius: 40px;
@@ -16,14 +18,15 @@
 .text {
     display: flex;
     flex-direction: column;
-    padding: 4em;
+    padding: clamp(1.5em, 4vw, 4em);
     color: var(--grey-color-100);
     max-width: 800px;
     align-items: flex-start;
+    grid-column: 1;
 }
 
 .paragraph:not(:last-child) {
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .paragraph {
@@ -49,6 +52,7 @@
     margin-top: auto;
     text-align: center;
 }
+
 .buttonText {
     display: flex;
     gap: 0.5em;
@@ -62,4 +66,40 @@
     height: 1em;
     background: url('/contact.svg') no-repeat;
     background-size: contain;
+}
+
+@media screen and (max-width: 1023px) {
+    .text {
+        grid-row: 2;
+    }
+
+    .button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .illustration {
+        grid-row: 1;
+    }
+    .illustration > img {
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 2em;
+        border-top-right-radius: 2em;
+        max-height: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .illustration {
+        grid-column: 2;
+    }
+
+    .illustration > img {
+        height: 100%;
+        object-fit: cover;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 2em;
+    }
 }

@@ -21,7 +21,9 @@ const ContactBlock = ({slice}) => {
           />
           <a className={styles.button} href="#"><span className={styles.buttonText}>Nous contacter</span></a>
         </div>
-        <Image src={slice.primary.illustration.url} alt={slice.primary.illustration.alt || ''} width="400" height="834" aria-hidden={true}/>
+        <div className={styles.illustration}>
+          <Image src={slice.primary.illustration.url} alt={slice.primary.illustration.alt || ''} width="400" height="834" aria-hidden={true}/>
+        </div>
       </div>
     </section>
   )

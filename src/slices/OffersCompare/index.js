@@ -34,7 +34,7 @@ const OffersCompare = ({slice}) => {
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
       <div className={styles.content}>
         <h2 className={styles.title}>{slice.primary.title}</h2>
-        <Tabs>
+        <Tabs className={styles.tabs}>
           <TabList>
             {offerNames.map((name, index) => <Tab key={'tab-list__' + index}>{name}</Tab>)}
           </TabList>
