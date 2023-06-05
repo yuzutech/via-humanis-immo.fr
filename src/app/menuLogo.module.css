@@ -15,6 +15,7 @@
 
 .wordmark {
     display: block;
+    color: var(--black-color);
 }
 
 .title {

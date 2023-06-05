@@ -42,6 +42,7 @@
     padding-right: 1.5rem;
     flex: 5;
     min-width: 400px;
+    color: var(--black-color);
 }
 
 .title {
