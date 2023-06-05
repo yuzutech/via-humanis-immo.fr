@@ -74,11 +74,13 @@ const Projects = ({slice}) => {
 
   useEffect(() => {
     const scrollElement = scrollRef.current
-    scrollElement.addEventListener('scroll', handleScrollUpdated)
+    if (scrollElement) {
+      scrollElement.addEventListener('scroll', handleScrollUpdated)
+    }
     window.addEventListener('resize', handleScrollUpdated)
     return () => {
       if (scrollElement) {
-        scrollElement.removeEventListener('scroll')
+        scrollElement.removeEventListener('scroll', handleScrollUpdated)
       }
       window.removeEventListener('resize', handleScrollUpdated)
     }
