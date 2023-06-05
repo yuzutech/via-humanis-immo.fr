@@ -1,7 +1,5 @@
 .container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     padding-top: 5em;
     background-color: var(--background-color-200);
@@ -13,23 +11,38 @@
     align-items: center;
     padding-bottom: 5em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    column-gap: 2.5rem;
+    row-gap: 1.5rem;
 }
 
 .title {
-    font-size: 3em;
+    font-size: clamp(2em, 3.2vw, 3em);
+    /*font-size: 3em;*/
     line-height: 1.15em;
     font-weight: 700;
-    color: var(--black-color)
+    color: var(--black-color);
 }
 
 .illustration {
     max-width: 576px;
-    height: auto;
+    max-height: calc(100vw / 4);
+    min-height: 180px;
+    object-fit: cover;
+    border-radius: 1.5em;
+    width: 100%;
+    flex: 4;
 }
 
 .text {
-    margin-left: 3em;
     max-width: 576px;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    flex: 5;
+    min-width: 400px;
 }
 
 .title {
