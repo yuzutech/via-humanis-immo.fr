@@ -64,12 +64,16 @@ const Projects = ({slice}) => {
   }, [slice])
 
   const handleScrollUpdated = useCallback(() => {
-    const {x, width} = scrollRef.current.getBoundingClientRect()
-    const offset = x > 0 ? x : 0
-    const visibleWidth = width + offset
-    const lastProjectBoundingRect = lastProjectRef.current.getBoundingClientRect()
-    setNextEnabled(visibleWidth < lastProjectBoundingRect.x + lastProjectBoundingRect.width)
-    setPreviousEnabled(scrollRef.current.scrollLeft > 0)
+    let scrollElement = scrollRef.current
+    let lastProjectElement = lastProjectRef.current
+    if (scrollElement !== undefined && lastProjectElement !== undefined) {
+      const {x, width} = scrollElement.getBoundingClientRect()
+      const offset = x > 0 ? x : 0
+      const visibleWidth = width + offset
+      const lastProjectBoundingRect = lastProjectElement.getBoundingClientRect()
+      setNextEnabled(visibleWidth < lastProjectBoundingRect.x + lastProjectBoundingRect.width)
+      setPreviousEnabled(scrollElement.scrollLeft > 0)
+    }
   }, [setNextEnabled, setPreviousEnabled, scrollRef, lastProjectRef])
 
   useEffect(() => {
@@ -87,13 +91,19 @@ const Projects = ({slice}) => {
   }, [scrollRef, handleScrollUpdated])
 
   const handleScrollRight = useCallback(() => {
-    scrollRef.current.scrollLeft += 160
+    const scrollElement = scrollRef.current
+    if (scrollElement !== undefined) {
+      scrollRef.current.scrollLeft += 160
+    }
     handleScrollUpdated()
   }, [scrollRef, handleScrollUpdated])
 
   const handleScrollLeft = useCallback(() => {
-    scrollRef.current.scrollLeft -= 160
-    handleScrollUpdated()
+    const scrollElement = scrollRef.current
+    if (scrollElement !== undefined) {
+      scrollElement.scrollLeft -= 160
+      handleScrollUpdated()
+    }
   }, [scrollRef, handleScrollUpdated])
 
   return (
