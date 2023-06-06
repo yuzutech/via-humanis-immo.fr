@@ -1,8 +1,11 @@
+import {fileURLToPath, URL} from 'node:url'
 import path from 'node:path'
 import fs from 'node:fs/promises'
 
 import iconv from 'iconv-lite'
 import sax from 'sax'
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 export class Property {
   withRent(rent) {
@@ -34,7 +37,9 @@ export class Property {
   }
 
   withFloorArea(floorArea) {
-    this.floorArea = floorArea
+    if (floorArea) {
+      this.floorArea = parseFloat(floorArea.replace(',', '.'))
+    }
     return this
   }
 
@@ -54,7 +59,16 @@ export class Property {
   }
 
   withCategory(category) {
-    this.category = category
+    if (category) {
+      const categoryLowerCase = category.toLowerCase()
+      if (categoryLowerCase.includes('appartement') || categoryLowerCase.includes('studio')) {
+        this.category = 'appartement'
+      } else if (categoryLowerCase.includes('maison') || categoryLowerCase.includes('pavillon')) {
+        this.category = 'maison'
+      } else {
+        this.category = categoryLowerCase
+      }
+    }
     return this
   }
 
@@ -71,27 +85,6 @@ export class Property {
   withRooms(rooms) {
     this.rooms = rooms
     return this
-  }
-
-  get price() {
-    if (this.offer.toLocaleLowerCase() === 'rental') {
-      return this.rent
-    }
-    return this.salesPrice
-  }
-
-  get type() {
-    const category = this.category
-    if (category) {
-      const categoryLowerCase = category.toLowerCase()
-      if (categoryLowerCase.includes('appartement') || categoryLowerCase.includes('studio')) {
-        return 'appartement'
-      } else if (categoryLowerCase.includes('maison') || categoryLowerCase.includes('pavillon')) {
-        return 'maison'
-      }
-      return categoryLowerCase
-    }
-    return undefined
   }
 
   withCompanyCode(companyCode) {
@@ -128,6 +121,13 @@ export class Property {
     return this
   }
 
+  get price() {
+    if (this.offer.toLocaleLowerCase() === 'rental') {
+      return this.rent
+    }
+    return this.salesPrice
+  }
+
   get imagePrefix() {
     return `${this.companyCode}-${this.siteCode}-${this.id}`
   }
@@ -135,9 +135,18 @@ export class Property {
   get mainImage() {
     return `${this.imagePrefix}-a.jpg`
   }
+
+  toJSON() {
+    return {
+      ...this,
+      mainImage: this.mainImage,
+      imagePrefix: this.imagePrefix,
+      price: this.price,
+    }
+  }
 }
 
-const createStream = (resolve, reject) => {
+const createStream = (resolve, _) => {
   let currentNode
   let currentProperty
   const properties = []
@@ -233,10 +242,20 @@ const createStream = (resolve, reject) => {
   return saxStream
 }
 
+export async function updateData() {
+  const properties = await getProperties()
+  const baseDirectory  = path.join(__dirname, '..', 'public', 'data', 'pericles')
+  await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(properties), 'utf8')
+  const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
+  await fs.writeFile(path.join(baseDirectory, 'categories.json'), JSON.stringify(categories), 'utf8')
+  const cities = Array.from(new Set(properties.map((p) => p.city.toLowerCase()))).sort()
+  await fs.writeFile(path.join(baseDirectory, 'cities.json'), JSON.stringify(cities), 'utf8')
+}
+
 /**
  * @return Promise<Property[]>
  */
-export async function getProperties() {
+async function getProperties() {
   return Promise.all([
       getPropertiesFromXml('via-humanis-immo.xml'),
       getPropertiesFromXml('immogic.xml')
@@ -249,7 +268,7 @@ export async function getProperties() {
  * @return Promise<Property[]>
  */
 function getPropertiesFromXml(xmlFile) {
-  const dataDirectory = path.join(process.cwd(), 'public', 'data', 'pericles')
+  const dataDirectory = path.join(__dirname, '..', 'data')
   return new Promise((resolve, reject) => {
     const saxStream = createStream((offers) => resolve(offers), (error) => reject(error))
     fs.open(path.join(dataDirectory, xmlFile))

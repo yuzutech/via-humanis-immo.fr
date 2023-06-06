@@ -121,6 +121,7 @@
     position: relative;
     vertical-align: top;
     padding: calc(0.5em - 1px) 3rem calc(0.5em - 1px) calc(1.3125rem - 1px);
+    text-transform: capitalize;
 }
 
 .select select option {
@@ -133,13 +134,26 @@
     outline: none;
 }
 
-.localisation select {
-    color: #7D7D7D;
-    font-weight: 400;
-    padding: calc(0.5em - 1px) 6rem calc(0.5em - 1px) calc(1.3125rem - 1px);
+.category, .city {
+    text-transform: capitalize;
 }
 
-.localisation::after {
+.categories select {
+    min-width: 250px;
+}
+
+.locations select {
+    color: #7D7D7D;
+    font-weight: 400;
+    min-width: 280px;
+}
+
+.locations.active select {
+    color: var(--brand-color);
+    font-weight: 700;
+}
+
+.locations::after {
     color: #7D7D7D;
     border-color: #7D7D7D;
 }

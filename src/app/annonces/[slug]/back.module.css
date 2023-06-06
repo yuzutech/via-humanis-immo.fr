@@ -1,0 +1,20 @@
+.back {
+    color: var(--brand-color);
+    font-size: 1em;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.back::before {
+    display: inline-flex;
+    content: "";
+    background-image: url('/arrow-back.svg');
+    width: 1.15rem;
+    height: 1.15rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

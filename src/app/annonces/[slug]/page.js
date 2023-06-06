@@ -1,11 +1,16 @@
-import {getProperties, Property} from '@/app/pericles'
-import styles from './ads.module.css'
+import fs from 'node:fs/promises'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+import BackSearch from './back.js'
+
+import styles from './ads.module.css'
+import Contact from '@/app/annonces/[slug]/contact.js'
+
 export async function generateStaticParams() {
-  const properties = await getData()
+  const properties = await getProperties()
   return properties.map((property) => ({
     slug: property.id
   }))
@@ -14,14 +19,14 @@ export async function generateStaticParams() {
 /**
  * @returns {Promise<Property[]>}
  */
-async function getData() {
-  return getProperties()
+async function getProperties() {
+  return JSON.parse(await fs.readFile('./public/data/pericles/properties.json', 'utf8'))
 }
 
 export default async function Page({params}) {
-  const data = await getData()
+  const properties = await getProperties()
   const slug = params.slug
-  const property = data.find((property) => property.id === slug)
+  const property = properties.find((property) => property.id === slug)
   if (property === undefined) {
     return (<section className={clsx(styles.section, styles.notFound)}>
       <h4>L’annonce n’existe plus !</h4>
@@ -31,27 +36,28 @@ export default async function Page({params}) {
   return (
     <section className={styles.section}>
       <div className={styles.content}>
-        <Link href={`/recherche?slug=${slug}`} className={styles.back}>Résultats de recherche</Link>
+        <BackSearch slug={slug}/>
         <div className={styles.main}>
           <article className={styles.property}>
-            <Image className={styles.image} src={'/data/pericles/images/' + property.mainImage} alt="" height="400" width="700"/>
+            <Image className={styles.image} src={'/data/pericles/images/' + property.mainImage} alt="" height="400"
+                   width="700"/>
             <div>
               <h4 className={styles.title}>
-                <span className={styles.type}>{property.type}</span>{' '}
+                <span className={styles.type}>{property.category}</span>{' '}
                 <span className={styles.city}>{property.city}</span>
               </h4>
               <div className={styles.overview}>
-                <div className={styles.localisation}>
+                <div className={styles.location}>
                   <span className={styles.city}>{property.city} - {property.postalCode}</span>
                 </div>
-                <div className={styles.area}>{property.floorArea}m², T{property.rooms}</div>
+                {property.category !== 'parking' && <div className={styles.area}>{property.floorArea}m², T{property.rooms}</div>}
                 <div className={styles.price}>{property.price}€</div>
               </div>
               <div className={styles.description}>
                 <h5>Description</h5>
                 <pre className={styles.text}>{property.description}</pre>
               </div>
-              <div className={styles.energy}>
+              {property.category !== 'parking' && <div className={styles.energy}>
                 <h5>Chauffage et diagnostics</h5>
                 <div className={styles.ges}>
                   <h6>GES</h6>
@@ -61,7 +67,7 @@ export default async function Page({params}) {
                   <h6>Classe énergie</h6>
                   {property.ecc}
                 </div>
-              </div>
+              </div>}
               <div className={styles.geo}>
                 <h5>Emplacement</h5>
                 <div className={styles.address}>
@@ -73,14 +79,7 @@ export default async function Page({params}) {
             </div>
           </article>
           <aside className={styles.contact}>
-            <div>
-              <h3>Via Humanis Immobilier</h3>
-              <div className={styles.tel}>04 00 00 00 00</div>
-              <div className={styles.email}>hello@vh-immobilier.fr</div>
-              <div className={styles.form}>
-                <label>Je souhaite être recontacté(e)</label>
-              </div>
-            </div>
+            <Contact/>
           </aside>
         </div>
       </div>

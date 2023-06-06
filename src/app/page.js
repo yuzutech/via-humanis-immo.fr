@@ -1,3 +1,4 @@
+import fs from 'node:fs/promises'
 import {SliceZone} from '@prismicio/react'
 import Search from '@/app/search'
 import Carousel from '@/app/carousel'
@@ -15,6 +16,13 @@ import Menu from '@/app/menu'
 async function getPage() {
   const client = createClient()
   return client.getSingle('accueil')
+}
+
+/**
+ * @returns {Promise<Property[]>}
+ */
+async function getCategories() {
+  return JSON.parse(await fs.readFile('./public/data/pericles/categories.json', 'utf8'))
 }
 
 export default async function App() {
