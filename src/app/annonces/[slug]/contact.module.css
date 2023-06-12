@@ -28,6 +28,7 @@
 .form {
     color: var(--black-color);
 }
+
 .label {
     font-size: 0.85rem;
 }
@@ -40,44 +41,6 @@
     gap: 0.75em;
 }
 
-
-.textarea {
-    font-family: inherit;
-    font-size: 1em;
-    max-height: 40em;
-    min-height: 8em;
-    display: block;
-    max-width: 100%;
-    min-width: 100%;
-    resize: vertical;
-    box-shadow: inset 0 0.0625em 0.125em rgba(10,10,10,.05);
-    width: 100%;
-    background-color: #fff;
-    border-color: #dbdbdb;
-    border-radius: 0.375em;
-    color: #363636;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    align-items: center;
-    height: 2.5em;
-    justify-content: flex-start;
-    line-height: 1.5;
-    padding: calc(0.5em - 1px) calc(0.75em - 1px);
-    position: relative;
-    vertical-align: top;
-}
-
 .sendButton {
-    cursor: pointer;
-    color: white;
-    background-color: var(--brand-color);
-    border: none;
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding-top: 1.1rem;
-    padding-bottom: 1.1rem;
-    border-radius: 0.75rem;
-    font-weight: 700;
     margin-top: 0.75em;
 }

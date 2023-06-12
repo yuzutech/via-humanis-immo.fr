@@ -52,7 +52,7 @@ export default function MobileMenu() {
       </div>
       <a href="#" onClick={handleOpen} className={styles.openMenuButton}></a>
     </nav>
-    <Modal visible={showMenu} onClose={handleClose}>
+    <Modal placement="top" className={styles.modalMenu} wrapClassName={styles.modalMenu} visible={showMenu} onClose={handleClose}>
       <Modal.Title>
         Menu
         <div onClick={handleClose} className={styles.closeIcon}></div>

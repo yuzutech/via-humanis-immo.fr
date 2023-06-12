@@ -1,0 +1,71 @@
+
+.closeIcon {
+    display: block;
+    content: "";
+    height: 3rem;
+    min-width: 3rem;
+    background-size: contain;
+    align-self: flex-end;
+    background: url('/close.svg') no-repeat bottom;
+    position: absolute;
+    right: 0.9rem;
+    top: 0.9rem;
+    cursor: pointer;
+}
+
+.contactForm label {
+    color: var(--grey-color-100);
+    font-weight: 400;
+    font-size: 0.7rem;
+    display: block;
+    padding-bottom: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.contactTitle {
+    color: var(--grey-color-100);
+    font-size: 0.85em;
+}
+
+.contactPhone,
+.contactEmail {
+    padding: 0.65em 1em;
+    background-color: rgba(var(--brand-color-rgb), 0.1);
+    color: var(--brand-color);
+    border-radius: 0.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.contactPhone {
+    margin-bottom: 2rem;
+}
+
+.objectSelect {
+    width: 100%;
+}
+
+.objectSelect select {
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+.emailInput input {
+    font-size: 0.875rem;
+}
+
+.emailInput input::placeholder {
+    font-size: 0.875rem;
+}
+
+.messageTextarea {
+    font-size: 0.875rem;
+}
+
+.messageTextarea::placeholder {
+    font-weight: 700;
+}
+
+.contactSubmitButton {
+    margin-top: 0.5rem;
+}

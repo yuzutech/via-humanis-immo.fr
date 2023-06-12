@@ -51,6 +51,7 @@
     line-height: 1.1em;
     margin-top: auto;
     text-align: center;
+    cursor: pointer;
 }
 
 .buttonText {
@@ -82,6 +83,7 @@
     .illustration {
         grid-row: 1;
     }
+
     .illustration > img {
         width: 100%;
         object-fit: cover;

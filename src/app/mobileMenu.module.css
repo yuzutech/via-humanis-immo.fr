@@ -92,6 +92,22 @@
     background-color: rgba(var(--grey-color-rgb), 0.1);
 }
 
+#geist-ui-modal.modalMenu h2 {
+    display: flex;
+    justify-content: space-between;
+    color: #1e1e1e;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+#geist-ui-modal.modalMenu .position {
+    vertical-align: top;
+}
+
+#geist-ui-modal.modalMenu  .position > [role=dialog] {
+    border-radius: 1.25rem;
+}
+
 .closeIcon {
     display: block;
     content: "";

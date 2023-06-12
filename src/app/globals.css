@@ -177,10 +177,7 @@ a {
     color: #1e1e1e;
     font-weight: 800;
     font-size: 2rem;
-}
-
-#geist-ui-modal .position {
-    vertical-align: top;
+    text-transform: none;
 }
 
 #geist-ui-modal .position > [role=dialog] {

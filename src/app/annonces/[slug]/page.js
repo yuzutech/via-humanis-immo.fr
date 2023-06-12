@@ -1,13 +1,16 @@
 import fs from 'node:fs/promises'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
 import BackSearch from './back.js'
 
-import styles from './ads.module.css'
 import Contact from '@/app/annonces/[slug]/contact.js'
+import GreenHouseGas from '@/components/ges.js'
+import DiagnosisEnergyPerformance from '@/components/dpe.js'
+import ImageSlider from '@/components/imageSlider.js'
+
+import styles from './ads.module.css'
 
 export async function generateStaticParams() {
   const properties = await getProperties()
@@ -39,8 +42,7 @@ export default async function Page({params}) {
         <BackSearch slug={slug}/>
         <div className={styles.main}>
           <article className={styles.property}>
-            <Image className={styles.image} src={'/data/pericles/images/' + property.mainImage} alt="" height="400"
-                   width="700"/>
+            <ImageSlider images={property.images}/>
             <div>
               <h4 className={styles.title}>
                 <span className={styles.type}>{property.category}</span>{' '}
@@ -59,13 +61,15 @@ export default async function Page({params}) {
               </div>
               {property.category !== 'parking' && <div className={styles.energy}>
                 <h5>Chauffage et diagnostics</h5>
-                <div className={styles.ges}>
-                  <h6>GES</h6>
-                  {property.ges}
-                </div>
-                <div className={styles.ecc}>
-                  <h6>Classe énergie</h6>
-                  {property.ecc}
+                <div className={styles.diagnostics}>
+                  <div className={styles.ecc}>
+                    <h6>Diagnostic de performance énergétique (DPE)</h6>
+                    <DiagnosisEnergyPerformance value={property.ecc}/>
+                  </div>
+                  <div className={styles.ges}>
+                    <h6>Index d&apos;émission de gaz à effet de serre (GES)</h6>
+                    <GreenHouseGas value={property.ges}/>
+                  </div>
                 </div>
               </div>}
               <div className={styles.geo}>

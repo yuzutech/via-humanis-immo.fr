@@ -33,20 +33,13 @@
     max-width: calc(1200px - 440px - 4em);
 }
 
-.image {
-    border-radius: 1rem;
-    object-fit: cover;
-    max-width: 700px;
-    width: 100%;
-}
-
 .contact {
     flex: 1;
     background: #FFFFFF;
     box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.05);
     border-radius: 1em;
     padding: 2.5em;
-    min-width: 440px;
+    min-width: 360px;
 }
 
 .title {
@@ -150,6 +143,13 @@
 .energy h6 {
     font-size: 0.875em;
     font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+.diagnostics {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
 }
 
 .address {

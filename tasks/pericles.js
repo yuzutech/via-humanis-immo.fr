@@ -6,6 +6,14 @@ import iconv from 'iconv-lite'
 import sax from 'sax'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
+const baseDirectory  = path.join(__dirname, '..', 'public', 'data', 'pericles')
+
+const images = await fs.readdir(path.join(baseDirectory, 'images'))
+
+function getImages (property) {
+  const imagePrefix = property.imagePrefix
+  return images.filter((image) => image.startsWith(imagePrefix)).sort()
+}
 
 export class Property {
   withRent(rent) {
@@ -142,6 +150,7 @@ export class Property {
       mainImage: this.mainImage,
       imagePrefix: this.imagePrefix,
       price: this.price,
+      images: getImages(this)
     }
   }
 }
@@ -244,7 +253,6 @@ const createStream = (resolve, _) => {
 
 export async function updateData() {
   const properties = await getProperties()
-  const baseDirectory  = path.join(__dirname, '..', 'public', 'data', 'pericles')
   await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(properties), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
   await fs.writeFile(path.join(baseDirectory, 'categories.json'), JSON.stringify(categories), 'utf8')

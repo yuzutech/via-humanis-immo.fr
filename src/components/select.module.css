@@ -1,0 +1,103 @@
+
+.select {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.select.active .label {
+    user-select: none;
+    position: absolute;
+    z-index: 99;
+    left: 1rem;
+    top: 0.5rem;
+    font-size: 0.75em;
+    font-weight: 400;
+    color: rgba(var(--brand-color-rgb), 0.8);
+    transition: all 150ms;
+}
+
+.select.inactive .label {
+    user-select: none;
+    cursor: pointer;
+    pointer-events: none;
+    position: absolute;
+    z-index: 99;
+    left: 1rem;
+    top: calc(50% - 0.65em);
+    font-size: 1em;
+    color: #7d7d7d;
+    transition: all 150ms;
+}
+
+.select::after {
+    border: 2px solid var(--brand-color);
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: .5rem;
+    width: .5rem;
+    margin-top: -.5rem;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    right: 1.35rem;
+    z-index: 4;
+}
+
+.select.inactive::after {
+    border: 2px solid rgba(var(--black-color-rgb), 0.5);
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+}
+
+.select select {
+    font-family: inherit;
+    min-width: 200px;
+    cursor: pointer;
+    display: block;
+    font-size: 0.95rem;
+    outline: 0;
+    background-color: #fff;
+    border-color: rgba(var(--brand-color-rgb), 0.5);
+    border-radius: 0.75rem;
+    color: var(--brand-color);
+    font-weight: 700;
+    -webkit-appearance: none;
+    align-items: center;
+    box-shadow: none;
+    height: 100%;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    padding: calc(.75rem - 1px) 2.5rem calc(.75rem - 1px) 1rem
+}
+
+.select.withLabel select {
+    padding: calc(1.35rem - 1px) 2.5rem calc(.75rem - 1px) 1rem
+}
+
+.city {
+    text-transform: capitalize;
+}
+
+.inactive select {
+    color: #7D7D7D;
+    border: 1px solid rgba(var(--black-color-rgb), 0.2);
+}
+
+.select select option {
+    font-size: 1.15rem;
+    color: var(--black-color)
+}
+
+.select select:focus {
+    border-color: rgba(var(--brand-color-rgb), 0.7);
+    outline: none;
+}
