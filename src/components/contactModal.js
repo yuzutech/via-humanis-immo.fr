@@ -59,7 +59,7 @@ export default function ContactModal({setVisible, bindings}) {
       <div className={styles.contactEmail}><a href="mailto:hello@vh-immobilier.fr">hello@vh-immobilier.fr</a></div>
       <div className={styles.contactPhone}><a href="tel:+33400000000">04 00 00 00 00</a></div>
       {formState.state === 'success' && <div className={styles.success}>Formulaire de contact envoyé.<br/>Nous reviendrons vers vous rapidement.</div>}
-      {formState.state === 'error' && <div className={styles.error}>Impossible d'envoyer le formulaire.<br/>Merci de nous contacter directement par email ou par téléphone.</div>}
+      {formState.state === 'error' && <div className={styles.error}>Impossible d&rsquo;envoyer le formulaire.<br/>Merci de nous contacter directement par email ou par téléphone.</div>}
       {formState.state !== 'success' && formState.state !== 'error' && <form className={styles.contactForm}>
         <fieldset disabled={formState.state === 'sending'}>
           <input type="hidden" name="form-name" value="contact"/>
