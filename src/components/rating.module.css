@@ -27,7 +27,6 @@
 .active::before {
     content: attr(data-rating);
     text-transform: uppercase;
-    color: black;
     font-size: 1.35em;
     font-weight: 700;
     display: flex;

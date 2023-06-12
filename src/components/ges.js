@@ -8,12 +8,12 @@ import Rating from '@/components/rating.js'
  */
 export default function  GreenHouseGas({value}) {
   return <Rating value={(value || '').toLowerCase()} values={{
-    a: "#a3dbfc",
-    b: "#8ab5d2",
-    c: "#7692b1",
-    d: "#5e708d",
-    e: "#4d5272",
-    f: "#393550",
-    g: "#291b35",
+    a: {bg: '#a3dbfc', fg: '#171717'},
+    b: {bg: '#8ab5d2', fg: '#171717'},
+    c: {bg: '#7692b1', fg: '#171717'},
+    d: {bg: '#5e708d', fg: '#F7F7F7'},
+    e: {bg: '#4d5272', fg: '#F7F7F7'},
+    f: {bg: '#393550', fg: '#F7F7F7'},
+    g: {bg: '#291b35', fg: '#F7F7F7'},
   }}/>
 }
