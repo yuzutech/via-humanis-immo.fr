@@ -85,6 +85,10 @@
     color: var(--grey-color-100)
 }
 
+.fill {
+    height: 1.5em;
+}
+
 .price {
     font-size: 2em;
     font-weight: 700;
@@ -103,7 +107,7 @@
     .price {
         position: absolute;
         right: 1em;
-        bottom: 0.5em;
+        bottom: 0.35rem;
         border: none;
         padding: 0;
         margin: 0;
