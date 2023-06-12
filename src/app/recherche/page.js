@@ -17,7 +17,6 @@ async function getProperties() {
 const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
   const {top, left, bottom, right} = el.getBoundingClientRect()
   const {innerHeight, innerWidth} = window
-  console.log({top, left, bottom, right, innerHeight, innerWidth})
   return partiallyVisible
     ? ((top > 0 && top < innerHeight) ||
       (bottom > 0 && bottom < innerHeight)) &&

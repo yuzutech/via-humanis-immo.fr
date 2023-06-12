@@ -25,6 +25,9 @@ export default function ImageSlider({images}) {
       setIndex(index - 1)
     }
   }, [setIndex, index])
+  if (images.length === 0) {
+    return (<></>)
+  }
   return (
     <div className={styles.container}>
       <div className={styles.overlay}></div>

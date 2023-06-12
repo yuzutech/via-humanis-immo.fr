@@ -9,8 +9,10 @@ import Contact from '@/app/annonces/[slug]/contact.js'
 import GreenHouseGas from '@/components/ges.js'
 import DiagnosisEnergyPerformance from '@/components/dpe.js'
 import ImageSlider from '@/components/imageSlider.js'
+import Map from '@/components/map.js'
 
 import styles from './ads.module.css'
+
 
 export async function generateStaticParams() {
   const properties = await getProperties()
@@ -36,8 +38,6 @@ export default async function Page({params}) {
       <Link href="/recherche" className={styles.back}>Retourner à la recherche</Link>
     </section>)
   }
-
-  const addressEncoded = encodeURI(`${property.address} ${property.postalCode} ${property.city}`)
   return (
     <section className={styles.section}>
       <div className={styles.content}>
@@ -81,7 +81,7 @@ export default async function Page({params}) {
                   {property.postalCode} {property.city}
                 </div>
                 <div className={styles.map}>
-                  <img src={`https://maps.googleapis.com/maps/api/staticmap?center=${addressEncoded}&zoom=14&size=700x320&markers=color:245F8D|${addressEncoded}&key=AIzaSyDfghWdc2EOxk_oyYNB5-1ei-Uv9F8Fnx8`}/>
+                  <Map address={`${property.address} ${property.postalCode} ${property.city}`} />
                 </div>
               </div>
             </div>

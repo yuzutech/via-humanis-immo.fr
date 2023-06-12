@@ -13,13 +13,13 @@ export default function Ad({data}) {
   const searchParams = useSearchParams()
   const params = new URLSearchParams(searchParams)
   params.delete('slug')
-
   const type = data.category === 'appartement'
     ? `, T${data.rooms}`
     : ''
+  const mainImage = data.images.length > 0 ? `/data/pericles/images/${data.images[0]}` : '/blank.svg'
   return (<Link href={'/annonces/' + data.id + '?' + params.toString()} className={styles.container}>
     <div id={data.id} className={styles.content}>
-      <Image className={styles.image} src={'/data/pericles/images/' + data.mainImage} alt="" height="120" width="120"/>
+      <Image className={styles.image} src={mainImage} alt="" height="120" width="120"/>
       <div className={styles.overview}>
         <h4 className={styles.title}>
           <span className={styles.type}>{data.category}</span>{' '}

@@ -144,13 +144,17 @@ export class Property {
     return `${this.imagePrefix}-a.jpg`
   }
 
+  get images() {
+    return getImages(this)
+  }
+
   toJSON() {
     return {
       ...this,
       mainImage: this.mainImage,
       imagePrefix: this.imagePrefix,
       price: this.price,
-      images: getImages(this)
+      images: this.images
     }
   }
 }
