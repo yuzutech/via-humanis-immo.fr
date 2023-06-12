@@ -20,11 +20,9 @@ export default function Map({address}) {
       alt=""
       width="700"
       height="320"
+      onLoad={() =>  setShowMap(true)}
       onError={() => {
         setShowMap(false)
-      }}
-      onLoadedData={() => {
-        setShowMap(true)
       }}
       aria-hidden={true}/>
   )
