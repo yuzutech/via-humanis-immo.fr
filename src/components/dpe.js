@@ -6,7 +6,7 @@ import Rating from '@/components/rating.js'
  * @constructor
  */
 export default function  DiagnosisEnergyPerformance({value}) {
-  return <Rating value={value.toLowerCase()} values={{
+  return <Rating value={(value || '').toLowerCase()} values={{
     a: "#00a774",
     b: "#00bb54",
     c: "#4ac57b",
