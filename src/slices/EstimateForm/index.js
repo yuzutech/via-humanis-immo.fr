@@ -13,7 +13,7 @@ const EstimateForm = ({slice}) => {
   return (
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
       <div className={styles.content}>
-        <div>
+        <div className={styles.illustration}>
           <PrismicNextImage field={slice.primary.illustration}/>
         </div>
         <div className={styles.text}>

@@ -10,12 +10,43 @@
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     max-width: 1200px;
     background-color: white;
     border-radius: 2.5em;
-    padding: 5em;
-    gap: 3em;
+    padding: clamp(1.5em, 4vw, 5em);
+    gap: clamp(1.5em, 4vw, 3em);
+}
+
+.illustration {
+    display: flex;
+    background-color: rgba(var(--brand-color-rgb), 0.1);
+    border-radius: 1rem;
+    height: 260px;
+    min-width: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .illustration {
+        flex: 1;
+        max-height: 112px;
+        padding: 0.5rem;
+    }
+
+    .illustration img {
+        height: 100%;
+    }
+
+    .select {
+        width: 100%;
+    }
+
+    .select select {
+        width: 100%;
+    }
 }
 
 .title {
@@ -25,7 +56,9 @@
 }
 
 .text {
+    flex: 1;
     color: var(--grey-color-100);
+    min-width: 400px;
 }
 
 .description {

@@ -669,230 +669,48 @@ interface OffersCompareSliceDefaultPrimary {
  */
 export interface OffersCompareSliceDefaultItem {
   /**
-   * name field in *OffersCompare → Items*
+   * feature field in *OffersCompare → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: offers_compare.items[].name
+   * - **API ID Path**: offers_compare.items[].feature
    * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
    *
    */
-  name: prismicT.KeyTextField;
+  feature: prismicT.KeyTextField;
   /**
-   * feature1 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: offers_compare.items[].feature1
-   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-   *
-   */
-  feature1: prismicT.KeyTextField;
-  /**
-   * traditional_agency_feature1 field in *OffersCompare → Items*
+   * offer1_has_feature field in *OffersCompare → Items*
    *
    * - **Field Type**: Boolean
    * - **Placeholder**: *None*
    * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].traditional_agency_feature1
+   * - **API ID Path**: offers_compare.items[].offer1_has_feature
    * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
    *
    */
-  traditional_agency_feature1: prismicT.BooleanField;
+  offer1_has_feature: prismicT.BooleanField;
   /**
-   * digital_agency_feature1 field in *OffersCompare → Items*
+   * offer2_has_feature field in *OffersCompare → Items*
    *
    * - **Field Type**: Boolean
    * - **Placeholder**: *None*
    * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].digital_agency_feature1
+   * - **API ID Path**: offers_compare.items[].offer2_has_feature
    * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
    *
    */
-  digital_agency_feature1: prismicT.BooleanField;
+  offer2_has_feature: prismicT.BooleanField;
   /**
-   * vhi_feature1 field in *OffersCompare → Items*
+   * offer3_has_feature field in *OffersCompare → Items*
    *
    * - **Field Type**: Boolean
    * - **Placeholder**: *None*
    * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].vhi_feature1
+   * - **API ID Path**: offers_compare.items[].offer3_has_feature
    * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
    *
    */
-  vhi_feature1: prismicT.BooleanField;
-  /**
-   * feature2 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: offers_compare.items[].feature2
-   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-   *
-   */
-  feature2: prismicT.KeyTextField;
-  /**
-   * traditional_agency_feature2 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].traditional_agency_feature2
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  traditional_agency_feature2: prismicT.BooleanField;
-  /**
-   * digital_agency_feature2 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].digital_agency_feature2
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  digital_agency_feature2: prismicT.BooleanField;
-  /**
-   * vhi_feature2 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].vhi_feature2
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  vhi_feature2: prismicT.BooleanField;
-  /**
-   * feature3 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: offers_compare.items[].feature3
-   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-   *
-   */
-  feature3: prismicT.KeyTextField;
-  /**
-   * traditional_agency_feature3 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].traditional_agency_feature3
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  traditional_agency_feature3: prismicT.BooleanField;
-  /**
-   * digital_agency_feature3 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].digital_agency_feature3
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  digital_agency_feature3: prismicT.BooleanField;
-  /**
-   * vhi_feature3 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].vhi_feature3
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  vhi_feature3: prismicT.BooleanField;
-  /**
-   * feature4 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: offers_compare.items[].feature4
-   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-   *
-   */
-  feature4: prismicT.KeyTextField;
-  /**
-   * traditional_agency_feature4 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].traditional_agency_feature4
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  traditional_agency_feature4: prismicT.BooleanField;
-  /**
-   * digital_agency_feature4 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].digital_agency_feature4
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  digital_agency_feature4: prismicT.BooleanField;
-  /**
-   * vhi_feature4 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].vhi_feature4
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  vhi_feature4: prismicT.BooleanField;
-  /**
-   * feature5 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: offers_compare.items[].feature5
-   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-   *
-   */
-  feature5: prismicT.KeyTextField;
-  /**
-   * traditional_agency_feature5 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].traditional_agency_feature5
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  traditional_agency_feature5: prismicT.BooleanField;
-  /**
-   * digital_agency_feature5 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].digital_agency_feature5
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  digital_agency_feature5: prismicT.BooleanField;
-  /**
-   * vhi_feature5 field in *OffersCompare → Items*
-   *
-   * - **Field Type**: Boolean
-   * - **Placeholder**: *None*
-   * - **Default Value**: false
-   * - **API ID Path**: offers_compare.items[].vhi_feature5
-   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
-   *
-   */
-  vhi_feature5: prismicT.BooleanField;
+  offer3_has_feature: prismicT.BooleanField;
 }
 /**
  * Default variation for OffersCompare Slice

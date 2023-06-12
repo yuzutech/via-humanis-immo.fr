@@ -41,6 +41,16 @@
     margin-bottom: 2rem;
 }
 
+.error {
+    color: #a85d18;
+    font-weight: 700;
+}
+
+.success {
+    color: #0E7B4C;
+    font-weight: 700;
+}
+
 .objectSelect {
     width: 100%;
 }
@@ -68,4 +78,10 @@
 
 .contactSubmitButton {
     margin-top: 0.5rem;
+}
+
+.contactSubmitButton.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
 }

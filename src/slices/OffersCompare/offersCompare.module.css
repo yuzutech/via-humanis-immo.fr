@@ -60,19 +60,7 @@
 .traditionalAgencyHeader, .digitalAgencyHeader {
     font-size: 1rem;
     font-weight: 700;
-    color: var(--black-color);
-}
-
-.traditionalAgencyHeader::before {
-    background-image: url('/traditional-agency.svg');
-}
-
-.digitalAgencyHeader::before {
-    background-image: url('/digital-agency.svg');
-}
-
-.vhiHeader::before {
-    background-image: url('/vhi-2x.png');
+    color: var(--brand-color);
 }
 
 .checked {
@@ -80,13 +68,13 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background: url('/check.svg') no-repeat;
+    background: url('/vhi-check.svg') no-repeat;
     background-size: contain;
     margin: auto;
 }
 
 .highlighted {
-    background: url('/vhi-check.svg') no-repeat;
+    background: url('/premium-check.svg') no-repeat;
     margin: auto;
 }
 
@@ -112,9 +100,10 @@
 }
 
 .vhText {
-    color: var(--brand-color);
+    color: var(--premium-color);
     font-size: 1.15em;
     display: block;
+    font-weight: 800;
     white-space: nowrap;
 }
 

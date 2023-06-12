@@ -188,3 +188,9 @@ body {
     /* Geist Modal is adding a padding using style */
     padding-right: 0 !important;
 }
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}

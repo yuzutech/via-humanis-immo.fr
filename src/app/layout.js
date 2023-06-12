@@ -16,7 +16,11 @@ export default function RootLayout({children}) {
       {children}
       <Footer/>
       {/*hidden static HTML form for Netlify */}
-      <form hidden={true} name="contact" data-netlify="true"></form>
+      <form hidden={true} name="contact" data-netlify="true">
+        <input name="object"/>
+        <input name="email"/>
+        <input name="message"/>
+      </form>
     </body>
     </html>
   )

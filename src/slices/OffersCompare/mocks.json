@@ -19,156 +19,32 @@
 				"__TYPE__": "GroupItemContent",
 				"value": [
 					[
-						"name",
+						"feature",
 						{
 							"__TYPE__": "FieldContent",
-							"value": "let",
+							"value": "troops",
 							"type": "Text"
 						}
 					],
 					[
-						"feature1",
-						{
-							"__TYPE__": "FieldContent",
-							"value": "breeze",
-							"type": "Text"
-						}
-					],
-					[
-						"traditional_agency_feature1",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"vhi_feature1",
+						"offer1_has_feature",
 						{
 							"__TYPE__": "BooleanContent",
 							"value": true
 						}
 					],
 					[
-						"feature2",
-						{
-							"__TYPE__": "FieldContent",
-							"value": "railroad",
-							"type": "Text"
-						}
-					],
-					[
-						"traditional_agency_feature2",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"digital_agency_feature2",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"vhi_feature2",
+						"offer2_has_feature",
 						{
 							"__TYPE__": "BooleanContent",
 							"value": true
 						}
 					],
 					[
-						"digital_agency_feature1",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"feature3",
-						{
-							"__TYPE__": "FieldContent",
-							"value": "report",
-							"type": "Text"
-						}
-					],
-					[
-						"traditional_agency_feature3",
+						"offer3_has_feature",
 						{
 							"__TYPE__": "BooleanContent",
 							"value": true
-						}
-					],
-					[
-						"digital_agency_feature3",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": true
-						}
-					],
-					[
-						"vhi_feature3",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": true
-						}
-					],
-					[
-						"feature4",
-						{
-							"__TYPE__": "FieldContent",
-							"value": "wrapped",
-							"type": "Text"
-						}
-					],
-					[
-						"vhi_feature4",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"traditional_agency_feature4",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"digital_agency_feature4",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": true
-						}
-					],
-					[
-						"feature5",
-						{
-							"__TYPE__": "FieldContent",
-							"value": "view",
-							"type": "Text"
-						}
-					],
-					[
-						"traditional_agency_feature5",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": true
-						}
-					],
-					[
-						"digital_agency_feature5",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
-						}
-					],
-					[
-						"vhi_feature5",
-						{
-							"__TYPE__": "BooleanContent",
-							"value": false
 						}
 					]
 				]
