@@ -15,6 +15,8 @@ export default function RootLayout({children}) {
     <body className={sen.className}>
       {children}
       <Footer/>
+      {/*hidden static HTML form for Netlify */}
+      <form hidden={true} name="contact" data-netlify="true"></form>
     </body>
     </html>
   )

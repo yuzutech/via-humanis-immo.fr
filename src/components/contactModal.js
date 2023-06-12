@@ -32,7 +32,7 @@ export default function ContactModal({setVisible, bindings}) {
       <div onClick={() => setVisible(false)} className={styles.closeIcon}></div>
     </Modal.Title>
     <Modal.Content>
-      <form className={styles.contactForm} data-netlify="true">
+      <form className={styles.contactForm}>
         <input type="hidden" name="form-name" value="contact" />
         <h5 className={styles.contactTitle}>Par mail ou téléphone</h5>
         <div className={styles.contactEmail}><a href="mailto:hello@vh-immobilier.fr">hello@vh-immobilier.fr</a></div>
