@@ -155,3 +155,12 @@
 .address {
     font-size: 0.9375em;
 }
+
+.map img {
+    border-radius: 1em;
+    max-width: 100%;
+}
+
+.map {
+    margin-top: 1em;
+}
