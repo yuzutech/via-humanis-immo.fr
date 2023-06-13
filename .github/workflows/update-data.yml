@@ -56,6 +56,14 @@ jobs:
         rm -rf immogic
         rm -rf via-humanis-immo
 
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - run: npm ci
+
+    - run: node tasks/update-data.js
+
     - name: Commit and push
       run: |
         git config --global user.name "Guillaume Grossetie"
