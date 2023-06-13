@@ -36,8 +36,8 @@ jobs:
 
     - name: Copy and extract files
       run: |
-        scp -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/immogic.ZIP .
-        scp -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/via-humanis-immo.ZIP .
+        scp -o StrictHostKeyChecking=no -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/immogic.ZIP .
+        scp -o StrictHostKeyChecking=no -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/via-humanis-immo.ZIP .
         
         mkdir -p immogic
         mkdir -p via-humanis-immo
