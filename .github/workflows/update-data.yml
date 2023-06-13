@@ -47,22 +47,19 @@ jobs:
         unzip via-humanis-immo.ZIP -d via-humanis-immo
         mv "via-humanis-immo/VIA HUMANIS IMMO.XML" "data/via-humanis-immo.xml"
 
-        ls -l ./public/data/pericles/images/
-        ls -l ./immogic/
-        ls -l ./via-humanis-immo/
-        find immogic -type f -name "E643-*.jpg" -exec 'cp ./{} ./public/data/pericles/images/' \;
-        find via-humanis-immo -type f -name "E643-*.jpg" -exec 'cp ./{} ./public/data/pericles/images/' \;
-  
-        rm -rf immogic
-        rm -rf via-humanis-immo
-
     - uses: actions/setup-node@v3
       with:
         node-version: 18
 
     - run: npm ci
 
-    - run: node tasks/update-data.js
+    - run: |
+        node tasks/copy-images.js
+        node tasks/update-data.js
+
+    - run: |
+        rm -rf immogic
+        rm -rf via-humanis-immo
 
     - name: Commit and push
       run: |
