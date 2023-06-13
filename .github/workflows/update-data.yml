@@ -46,9 +46,12 @@ jobs:
         mv "immogic/VIA HUMANIS IMMO.XML" "data/immogic.xml"
         unzip via-humanis-immo.ZIP -d via-humanis-immo
         mv "via-humanis-immo/VIA HUMANIS IMMO.XML" "data/via-humanis-immo.xml"
-        
-        find immogic -type f -name "E643-*.jpg" -exec 'cp -p {} ./public/data/pericles/images/' \;
-        find via-humanis-immo -type f -name "E643-*.jpg" -exec 'cp -p {} ./public/data/pericles/images/' \;
+
+        ls -l ./public/data/pericles/images/
+        ls -l ./immogic/
+        ls -l ./via-humanis-immo/
+        find immogic -type f -name "E643-*.jpg" -exec 'cp ./{} ./public/data/pericles/images/' \;
+        find via-humanis-immo -type f -name "E643-*.jpg" -exec 'cp ./{} ./public/data/pericles/images/' \;
   
         rm -rf immogic
         rm -rf via-humanis-immo
