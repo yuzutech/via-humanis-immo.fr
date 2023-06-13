@@ -17,8 +17,12 @@ export default function Footer() {
     <footer className={styles.container}>
       <div className={styles.content}>
         <div className={styles.introduction}>
-          <Image src="/via-humanis-immobilier-horizontal-white.png" alt="Logo Via Humanis Immobilier" aria-hidden={true} width="260" height="64"/>
-          <Image src="/fnaim.png" alt="Logo FNAIM" aria-hidden={true} width="131" height="100"/>
+          <div className={styles.image}>
+            <Image src="/via-humanis-immobilier-horizontal-white.png" alt="Logo Via Humanis Immobilier" aria-hidden={true} width="260" height="64"/>
+          </div>
+          <div className={styles.image}>
+            <Image src="/fnaim.png" alt="Logo FNAIM" aria-hidden={true} width="131" height="100"/>
+          </div>
         </div>
         <ul className={styles.links}>
           <li><Link href="/">Accueil</Link></li>
@@ -31,12 +35,26 @@ export default function Footer() {
           <li><a className={styles.contact} onClick={openContactForm}>Contactez-nous</a></li>
         </ul>
         <div className={styles.group}>
-          Notre groupe :
-          <Image src="/via-humanis.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
-          <Image src="/noe.svg" alt="Logo Noé" aria-hidden={true} width="92" height="32"/>
+          <div>
+            Notre groupe :
+          </div>
+          <div className={styles.image}>
+            <Image src="/via-humanis.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
+          </div>
+          <div className={styles.image}>
+            <Image src="/noe.svg" alt="Logo Noé" aria-hidden={true} width="92" height="32"/>
+          </div>
         </div>
         <div className={styles.copyright}>
-          Copyright © 2022 - Via Humanis Immobilier, tous droits réservés - CGU
+          <div className={styles.part}>
+            Copyright © 2023
+          </div>
+          <div className={styles.part}>
+            Via Humanis Immobilier, tous droits réservés
+          </div>
+          <div className={styles.part}>
+            CGU
+          </div>
         </div>
       </div>
     </footer>

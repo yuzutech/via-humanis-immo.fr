@@ -57,7 +57,7 @@
     margin: auto auto 0.4em;
 }
 
-.traditionalAgencyHeader, .digitalAgencyHeader {
+.offer1Header, .offer2Header {
     font-size: 1rem;
     font-weight: 700;
     color: var(--brand-color);
@@ -99,7 +99,7 @@
     padding-top: 1.375em;
 }
 
-.vhText {
+.offer3Header {
     color: var(--premium-color);
     font-size: 1.15em;
     display: block;

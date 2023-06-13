@@ -1,7 +1,7 @@
 .container {
     background-color: #14191C;
     color: white;
-    padding: 7em 1em 3em;
+    padding: clamp(2em, 10vw, 7em) clamp(1em, 10vw, 7em) 3em clamp(2em, 10vw, 7em);
 }
 
 .content {
@@ -13,24 +13,69 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2em;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
 }
 
 .links {
-    display: flex;
-    align-content: flex-start;
-    column-gap: 10rem;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-height: 280px;
-    list-style-type: none;
-    margin-top: 5em;
+    display: grid;
+    justify-content: space-between;
+    max-width: 440px;
+    margin-top: clamp(2em, 5vw, 5em);
     font-size: 0.9rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: clamp(1em, 3vw, 3em);
+}
+
+.links > li {
+    grid-row: auto;
+    grid-column: 1;
+}
+
+.links > li:nth-child(6) {
+    grid-row: 1;
+}
+
+.links > li:nth-child(7) {
+    grid-row: 2;
+}
+
+.links > li:nth-child(8) {
+    grid-row: 3;
+    grid-row-end: 6;
+}
+
+.links > li:nth-child(6),
+.links > li:nth-child(7),
+.links > li:nth-child(8) {
+    grid-column: 2;
+}
+
+@media screen and (max-width: 469px) {
+    .links {
+        justify-content: center;
+        justify-items: center;
+    }
+    .links > li:nth-child(1n) {
+        grid-column: 1;
+    }
+    .links > li:nth-child(6) {
+        grid-row: 7;
+    }
+    .links > li:nth-child(7) {
+        grid-row: 8;
+    }
+    .links > li:nth-child(8) {
+        grid-row: 6;
+    }
 }
 
 .links > li {
     display: flex;
+    align-items: start;
     padding-bottom: 1.5rem;
 }
 
@@ -52,6 +97,14 @@
     align-items: center;
     gap: 2rem;
     padding-bottom: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media screen and (max-width: 767px) {
+    .group {
+        flex-direction: column;
+    }
 }
 
 .copyright {
@@ -63,4 +116,21 @@
     border-radius: 0.8rem;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+}
+
+.part:not(:first-child)::before {
+    content: "-";
+    display: inline-block;
+    padding: 0.45em;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright {
+        flex-direction: column;
+        row-gap: 0.35em;
+    }
+    .part:not(:first-child)::before {
+        content: "";
+    }
 }
