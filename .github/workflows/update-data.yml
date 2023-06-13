@@ -10,7 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: |
+
+    - name: Get Github action IP
+      id: ip
+      uses: haythem/public-ip@v1.2
+
+    - name: Add Github Actions IP to Security group
+      run: |
+        aws ec2 authorize-security-group-ingress --group-name default --protocol tcp --port 22 --cidr ${{ steps.ip.outputs.ipv4 }}/32
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: 'eu-central-1'
+
+    - name: Create credentials
+      run: |
         mkdir -p $HOME/.credentials
         touch $HOME/.credentials/id_rsa_remote.pub
         touch $HOME/.credentials/id_rsa_remote.pem
@@ -19,6 +33,9 @@ jobs:
         printf -- "${{ secrets.SSH_PRIVATE_KEY }}" > $HOME/.credentials/id_rsa_remote.pem
         chmod 0644 $HOME/.credentials/id_rsa_remote.pub
         chmod 0400 $HOME/.credentials/id_rsa_remote.pem
+
+    - name: Copy and extract files
+      run: |
         scp -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/immogic.ZIP .
         scp -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/via-humanis-immo.ZIP .
         
@@ -35,8 +52,19 @@ jobs:
   
         rm -rf immogic
         rm -rf via-humanis-immo
-        
+
+    - name: Commit and push
+      run: |
         git config --global user.name "Guillaume Grossetie"
         git config --global user.email "ggrossetie@yuzutech.fr"
         git commit -a -m "Update Pericles"
         git push
+
+    - name: Remove Github Actions IP from security group
+      run: |
+        aws ec2 revoke-security-group-ingress --group-name default --protocol tcp --port 22 --cidr ${{ steps.ip.outputs.ipv4 }}/32
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: ${{ env.AWS_DEFAULT_REGION }}
+      if: always()
