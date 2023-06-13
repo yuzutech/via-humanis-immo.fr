@@ -57,7 +57,7 @@ jobs:
       run: |
         git config --global user.name "Guillaume Grossetie"
         git config --global user.email "ggrossetie@yuzutech.fr"
-        git commit -a -m "Update Pericles"
+        git commit -a -m "Update Pericles" || true
         git push
 
     - name: Remove Github Actions IP from security group
