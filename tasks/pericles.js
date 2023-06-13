@@ -8,9 +8,7 @@ import sax from 'sax'
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const baseDirectory  = path.join(__dirname, '..', 'public', 'data', 'pericles')
 
-const images = await fs.readdir(path.join(baseDirectory, 'images'))
-
-function getImages (property) {
+function getImages (property, images) {
   const imagePrefix = property.imagePrefix
   return images.filter((image) => image.startsWith(imagePrefix)).sort()
 }
@@ -129,6 +127,11 @@ export class Property {
     return this
   }
 
+  withImages(images) {
+    this.images = images;
+    return this;
+  }
+
   get price() {
     if (this.offer.toLocaleLowerCase() === 'rental') {
       return this.rent
@@ -137,21 +140,13 @@ export class Property {
   }
 
   get imagePrefix() {
-    return `${this.companyCode}-${this.siteCode}-${this.id}`
+    return `${this.companyCode}-${this.siteCode}-${this.id}-`
   }
 
-  get mainImage() {
-    return `${this.imagePrefix}-a.jpg`
-  }
-
-  get images() {
-    return getImages(this)
-  }
-
+  // noinspection JSUnusedGlobalSymbols
   toJSON() {
     return {
       ...this,
-      mainImage: this.mainImage,
       imagePrefix: this.imagePrefix,
       price: this.price,
       images: this.images
@@ -256,7 +251,10 @@ const createStream = (resolve, _) => {
 }
 
 export async function updateData() {
-  const properties = await getProperties()
+  const images = await fs.readdir(path.join(baseDirectory, 'images'))
+  const properties = (await getProperties()).map((property) => {
+    return property.withImages(getImages(property, images))
+  })
   await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(properties), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
   await fs.writeFile(path.join(baseDirectory, 'categories.json'), JSON.stringify(categories), 'utf8')
