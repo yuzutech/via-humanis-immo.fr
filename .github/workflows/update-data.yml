@@ -16,7 +16,7 @@ jobs:
         touch $HOME/.credentials/id_rsa_remote.pem
         chmod 0700 $HOME/.credentials
         printf -- "${{ secrets.SSH_PUBLIC_KEY }}" > $HOME/.credentials/id_rsa_remote.pub
-        printf -- "${{ secrets.SSH_PUBLIC_KEY }}" > $HOME/.credentials/id_rsa_remote.pem
+        printf -- "${{ secrets.SSH_PRIVATE_KEY }}" > $HOME/.credentials/id_rsa_remote.pem
         chmod 0644 $HOME/.credentials/id_rsa_remote.pub
         chmod 0400 $HOME/.credentials/id_rsa_remote.pem
         scp -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/immogic.ZIP .
