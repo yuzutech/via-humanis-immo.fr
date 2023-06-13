@@ -1,0 +1,37 @@
+name: Update data
+
+on:
+  schedule:
+    - cron:  '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: |
+        echo "${{ secrets.SSH_PUBLIC_KEY }}" > ~/.ssh/id_rsa_remote.pub
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa_remote.pem
+        chmod 600 ~/.ssh/id_rsa_remote.pem
+        scp -i ~/.ssh/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/immogic.ZIP .
+        scp -i ~/.ssh/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/via-humanis-immo.ZIP .
+        
+        mkdir -p immogic
+        mkdir -p via-humanis-immo
+        
+        unzip immogic.ZIP -d immogic
+        mv "immogic/VIA HUMANIS IMMO.XML" "data/immogic.xml"
+        unzip via-humanis-immo.ZIP -d via-humanis-immo
+        mv "via-humanis-immo/VIA HUMANIS IMMO.XML" "data/via-humanis-immo.xml"
+        
+        find immogic -type f -name "E643-*.jpg" -exec cp -p {} "public/data/pericles/images"
+        find via-humanis-immo -type f -name "E643-*.jpg" -exec cp -p {} "public/data/pericles/images"
+  
+        rm -rf immogic
+        rm -rf via-humanis-immo
+        
+        git config --global user.name "Guillaume Grossetie"
+        git config --global user.email "ggrossetie@yuzutech.fr"
+        git commit -a -m "Update Pericles"
+        git push
