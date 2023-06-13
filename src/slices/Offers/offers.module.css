@@ -123,6 +123,7 @@
     line-height: 1.2em;
     margin-top: auto;
     text-align: center;
+    cursor: pointer;
 }
 
 .item.premium .button {

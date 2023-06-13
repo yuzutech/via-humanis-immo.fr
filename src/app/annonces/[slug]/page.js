@@ -87,7 +87,7 @@ export default async function Page({params}) {
             </div>
           </article>
           <aside className={styles.contact}>
-            <Contact/>
+            <Contact id={property.id}/>
           </aside>
         </div>
       </div>

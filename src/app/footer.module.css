@@ -75,17 +75,23 @@
 
 .links > li {
     display: flex;
-    align-items: start;
-    padding-bottom: 1.5rem;
+    align-items: flex-start;
+}
+
+.links a {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 .contact {
     color: #14191C;
     background-color: white;
     border-radius: 0.8rem;
-    padding: 0.9rem 1.5rem;
+    padding: 0.9rem 1.5rem !important;
     font-weight: 700;
     cursor: pointer;
+    margin-top: 0.75rem;
 }
 
 .group {

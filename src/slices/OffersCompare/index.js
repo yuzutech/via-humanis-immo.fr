@@ -1,6 +1,5 @@
 'use client'
 
-import {Tab, Tabs, TabList, TabPanel} from 'react-tabs'
 import styles from './offersCompare.module.css'
 import clsx from 'clsx'
 

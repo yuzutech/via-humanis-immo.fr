@@ -33,6 +33,16 @@
     font-size: 0.85rem;
 }
 
+.error {
+    color: #a85d18;
+    font-weight: 700;
+}
+
+.success {
+    color: #0E7B4C;
+    font-weight: 700;
+}
+
 .fields {
     padding-top: 0.75em;
     padding-bottom: 0.75em;
@@ -43,4 +53,10 @@
 
 .sendButton {
     margin-top: 0.75em;
+}
+
+.sendButton.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
 }

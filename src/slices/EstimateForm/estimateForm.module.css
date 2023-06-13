@@ -66,10 +66,13 @@
 }
 
 .form {
+    padding-top: 1.5em;
+}
+
+.fields {
     display: flex;
     flex-direction: column;
     gap: 0.75em;
-    padding-top: 1.5em;
 }
 
 .row {
@@ -154,6 +157,10 @@
     padding: calc(1em - 1px) 3rem calc(1em - 1px) calc(1.3125rem - 1px);
 }
 
+.input:disabled {
+    opacity: 0.7;
+}
+
 .email {
     background-color: rgba(var(--black-color-rgb), 0.05);
     border: none;
@@ -169,4 +176,21 @@
     text-align: center;
     display: flex;
     align-items: center;
+    height: 100%;
+}
+
+.button.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.error {
+    color: #a85d18;
+    font-weight: 700;
+}
+
+.success {
+    color: #0E7B4C;
+    font-weight: 700;
 }

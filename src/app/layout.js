@@ -15,11 +15,26 @@ export default function RootLayout({children}) {
     <body className={sen.className}>
       {children}
       <Footer/>
-      {/*hidden static HTML form for Netlify */}
+      {/*hidden static HTML forms for Netlify */}
       <form hidden={true} name="contact" data-netlify="true">
         <input name="object"/>
         <input name="email"/>
         <input name="message"/>
+      </form>
+      <form hidden={true} name="annonce" data-netlify="true">
+        <input name="lastname"/>
+        <input name="firstname"/>
+        <input name="phone"/>
+        <input name="email"/>
+        <input name="message"/>
+        <input name="id"/>
+      </form>
+      <form hidden={true} name="estimation" data-netlify="true">
+        <input name="propertyCategory"/>
+        <input name="propertyRooms"/>
+        <input name="propertyAddress"/>
+        <input name="type"/>
+        <input name="contactInfo"/>
       </form>
     </body>
     </html>

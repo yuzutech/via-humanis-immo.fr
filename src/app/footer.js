@@ -21,7 +21,9 @@ export default function Footer() {
             <Image src="/via-humanis-immobilier-horizontal-white.png" alt="Logo Via Humanis Immobilier" aria-hidden={true} width="260" height="64"/>
           </div>
           <div className={styles.image}>
-            <Image src="/fnaim.png" alt="Logo FNAIM" aria-hidden={true} width="131" height="100"/>
+            <a href="https://www.fnaim.fr/" target="_blank" rel="noopener noreferrer">
+              <Image src="/fnaim.png" alt="Logo FNAIM" aria-hidden={true} width="131" height="100"/>
+            </a>
           </div>
         </div>
         <ul className={styles.links}>
@@ -39,10 +41,14 @@ export default function Footer() {
             Notre groupe :
           </div>
           <div className={styles.image}>
-            <Image src="/via-humanis.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
+            <a href="https://via-humanis.fr/?utm_source=via-humanis-immo">
+              <Image src="/via-humanis.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
+            </a>
           </div>
           <div className={styles.image}>
-            <Image src="/noe.svg" alt="Logo Noé" aria-hidden={true} width="92" height="32"/>
+            <a href="https://www.noe.career/?utm_source=via-humanis-immo">
+              <Image src="/noe.svg" alt="Logo Noé" aria-hidden={true} width="92" height="32"/>
+            </a>
           </div>
         </div>
         <div className={styles.copyright}>

@@ -48,6 +48,20 @@ const Projects = ({slice}) => {
   const scrollRef = useRef()
   const lastProjectRef = useRef()
 
+  const handleScrollUpdated = useCallback(() => {
+    let scrollElement = scrollRef.current
+    let lastProjectElement = lastProjectRef.current
+    if (scrollElement && lastProjectElement) {
+      const {x, width} = scrollElement.getBoundingClientRect()
+      const offset = x > 0 ? x : 0
+      const visibleWidth = width + offset
+      const lastProjectBoundingRect = lastProjectElement.getBoundingClientRect()
+      setNextEnabled(visibleWidth < lastProjectBoundingRect.x + lastProjectBoundingRect.width)
+      setPreviousEnabled(scrollElement.scrollLeft > 0)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [projects, setNextEnabled, setPreviousEnabled, scrollRef, lastProjectRef])
+
   useEffect(() => {
     ;(async () => {
       const client = createClient()
@@ -59,22 +73,10 @@ const Projects = ({slice}) => {
         } else {
           setProjects([])
         }
+        handleScrollUpdated()
       }
     })()
-  }, [slice])
-
-  const handleScrollUpdated = useCallback(() => {
-    let scrollElement = scrollRef.current
-    let lastProjectElement = lastProjectRef.current
-    if (scrollElement !== undefined && lastProjectElement !== undefined) {
-      const {x, width} = scrollElement.getBoundingClientRect()
-      const offset = x > 0 ? x : 0
-      const visibleWidth = width + offset
-      const lastProjectBoundingRect = lastProjectElement.getBoundingClientRect()
-      setNextEnabled(visibleWidth < lastProjectBoundingRect.x + lastProjectBoundingRect.width)
-      setPreviousEnabled(scrollElement.scrollLeft > 0)
-    }
-  }, [setNextEnabled, setPreviousEnabled, scrollRef, lastProjectRef])
+  }, [handleScrollUpdated, slice])
 
   useEffect(() => {
     const scrollElement = scrollRef.current
@@ -92,15 +94,15 @@ const Projects = ({slice}) => {
 
   const handleScrollRight = useCallback(() => {
     const scrollElement = scrollRef.current
-    if (scrollElement !== undefined) {
-      scrollRef.current.scrollLeft += 160
+    if (scrollElement) {
+      scrollElement.scrollLeft += 160
     }
     handleScrollUpdated()
   }, [scrollRef, handleScrollUpdated])
 
   const handleScrollLeft = useCallback(() => {
     const scrollElement = scrollRef.current
-    if (scrollElement !== undefined) {
+    if (scrollElement) {
       scrollElement.scrollLeft -= 160
       handleScrollUpdated()
     }
