@@ -1,0 +1,44 @@
+{
+  "id": "news",
+  "label": "Actualité",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "illustration": {
+        "type": "Image",
+        "config": {
+          "label": "illustration",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": { "label": "title", "placeholder": "" }
+      },
+      "date": {
+        "type": "Timestamp",
+        "config": { "label": "date", "placeholder": "" }
+      },
+      "text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "featured": {
+        "type": "Boolean",
+        "config": {
+          "label": "featured",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      }
+    }
+  }
+}

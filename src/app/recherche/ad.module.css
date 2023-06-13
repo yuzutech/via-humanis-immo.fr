@@ -14,10 +14,11 @@
 }
 
 .image {
-    max-width: 120px;
-    max-height: 120px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 0.5rem;
+    flex: none;
 }
 
 .overview {
@@ -103,7 +104,7 @@
     padding-bottom: 1.25rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .price {
         position: absolute;
         right: 1em;
@@ -113,5 +114,25 @@
         margin: 0;
         display: block;
         text-align: end;
+    }
+
+    .image {
+        width: 80px;
+        height: 96px;
+    }
+
+    .title {
+        font-size: 0.95em;
+        width: calc(100% - 2em);
+    }
+
+    .city {
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .location {
+        width: calc(100% - 2em);
+        white-space: nowrap;
     }
 }

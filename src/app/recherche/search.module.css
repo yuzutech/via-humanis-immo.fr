@@ -1,6 +1,6 @@
 .section {
     background-color: var(--background-color-100);
-    padding: 3rem 1em 5rem;
+    padding: clamp(1rem, 3vw, 3rem) 1em 5rem;
 }
 
 .content {
@@ -14,12 +14,18 @@
     color: var(--black-color);
 }
 
+@media screen and (max-width: 500px) {
+    .title {
+        display: none;
+    }
+}
+
 .result {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     flex: 3;
-    min-width: 400px;
+    min-width: 340px;
 }
 
 .resultHeader {

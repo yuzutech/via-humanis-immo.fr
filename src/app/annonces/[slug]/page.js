@@ -52,7 +52,7 @@ export default async function Page({params}) {
               </h4>
               <div className={styles.overview}>
                 <div className={styles.location}>
-                  <span className={styles.city}>{property.city} - {property.postalCode}</span>
+                  <span className={styles.city}><span className={styles.cityName}>{property.city} - </span><span>{property.postalCode}</span></span>
                 </div>
                 {property.category !== 'parking' && <div className={styles.area}>{property.floorArea}m², T{property.rooms}</div>}
                 <div className={styles.price}>{property.price}€</div>

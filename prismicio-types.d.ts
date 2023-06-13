@@ -158,6 +158,76 @@ export type LocationDocument<Lang extends string = string> =
     "location",
     Lang
   >;
+/** Content for Actualité documents */
+interface NewsDocumentData {
+  /**
+   * illustration field in *Actualité*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: news.illustration
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  illustration: prismicT.ImageField<never>;
+  /**
+   * title field in *Actualité*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: news.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+  /**
+   * date field in *Actualité*
+   *
+   * - **Field Type**: Timestamp
+   * - **Placeholder**: *None*
+   * - **API ID Path**: news.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/timestamp
+   *
+   */
+  date: prismicT.TimestampField;
+  /**
+   * text field in *Actualité*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: news.text
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  text: prismicT.RichTextField;
+  /**
+   * featured field in *Actualité*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: news.featured
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/core-concepts/boolean
+   *
+   */
+  featured: prismicT.BooleanField;
+}
+/**
+ * Actualité document from Prismic
+ *
+ * - **API ID**: `news`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type NewsDocument<Lang extends string = string> =
+  prismicT.PrismicDocumentWithoutUID<Simplify<NewsDocumentData>, "news", Lang>;
 /** Content for Projet documents */
 interface ProjectDocumentData {
   /**
@@ -306,6 +376,7 @@ export type AllDocumentTypes =
   | AccueilDocument
   | GestionDocument
   | LocationDocument
+  | NewsDocument
   | ProjectDocument
   | VenteDocument;
 /**
@@ -1247,6 +1318,8 @@ declare module "@prismicio/client" {
       LocationDocumentData,
       LocationDocumentDataSlicesSlice,
       LocationDocument,
+      NewsDocumentData,
+      NewsDocument,
       ProjectDocumentData,
       ProjectDocumentDataSlicesSlice,
       ProjectDocument,

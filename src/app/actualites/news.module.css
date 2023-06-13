@@ -1,7 +1,6 @@
 .section {
-    padding-top: 3rem;
     background-color: var(--background-color-200);
-    padding-bottom: 5rem;
+    padding: 3rem clamp(1em, 3vw, 3em) 5rem;
 }
 
 .content {
@@ -12,4 +11,30 @@
 .title {
     font-size: 2.5em;
     color: var(--black-color);
+    padding-bottom: 2.5rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 5rem;
+}
+
+.items {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    min-width: 450px;
+}
+
+.item:not(:last-child) {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(var(--black-color-rgb), 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.promoted {
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
