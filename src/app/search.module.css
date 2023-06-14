@@ -108,7 +108,7 @@
     max-width: 100%;
     outline: 0;
     background-color: #fff;
-    border-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
     border-radius: 1rem;
     color: var(--brand-color);
     font-weight: 700;

@@ -125,7 +125,7 @@
     max-width: 100%;
     outline: 0;
     background-color: #fff;
-    border-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
     border-radius: 0.75rem;
     color: #7D7D7D;
     font-weight: 700;

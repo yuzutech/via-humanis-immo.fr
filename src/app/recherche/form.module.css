@@ -144,7 +144,7 @@
     font-size: 0.95rem;
     outline: 0;
     background-color: #fff;
-    border-color: rgba(var(--brand-color-rgb), 0.5);
+    border: 1px solid rgba(var(--brand-color-rgb), 0.5);
     border-radius: 0.75rem;
     color: var(--brand-color);
     font-weight: 700;
