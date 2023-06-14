@@ -252,10 +252,11 @@ const createStream = (resolve, _) => {
 
 export async function updateData() {
   const images = await fs.readdir(path.join(baseDirectory, 'images'))
-  const properties = (await getProperties()).map((property) => {
+  const properties = await getProperties()
+  const propertiesWithImages = properties.map((property) => {
     return property.withImages(getImages(property, images))
   })
-  await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(properties), 'utf8')
+  await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(propertiesWithImages), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
   await fs.writeFile(path.join(baseDirectory, 'categories.json'), JSON.stringify(categories), 'utf8')
   const cities = Array.from(new Set(properties.map((p) => p.city.toLowerCase()))).sort()
