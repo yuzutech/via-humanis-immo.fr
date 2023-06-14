@@ -14,6 +14,7 @@ const OffersCompare = ({slice}) => {
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
       <div className={styles.content}>
         <h2 className={styles.title}>{slice.primary.title}</h2>
+        <h2 className={styles.shortTitle}>{slice.primary.short_title}</h2>
         <div className={styles.tabs}>
           <div className={styles.tab}>
             <table className={styles.table}>

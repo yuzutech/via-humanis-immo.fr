@@ -1,10 +1,9 @@
 .container {
     display: flex;
     gap: 2.5em;
-    padding-top: 4.25em;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 5em;
+    padding: 4.25em 1em 5em;
     background: linear-gradient(180deg, var(--background-color-200) 50%, transparent 50%);
 }
 
@@ -21,17 +20,16 @@
 
 .illustration {
     display: flex;
+    flex: 260px 1;
     background-color: rgba(var(--brand-color-rgb), 0.1);
     border-radius: 1rem;
     height: 260px;
-    min-width: 260px;
     justify-content: center;
     align-items: center;
 }
 
 @media screen and (max-width: 767px) {
     .illustration {
-        flex: 1;
         max-height: 112px;
         padding: 0.5rem;
     }
@@ -56,9 +54,8 @@
 }
 
 .text {
-    flex: 1;
+    flex: 400px 1;
     color: var(--grey-color-100);
-    min-width: 400px;
 }
 
 .description {
@@ -77,6 +74,7 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.75em;
 }
 
@@ -85,6 +83,19 @@
     max-width: 100%;
     position: relative;
     vertical-align: top;
+}
+
+.rooms {
+    flex: 1;
+}
+
+.category {
+    flex: 1;
+}
+
+.rooms select,
+.category select {
+    width: 100%;
 }
 
 .select::after {
@@ -164,9 +175,11 @@
 .email {
     background-color: rgba(var(--black-color-rgb), 0.05);
     border: none;
+    flex: 450px 1;
 }
 
 .button {
+    flex: 150px 1;
     min-width: 230px;
     border-radius: 0.75em;
     padding: 1.125rem 2em;

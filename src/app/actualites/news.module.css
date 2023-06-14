@@ -9,7 +9,7 @@
 }
 
 .title {
-    font-size: 2.5em;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     color: var(--black-color);
     padding-bottom: 2.5rem;
 }
@@ -22,9 +22,8 @@
 
 .items {
     display: flex;
-    flex: 5;
+    flex: 450px 1;
     flex-direction: column;
-    min-width: 450px;
 }
 
 .item:not(:last-child) {
@@ -36,5 +35,5 @@
 .promoted {
     display: flex;
     justify-content: center;
-    flex: 1;
+    flex: 420px 1;
 }

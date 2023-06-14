@@ -24,6 +24,18 @@
     padding: 0;
 }
 
+@media screen and (max-width: 1023px) {
+    .subtitle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        display: none;
+    }
+}
+
 .items {
     padding-top: 1em;
     display: flex;

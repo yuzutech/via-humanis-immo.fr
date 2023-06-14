@@ -16,6 +16,10 @@
           "type": "Text",
           "config": { "label": "title", "placeholder": "" }
         },
+        "short_title": {
+          "type": "Text",
+          "config": { "label": "short_title", "placeholder": "" }
+        },
         "disclaimer": {
           "type": "Text",
           "config": { "label": "disclaimer", "placeholder": "" }

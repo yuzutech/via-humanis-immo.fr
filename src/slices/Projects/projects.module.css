@@ -37,14 +37,14 @@
 .title {
     color: var(--black-color);
     font-weight: 700;
-    font-size: 3em;
+    font-size: clamp(2rem, 4vw, 3rem);
 }
 
 .header {
     display: flex;
     flex: 0 1200px;
     max-width: 1200px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 1em;
 }
@@ -54,6 +54,12 @@
     gap: 0.5em;
     cursor: pointer;
     user-select: none;
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        display: none;
+    }
 }
 
 .overflow {

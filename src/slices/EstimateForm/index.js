@@ -64,14 +64,14 @@ const EstimateForm = ({slice}) => {
             {formState.state === 'error' && <div className={styles.error}>Impossible d&rsquo;envoyer le formulaire.<br/>Merci de nous contacter directement par email ou par téléphone.</div>}
             {formState.state !== 'success' && formState.state !== 'error' && <fieldset className={styles.fields} disabled={formState.state === 'sending'}>
               <div className={styles.row}>
-                <div className={styles.select}>
+                <div className={clsx(styles.select, styles.category)}>
                   <select {...categoryBindings}>
                     <option value="" disabled hidden>Type</option>
                     <option value="appartement">Appartement</option>
                     <option value="maison">Maison</option>
                   </select>
                 </div>
-                <div className={styles.select}>
+                <div className={clsx(styles.select, styles.rooms)}>
                   <select {...roomsBindings}>
                     <option value="" disabled hidden>Pièces</option>
                     <option value="t1">T1</option>

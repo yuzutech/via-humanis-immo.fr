@@ -724,6 +724,16 @@ interface OffersCompareSliceDefaultPrimary {
    */
   title: prismicT.KeyTextField;
   /**
+   * short_title field in *OffersCompare → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: offers_compare.primary.short_title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  short_title: prismicT.KeyTextField;
+  /**
    * disclaimer field in *OffersCompare → Primary*
    *
    * - **Field Type**: Text

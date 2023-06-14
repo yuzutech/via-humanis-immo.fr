@@ -12,6 +12,11 @@
 				"__TYPE__": "FieldContent",
 				"value": "lonely",
 				"type": "Text"
+			},
+			"short_title": {
+				"__TYPE__": "FieldContent",
+				"value": "finger",
+				"type": "Text"
 			}
 		},
 		"items": [

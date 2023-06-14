@@ -33,15 +33,14 @@
     object-fit: cover;
     border-radius: 1.5em;
     width: 100%;
-    flex: 4;
+    flex: 400px 1;
 }
 
 .text {
     max-width: 576px;
     padding-left: 0.5rem;
     padding-right: 1.5rem;
-    flex: 5;
-    min-width: 400px;
+    flex: 400px 1;
     color: var(--black-color);
 }
 

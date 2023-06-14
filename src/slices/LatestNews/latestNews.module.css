@@ -18,7 +18,7 @@
 .title {
     color: var(--black-color);
     font-weight: 700;
-    font-size: 3em;
+    font-size: clamp(2rem, 4vw, 3rem);
     padding-bottom: 4rem;
 }
 
@@ -30,9 +30,8 @@
 
 .items {
     display: flex;
-    flex: 5;
+    flex: 450px 1;
     flex-direction: column;
-    min-width: 450px;
 }
 
 .item + .item {
@@ -44,7 +43,7 @@
 .promoted {
     display: flex;
     justify-content: center;
-    flex: 1;
+    flex: 420px 1;
 }
 
 .promotedBlock {
@@ -62,7 +61,7 @@
     font-weight: 700;
     font-size: 0.9rem;
     line-height: 1.1em;
-    margin-top: auto;
+    margin-top: 2rem;
     text-align: center;
     cursor: pointer;
 }
