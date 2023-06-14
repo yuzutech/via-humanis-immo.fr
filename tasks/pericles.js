@@ -6,11 +6,13 @@ import iconv from 'iconv-lite'
 import sax from 'sax'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
-const baseDirectory  = path.join(__dirname, '..', 'public', 'data', 'pericles')
+const baseDirectory = path.join(__dirname, '..', 'public', 'data', 'pericles')
 
-function getImages (property, images) {
+function getImages(property, images) {
   const imagePrefix = property.imagePrefix
-  return images.filter((image) => image.startsWith(imagePrefix)).sort()
+  const result = images.filter((image) => image.startsWith(imagePrefix)).sort()
+  console.log(`Found ${result.length} for ${imagePrefix}`, {result})
+  return result
 }
 
 export class Property {
@@ -128,8 +130,8 @@ export class Property {
   }
 
   withImages(images) {
-    this.images = images;
-    return this;
+    this.images = images
+    return this
   }
 
   get price() {
@@ -251,10 +253,28 @@ const createStream = (resolve, _) => {
 }
 
 export async function updateData() {
-  const images = await fs.readdir(path.join(baseDirectory, 'images'))
+  const imagesDir = path.join(baseDirectory, 'images')
+  let images = await fs.readdir(imagesDir)
   const properties = await getProperties()
+  // remove extraneous images
+  const imagePrefixes = properties.map((p) => p.imagePrefix)
+  for (const image of images) {
+    const found = imagePrefixes.find((imagePrefix) => image.startsWith(imagePrefix))
+    if (!found) {
+      await fs.unlink(path.join(imagesDir, image))
+    }
+  }
+  images = await fs.readdir(imagesDir)
+  console.log(`Found images ${images.length} in ${imagesDir}`, {images})
   const propertiesWithImages = properties.map((property) => {
     return property.withImages(getImages(property, images))
+  })
+  console.log(`Properties with images`, {
+    propertiesWithImages: propertiesWithImages.map((p) => ({
+      id: p.id,
+      imagePrefix: p.imagePrefix,
+      imagesLength: p.images.length
+    }))
   })
   await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(propertiesWithImages), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
