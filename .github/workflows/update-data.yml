@@ -43,8 +43,10 @@ jobs:
         mkdir -p via-humanis-immo
         
         unzip immogic.ZIP -d immogic
+        rm immogic.ZIP
         mv "immogic/VIA HUMANIS IMMO.XML" "data/immogic.xml"
         unzip via-humanis-immo.ZIP -d via-humanis-immo
+        rm via-humanis-immo.ZIP
         mv "via-humanis-immo/VIA HUMANIS IMMO.XML" "data/via-humanis-immo.xml"
 
     - uses: actions/setup-node@v3
@@ -63,6 +65,7 @@ jobs:
       run: |
         git config --global user.name "Guillaume Grossetie"
         git config --global user.email "ggrossetie@yuzutech.fr"
+        git add public/data/pericles/images
         git commit -a -m "Update Pericles" || true
         git push
 

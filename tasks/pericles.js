@@ -11,7 +11,7 @@ const baseDirectory = path.join(__dirname, '..', 'public', 'data', 'pericles')
 function getImages(property, images) {
   const imagePrefix = property.imagePrefix
   const result = images.filter((image) => image.startsWith(imagePrefix)).sort()
-  console.log(`Found ${result.length} for ${imagePrefix}`, {result})
+  console.log(`Found ${result.length} images for property id ${property} (using ${imagePrefix} prefix).`)
   return result
 }
 
@@ -265,16 +265,9 @@ export async function updateData() {
     }
   }
   images = await fs.readdir(imagesDir)
-  console.log(`Found images ${images.length} in ${imagesDir}`, {images})
+  console.log(`Found ${images.length} images associated with a property in ${imagesDir}`)
   const propertiesWithImages = properties.map((property) => {
     return property.withImages(getImages(property, images))
-  })
-  console.log(`Properties with images`, {
-    propertiesWithImages: propertiesWithImages.map((p) => ({
-      id: p.id,
-      imagePrefix: p.imagePrefix,
-      imagesLength: p.images.length
-    }))
   })
   await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(propertiesWithImages), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
