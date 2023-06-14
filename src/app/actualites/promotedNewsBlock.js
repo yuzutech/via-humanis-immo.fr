@@ -9,7 +9,7 @@ export default function PromotedNewsBlock({data, className}) {
     <div className={styles.content}>
       <div className={styles.promoted}>En avant</div>
       <div className={styles.illustration}>
-        <PrismicNextImage field={data.illustration} width="340px" height="120px"/>
+        <PrismicNextImage field={data.illustration} width="340px" height="120px" alt={data.alt || ''}/>
       </div>
       <div className={styles.main}>
         <h3 className={styles.title}>{data.title}</h3>
