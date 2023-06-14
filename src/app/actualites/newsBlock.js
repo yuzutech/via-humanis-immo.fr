@@ -8,7 +8,7 @@ export default function NewsBlock({data, className}) {
   return (<div className={clsx(styles.container, className)}>
     <div className={styles.content}>
       <div className={styles.illustration}>
-        <PrismicNextImage field={data.illustration} width="120px" height="120px"/>
+        <PrismicNextImage field={data.illustration} width="120px" height="120px" alt={data.alt || ''}/>
       </div>
       <div className={styles.main}>
         <h3 className={styles.title}>{data.title}</h3>

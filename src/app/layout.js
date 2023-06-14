@@ -10,6 +10,9 @@ export const metadata = {
 }
 
 export default function RootLayout({children}) {
+  const netlify = process.env.NETLIFY === 'true'
+  const siteId = process.env.SITE_ID
+  const deployId = process.env.DEPLOY_ID
   return (
     <html lang="en">
     <body className={sen.className}>
@@ -36,6 +39,9 @@ export default function RootLayout({children}) {
         <input name="type"/>
         <input name="contactInfo"/>
       </form>
+      {netlify && <div data-netlify-deploy-id={deployId} data-netlify-site-id={siteId} data-vcs="github" style={{position: "fixed"}}>
+        <script async src="https://netlify-cdp-loader.netlify.app/netlify.js"></script>
+      </div>}
     </body>
     </html>
   )
