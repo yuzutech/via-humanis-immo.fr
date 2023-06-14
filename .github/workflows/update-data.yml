@@ -55,11 +55,9 @@ jobs:
 
     - run: |
         node tasks/copy-images.js
-        node tasks/update-data.js
-
-    - run: |
         rm -rf immogic
         rm -rf via-humanis-immo
+        node tasks/update-data.js
 
     - name: Commit and push
       run: |
