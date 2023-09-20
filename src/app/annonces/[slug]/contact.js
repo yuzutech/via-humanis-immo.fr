@@ -54,7 +54,7 @@ export default function Contact({id}) {
       {formState.state !== 'success' && formState.state !== 'error' && <fieldset disabled={formState.state === 'sending'}>
         <label className={styles.label}>Je souhaite être recontacté(e)</label>
         <div className={styles.fields}>
-          <input hidden="true" name="id" value={id}/>
+          <input hidden={true} name="id" value={id}/>
           <Input bindings={lastnameBindings} label="Votre nom" type="text"/>
           <Input bindings={firstnameBindings} label="Votre prénom" type="text"/>
           <Input bindings={phoneBinding} label="Votre numéro de téléphone" type="text"/>

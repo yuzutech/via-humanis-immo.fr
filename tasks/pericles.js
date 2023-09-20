@@ -1,23 +1,14 @@
 import {fileURLToPath, URL} from 'node:url'
 import path from 'node:path'
 import fs from 'node:fs/promises'
-
-import iconv from 'iconv-lite'
-import sax from 'sax'
+import { XMLParser} from 'fast-xml-parser'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const baseDirectory = path.join(__dirname, '..', 'public', 'data', 'pericles')
 
-function getImages(property, images) {
-  const imagePrefix = property.imagePrefix
-  const result = images.filter((image) => image.startsWith(imagePrefix)).sort()
-  console.log(`Found ${result.length} images for property id ${property} (using ${imagePrefix} prefix).`)
-  return result
-}
-
 export class Property {
   withRent(rent) {
-    this.rent = parseInt(rent)
+    this.rent = rent
     return this
   }
 
@@ -46,7 +37,7 @@ export class Property {
 
   withFloorArea(floorArea) {
     if (floorArea) {
-      this.floorArea = parseFloat(floorArea.replace(',', '.'))
+      this.floorArea = parseFloat(floorArea).toFixed(2)
     }
     return this
   }
@@ -67,16 +58,7 @@ export class Property {
   }
 
   withCategory(category) {
-    if (category) {
-      const categoryLowerCase = category.toLowerCase()
-      if (categoryLowerCase.includes('appartement') || categoryLowerCase.includes('studio')) {
-        this.category = 'appartement'
-      } else if (categoryLowerCase.includes('maison') || categoryLowerCase.includes('pavillon')) {
-        this.category = 'maison'
-      } else {
-        this.category = categoryLowerCase
-      }
-    }
+    this.category = category
     return this
   }
 
@@ -92,16 +74,6 @@ export class Property {
 
   withRooms(rooms) {
     this.rooms = rooms
-    return this
-  }
-
-  withCompanyCode(companyCode) {
-    this.companyCode = companyCode
-    return this
-  }
-
-  withSiteCode(siteCode) {
-    this.siteCode = siteCode
     return this
   }
 
@@ -135,14 +107,11 @@ export class Property {
   }
 
   get price() {
-    if (this.offer.toLocaleLowerCase() === 'rental') {
-      return this.rent
-    }
-    return this.salesPrice
+    return this.rent || this.salesPrice
   }
 
   get imagePrefix() {
-    return `${this.companyCode}-${this.siteCode}-${this.id}-`
+    return `${this.id}-`
   }
 
   // noinspection JSUnusedGlobalSymbols
@@ -156,120 +125,9 @@ export class Property {
   }
 }
 
-const createStream = (resolve, _) => {
-  let currentNode
-  let currentProperty
-  const properties = []
-  const saxStream = sax.createStream(false, {})
-  saxStream.on('error', e => {
-    // unhandled errors will throw, since this is a proper node event emitter.
-    console.error('An error occurred!', e)
-    // clear the error
-    this._parser.error = null
-    this._parser.resume()
-  })
-
-  saxStream.on('end', _ => {
-    resolve(properties)
-  })
-
-  saxStream.on('opentag', (node) => {
-    currentNode = node
-    if (node.name === 'BIEN') {
-      currentProperty = new Property()
-    }
-  })
-
-  saxStream.on('closetag', (tag) => {
-    if (tag === 'BIEN') {
-      properties.push(currentProperty)
-    }
-  })
-
-  saxStream.on('cdata', (s) => {
-    if (currentNode.name === 'DPE_ETIQ1') {
-      currentProperty.withEnergyConsumptionClass(s)
-    }
-    if (currentNode.name === 'DPE_ETIQ2') {
-      currentProperty.withGES(s)
-    }
-    if (currentNode.name === 'ADRESSE1_OFFRE') {
-      currentProperty.withAddress(s)
-    }
-    if (currentNode.name === 'CODE_SOCIETE') {
-      currentProperty.withCompanyCode(s)
-    }
-    if (currentNode.name === 'CODE_SITE') {
-      currentProperty.withSiteCode(s)
-    }
-    if (currentNode.name === 'NO_ASP') {
-      currentProperty.withId(s)
-    }
-    if (currentNode.name === 'LOYER') {
-      currentProperty.withRent(s)
-    }
-    if (currentNode.name === 'PRIX') {
-      currentProperty.withSalesPrice(s)
-    }
-    if (currentNode.name === 'NB_PIECES') {
-      currentProperty.withRooms(s)
-    }
-    if (currentNode.name === 'HONORAIRES') {
-      currentProperty.withAgencyFees(s)
-    }
-    if (currentNode.name === 'CHARGES') {
-      currentProperty.withRentalExpenses(s)
-    }
-    if (currentNode.name === 'CP_OFFRE') {
-      currentProperty.withPostalCode(s)
-    }
-    if (currentNode.name === 'VILLE_OFFRE') {
-      currentProperty.withCity(s)
-    }
-    if (currentNode.name === 'SURF_HAB') {
-      currentProperty.withFloorArea(s)
-    }
-    if (currentNode.name === 'TEXTE_FR') {
-      currentProperty.withDescription(s)
-    }
-    if (currentNode.name === 'CONTACT') {
-      currentProperty.withContactName(s)
-    }
-    if (currentNode.name === 'INFO_CONTACT') {
-      currentProperty.withContactInfo(s)
-    }
-    if (currentNode.name === 'CATEGORIE') {
-      currentProperty.withCategory(s)
-    }
-    if (currentNode.name === 'TYPE_OFFRE') {
-      if (parseInt(s) >= 10) {
-        currentProperty.withOffer('rental')
-      } else {
-        currentProperty.withOffer('sale')
-      }
-    }
-  })
-  return saxStream
-}
-
 export async function updateData() {
-  const imagesDir = path.join(baseDirectory, 'images')
-  let images = await fs.readdir(imagesDir)
   const properties = await getProperties()
-  // remove extraneous images
-  const imagePrefixes = properties.map((p) => p.imagePrefix)
-  for (const image of images) {
-    const found = imagePrefixes.find((imagePrefix) => image.startsWith(imagePrefix))
-    if (!found) {
-      await fs.unlink(path.join(imagesDir, image))
-    }
-  }
-  images = await fs.readdir(imagesDir)
-  console.log(`Found ${images.length} images associated with a property in ${imagesDir}`)
-  const propertiesWithImages = properties.map((property) => {
-    return property.withImages(getImages(property, images))
-  })
-  await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(propertiesWithImages), 'utf8')
+  await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(properties), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
   await fs.writeFile(path.join(baseDirectory, 'categories.json'), JSON.stringify(categories), 'utf8')
   const cities = Array.from(new Set(properties.map((p) => p.city.toLowerCase()))).sort()
@@ -280,114 +138,91 @@ export async function updateData() {
  * @return Promise<Property[]>
  */
 async function getProperties() {
-  return Promise.all([
-      getPropertiesFromXml('via-humanis-immo.xml'),
-      getPropertiesFromXml('immogic.xml')
-    ]
-  ).then((result) => result.flat())
+  return getPropertiesFromXml('export.xml')
 }
 
 /**
  * @param xmlFile
  * @return Promise<Property[]>
  */
-function getPropertiesFromXml(xmlFile) {
+async function getPropertiesFromXml(xmlFile) {
+  const parser = new XMLParser()
   const dataDirectory = path.join(__dirname, '..', 'data')
-  return new Promise((resolve, reject) => {
-    const saxStream = createStream((offers) => resolve(offers), (error) => reject(error))
-    fs.open(path.join(dataDirectory, xmlFile))
-      .then(fd => fd.createReadStream())
-      .then(stream =>
-        stream.on('error', (e) => {
-          console.log('error:', e)
-          reject(e)
-        })
-          .pipe(iconv.decodeStream('win1252'))
-          .pipe(saxStream)
-      )
-  })
-}
-
-/*
-function findProperty (properties, id) {
-  const result = properties.filter(p => p.id === id)
-  if (result.length >= 1) {
-    return result[0]
-  }
-}
-
-async function getProperty (id, companyCode, siteCode) {
-  const properties = await getProperties()
-  return findProperty(properties, id, companyCode, siteCode)
-}
-
-function filterProperties (properties, predicates) {
-  return properties.filter((item) => {
-    if (predicates.city && item.city !== predicates.city) {
-      return false
+  const imagesDir = path.join(baseDirectory, 'images')
+  const xmlData = await fs.readFile(path.join(dataDirectory, xmlFile), {encoding: 'binary'})
+  const data = parser.parse(xmlData)
+  const properties = data['LISTEPA']['BIEN']
+  const result = await Promise.all(properties.map(async (p) => {
+    const property = new Property()
+    const rent = p['LOCATION']
+    if (rent) {
+      const rentIncludingCharges = (parseFloat(rent['LOYER']) + parseFloat(rent['PROVISION_SUR_CHARGES'])).toFixed(2)
+      property.withRent(rentIncludingCharges)
+      property.withOffer('rental')
     }
-    if (predicates.maxPrice) {
-      if (predicates.offer === 'location') {
-        if (item.rent > predicates.maxPrice) {
-          return false
+    const sale = p['VENTE']
+    if (sale) {
+      const price = parseFloat(rent['PRIX']).toFixed(2)
+      property.withSalesPrice(price)
+      property.withOffer('sale')
+    }
+    property.withAddress("")
+    let category = 'appartement'
+    if (p['PARKING']) {
+      category = 'parking'
+    } else if (p['DEMEURE']) {
+      category = 'demeure'
+    } else if (p['MAISON']) {
+      category = 'maison'
+    } else if (p['FOND_COMMERCE']) {
+      category = 'fond de commerce'
+    } else if (p['FOND_COMMERCE']) {
+      category = 'local professionnel'
+    } else if (p['TERRAIN']) {
+      category = 'terrain'
+    } else if (p['MARINA']) {
+      category = 'marina'
+    } else if (p['PROGRAMME_NEUF']) {
+      category = 'programme neuf'
+    } else if (p['IMMEUBLE']) {
+      category = 'immeuble'
+    } else if (p['GRANGE']) {
+      category = 'grange'
+    }
+    property.withId(String(p['INFO_GENERALES']['AFF_ID']))
+    property.withCategory(category)
+    property.withCity(p['LOCALISATION']['VILLE'])
+    property.withPostalCode(p['LOCALISATION']['CODE_POSTAL'])
+    if (category === 'maison' || category === "appartement") {
+      const detail = p['MAISON'] || p['APPARTEMENT']
+      property.withEnergyConsumptionClass(detail['CONSOMMATIONENERGETIQUE'])
+      property.withGES(detail['GAZEFFETDESERRE'])
+      property.withFloorArea(detail['SURFACE_HABITABLE'])
+      property.withRooms(detail['NBRE_CHAMBRES'])
+    }
+    property.withDescription(p['COMMENTAIRES']['FR'])
+    const images = p['IMAGES']
+    const imageFileNames = []
+    if (images) {
+      const imageUrls = images['IMG']
+      let index = 0
+      for (const imageUrl of imageUrls) {
+        if (imageUrl.startsWith('https://') || imageUrl.startsWith('http://')) {
+          index += 1
+          try {
+            const r = await fetch(imageUrl)
+            const fileName = `${property.id}-${index}.jpg`;
+            const imagePath = path.join(imagesDir, fileName);
+            await fs.writeFile(imagePath, Buffer.from(await r.arrayBuffer()))
+            imageFileNames.push(fileName)
+          } catch (err) {
+            console.log(`Unable to get ${imageUrl}, ignoring...`, err)
+          }
         }
-      } else if (predicates.offer === 'achat') {
-        if (item.price > predicates.maxPrice) {
-          return false
-        }
       }
     }
-    if (predicates.rooms && item.rooms < predicates.rooms) {
-      return false
-    }
-    if (predicates.type && item.type !== predicates.type) {
-      return false
-    }
-    if (predicates.offer === 'location') {
-      if (item.offer !== 'rental') {
-        return false
-      }
-    } else if (predicates.offer === 'achat') {
-      if (item.offer !== 'sale') {
-        return false
-      }
-    }
-    return true
-  })
+    property.withImages(imageFileNames)
+    return property
+  }));
+  return result
 }
-
-function uniqTypes (properties) {
-  return [...new Set(properties.map(o => o.type).sort())]
-}
-
-function uniqLocations (properties) {
-  return properties
-    .sort((a, b) => {
-      if (!a.postalCode) {
-        return -1
-      }
-      if (!b.postalCode) {
-        return -1
-      }
-      return a.postalCode.localeCompare(b.postalCode)
-    })
-    .map(o => ({
-      city: o.city,
-      postalCode: o.postalCode,
-      department: o.department
-    }))
-}
-
-async function getImages (property) {
-  return []
-}
-
-function _extractPredicatesFromRequest(req) {
-  const predicates = {}
-  predicates.city = req.query['ville']
-  predicates.maxPrice = req.query['prix-max']
-  predicates.rooms = req.query['pieces']
-  predicates.type = req.query['type']
-  predicates.offer = req.query['offre']
-  return predicates
-}*/
