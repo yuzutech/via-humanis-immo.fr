@@ -59,6 +59,9 @@ export default function SearchPage() {
       if (search.location) {
         matching = matching && property.city.toLowerCase() === search.location
       }
+      if (search.rooms) {
+        matching = matching && property.rooms >= search.rooms
+      }
       return matching
     }))
   }, [properties, setMatchingProperties])

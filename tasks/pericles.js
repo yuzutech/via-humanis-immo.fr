@@ -37,7 +37,7 @@ export class Property {
 
   withFloorArea(floorArea) {
     if (floorArea) {
-      this.floorArea = parseFloat(floorArea).toFixed(2)
+      this.floorArea = parseFloat(parseFloat(floorArea).toFixed(2))
     }
     return this
   }
@@ -161,13 +161,13 @@ async function getPropertiesFromXml(xmlFile) {
     const property = new Property()
     const rent = p['LOCATION']
     if (rent) {
-      const rentIncludingCharges = (parseFloat(rent['LOYER']) + parseFloat(rent['PROVISION_SUR_CHARGES'])).toFixed(2)
+      const rentIncludingCharges = parseFloat((parseFloat(rent['LOYER']) + parseFloat(rent['PROVISION_SUR_CHARGES'])).toFixed(2))
       property.withRent(rentIncludingCharges)
       property.withOffer('rental')
     }
     const sale = p['VENTE']
     if (sale) {
-      const price = parseFloat(rent['PRIX']).toFixed(2)
+      const price = parseFloat(parseFloat(rent['PRIX']).toFixed(2))
       property.withSalesPrice(price)
       property.withOffer('sale')
     }
