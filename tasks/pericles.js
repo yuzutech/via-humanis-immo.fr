@@ -52,8 +52,13 @@ export class Property {
     return this
   }
 
-  withContactInfo(contactInfo) {
-    this.contactInfo = contactInfo
+  withContactTel(contactTel) {
+    this.contactTel = contactTel
+    return this
+  }
+
+  withContactEmail(contactEmail) {
+    this.contactEmail = contactEmail
     return this
   }
 
@@ -201,6 +206,12 @@ async function getPropertiesFromXml(xmlFile) {
       property.withRooms(detail['NBRE_CHAMBRES'])
     }
     property.withDescription(p['COMMENTAIRES']['FR'])
+    const agency = p['AGENCE']
+    if (agency) {
+      property.withContactTel(agency['AGENCE_TELEPHONE'])
+      property.withContactName(agency['AGENCE_NOM'])
+      property.withContactEmail(agency['AGENCE_MAIL'])
+    }
     const images = p['IMAGES']
     const imageFileNames = []
     if (images) {

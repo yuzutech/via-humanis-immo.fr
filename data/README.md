@@ -1,0 +1,1 @@
+Specification: http://clients.ac3-distribution.com/doc/xml_ac3.pdf

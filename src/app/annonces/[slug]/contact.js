@@ -10,7 +10,7 @@ import Button from '@/components/button.js'
 
 import styles from './contact.module.css'
 
-export default function Contact({id}) {
+export default function Contact({id, contactTel, contactName, contactEmail}) {
   const {state: lastname, bindings: lastnameBindings} = useInput('')
   const {state: firstname, bindings: firstnameBindings} = useInput('')
   const {state: phone, bindings: phoneBinding} = useInput('')
@@ -44,9 +44,9 @@ export default function Contact({id}) {
   }, [lastname, firstname, email, phone])
   return (<div>
     <header className={styles.header}>
-      <h3 className={styles.contactName}>Via Humanis Immobilier</h3>
-      <div className={styles.contactTel}>04 00 00 00 00</div>
-      <div className={styles.contactEmail}>hello@vh-immobilier.fr</div>
+      <h3 className={styles.contactName}>{contactName}</h3>
+      <div className={styles.contactTel}><a href={"tel:" + contactTel.replaceAll(' ', '')}>{contactTel}</a></div>
+      <div className={styles.contactEmail}><a href={"mailto:" + contactEmail}>{contactEmail}</a></div>
     </header>
     <div className={styles.form}>
       {formState.state === 'success' && <div className={styles.success}>Formulaire envoyé.<br/>Nous reviendrons vers vous rapidement.</div>}
