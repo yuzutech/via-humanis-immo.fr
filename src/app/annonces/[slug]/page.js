@@ -87,7 +87,11 @@ export default async function Page({params}) {
             </div>
           </article>
           <aside className={styles.contact}>
-            <Contact id={property.id}/>
+            <Contact id={property.id}
+                     contactName="Via Humanis Immobilier"
+                     contactTel={property.contactTel}
+                     contactEmail={property.contactEmail}
+            />
           </aside>
         </div>
       </div>

@@ -45,7 +45,13 @@ const Projects = ({slice}) => {
   const [projects, setProjects] = useState([])
   const [nextEnabled, setNextEnabled] = useState(true)
   const [previousEnabled, setPreviousEnabled] = useState(true)
+  /**
+   * @type {React.MutableRefObject<HTMLDivElement|undefined>}
+   */
   const scrollRef = useRef()
+  /**
+   * @type {React.MutableRefObject<HTMLDivElement|undefined>}
+   */
   const lastProjectRef = useRef()
 
   const handleScrollUpdated = useCallback(() => {
@@ -64,19 +70,16 @@ const Projects = ({slice}) => {
 
   useEffect(() => {
     ;(async () => {
-      const client = createClient()
-      if (slice.items) {
-        const ids = slice.items.map((item) => item.project.id).filter((item) => item)
-        if (ids) {
-          const projects = await client.getAllByIDs(ids)
-          setProjects(projects)
-        } else {
-          setProjects([])
-        }
-        handleScrollUpdated()
+      const projectIds = slice.items?.map((item) => item.project.id).filter((item) => item) || []
+      if (projectIds) {
+        const client = createClient()
+        const projects = await client.getAllByIDs(projectIds)
+        setProjects(projects)
+      } else {
+        setProjects([])
       }
     })()
-  }, [handleScrollUpdated, slice])
+  }, [slice.items])
 
   useEffect(() => {
     const scrollElement = scrollRef.current
@@ -84,13 +87,14 @@ const Projects = ({slice}) => {
       scrollElement.addEventListener('scroll', handleScrollUpdated)
     }
     window.addEventListener('resize', handleScrollUpdated)
+    handleScrollUpdated() // initial call
     return () => {
       if (scrollElement) {
         scrollElement.removeEventListener('scroll', handleScrollUpdated)
       }
       window.removeEventListener('resize', handleScrollUpdated)
     }
-  }, [scrollRef, handleScrollUpdated])
+  }, [handleScrollUpdated, scrollRef])
 
   const handleScrollRight = useCallback(() => {
     const scrollElement = scrollRef.current
@@ -98,7 +102,7 @@ const Projects = ({slice}) => {
       scrollElement.scrollLeft += 160
     }
     handleScrollUpdated()
-  }, [scrollRef, handleScrollUpdated])
+  }, [handleScrollUpdated, scrollRef])
 
   const handleScrollLeft = useCallback(() => {
     const scrollElement = scrollRef.current
@@ -106,7 +110,7 @@ const Projects = ({slice}) => {
       scrollElement.scrollLeft -= 160
       handleScrollUpdated()
     }
-  }, [scrollRef, handleScrollUpdated])
+  }, [handleScrollUpdated, scrollRef])
 
   return (
     <section className={styles.container} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>

@@ -10,70 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-
-    - name: Get Github action IP
-      id: ip
-      uses: haythem/public-ip@v1.3
-
-    - name: Add Github Actions IP to Security group
+    - name: Get export.xml
       run: |
-        aws ec2 authorize-security-group-ingress --group-name web-dev --protocol tcp --port 22 --cidr ${{ steps.ip.outputs.ipv4 }}/32
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: 'eu-central-1'
-
-    - name: Create credentials
-      run: |
-        mkdir -p $HOME/.credentials
-        touch $HOME/.credentials/id_rsa_remote.pub
-        touch $HOME/.credentials/id_rsa_remote.pem
-        chmod 0700 $HOME/.credentials
-        printf -- "${{ secrets.SSH_PUBLIC_KEY }}" > $HOME/.credentials/id_rsa_remote.pub
-        printf -- "${{ secrets.SSH_PRIVATE_KEY }}" > $HOME/.credentials/id_rsa_remote.pem
-        chmod 0644 $HOME/.credentials/id_rsa_remote.pub
-        chmod 0400 $HOME/.credentials/id_rsa_remote.pem
-
-    - name: Copy and extract files
-      run: |
-        scp -o StrictHostKeyChecking=no -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/immogic.ZIP .
-        scp -o StrictHostKeyChecking=no -i $HOME/.credentials/id_rsa_remote.pem ${{secrets.SSH_USERNAME}}@${{secrets.SSH_SERVER}}:/home/pericles/ftp/via-humanis-immo.ZIP .
-        
-        mkdir -p immogic
-        mkdir -p via-humanis-immo
-        
-        unzip immogic.ZIP -d immogic
-        rm immogic.ZIP
-        mv "immogic/VIA HUMANIS IMMO.XML" "data/immogic.xml"
-        unzip via-humanis-immo.ZIP -d via-humanis-immo
-        rm via-humanis-immo.ZIP
-        mv "via-humanis-immo/VIA HUMANIS IMMO.XML" "data/via-humanis-immo.xml"
-
+        curl https://export.via-humanis-immobilier.fr/export.xml -u ${{secrets.HTTP_USERNAME}} -p ${{secrets.HTTP_PASSWORD}} -o ./data/export.xml
     - uses: actions/setup-node@v3
       with:
-        node-version: 18
-
+        node-version: 20
     - run: npm ci
-
     - run: |
-        node tasks/copy-images.js
-        rm -rf immogic
-        rm -rf via-humanis-immo
         node tasks/update-data.js
-
     - name: Commit and push
       run: |
         git config --global user.name "Guillaume Grossetie"
         git config --global user.email "ggrossetie@yuzutech.fr"
         git add public/data/pericles/images
-        git commit -a -m "Update Pericles" || true
+        git commit -a -m "Update Real Estate Assets" || true
         git push
-
-    - name: Remove Github Actions IP from security group
-      run: |
-        aws ec2 revoke-security-group-ingress --group-name web-dev --protocol tcp --port 22 --cidr ${{ steps.ip.outputs.ipv4 }}/32
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: 'eu-central-1'
-      if: always()
