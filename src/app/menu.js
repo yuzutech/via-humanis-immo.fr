@@ -74,10 +74,6 @@ export default function Menu({variation = "primary"}) {
       >Trouver un bien</Link>
       <div className={clsx(styles.buttons, styles.navButtons)}>
         <Link
-          className={clsx(styles.navLink, styles.button, styles.buttonPrimary, pathname.startsWith('/actualites') && styles.active)}
-          href="/actualites"
-        >Nos actualités</Link>
-        <Link
           className={clsx(styles.navLink, styles.button, styles.buttonSecondary, pathname.startsWith('/qui-sommes-nous') && styles.active)}
           href="/qui-sommes-nous"
         >Qui sommes-nous ?</Link>
