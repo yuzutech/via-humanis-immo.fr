@@ -1,0 +1,48 @@
+{
+  "id": "team",
+  "type": "SharedSlice",
+  "name": "Team",
+  "description": "Team",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": { "label": "title", "placeholder": "" }
+        }
+      },
+      "items": {
+        "picture": {
+          "type": "Image",
+          "config": { "label": "Picture", "constraint": {}, "thumbnails": [] }
+        },
+        "name": {
+          "type": "Text",
+          "config": { "label": "name", "placeholder": "" }
+        },
+        "job_title": {
+          "type": "Text",
+          "config": { "label": "Job title", "placeholder": "" }
+        },
+        "presentation": {
+          "type": "Text",
+          "config": { "label": "presentation", "placeholder": "" }
+        },
+        "phone_number": {
+          "type": "Text",
+          "config": { "label": "Phone number", "placeholder": "" }
+        },
+        "email": {
+          "type": "Text",
+          "config": { "label": "email", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

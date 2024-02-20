@@ -1,0 +1,86 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "come",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"picture",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+								"width": 5848,
+								"height": 3899
+							},
+							"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+							"width": 5848,
+							"height": 3899,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"job_title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "fallen",
+							"type": "Text"
+						}
+					],
+					[
+						"presentation",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "careful",
+							"type": "Text"
+						}
+					],
+					[
+						"phone_number",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "industrial",
+							"type": "Text"
+						}
+					],
+					[
+						"email",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "attached",
+							"type": "Text"
+						}
+					],
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "laid",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

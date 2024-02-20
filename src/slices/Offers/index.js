@@ -29,8 +29,7 @@ const Offers = ({slice}) => {
           <div className={styles.items}>
             {slice.items.map((item) => {
               return (
-                <div className={clsx(styles.item, item.recommended && styles.recommended, item.premium && styles.premium)}
-                     key={item.key}>
+                <div className={clsx(styles.item, item.recommended && styles.recommended, item.premium && styles.premium)} key={item.key}>
                   <Image src={item.icon.url} alt={item.icon.alt || ''} aria-hidden={true} width="100" height="100"/>
                   <h4 className={styles.name}>{item.name}</h4>
                   <h5 className={styles.tagline}>{item.tagline}</h5>

@@ -2,7 +2,7 @@ import './globals.css'
 import {Sen} from 'next/font/google'
 import Footer from '@/app/footer'
 
-const sen = Sen({weight: ['400', '700', '800'], subsets: ['latin']})
+const sen = Sen({weight: ['400', '700', '800'], subsets: ['latin'], display: 'swap'})
 
 export const metadata = {
   title: 'Via Humanis Immobilier',

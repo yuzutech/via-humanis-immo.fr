@@ -24,7 +24,7 @@ interface AboutDocumentData {
  * Slice for *Qui sommes nous → Slice Zone*
  *
  */
-type AboutDocumentDataSlicesSlice = OverviewSlice;
+type AboutDocumentDataSlicesSlice = OverviewSlice | TeamSlice;
 /**
  * Qui sommes nous document from Prismic
  *
@@ -1018,6 +1018,115 @@ export type StrengthsSlice = prismicT.SharedSlice<
   StrengthsSliceVariation
 >;
 /**
+ * Primary content in Team → Primary
+ *
+ */
+interface TeamSliceDefaultPrimary {
+  /**
+   * title field in *Team → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.primary.title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  title: prismicT.KeyTextField;
+}
+/**
+ * Item in Team → Items
+ *
+ */
+export interface TeamSliceDefaultItem {
+  /**
+   * Picture field in *Team → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.items[].picture
+   * - **Documentation**: https://prismic.io/docs/core-concepts/image
+   *
+   */
+  picture: prismicT.ImageField<never>;
+  /**
+   * name field in *Team → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.items[].name
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  name: prismicT.KeyTextField;
+  /**
+   * Job title field in *Team → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.items[].job_title
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  job_title: prismicT.KeyTextField;
+  /**
+   * presentation field in *Team → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.items[].presentation
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  presentation: prismicT.KeyTextField;
+  /**
+   * Phone number field in *Team → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.items[].phone_number
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  phone_number: prismicT.KeyTextField;
+  /**
+   * email field in *Team → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: team.items[].email
+   * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+   *
+   */
+  email: prismicT.KeyTextField;
+}
+/**
+ * Default variation for Team Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Default`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TeamSliceDefault = prismicT.SharedSliceVariation<
+  "default",
+  Simplify<TeamSliceDefaultPrimary>,
+  Simplify<TeamSliceDefaultItem>
+>;
+/**
+ * Slice variation for *Team*
+ *
+ */
+type TeamSliceVariation = TeamSliceDefault;
+/**
+ * Team Shared Slice
+ *
+ * - **API ID**: `team`
+ * - **Description**: `Team`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TeamSlice = prismicT.SharedSlice<"team", TeamSliceVariation>;
+/**
  * Primary content in TeamCallout → Primary
  *
  */
@@ -1372,6 +1481,11 @@ declare module "@prismicio/client" {
       StrengthsSliceDefault,
       StrengthsSliceVariation,
       StrengthsSlice,
+      TeamSliceDefaultPrimary,
+      TeamSliceDefaultItem,
+      TeamSliceDefault,
+      TeamSliceVariation,
+      TeamSlice,
       TeamCalloutSliceDefaultPrimary,
       TeamCalloutSliceDefault,
       TeamCalloutSliceVariation,

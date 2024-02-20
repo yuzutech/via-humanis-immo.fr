@@ -43,11 +43,6 @@ export default function Contact({id, contactTel, contactName, contactEmail}) {
     }
   }, [lastname, firstname, email, phone])
   return (<div>
-    <header className={styles.header}>
-      <h3 className={styles.contactName}>{contactName}</h3>
-      <div className={styles.contactTel}><a href={"tel:" + contactTel.replaceAll(' ', '')}>{contactTel}</a></div>
-      <div className={styles.contactEmail}><a href={"mailto:" + contactEmail}>{contactEmail}</a></div>
-    </header>
     <div className={styles.form}>
       {formState.state === 'success' && <div className={styles.success}>Formulaire envoyé.<br/>Nous reviendrons vers vous rapidement.</div>}
       {formState.state === 'error' && <div className={styles.error}>Impossible d&rsquo;envoyer le formulaire.<br/>Merci de nous contacter directement par email ou par téléphone.</div>}

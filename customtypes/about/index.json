@@ -8,7 +8,12 @@
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
-        "config": { "choices": { "overview": { "type": "SharedSlice" } } }
+        "config": {
+          "choices": {
+            "overview": { "type": "SharedSlice" },
+            "team": { "type": "SharedSlice" }
+          }
+        }
       }
     }
   }

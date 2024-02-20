@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4.25em 1em 5em;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    max-width: 1200px;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2.75rem;
+}
+
+.picture {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+}
+
+.jobTitle {
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    color: var(--grey-color-100);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+}
+
+.members {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+.members > :nth-child(2n+1) {
+    text-align: end;
+    justify-content: end;
+}
+
+.members > :nth-child(2n) {
+    flex-direction: row;
+    justify-content: start;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .member {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 1058px) {
+    .members {
+        justify-content: center;
+    }
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 1em;
+    align-items: center;
+    min-width: 490px;
+    max-width: calc(50% - 22px);
+    flex: 1;
+}
+
+.presentation {
+    font-size: 0.875rem;
+    color: var(--grey-color-100);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.contactInfo {
+    display: flex;
+    gap: 0.25em;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+}
+
+.contactEmail > a {
+    color: var(--brand-color);
+}
+
+.contactPhone > a {
+    color: var(--brand-color);
+}
+
+.contactPhone::after {
+    content: '•';
+    padding-left: 0.25em
+}

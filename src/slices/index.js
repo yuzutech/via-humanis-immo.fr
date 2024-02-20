@@ -11,6 +11,7 @@ export const components = {
   overview: dynamic(() => import("./IllustratedContent")),
   projects: dynamic(() => import("./Projects")),
   strengths: dynamic(() => import("./Strengths")),
+  team: dynamic(() => import("./Team")),
   team_callout: dynamic(() => import("./TeamCallout")),
   testimonies: dynamic(() => import("./Testimonies")),
   value_proposition: dynamic(() => import("./ValueProposition")),

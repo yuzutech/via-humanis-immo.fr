@@ -1,4 +1,4 @@
-import {useCallback, useEffect, useState} from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import {Modal, useInput} from '@geist-ui/core'
 import clsx from 'clsx'
 
@@ -9,11 +9,18 @@ import Button from '@/components/button.js'
 
 import styles from './contactModal.module.css'
 
-export default function ContactModal({setVisible, bindings}) {
-  const {state: object, setState: setObject, bindings: objectBindings} = useInput('gestion-locative')
+export default function ContactModal({setVisible, bindings, type = 'gestion-locative'}) {
+  const {state: object, setState: setObject, bindings: objectBindings} = useInput(type)
   const {state: email, setState: setEmail, bindings: emailBindings} = useInput('')
   const {state: message, setState: setMessage, bindings: messageBinding} = useInput('')
   const [formState, setFormState] = useState({state: 'invalid', error: null})
+  const contactPhoneNumber = useMemo(() => {
+    if (object === 'gestion-locative') {
+      return '04 72 17 99 21'
+    }
+    return '04 85 92 98 41'
+  }, [object])
+  const telContactPhoneNumber = useMemo(() => `tel:+33${contactPhoneNumber.substring(1).replaceAll(' ', '')}`, [contactPhoneNumber])
 
   const handleSubmitForm = useCallback(() => {
     setFormState({state: 'sending', error: null})
@@ -56,8 +63,8 @@ export default function ContactModal({setVisible, bindings}) {
     </Modal.Title>
     <Modal.Content>
       <h5 className={styles.contactTitle}>Par mail ou téléphone</h5>
-      <div className={styles.contactEmail}><a href="mailto:hello@vh-immobilier.fr">hello@vh-immobilier.fr</a></div>
-      <div className={styles.contactPhone}><a href="tel:+33400000000">04 00 00 00 00</a></div>
+      <div className={styles.contactEmail}><a href="mailto:contact@via-humanis-immo.fr">contact@via-humanis-immo.fr</a></div>
+      <div className={styles.contactPhone}><a href={telContactPhoneNumber}>{contactPhoneNumber}</a></div>
       {formState.state === 'success' && <div className={styles.success}>Formulaire de contact envoyé.<br/>Nous reviendrons vers vous rapidement.</div>}
       {formState.state === 'error' && <div className={styles.error}>Impossible d&rsquo;envoyer le formulaire.<br/>Merci de nous contacter directement par email ou par téléphone.</div>}
       {formState.state !== 'success' && formState.state !== 'error' && <form className={styles.contactForm}>
