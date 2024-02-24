@@ -8672,16 +8672,16 @@ PAS DE FRAIS D'AGENCE.
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>55255260</AFF_ID>
-<AFF_ORIGIN_ID>55255260</AFF_ORIGIN_ID>
-<AFF_NUM>T3MAURICEBELLEMAIN</AFF_NUM>
-<DATE_CREATION>2024-02-13 15:32:45</DATE_CREATION>
-<DATE_MAJ>15/02/2024</DATE_MAJ>
+<AFF_ID>55251570</AFF_ID>
+<AFF_ORIGIN_ID>55251570</AFF_ORIGIN_ID>
+<AFF_NUM>AGT4CHAVASSIEUX</AFF_NUM>
+<DATE_CREATION>2024-02-12 17:22:27</DATE_CREATION>
+<DATE_MAJ>22/02/2024</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813261</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=030dd3d7afa4a2493604a100bf21244c&products_id=55255260&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=f8ccd527bc22c772d78e5b670f3f4954&products_id=55251570&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -8750,27 +8750,27 @@ PAS DE FRAIS D'AGENCE.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>507.9</LOYER>
+<LOYER>474.7</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Exclusif</TYPE_MANDAT>
-<DATE_MANDAT>13/02/2024</DATE_MANDAT>
+<DATE_MANDAT>12/02/2024</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>507.9</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>415.61</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>474.7</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>53.31</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[507.9]]>
+<![CDATA[474.7]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CATEGORIE_MERE>37</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69005 LYON]]>
+<![CDATA[42000 SAINT ETIENNE]]>
 </CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>40</SURFACE_HABITABLE>
+<NBRE_PIECES>4</NBRE_PIECES>
+<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>74.1</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -8779,17 +8779,24 @@ PAS DE FRAIS D'AGENCE.
 <NBRE_NIVEAUX>1</NBRE_NIVEAUX>
 <ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
 <NBRE_WC>1</NBRE_WC>
+<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>
 <CUISINE>
 <![CDATA[Nue]]>
 </CUISINE>
 <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>6</NUM_ETAGE>
+<CHAUFFAGE>
+<![CDATA[Individuel]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<NUM_ETAGE>3</NUM_ETAGE>
 <DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>13</NUM_DERNIER_ETAGE>
-<ASCENSEUR>1</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
+<ASCENSEUR>0</ASCENSEUR>
 <INTERPHONE>1</INTERPHONE>
 <DIGICODE>1</DIGICODE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
@@ -8799,13 +8806,9 @@ PAS DE FRAIS D'AGENCE.
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>13</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<NBRE_ETAGE>0</NBRE_ETAGE>
 <CALME>1</CALME>
 <CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
@@ -8828,17 +8831,17 @@ PAS DE FRAIS D'AGENCE.
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>13/02/2025</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>12/02/2025</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
 <BAIL>0</BAIL>
 <CPVILLEWEB>
-<![CDATA[69005 LYON]]>
+<![CDATA[42000 SAINT ETIENNE]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[13/02/2024]]>
+<![CDATA[12/02/2024]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -8848,20 +8851,19 @@ PAS DE FRAIS D'AGENCE.
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[923.51]]>
+<![CDATA[528.01]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[507.9]]>
+<![CDATA[474.7]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[T3MAURICEBELLEMAIN]]>
+<![CDATA[AGT4CHAVASSIEUX]]>
 </REF_AFFAIRE>
 <REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
@@ -8921,14 +8923,14 @@ PAS DE FRAIS D'AGENCE.
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69005</CODE_POSTAL>
+<CODE_POSTAL>42000</CODE_POSTAL>
 <VILLE>
-<![CDATA[LYON]]>
+<![CDATA[SAINT ETIENNE]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>69385</INSEE>
+<INSEE>42218</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -8936,7 +8938,7 @@ PAS DE FRAIS D'AGENCE.
 <![CDATA[]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[MAURICE BELLEMAIN]]>
+<![CDATA[]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -8971,7 +8973,7 @@ PAS DE FRAIS D'AGENCE.
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[Appartement T3 de 40 m² à Lyon 5ème]]>
+<![CDATA[Appartement T4 de 74,10 m² à Saint-Etienne]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -8985,14 +8987,17 @@ PAS DE FRAIS D'AGENCE.
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Rue Maurice Bellemain, à Lyon 5ème, un appartement T3 de 40 m² est disponible au 6ème étage avec ascenseur. 
-Il possède une entrée, un séjour donnant sur un balcon, une cuisine fermée non-équipée, 2 chambres, une salle de bains et un WC indépendant. 
+<![CDATA[Au 12 rue Chavassieux, à Saint-Etienne, un appartement T4 de 74,10 m² au 3ème étage sans ascenseur est disponible. 
+Il possède une entrée, 3 chambres, un séjour, une cuisine semi-ouverte non-équipée, une salle d'eau et un WC indépendant. 
 
 DPE : D. 
 
-Loyer CC : 653,51  euros dont 145,61  eurosde charges comprenant l'entretien des parties communes, l'eau froide.
+Loyer CC : 528,01  eurosdont 53,31  eurosde charges comprenant l'entretien des parties communes. 
 Dépôt de garantie : 1 mois de loyer HC.
 PAS DE FRAIS D'AGENCE.
+
+*Disponible de suite.
+**Logement social et soumis à des conditions de ressources. 
 
 *Disponible de suite. 
 **Logement social et soumis à des conditions de ressources. 
@@ -9025,11 +9030,13 @@ PAS DE FRAIS D'AGENCE.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/5/2/6/0/55255260a.jpg?DATEMAJ=13/02/2024-17:02:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/5/2/6/0/55255260b.jpg?DATEMAJ=13/02/2024-17:02:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/5/2/6/0/55255260c.jpg?DATEMAJ=13/02/2024-17:02:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/5/2/6/0/55255260d.jpg?DATEMAJ=13/02/2024-17:02:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/5/2/6/0/55255260e.jpg?DATEMAJ=13/02/2024-17:02:13</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570a.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570c.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570e.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570f.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570g.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570h.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/2/5/1/5/7/0/55251570i.jpg?DATEMAJ=22/02/2024-15:24:37</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
