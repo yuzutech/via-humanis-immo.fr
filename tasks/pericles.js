@@ -181,7 +181,7 @@ async function getPropertiesFromXml(xmlFile) {
       category = 'maison'
     } else if (p['FOND_COMMERCE']) {
       category = 'fond de commerce'
-    } else if (p['FOND_COMMERCE']) {
+    } else if (p['LOCAL_PROFESSIONNEL']) {
       category = 'local professionnel'
     } else if (p['TERRAIN']) {
       category = 'terrain'
