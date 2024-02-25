@@ -200,10 +200,14 @@ async function getPropertiesFromXml(xmlFile) {
     property.withPostalCode(p['LOCALISATION']['CODE_POSTAL'])
     if (category === 'maison' || category === "appartement") {
       const detail = p['MAISON'] || p['APPARTEMENT']
-      property.withEnergyConsumptionClass('CONSOMMATIONENERGETIQUE' in detail && detail['CONSOMMATIONENERGETIQUE'])
-      property.withGES(detail['GAZEFFETDESERRE'])
-      property.withFloorArea(detail['SURFACE_HABITABLE'])
-      property.withRooms(detail['NBRE_CHAMBRES'])
+      if (detail) {
+        property.withEnergyConsumptionClass(detail['CONSOMMATIONENERGETIQUE'])
+        property.withGES(detail['GAZEFFETDESERRE'])
+        property.withFloorArea(detail['SURFACE_HABITABLE'])
+        property.withRooms(detail['NBRE_CHAMBRES'])
+      } else {
+        console.log('No detail found!', p)
+      }
     }
     property.withDescription(p['COMMENTAIRES']['FR'])
     const agency = p['AGENCE']
