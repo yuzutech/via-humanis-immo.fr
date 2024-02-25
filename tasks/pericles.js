@@ -200,7 +200,7 @@ async function getPropertiesFromXml(xmlFile) {
     property.withPostalCode(p['LOCALISATION']['CODE_POSTAL'])
     if (category === 'maison' || category === "appartement") {
       const detail = p['MAISON'] || p['APPARTEMENT']
-      property.withEnergyConsumptionClass(detail['CONSOMMATIONENERGETIQUE'])
+      property.withEnergyConsumptionClass('CONSOMMATIONENERGETIQUE' in detail && detail['CONSOMMATIONENERGETIQUE'])
       property.withGES(detail['GAZEFFETDESERRE'])
       property.withFloorArea(detail['SURFACE_HABITABLE'])
       property.withRooms(detail['NBRE_CHAMBRES'])
