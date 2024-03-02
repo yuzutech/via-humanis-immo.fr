@@ -2,15 +2,15 @@
 <LISTEPA>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>54296572</AFF_ID>
-<AFF_ORIGIN_ID>54296572</AFF_ORIGIN_ID>
-<AFF_NUM>A602</AFF_NUM>
-<DATE_CREATION>2023-10-13 18:05:45</DATE_CREATION>
-<DATE_MAJ>28/02/2024</DATE_MAJ>
-<LIBRELE>27/02/2024</LIBRELE>
+<AFF_ID>54291553</AFF_ID>
+<AFF_ORIGIN_ID>54291553</AFF_ORIGIN_ID>
+<AFF_NUM>A205</AFF_NUM>
+<DATE_CREATION>2023-10-12 17:59:36</DATE_CREATION>
+<DATE_MAJ>29/02/2024</DATE_MAJ>
+<LIBRELE>28/02/2024</LIBRELE>
 <NEGO>815410</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=6b098e2b5d5def98ab2dd70aa41511cb&products_id=54296572&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=90ca50d84e3f8b890a53f989c6f02008&products_id=54291553&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -82,19 +82,18 @@
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1085</LOYER>
+<LOYER>989.83</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>06/11/2023</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1085</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>145</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>990</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>106.1</PROVISION_SUR_CHARGES>
 <HONO_ETAT_LIEUX_LOC>1</HONO_ETAT_LIEUX_LOC>
 <HONO_ETAT_LIEUX_BAILLEUR>1</HONO_ETAT_LIEUX_BAILLEUR>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1085]]>
+<![CDATA[989.83]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -102,9 +101,9 @@
 <CPVILLE>
 <![CDATA[69100 VILLEURBANNE]]>
 </CPVILLE>
-<NBRE_PIECES>5</NBRE_PIECES>
-<NBRE_CHAMBRES>4</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>103.35</SURFACE_HABITABLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>69.8</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -118,7 +117,6 @@
 <ETAT_GENERAL>
 <![CDATA[Très bon état]]>
 </ETAT_GENERAL>
-<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>
 <CUISINE>
 <![CDATA[Nue]]>
 </CUISINE>
@@ -127,17 +125,16 @@
 <![CDATA[Individuel]]>
 </CHAUFFAGE>
 <MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<NUM_ETAGE>6</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
+<NUM_ETAGE>2</NUM_ETAGE>
 <NUM_DERNIER_ETAGE>6</NUM_DERNIER_ETAGE>
 <ASCENSEUR>1</ASCENSEUR>
 <INTERPHONE>1</INTERPHONE>
 <DIGICODE>1</DIGICODE>
+<CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
 <DATE_DPE>09/11/2023</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>B</CONSO_ENERGIE_FINALE_LETTRE>
+<GAZEFFETDESERRE>B</GAZEFFETDESERRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<INDICE_DPN>B</INDICE_DPN>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
@@ -146,7 +143,6 @@
 <SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
 <CALME>1</CALME>
 <CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <NEUF_ANCIEN>Neuf</NEUF_ANCIEN>
@@ -191,7 +187,7 @@
 </HONO_NEGO_ET_ENTREMISE>
 <LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[1230]]>
+<![CDATA[1095.93]]>
 </LOYER_CC>
 <PRIX_DEPART>
 <![CDATA[343.1]]>
@@ -200,7 +196,7 @@
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[A602]]>
+<![CDATA[A205]]>
 </REF_AFFAIRE>
 <REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
@@ -314,7 +310,7 @@
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[T5 VILLEURBANNE - RUE JEAN JAURES]]>
+<![CDATA[T3 VILLEURBANNE - RUE JEAN JAURES]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -328,14 +324,15 @@
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Idéal famille (pas de colocation), appartement T5 NEUF de 103,35m² au 6ème et dernier étage avec ascenseur.
-Il est composé d'une entrée avec placards, un séjour/salle à manger donnant sur une belle terrasse de 22m2, une cuisine ouverte, une buanderie, 4 chambres, une salle d'eau + une salle de bain et un WC indépendant.
+<![CDATA[Appartement T3 de 69.80m² au 2e étage avec ascenseur, dans un immeuble livré en Novembre 2023.
+Il est composé d'une entrée avec placard, un séjour donnant sur balcon, une cuisine ouverte, 2 chambres sur balcon, une salle de bain et un WC indépendant.
+2 balcons de 7 et 8 m²
 Nouveau DPE : B 
-Loyer CC :  1230 euros dont  145 euros de charges comprenant l'entretien des parties communes et l'eau froide.
-Dépôt de garantie : 1085 euros
+Loyer CC :  1 095 euros dont 106 euros de charges comprenant l'entretien des parties communes et l'eau froide.
+Dépôt de garantie : 1 095  euros
 PAS DE FRAIS D'AGENCE.
-*Disponible Début Mars*
-** Logement soumis à conditions de ressources (Plafonds PLI) **
+*Disponible de suite
+**Logement soumis à conditions de ressources (PLI)
 ]]>
 </FR>
 <US>
@@ -365,16 +362,13 @@ PAS DE FRAIS D'AGENCE.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572a.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572b.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572c.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572d.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572e.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572f.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572g.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572h.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572i.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/6/5/7/2/54296572j.jpg?DATEMAJ=28/02/2024-17:25:07</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553a.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553b.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553c.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553d.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553e.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553f.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/4/2/9/1/5/5/3/54291553g.jpg?DATEMAJ=29/02/2024-15:29:40</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
