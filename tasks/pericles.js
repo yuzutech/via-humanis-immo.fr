@@ -167,7 +167,7 @@ async function getPropertiesFromXml(xmlFile) {
     }
     const sale = p['VENTE']
     if (sale) {
-      const price = parseFloat(parseFloat(rent['PRIX']).toFixed(2))
+      const price = parseFloat(parseFloat(sale['PRIX']).toFixed(2))
       property.withSalesPrice(price)
       property.withOffer('sale')
     }
