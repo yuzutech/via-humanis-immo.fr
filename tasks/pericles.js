@@ -204,7 +204,7 @@ async function getPropertiesFromXml(xmlFile) {
         property.withEnergyConsumptionClass(detail['CONSOMMATIONENERGETIQUE'])
         property.withGES(detail['GAZEFFETDESERRE'])
         property.withFloorArea(detail['SURFACE_HABITABLE'])
-        property.withRooms(detail['NBRE_CHAMBRES'])
+        property.withRooms(detail['NBRE_PIECES'])
       } else {
         console.log('No detail found!', p)
       }
