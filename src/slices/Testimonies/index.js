@@ -25,7 +25,7 @@ const Testimonies = ({slice}) => {
           {slice.items.map((item, index) => {
             return (<div key={index} className={styles.item}>
               <header>
-                <Image src={item.image.url} alt={item.image.alt || ''} width="80" height="80" aria-hidden={true}/>
+                {item.image.url && <Image src={item.image.url} alt={item.image.alt || ''} width="80" height="80" aria-hidden={true}/>}
                 <div className={styles.information}>
                   <h4 className={styles.name}>{item.name}</h4>
                   <h5 className={styles.job}>{item.info}</h5>
