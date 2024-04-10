@@ -32,7 +32,7 @@ export default function Footer() {
           <li><Link href="/location">Mise en location</Link></li>
           <li><Link href="/vente">Mise en vente</Link></li>
           <li><Link href="/recherche">Trouver un bien</Link></li>
-          <li><Link href="/actualites">Nos actualités</Link></li>
+          {/*<li><Link href="/actualites">Nos actualités</Link></li>*/}
           <li><Link href="/qui-sommes-nous">Qui sommes-nous ?</Link></li>
           <li><a className={styles.contact} onClick={openContactForm}>Contactez-nous</a></li>
         </ul>

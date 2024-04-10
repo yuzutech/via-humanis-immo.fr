@@ -18,7 +18,7 @@ export default function MobileMenu() {
     {href: '/location', name: 'Mise en location'},
     {href: '/vente', name: 'Mise en vente'},
     {href: '/recherche', name: 'Trouver un bien'},
-    {href: '/actualites', name: 'Nos actualités'},
+    // {href: '/actualites', name: 'Nos actualités'},
     {href: '/qui-sommes-nous', name: 'Qui sommes-nous ?'},
   ]
   const [showMenu, setShowMenu] = useState(false)
