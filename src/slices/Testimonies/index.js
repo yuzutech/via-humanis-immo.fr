@@ -23,13 +23,19 @@ const Testimonies = ({slice}) => {
         </div>
         <div className={styles.items}>
           {slice.items.map((item, index) => {
+            const dateFormat = new Intl.DateTimeFormat("fr-FR", {
+              day: "2-digit",
+              month: "short",
+              year: "numeric"
+            }).format(new Date(item.date));
             return (<div key={index} className={styles.item}>
               <header>
                 {item.image.url && <Image src={item.image.url} alt={item.image.alt || ''} width="80" height="80" aria-hidden={true}/>}
                 <div className={styles.information}>
                   <h4 className={styles.name}>{item.name}</h4>
                   <h5 className={styles.job}>{item.info}</h5>
-                  <div className={styles.date}>le {item.date}</div>
+                  <span>{item.date}</span>
+                  <div className={styles.date}>nous fait confiance depuis le {dateFormat}</div>
                 </div>
               </header>
               <div className={styles.text}>
