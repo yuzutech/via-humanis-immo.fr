@@ -14,10 +14,18 @@ export async function getCategories() {
   return res.json()
 }
 
-export async function getCities() {
-  const res = await fetch('/data/pericles/cities.json', {})
+export async function getRentalCities() {
+  const res = await fetch('/data/pericles/rental_cities.json', {})
   if (!res.ok) {
-    throw new Error('Failed to fetch cities')
+    throw new Error('Failed to fetch rental cities')
+  }
+  return res.json()
+}
+
+export async function getSaleCities() {
+  const res = await fetch('/data/pericles/sale_cities.json', {})
+  if (!res.ok) {
+    throw new Error('Failed to fetch sale cities')
   }
   return res.json()
 }

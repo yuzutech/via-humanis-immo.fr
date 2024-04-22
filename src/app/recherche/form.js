@@ -5,12 +5,14 @@ import clsx from 'clsx'
 
 import styles from './form.module.css'
 import {useSearchParams} from 'next/navigation'
-import {getCategories, getCities} from '@/app/data.js'
+import { getCategories, getRentalCities, getSaleCities } from '@/app/data.js'
 
 export default function SearchForm({onSearch}) {
   const searchParams = useSearchParams()
   const [categories, setCategories] = useState([])
   const [cities, setCities] = useState([])
+  const [saleCities, setSaleCities] = useState([])
+  const [rentalCities, setRentalCities] = useState([])
   const [searchContext, setSearchContext] = useState({
     offer: searchParams.get('offer') || 'rental',
     rooms: searchParams.get('rooms') || '',
@@ -24,10 +26,18 @@ export default function SearchForm({onSearch}) {
 
   useEffect(() => {
     (async () => {
+      const rentalCities = await getRentalCities()
+      setRentalCities(rentalCities)
+      const saleCities = await getSaleCities()
+      setSaleCities(saleCities)
+      if (searchContext.offer === 'rental') {
+        setCities(rentalCities)
+      } else {
+        setCities(saleCities)
+      }
       setCategories(await getCategories())
-      setCities(await getCities())
     })()
-  }, [setCategories, setCities])
+  }, [setCategories, setSaleCities, setRentalCities, setCities, searchContext])
 
   const handleSearch = useCallback(() => {
     onSearch(searchContext)
@@ -35,10 +45,16 @@ export default function SearchForm({onSearch}) {
 
   return (<div className={styles.form}>
       <h4 className={styles.title}>Nos biens disponibles :</h4>
-      <div className={styles.toggleButton} onClick={() => setSearchContext({ ...searchContext, offer: searchContext.offer === 'rental' ? 'sale' : 'rental' })}>
+      <div className={styles.toggleButton} onClick={() => {
+        setSearchContext({...searchContext, offer: searchContext.offer === 'rental' ? 'sale' : 'rental'})
+        if (searchContext.offer === 'rental') {
+          setCities(saleCities)
+        } else {
+          setCities(rentalCities)
+        }
+      }}>
         <div className={styles.toggleOptions}>
-        <span
-          className={clsx(styles.toggleOption, searchContext.offer === 'rental' && styles.toggleOptionActive)}>Location</span>
+          <span className={clsx(styles.toggleOption, searchContext.offer === 'rental' && styles.toggleOptionActive)}>Location</span>
           <span className={clsx(styles.toggleOption, searchContext.offer === 'sale' && styles.toggleOptionActive)}>Achat</span>
         </div>
       </div>
@@ -49,7 +65,7 @@ export default function SearchForm({onSearch}) {
           onChange={(event) => setSearchContext({...searchContext, location: event.target.value})}
         >
           <option value=""></option>
-          {cities.map((city) => (<option className={styles.city} key={city} value={city}>{city}</option>))}
+          {cities.map((city) => (<option className={styles.city} key={city.name} value={city.name}>{city.department} - {city.name}</option>))}
         </select>
       </div>
       <hr className={styles.separator}/>

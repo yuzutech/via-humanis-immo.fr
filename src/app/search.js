@@ -1,20 +1,13 @@
 'use client'
 
 import styles from './search.module.css'
-import {useCallback, useEffect, useState} from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import clsx from 'clsx'
-import {useRouter, useSearchParams} from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { getRentalCities, getSaleCities } from "@/app/data.js";
 
 async function getCategories() {
   const res = await fetch('/data/pericles/categories.json', {})
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
-  }
-  return res.json()
-}
-
-async function getCities() {
-  const res = await fetch('/data/pericles/cities.json', {})
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
@@ -29,17 +22,26 @@ export default function Search() {
   const [location, setLocation] = useState('')
   const [categories, setCategories] = useState([])
   const [cities, setCities] = useState([])
+  const [saleCities, setSaleCities] = useState([])
+  const [rentalCities, setRentalCities] = useState([])
   useEffect(() => {
     (async () => {
       const categories = await getCategories()
       setCategories(categories)
-      const cities = await getCities()
-      setCities(cities)
+      const rentalCities = await getRentalCities()
+      setRentalCities(rentalCities)
+      const saleCities = await getSaleCities()
+      setSaleCities(saleCities)
+      if (offer === 'rental') {
+        setCities(rentalCities)
+      } else {
+        setCities(saleCities)
+      }
     })()
-  }, [setCategories, setCities])
+  }, [setCategories, setCities, setSaleCities, setRentalCities, offer])
   const handleSearch = useCallback(() => {
     const params = new URLSearchParams(searchParams)
-    params.set('category',  category || 'appartement')
+    params.set('category', category || 'appartement')
     if (offer) {
       params.set('offer', offer)
     }
@@ -53,7 +55,14 @@ export default function Search() {
       <h2 className={styles.title}>Trouver un bien</h2>
       <div className={styles.form}>
         <div className={styles.toggleButton}
-             onClick={() => setOffer(offer === 'rental' ? 'sale' : 'rental')}>
+             onClick={() => {
+               setOffer(offer === 'rental' ? 'sale' : 'rental')
+               if (offer === 'rental') {
+                 setCities(saleCities)
+               } else {
+                 setCities(rentalCities)
+               }
+             }}>
           <div className={styles.toggleOptions}>
             <span className={clsx(offer === 'rental' && styles.toggleOptionActive)}>Location</span>
             <span className={clsx(offer === 'sale' && styles.toggleOptionActive)}>Achat</span>
@@ -66,7 +75,8 @@ export default function Search() {
             onChange={(event) => setCategory(event.target.value)}
           >
             <option value="" disabled hidden>Appartement</option>
-            {categories.map((category) => (<option className={styles.category} key={category} value={category}>{category}</option>))}
+            {categories.map((category) => (
+              <option className={styles.category} key={category} value={category}>{category}</option>))}
           </select>
         </div>
         <div className={styles.row}>
@@ -76,7 +86,7 @@ export default function Search() {
               onChange={(event) => setLocation(event.target.value)}
             >
               <option value="" disabled hidden>Localisation</option>
-              {cities.map((city) => (<option className={styles.city} key={city} value={city}>{city}</option>))}
+              {cities.map((city) => (<option className={styles.city} key={city.name} value={city.name}>{city.department} - {city.name}</option>))}
             </select>
           </div>
           <button className={styles.searchButton} onClick={handleSearch}>

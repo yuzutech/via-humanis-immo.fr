@@ -1,7 +1,8 @@
-import {fileURLToPath, URL} from 'node:url'
+import { fileURLToPath, URL } from 'node:url'
 import path from 'node:path'
 import fs from 'node:fs/promises'
-import { XMLParser} from 'fast-xml-parser'
+import { XMLParser } from 'fast-xml-parser'
+import * as b from "next/dist/telemetry/ci-info.js";
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const baseDirectory = path.join(__dirname, '..', 'public', 'data', 'pericles')
@@ -24,8 +25,8 @@ export class Property {
 
   withPostalCode(postalCode) {
     this.postalCode = postalCode
-    if (postalCode.length >= 2) {
-      this.department = postalCode.substring(0, 2)
+    if (postalCode.toString().length >= 2) {
+      this.department = postalCode.toString().substring(0, 2)
     }
     return this
   }
@@ -135,8 +136,36 @@ export async function updateData() {
   await fs.writeFile(path.join(baseDirectory, 'properties.json'), JSON.stringify(properties), 'utf8')
   const categories = Array.from(new Set(properties.map((p) => p.category))).sort()
   await fs.writeFile(path.join(baseDirectory, 'categories.json'), JSON.stringify(categories), 'utf8')
-  const cities = Array.from(new Set(properties.map((p) => p.city.toLowerCase()))).sort()
-  await fs.writeFile(path.join(baseDirectory, 'cities.json'), JSON.stringify(cities), 'utf8')
+  const rentalCities = Array.from(new Set(properties
+      .filter(p => p.offer === 'rental')
+      .map(p => JSON.stringify({
+        department: p.department,
+        name: p.city.toLowerCase()
+      }))
+    )
+  ).map(v => JSON.parse(v)).sort((a, b) => {
+    if (a.department === b.department) {
+      return a.name - b.name
+    } else {
+      return a.department - b.department
+    }
+  })
+  const saleCities = Array.from(new Set(properties
+      .filter(p => p.offer === 'sale')
+      .map(p => JSON.stringify({
+        department: p.department,
+        name: p.city.toLowerCase()
+      }))
+    )
+  ).map(v => JSON.parse(v)).sort((a, b) => {
+    if (a.department === b.department) {
+      return a.name - b.name
+    } else {
+      return a.department - b.department
+    }
+  })
+  await fs.writeFile(path.join(baseDirectory, 'rental_cities.json'), JSON.stringify(rentalCities), 'utf8')
+  await fs.writeFile(path.join(baseDirectory, 'sale_cities.json'), JSON.stringify(saleCities), 'utf8')
 }
 
 /**
