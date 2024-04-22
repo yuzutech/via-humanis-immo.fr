@@ -44,7 +44,7 @@ export default function ContactModal({setVisible, bindings, type = 'gestion-loca
     } else {
       setFormState({state: 'invalid', error: null})
     }
-  }, [email, object, message])
+  }, [email, message])
 
   return (<Modal {...bindings} onClose={() => {
     setVisible(false)
