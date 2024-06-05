@@ -88,7 +88,7 @@ export default async function Page({params}) {
           </article>
           <aside className={styles.contact}>
             <Contact id={property.id}
-                     ref={property.ref}
+                     propertyRef={property.ref}
                      contactName="Via Humanis Immobilier"
                      contactTel={property.contactTel}
                      contactEmail={property.contactEmail}
