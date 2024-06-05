@@ -53,6 +53,7 @@
 
 .sendButton {
     margin-top: 0.75em;
+    width: 100%;
 }
 
 .sendButton.disabled {

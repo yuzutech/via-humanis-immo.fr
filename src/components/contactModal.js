@@ -82,7 +82,7 @@ export default function ContactModal({setVisible, bindings, type = 'gestion-loca
           <label>Contenu du message</label>
           <TextArea bindings={messageBinding} className={styles.messageTextarea} placeholder="Entrez votre message"/>
         </fieldset>
-        <Button text="Envoyer" handleClick={handleSubmitForm} className={clsx(styles.contactSubmitButton, (formState.state === 'invalid' || formState.state === 'sending') && styles.disabled)}/>
+        <Button text="Envoyer" handleClick={handleSubmitForm} className={clsx(styles.contactSubmitButton, (formState.state === 'invalid' || formState.state === 'sending') && styles.disabled)} disabled={formState.state === 'invalid' || formState.state === 'sending'}/>
       </form>}
     </Modal.Content>
   </Modal>)

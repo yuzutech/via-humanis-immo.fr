@@ -57,7 +57,7 @@ export default function Contact({id, ref, contactTel, contactName, contactEmail}
           <Input bindings={emailBinding} label="Votre email" type="text"/>
         </div>
         <TextArea bindings={messageBinding} placeholder="Votre message (facultatif)"/>
-        <Button className={clsx(styles.sendButton, (formState.state === 'invalid' || formState.state === 'sending') && styles.disabled)} text="Envoyer" handleClick={handleSubmitForm}></Button>
+        <Button className={clsx(styles.sendButton, (formState.state === 'invalid' || formState.state === 'sending') && styles.disabled)} disabled={formState.state === 'invalid' || formState.state === 'sending'} text="Envoyer" handleClick={handleSubmitForm}></Button>
       </fieldset>
     }
     </div>
