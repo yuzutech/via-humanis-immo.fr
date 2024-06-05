@@ -31,6 +31,7 @@ export default function RootLayout({children}) {
         <input name="email"/>
         <input name="message"/>
         <input name="id"/>
+        <input name="ref"/>
       </form>
       <form hidden={true} name="estimation" data-netlify="true">
         <input name="propertyCategory"/>

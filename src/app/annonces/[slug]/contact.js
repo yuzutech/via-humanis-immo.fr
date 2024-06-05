@@ -10,7 +10,7 @@ import Button from '@/components/button.js'
 
 import styles from './contact.module.css'
 
-export default function Contact({id, contactTel, contactName, contactEmail}) {
+export default function Contact({id, ref, contactTel, contactName, contactEmail}) {
   const {state: lastname, bindings: lastnameBindings} = useInput('')
   const {state: firstname, bindings: firstnameBindings} = useInput('')
   const {state: phone, bindings: phoneBinding} = useInput('')
@@ -27,6 +27,7 @@ export default function Contact({id, contactTel, contactName, contactEmail}) {
     formData.set('email', email)
     formData.set('message', message)
     formData.set('id', id)
+    formData.set('ref', ref)
     fetch('/', {
       method: 'POST',
       headers: {'Content-Type': 'application/x-www-form-urlencoded'},

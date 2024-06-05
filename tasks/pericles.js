@@ -84,7 +84,12 @@ export class Property {
   }
 
   withId(id) {
-    this.id = id // n° ASP
+    this.id = id // id immo-facile
+    return this
+  }
+
+  withRef(ref) {
+    this.ref = ref // ref
     return this
   }
 
@@ -224,6 +229,7 @@ async function getPropertiesFromXml(xmlFile) {
       category = 'grange'
     }
     property.withId(String(p['INFO_GENERALES']['AFF_ID']))
+    property.withRef(String(p['INFO_GENERALES']['AFF_NUM']))
     property.withCategory(category)
     property.withCity(p['LOCALISATION']['VILLE'])
     property.withPostalCode(p['LOCALISATION']['CODE_POSTAL'])

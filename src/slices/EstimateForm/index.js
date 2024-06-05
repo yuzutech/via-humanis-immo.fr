@@ -87,7 +87,7 @@ const EstimateForm = ({slice}) => {
               </div>
               <div className={styles.row}>
                 <input {...contactInfoBinding} className={clsx(styles.input, styles.email)} type="text" placeholder="Entrez votre mail ou téléphone"/>
-                <Button className={clsx(styles.button, (formState.state === 'invalid' || formState.state === 'sending') && styles.disabled)} text="Envoyer la demande" handleClick={handleSubmitForm}></Button>
+                <Button className={clsx(styles.button, (formState.state === 'invalid' || formState.state === 'sending') && styles.disabled)} disabled={formState.state === 'invalid' || formState.state === 'sending'} text="Envoyer la demande" handleClick={handleSubmitForm}></Button>
               </div>
             </fieldset>}
           </div>
