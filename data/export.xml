@@ -8346,7 +8346,7 @@ Contacter : Isabelle GROSSETIE - grossetie.viahumanis@gmail.com - 06.69.95.06.27
 <AFF_ORIGIN_ID>56225519</AFF_ORIGIN_ID>
 <AFF_NUM>468</AFF_NUM>
 <DATE_CREATION>2024-07-24 10:49:39</DATE_CREATION>
-<DATE_MAJ>24/07/2024</DATE_MAJ>
+<DATE_MAJ>27/07/2024</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -8423,18 +8423,18 @@ Contacter : Isabelle GROSSETIE - grossetie.viahumanis@gmail.com - 06.69.95.06.27
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1656</LOYER>
+<LOYER>1470</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Exclusif</TYPE_MANDAT>
 <DATE_MANDAT>24/07/2024</DATE_MANDAT>
 <FRAIS_AGENCE>802.88</FRAIS_AGENCE>
-<DEPOT_GARANTIE>3312</DEPOT_GARANTIE>
+<DEPOT_GARANTIE>2940</DEPOT_GARANTIE>
 <PROVISION_SUR_CHARGES>30</PROVISION_SUR_CHARGES>
 <HONO_ETAT_LIEUX_LOC>185.28</HONO_ETAT_LIEUX_LOC>
 <HONO_ETAT_LIEUX_BAILLEUR>185.28</HONO_ETAT_LIEUX_BAILLEUR>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1656]]>
+<![CDATA[1470]]>
 </LOYER_BASE>                    </LOCATION>
 <MAISON>
 <SS_TYPE>2</SS_TYPE>
@@ -8467,6 +8467,7 @@ Contacter : Isabelle GROSSETIE - grossetie.viahumanis@gmail.com - 06.69.95.06.27
 <CHAUFFAGE>
 <![CDATA[Individuel]]>
 </CHAUFFAGE>
+<NUM_ETAGE>0</NUM_ETAGE>
 <NUM_DERNIER_ETAGE>1</NUM_DERNIER_ETAGE>
 <ETAT_INTERIEUR>
 <![CDATA[Bon]]>
@@ -8556,7 +8557,7 @@ Contacter : Isabelle GROSSETIE - grossetie.viahumanis@gmail.com - 06.69.95.06.27
 </HONO_NEGO_ET_ENTREMISE>
 <LOI_CARREZ>0</LOI_CARREZ>
 <LOYER_CC>
-<![CDATA[1686]]>
+<![CDATA[1500]]>
 </LOYER_CC>
 <PRIX_DEPART>
 <![CDATA[0]]>
@@ -8700,8 +8701,8 @@ Situé à proximité des commerces la maison est composée de 3 chambres, une entrée
 
 UN JARDIN  et une TERRASSE COMPLETE CE BIEN .
 
-Loyer CC :  1 686,00  euros (dont 30  euros de charges)
-Dépôt de garantie : 3 312  euros
+Loyer CC :  1 500,00  euros (dont 30  euros de charges : eau froide)
+Dépôt de garantie : 2 940  euros
 Honoraires d'agence : 802,88  euros dont 185,28  euros d'état des lieux
 ]]>
 </FR>
