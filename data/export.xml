@@ -731,15 +731,15 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>56234281</AFF_ID>
-<AFF_ORIGIN_ID>56234281</AFF_ORIGIN_ID>
-<AFF_NUM>FBT3BLACET</AFF_NUM>
-<DATE_CREATION>2024-07-26 17:16:12</DATE_CREATION>
-<DATE_MAJ>26/07/2024</DATE_MAJ>
-<LIBRELE>26/07/2024</LIBRELE>
+<AFF_ID>56239676</AFF_ID>
+<AFF_ORIGIN_ID>56239676</AFF_ORIGIN_ID>
+<AFF_NUM>FBT4ANNONAYDEUME</AFF_NUM>
+<DATE_CREATION>2024-07-29 16:56:34</DATE_CREATION>
+<DATE_MAJ>29/07/2024</DATE_MAJ>
+<LIBRELE>29/07/2024</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=149df30204fa65346d286cafc54b11f6&products_id=56234281&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=cc2e5dcf263ca55191678de89875dba6&products_id=56239676&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -811,27 +811,29 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>430.26</LOYER>
+<LOYER>401.98</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>26/07/2024</DATE_MANDAT>
-<FRAIS_AGENCE>0</FRAIS_AGENCE>
-<DEPOT_GARANTIE>4300</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>115.47</PROVISION_SUR_CHARGES>
+<DATE_MANDAT>29/07/2024</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>401</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>198.28</PROVISION_SUR_CHARGES>
+<HONO_ETAT_LIEUX_LOC>1</HONO_ETAT_LIEUX_LOC>
+<HONO_ETAT_LIEUX_BAILLEUR>1</HONO_ETAT_LIEUX_BAILLEUR>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[430.26]]>
+<![CDATA[401.98]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CATEGORIE_MERE>37</CATEGORIE_MERE>
 <CPVILLE>
 <![CDATA[42000 SAINT ETIENNE]]>
 </CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>72</SURFACE_HABITABLE>
+<NBRE_PIECES>4</NBRE_PIECES>
+<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>80</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -842,24 +844,22 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <CATEGORIE>1</CATEGORIE>
 <NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
 <NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>5</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>8</NUM_DERNIER_ETAGE>
+<NUM_ETAGE>15</NUM_ETAGE>
+<DERNIER_ETAGE>1</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>15</NUM_DERNIER_ETAGE>
 <ASCENSEUR>1</ASCENSEUR>
-<CONSOMMATIONENERGETIQUE>E</CONSOMMATIONENERGETIQUE>
+<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>28/07/2023</DATE_DPE>
-<GAZEFFETDESERRE>E</GAZEFFETDESERRE>
+<DATE_DPE>05/07/2022</DATE_DPE>
+<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>8</NBRE_ETAGE>
+<NBRE_ETAGE>15</NBRE_ETAGE>
 <SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
 <CALME>1</CALME>
 <CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <REGIME_FISCAL>
@@ -881,7 +881,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>26/07/2025</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>29/07/2025</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
@@ -891,7 +891,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <![CDATA[42000 SAINT ETIENNE]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[26/07/2024]]>
+<![CDATA[29/07/2024]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -901,7 +901,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[545.73]]>
+<![CDATA[600.26]]>
 </LOYER_CC>
 <PRIX_DEPART>
 <![CDATA[0]]>
@@ -910,7 +910,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[FBT3BLACET]]>
+<![CDATA[FBT4ANNONAYDEUME]]>
 </REF_AFFAIRE>
 <REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
@@ -1024,7 +1024,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[SAINT ETIENNE - T3 NOEL BLACET rénové - 72m2]]>
+<![CDATA[ANNONAY - T4 Avenue de l'Europe- rénové et balcon - 80m2]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -1038,21 +1038,22 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[SAINT ETIENNE - T3 NOEL BLACET rénové - 72 m2
+<![CDATA[ANNONAY - T4 Avenue de l'Europe- rénové et balcon - 80m2
 
 - Logement social soumis à conditions de ressources (PLUS) -
 Avis d'imposition 2023 sur 2022 indispensable pour toute candidature, ainsi qu'un NUMERO UNIQUE.
 
-Situé rue Crozet Boussingault à quelques minutes à pieds du rond point Franklin Roosevelt et du début du Cours Fauriel, ce T43est disponible à la location.
-Au 5eme étage AVEC ASCENSEUR, cet appartement T3 rénové est composé d'une cuisine séparée vide à aménager, d'une loggia, d'un salon ouvert sur la cuisine, de 2 chambres, d'un débarras, de rangement, d'une salle d'eau, et de toilette séparée.
- transport ligne M7 et S7 à proximité.
+Situé avenue de l'Europe à quelques pas de la gare routière ce T3 est disponible à la location.
+Au 15eme et dernier étage AVEC ASCENSEUR, cet appartement T4 entièrement rénové est composé d'une cuisine séparée vide à aménager , d'un salon avec donnant sur un balcon, de 3 chambres, d'une salle de bain, et de toilette séparée .
+Transports, écoles et commerces à proximité.
 Chauffage collectif au gaz.
 
 DPE nouvelle version : D
-Loyer CC : 545.73 EUR, dont 115.26 EUR de charges comprenant l'entretien des parties communes, provision sur le chauffage.
-Dépôt de garantie : 339 euros
+Loyer CC : 401.98 EUR, dont 198.28 EUR de charges comprenant l'entretien des parties communes, une provision sur le chauffage, l'eau chaude, le gaz et l'eau froide.
+Dépôt de garantie : 401 euros
 
 PAS DE FRAIS D'AGENCE
+DISPONIBLE DE SUITE
 ]]>
 </FR>
 <US>
@@ -1082,29 +1083,30 @@ PAS DE FRAIS D'AGENCE
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281a.jpg?DATEMAJ=26/07/2024-17:34:35</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281b.jpg?DATEMAJ=26/07/2024-17:34:42</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281c.jpg?DATEMAJ=26/07/2024-17:34:50</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281d.jpg?DATEMAJ=26/07/2024-17:34:58</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281e.jpg?DATEMAJ=26/07/2024-17:35:04</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281f.jpg?DATEMAJ=26/07/2024-17:35:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281g.jpg?DATEMAJ=26/07/2024-17:35:21</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/8/1/56234281h.jpg?DATEMAJ=26/07/2024-17:35:28</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676a.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676b.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676c.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676d.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676e.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676f.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676g.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/9/6/7/6/56239676h.jpg?DATEMAJ=29/07/2024-17:09:16</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>56234211</AFF_ID>
-<AFF_ORIGIN_ID>56234211</AFF_ORIGIN_ID>
-<AFF_NUM>FBT4CLAIRVILLE</AFF_NUM>
-<DATE_CREATION>2024-07-26 17:00:34</DATE_CREATION>
-<DATE_MAJ>26/07/2024</DATE_MAJ>
-<LIBRELE>26/07/2024</LIBRELE>
-<NEGO>813263</NEGO>
+<AFF_ID>56238876</AFF_ID>
+<AFF_ORIGIN_ID>56238876</AFF_ORIGIN_ID>
+<AFF_NUM>478</AFF_NUM>
+<DATE_CREATION>2024-07-29 12:28:22</DATE_CREATION>
+<DATE_MAJ>29/07/2024</DATE_MAJ>
+<LIBRELE>
+</LIBRELE>
+<NEGO>813261</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=44177a83c70f50f289349f51656ae47e&products_id=56234211&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=444ca884e64e434d695e8fc5ef239a58&products_id=56238876&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -1143,27 +1145,27 @@ PAS DE FRAIS D'AGENCE
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[BAROIS Florent ]]>
+<![CDATA[GAUDIN Alice ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[BAROIS]]>
+<![CDATA[GAUDIN]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Florent]]>
+<![CDATA[Alice]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 43 16 76 00]]>
+<![CDATA[06 66 11 35 22]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[barois@via-humanis-immo.fr]]>
+<![CDATA[gaudin@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[]]>
+<![CDATA[Conseiller en Immobilier]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -1176,27 +1178,27 @@ PAS DE FRAIS D'AGENCE
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>329.17</LOYER>
+<LOYER>654.35</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>26/07/2024</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>329</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>135.89</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[329.17]]>
+<TYPE_MANDAT>S</TYPE_MANDAT>
+<DATE_MANDAT>29/07/2024</DATE_MANDAT>
+<FRAIS_AGENCE>495</FRAIS_AGENCE>
+<PROVISION_SUR_CHARGES>50</PROVISION_SUR_CHARGES>
+<HONO_ETAT_LIEUX_LOC>140</HONO_ETAT_LIEUX_LOC>
+<HONO_ETAT_LIEUX_BAILLEUR>140</HONO_ETAT_LIEUX_BAILLEUR>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[654.35]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CATEGORIE_MERE>35</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[42000 SAINT ETIENNE]]>
+<![CDATA[69800 SAINT PRIEST]]>
 </CPVILLE>
-<NBRE_PIECES>4</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>66</SURFACE_HABITABLE>
+<NBRE_PIECES>2</NBRE_PIECES>
+<NBRE_CHAMBRES>1</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>50.89</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -1206,26 +1208,39 @@ PAS DE FRAIS D'AGENCE
 <ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
 <NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NBRE_WC>0</NBRE_WC>            <CUISINE>
+<![CDATA[Amenagée]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
+<CHAUFFAGE>
+<![CDATA[Individuel]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
 <NUM_ETAGE>4</NUM_ETAGE>
 <DERNIER_ETAGE>1</DERNIER_ETAGE>
 <NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<INTERPHONE>1</INTERPHONE>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
+<ETAT_INTERIEUR>
+<![CDATA[Bon]]>
+</ETAT_INTERIEUR>
+<CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>07/06/2022</DATE_DPE>
-<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
+<DATE_DPE>29/05/2019</DATE_DPE>
+<ESTIMATION_ANNUEL_STANDARD_EX_DPE>393</ESTIMATION_ANNUEL_STANDARD_EX_DPE>
+<CHARGE_ENERGIE_MIN>393</CHARGE_ENERGIE_MIN>
+<CHARGE_ENERGIE_MAX>393</CHARGE_ENERGIE_MAX>
+<GAZEFFETDESERRE>C</GAZEFFETDESERRE>
+<CONSO_ANNUEL_ENERGIE>70</CONSO_ANNUEL_ENERGIE>
+<CONSO_ENERGIE_FINALE>70</CONSO_ENERGIE_FINALE>
+<CONSO_ENERGIE_FINALE_LETTRE>B</CONSO_ENERGIE_FINALE_LETTRE>
+<VALEUR_GES>13</VALEUR_GES>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
 <NBRE_ETAGE>4</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <REGIME_FISCAL>
@@ -1247,17 +1262,16 @@ PAS DE FRAIS D'AGENCE
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>26/07/2025</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>29/07/2025</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
 <CPVILLEWEB>
-<![CDATA[42000 SAINT ETIENNE]]>
+<![CDATA[69800 SAINT PRIEST]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[26/07/2024]]>
+<![CDATA[29/07/2024]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -1267,26 +1281,27 @@ PAS DE FRAIS D'AGENCE
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[465.06]]>
+<![CDATA[704.35]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[329.17]]>
+<![CDATA[0]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[FBT4CLAIRVILLE]]>
+<![CDATA[478]]>
 </REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
+<![CDATA[355]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
 <VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[355]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>
+<ANNEE_REF_PRIX_ENERGIE>
+<![CDATA[15/08/2015]]>
+</ANNEE_REF_PRIX_ENERGIE>            <TITRE_VITRINE>
 <![CDATA[]]>
 </TITRE_VITRINE>
 <TEXTE_VITRINE>
@@ -1340,14 +1355,14 @@ PAS DE FRAIS D'AGENCE
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42000</CODE_POSTAL>
+<CODE_POSTAL>69800</CODE_POSTAL>
 <VILLE>
-<![CDATA[SAINT ETIENNE]]>
+<![CDATA[SAINT PRIEST]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>42218</INSEE>
+<INSEE>69290</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -1390,7 +1405,7 @@ PAS DE FRAIS D'AGENCE
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[T4 CROZET BOUSSINGAULT rénové - 66m2]]>
+<![CDATA[Appartement T2]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -1404,21 +1419,17 @@ PAS DE FRAIS D'AGENCE
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[SAINT ETIENNE - T4 CROZET BOUSSINGAULT rénové - 66m2
+<![CDATA[Au  4ème et dernier étage, superbe appartement comprenant une cuisine pré-équipée ouverte sur séjour, une chambre séparée, une salle de bains, et un WC indépendant. 
+Deux magnifiques terrasses agrémentent ce logement, l'une avec accès sur la chambre et l'autre sur le séjour, d'environ 12m² et 13m² !
 
-- Logement social soumis à conditions de ressources (PLUS) -
-Avis d'imposition 2023 sur 2022 indispensable pour toute candidature, ainsi qu'un NUMERO UNIQUE.
+Chaudière individuelle au gaz pour le chauffage et la production d'eau chaude.
+Prestations : volets roulants électriques, carrelage, faïence dans la salle de bain, ascenseur avec digicode
+Garage fermé en sous-sol inclus.
 
-Situé rue Crozet Boussingault à quelques minutes à pieds du rond point Franklin Roosevelt et du début du Cours Fauriel, ce T4 est disponible à la location.
-Au 4eme étage SANS ASCENSEUR, cet appartement T4 rénové est composé d'une cuisine séparée vide à aménager, d'une loggia, d'un salon donnant sur un petit balcon, de 3 chambres, d'une salle de bain, et de toilette séparée.
-Transports, 13, 80, M4, M6 et S6 à proximité.
-Chauffage collectif au gaz.
+Loyer CC : 704,35  euros (dont 50  euros de charges : charge copropriété + eau froide + taxe ordures ménagères)
+Dépôt de garantie : 654,35  euros
+Honoraires agence : 495,00  euros (dont 140  euros d'état des lieux)
 
-DPE nouvelle version : D
-Loyer CC : 465.06 EUR, dont 135.89 EUR de charges comprenant l'entretien des parties communes, provision sur l'eau chaude , le chauffage et le gaz.
-Dépôt de garantie : 339 euros
-
-PAS DE FRAIS D'AGENCE
 ]]>
 </FR>
 <US>
@@ -1448,16 +1459,7 @@ PAS DE FRAIS D'AGENCE
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211a.jpg?DATEMAJ=26/07/2024-17:04:30</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211b.jpg?DATEMAJ=26/07/2024-17:04:35</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211c.jpg?DATEMAJ=26/07/2024-17:04:40</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211d.jpg?DATEMAJ=26/07/2024-17:04:50</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211e.jpg?DATEMAJ=26/07/2024-17:04:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211f.jpg?DATEMAJ=26/07/2024-17:05:02</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211g.jpg?DATEMAJ=26/07/2024-17:05:06</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211h.jpg?DATEMAJ=26/07/2024-17:05:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211i.jpg?DATEMAJ=26/07/2024-17:05:21</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/4/2/1/1/56234211j.jpg?DATEMAJ=26/07/2024-17:05:27</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/3/8/8/7/6/56238876a.jpg?DATEMAJ=29/07/2024-12:28:46</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -1829,16 +1831,15 @@ DISPONIBLE DE SUITE
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>56173098</AFF_ID>
-<AFF_ORIGIN_ID>56173098</AFF_ORIGIN_ID>
-<AFF_NUM>462</AFF_NUM>
-<DATE_CREATION>2024-07-16 08:59:35</DATE_CREATION>
-<DATE_MAJ>19/07/2024</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>813260</NEGO>
+<AFF_ID>56148811</AFF_ID>
+<AFF_ORIGIN_ID>56148811</AFF_ORIGIN_ID>
+<AFF_NUM>FBT3ANNONAYDEUME</AFF_NUM>
+<DATE_CREATION>2024-07-11 11:46:52</DATE_CREATION>
+<DATE_MAJ>29/07/2024</DATE_MAJ>
+<LIBRELE>11/07/2024</LIBRELE>
+<NEGO>813263</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=f8f0d79b2b01dfebf145195edcff6065&products_id=56173098&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=00800ebcc4f3a96e153069c831798974&products_id=56148811&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -1877,27 +1878,27 @@ DISPONIBLE DE SUITE
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[BAROIS Florent ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[BAROIS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Florent]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 43 16 76 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[barois@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -1910,29 +1911,27 @@ DISPONIBLE DE SUITE
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>590</LOYER>
+<LOYER>361.46</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
-<NUM_MANDAT>MWVHI</NUM_MANDAT>
-<TYPE_MANDAT>Gestion</TYPE_MANDAT>
-<FRAIS_AGENCE>256</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1180</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>60</PROVISION_SUR_CHARGES>
-<HONO_ETAT_LIEUX_LOC>60</HONO_ETAT_LIEUX_LOC>
-<HONO_ETAT_LIEUX_BAILLEUR>60</HONO_ETAT_LIEUX_BAILLEUR>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>11/07/2024</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>3610</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>149.86</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[590]]>
+<![CDATA[361.46]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>34</CATEGORIE_MERE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69760 LIMONEST]]>
+<![CDATA[07100 ANNONAY]]>
 </CPVILLE>
-<NBRE_PIECES>1</NBRE_PIECES>
-<NBRE_CHAMBRES>0</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>19.6</SURFACE_HABITABLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>65</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -1942,38 +1941,20 @@ DISPONIBLE DE SUITE
 <ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
 <NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>1</NBRE_WC>
-<NBRE_BALCON>1</NBRE_BALCON>
-<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>            <CUISINE>
-<![CDATA[Equipee]]>
-</CUISINE>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Collectif]]>
-</CHAUFFAGE>
-<NUM_ETAGE>3</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
+<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NUM_ETAGE>11</NUM_ETAGE>
+<NUM_DERNIER_ETAGE>15</NUM_DERNIER_ETAGE>
 <ASCENSEUR>1</ASCENSEUR>
 <INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<GARDIEN>1</GARDIEN>
 <CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>20/07/2023</DATE_DPE>
-<CHARGE_ENERGIE_MIN>180</CHARGE_ENERGIE_MIN>
-<CHARGE_ENERGIE_MAX>310</CHARGE_ENERGIE_MAX>
-<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
-<CONSO_ANNUEL_ENERGIE>167</CONSO_ANNUEL_ENERGIE>
-<CONSO_ENERGIE_FINALE>167</CONSO_ENERGIE_FINALE>
-<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
-<VALEUR_GES>31</VALEUR_GES>
+<DATE_DPE>14/11/2023</DATE_DPE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
-<NBRE_ETAGE>0</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>15</NBRE_ETAGE>
 <CALME>1</CALME>
 <CLAIR>1</CLAIR>
 <VENDU>0</VENDU>
@@ -1997,58 +1978,46 @@ DISPONIBLE DE SUITE
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>16/07/2025</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>11/07/2025</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
-<ADDITIONALINFOS>
-<![CDATA[Loue]]>
-</ADDITIONALINFOS>
-<COMMENTAIRES_RDO>
-<![CDATA[Hono. Loc. Locat. : 190Hono. Etat Locat. : 60Hono. Etat Prop. : 60Total Hono. Prop. : 250PC chauffage : 1PC eau chaude : 1PC eau froide : 1Date état avanc. : 30/06/2023]]>
-</COMMENTAIRES_RDO>
+<BAIL>0</BAIL>
 <CPVILLEWEB>
-<![CDATA[69760 LIMONEST]]>
+<![CDATA[07100 ANNONAY]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[16/07/2024]]>
+<![CDATA[11/07/2024]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
 </DELAI_MANDAT>
+<FORME_MANDAT>Location</FORME_MANDAT>
 <HONO_NEGO_ET_ENTREMISE>
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
-<HONORAIRES_BAILLEUR>
-<![CDATA[190]]>
-</HONORAIRES_BAILLEUR>
-<LOGEMENT_OCCUPE>1</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[650]]>
+<![CDATA[511.32]]>
 </LOYER_CC>
-<NOTE_CONFIDENTIELLE>
-<![CDATA[Date mandat : 16/07/2024]]>
-</NOTE_CONFIDENTIELLE>
 <PRIX_DEPART>
-<![CDATA[261.96]]>
+<![CDATA[361.46]]>
 </PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[462]]>
+<![CDATA[FBT3ANNONAYDEUME]]>
 </REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
 <VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[196]]>
+<![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
 <VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[196]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>
-<ANNEE_REF_PRIX_ENERGIE>
-<![CDATA[01/01/2021]]>
-</ANNEE_REF_PRIX_ENERGIE>            <TITRE_VITRINE>
-<![CDATA[APPARTEMENT LIMONEST - 1 pièce(s) - 19.6 m2]]>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
 </TITRE_VITRINE>
 <TEXTE_VITRINE>
 <![CDATA[]]>
@@ -2101,22 +2070,22 @@ DISPONIBLE DE SUITE
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69760</CODE_POSTAL>
+<CODE_POSTAL>07100</CODE_POSTAL>
 <VILLE>
-<![CDATA[LIMONEST]]>
+<![CDATA[ANNONAY]]>
 </VILLE>
 <PAYS>
-<![CDATA[FRANCE]]>
+<![CDATA[France]]>
 </PAYS>
-<INSEE>69116</INSEE>
+<INSEE>07010</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
 <SITUATION>
-<![CDATA[ ]]>
+<![CDATA[]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[LA COUR DES MONTS D'OR]]>
+<![CDATA[]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -2151,10 +2120,10 @@ DISPONIBLE DE SUITE
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[APPARTEMENT LIMONEST - 1 pièce(s) - 19.6 m2]]>
+<![CDATA[Appartement Annonay 3 pièce(s) 65 m2]]>
 </FR>
 <US>
-<![CDATA[APPARTEMENT LIMONEST - 1 pièce(s) - 19.6 m2]]>
+<![CDATA[]]>
 </US>
 <DE>
 <![CDATA[]]>
@@ -2165,22 +2134,26 @@ DISPONIBLE DE SUITE
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Résidence LA COUR DES MONTS D'OR
-Dans une résidence étudiante, studio meublé de 19.60m² au 3ème étage avec ascenseur. Il possède une une pièce de vie avec cuisine ouverte semi-équipée (frigo, plaques de cuisson, micro-onde, meubles hauts et bas), une banquette lit de 140 cm, une table haute pour le coin repas, un meuble TV + télévision, une machine à laver, salle d'eau avec WC. 
-Cette résidence possède un gardien.
-Volets roulants électrique + balcon 
-1 place de parking extérieur vient compléter ce bien
-Disponible le 01/09/2024
-Loyer CC : 650EUR dont 60 EUR de charges comprenant chauffage, eau froide et eau chaude. 
-Dépôt de garantie : 1 180 EUR.
-Honoraires d'agence : 256 EUR dont 60 EUR d'état des lieux. 
-DPE NOUVELLE VERSION : D 
-Montant estimé des dépenses annuels d'énergie pour usage standard : Entre 180 EUR et 310 EUR/an.
+<![CDATA[ANNONAY - T3 Avenue de l'Europe- rénové et balcon - 65m2
+
+- Logement social soumis à conditions de ressources (PLUS) -
+Avis d'imposition 2023 sur 2022 indispensable pour toute candidature, ainsi qu'un NUMERO UNIQUE.
+
+Situé avenue de l'Europe à quelques pas de la gare routière ce T3 est disponible à la location.
+Au 11eme étage AVEC ASCENSEUR, cet appartement T3 entièrement rénové est composé d'une cuisine séparée vide à aménager , d'un salon avec donnant sur un balcon, de 2 chambres, d'une salle de bain, d'un espace de rangement et de toilette séparée .
+Transports, écoles et commerces à proximité.
+Chauffage collectif au gaz.
+
+DPE nouvelle version : D
+Loyer CC : 361.46 EUR, dont 149.86 EUR de charges comprenant l'entretien des parties communes, une provision sur le chauffage, l'eau chaude et l'eau froide.
+Dépôt de garantie : 361 euros
+
+PAS DE FRAIS D'AGENCE
+DISPONIBLE DE SUITE
 ]]>
 </FR>
 <US>
-<![CDATA[
-]]>
+<![CDATA[]]>
 </US>
 <DE>
 <![CDATA[]]>
@@ -2206,9 +2179,14 @@ Montant estimé des dépenses annuels d'énergie pour usage standard : Entre 180 EU
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/7/3/0/9/8/56173098a.jpg?DATEMAJ=16/07/2024-09:15:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/7/3/0/9/8/56173098b.jpg?DATEMAJ=16/07/2024-09:15:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/7/3/0/9/8/56173098c.jpg?DATEMAJ=16/07/2024-09:15:17</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811a.jpg?DATEMAJ=11/07/2024-11:48:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811b.jpg?DATEMAJ=11/07/2024-11:48:25</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811c.jpg?DATEMAJ=11/07/2024-11:48:31</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811d.jpg?DATEMAJ=11/07/2024-11:48:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811e.jpg?DATEMAJ=11/07/2024-11:48:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811f.jpg?DATEMAJ=11/07/2024-11:48:45</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811g.jpg?DATEMAJ=11/07/2024-11:48:48</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/4/8/8/1/1/56148811h.jpg?DATEMAJ=11/07/2024-11:48:56</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -2219,7 +2197,7 @@ Montant estimé des dépenses annuels d'énergie pour usage standard : Entre 180 EU
 <AFF_ORIGIN_ID>56131473</AFF_ORIGIN_ID>
 <AFF_NUM>FBT1ANNONAYCANCE</AFF_NUM>
 <DATE_CREATION>2024-07-08 15:50:09</DATE_CREATION>
-<DATE_MAJ>26/07/2024</DATE_MAJ>
+<DATE_MAJ>29/07/2024</DATE_MAJ>
 <LIBRELE>08/07/2024</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
@@ -2581,7 +2559,7 @@ DISPONIBLE DE SUITE
 <AFF_ORIGIN_ID>56131418</AFF_ORIGIN_ID>
 <AFF_NUM>FBT2ANNONAYCANCE</AFF_NUM>
 <DATE_CREATION>2024-07-08 15:37:32</DATE_CREATION>
-<DATE_MAJ>24/07/2024</DATE_MAJ>
+<DATE_MAJ>29/07/2024</DATE_MAJ>
 <LIBRELE>08/07/2024</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
@@ -3854,7 +3832,7 @@ Logement social et soumis à conditions de ressources (PLUS)
 <AFF_ORIGIN_ID>55958454</AFF_ORIGIN_ID>
 <AFF_NUM>AGT5PARTDIEUMEUBLE</AFF_NUM>
 <DATE_CREATION>2024-06-07 16:11:04</DATE_CREATION>
-<DATE_MAJ>11/07/2024</DATE_MAJ>
+<DATE_MAJ>29/07/2024</DATE_MAJ>
 <LIBRELE>01/07/2024</LIBRELE>
 <NEGO>815410</NEGO>
 <AFF_URL>
@@ -4617,737 +4595,6 @@ DISPONIBLE DE SUITE
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/9/1/3/1/9/2/55913192b.jpg?DATEMAJ=30/05/2024-17:25:24</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/9/1/3/1/9/2/55913192c.jpg?DATEMAJ=30/05/2024-17:25:25</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/9/1/3/1/9/2/55913192d.jpg?DATEMAJ=30/05/2024-17:25:28</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
-<AFF_ID>55842763</AFF_ID>
-<AFF_ORIGIN_ID>55842763</AFF_ORIGIN_ID>
-<AFF_NUM>FBT3LULLY1</AFF_NUM>
-<DATE_CREATION>2024-05-17 14:54:56</DATE_CREATION>
-<DATE_MAJ>26/07/2024</DATE_MAJ>
-<LIBRELE>16/05/2024</LIBRELE>
-<NEGO>813263</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=e7a25af5180130c9ef9ce9cac5b4d5c8&products_id=55842763&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400010</AGENCE_SIRET>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[BAROIS Florent ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[BAROIS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Florent]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 43 16 76 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[barois@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>289.36</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>17/05/2024</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<PROVISION_SUR_CHARGES>151.51</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[289.36]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[42000 SAINT ETIENNE]]>
-</CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>66</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>4</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>22/03/2022</DATE_DPE>
-<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>4</NBRE_ETAGE>
-<CLAIR>1</CLAIR>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>17/05/2025</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<CPVILLEWEB>
-<![CDATA[42000 SAINT ETIENNE]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[17/05/2024]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOYER_CC>
-<![CDATA[440.87]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[289.36]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[FBT3LULLY1]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42000</CODE_POSTAL>
-<VILLE>
-<![CDATA[SAINT ETIENNE]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>42218</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[SAINT ETIENNE - T3 SQUARE LULLY - 66m2]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[SAINT ETIENNE - T3 SQUARE LULLY - 66m2
-
-- Logement social soumis à conditions de ressources (PLUS) -
-Avis d'imposition 2023 sur 2022 indispensable pour toute candidature
-
-Situé dans le quartier Montreynaud à proximité de commerces et d'écoles, ce T3 est disponible à la location.
-
-Au 4eme et dernier étage sans ascenseur, cet appartement T3 est composé d'une cuisine vide à aménager, d'un salon donnant sur un balcon, de 2 chambres, d'une salle de bain et de toilette séparée.
-Transports et établissements scolaires à proximité.
-
-Chauffage collectif urbain.
-DPE nouvelle version : D
-
-Loyer CC : 440.87 EUR
-Dont 151.51 EUR de charges comprenant l'entretien des parties communes, provision sur l'eau chaude et le chauffage.
-Dépôt de garantie : 289 euros
-
-PAS DE FRAIS D'AGENCE
-DISPONIBLE DE SUITE
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763a.jpg?DATEMAJ=17/05/2024-15:05:26</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763b.jpg?DATEMAJ=17/05/2024-15:05:35</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763c.jpg?DATEMAJ=17/05/2024-15:05:46</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763d.jpg?DATEMAJ=17/05/2024-15:05:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763e.jpg?DATEMAJ=17/05/2024-15:06:03</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763f.jpg?DATEMAJ=17/05/2024-15:06:12</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/7/6/3/55842763g.jpg?DATEMAJ=17/05/2024-15:06:21</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
-<AFF_ID>55842479</AFF_ID>
-<AFF_ORIGIN_ID>55842479</AFF_ORIGIN_ID>
-<AFF_NUM>FBT4MONTFERRE</AFF_NUM>
-<DATE_CREATION>2024-05-17 14:18:07</DATE_CREATION>
-<DATE_MAJ>26/07/2024</DATE_MAJ>
-<LIBRELE>16/05/2024</LIBRELE>
-<NEGO>813263</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=3ba9d76aac29d0fc3d8b7612a86dee65&products_id=55842479&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400010</AGENCE_SIRET>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[BAROIS Florent ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[BAROIS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Florent]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 43 16 76 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[barois@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>357.88</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>17/05/2024</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<PROVISION_SUR_CHARGES>118.74</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[357.88]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>37</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[42100 SAINT ETIENNE]]>
-</CPVILLE>
-<NBRE_PIECES>4</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>69</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>4</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>04/11/2022</DATE_DPE>
-<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>0</NBRE_ETAGE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>17/05/2025</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<CPVILLEWEB>
-<![CDATA[42100 SAINT ETIENNE]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[17/05/2024]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOYER_CC>
-<![CDATA[476.62]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[357.88]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[FBT4MONTFERRE]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42100</CODE_POSTAL>
-<VILLE>
-<![CDATA[SAINT ETIENNE]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>42218</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[SAINT ETIENNE - T4 MONTFERRE - 69m2]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[SAINT ETIENNE - T4 MONFERRE/LA COTTONE - 69m2
-
-- Logement social soumis à conditions de ressources (PLUS) -
-Avis d'imposition 2023 sur 2022 indispensable pour toute candidature
-
-Situé Square L.D. VASTO, ce T4 est disponible à la location.
-
-Au 4eme étage SANS ASCENSEUR, cet appartement T4 est composé d'une cuisine vide à aménager, d'un salon, de 3 chambres, d'une salle de bain et de toilette séparée.
-Transports, commerces et établissements scolaires à proximité.
-Chauffage collectif au gaz.
-
-DPE nouvelle version : D
-Loyer CC : 357.88EUR, dont 118.74 EUR de charges comprenant l'entretien des parties communes et provision sur le chauffage.
-Dépôt de garantie : 357 euros
-
-PAS DE FRAIS D'AGENCE
-DISPONIBLE DE SUITE
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479a.jpg?DATEMAJ=17/05/2024-14:23:29</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479b.jpg?DATEMAJ=17/05/2024-14:23:39</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479c.jpg?DATEMAJ=17/05/2024-14:23:50</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479d.jpg?DATEMAJ=17/05/2024-14:24:02</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479e.jpg?DATEMAJ=17/05/2024-14:24:10</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479f.jpg?DATEMAJ=17/05/2024-14:24:18</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479g.jpg?DATEMAJ=17/05/2024-14:24:29</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479h.jpg?DATEMAJ=17/05/2024-14:24:39</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/4/2/4/7/9/55842479i.jpg?DATEMAJ=17/05/2024-14:24:50</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
