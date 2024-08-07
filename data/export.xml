@@ -331,16 +331,15 @@ Tel : 06.29.46.42.39
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>55302921</AFF_ID>
-<AFF_ORIGIN_ID>55302921</AFF_ORIGIN_ID>
-<AFF_NUM>AGMAISONMEYZIEUT4</AFF_NUM>
-<DATE_CREATION>2024-02-20 11:33:20</DATE_CREATION>
-<DATE_MAJ>17/06/2024</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>813261</NEGO>
+<AFF_ID>56272871</AFF_ID>
+<AFF_ORIGIN_ID>56272871</AFF_ORIGIN_ID>
+<AFF_NUM>BLT2MEUBLETASSIN</AFF_NUM>
+<DATE_CREATION>2024-08-06 15:49:00</DATE_CREATION>
+<DATE_MAJ>06/08/2024</DATE_MAJ>
+<LIBRELE>12/08/2024</LIBRELE>
+<NEGO>815410</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=5d4e5e4caccf5f6e460e11277b0e856d&products_id=55302921&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=bad0be26458ebb8c81ef3bc9e763f471&products_id=56272871&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -379,27 +378,27 @@ Tel : 06.29.46.42.39
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>815410</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
+<![CDATA[LAURENT Benjamin ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
+<![CDATA[LAURENT]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
+<![CDATA[Benjamin]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
+<![CDATA[07 50 54 90 23]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
+<![CDATA[laurent@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -411,100 +410,91 @@ Tel : 06.29.46.42.39
 <![CDATA[]]>
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
-<VENTE>
-<NUM_MANDAT>188</NUM_MANDAT>
-<TYPE_MANDAT>Simple</TYPE_MANDAT>
-<DATE_MANDAT>20/02/2024</DATE_MANDAT>
-<PRIX>418900.00</PRIX>
-<PRIX_NET>400000</PRIX_NET>
-<PRIX_HORS_HONO_ACQ>400000</PRIX_HORS_HONO_ACQ>
-<TAXE_FONCIERE>857</TAXE_FONCIERE>                    <POURCENTAGE_HONORAIRE>4.73</POURCENTAGE_HONORAIRE>
-<MONTANT_HONO_ACQ>18900.0000</MONTANT_HONO_ACQ>
-<CHARGE_HONORAIRES>Acquéreur</CHARGE_HONORAIRES>
+<LOCATION>
+<LOYER>840</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>S</TYPE_MANDAT>
+<DATE_MANDAT>06/08/2024</DATE_MANDAT>
+<FRAIS_AGENCE>611</FRAIS_AGENCE>
+<DEPOT_GARANTIE>1680</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>60</PROVISION_SUR_CHARGES>
+<HONO_ETAT_LIEUX_LOC>141</HONO_ETAT_LIEUX_LOC>
+<HONO_ETAT_LIEUX_BAILLEUR>141</HONO_ETAT_LIEUX_BAILLEUR>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-</VENTE>
-<MAISON>
-<SS_TYPE>2</SS_TYPE>
-<CATEGORIE_MERE>26</CATEGORIE_MERE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[840]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>35</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69330 MEYZIEU]]>
+<![CDATA[69160 TASSIN LA DEMI LUNE]]>
 </CPVILLE>
-<NBRE_PIECES>4</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>90</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>550</SURFACE_TERRAIN>
+<NBRE_PIECES>2</NBRE_PIECES>
+<NBRE_CHAMBRES>1</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>47.03</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>19.69</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
 <FACADE>0</FACADE>
 <PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>0</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>1993</ANNEE_CONSTRUCTION>
-<SURFACE_JARDIN>550</SURFACE_JARDIN>
-<CATEGORIE>2</CATEGORIE>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>2003</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
 <NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
 <NBRE_WC>1</NBRE_WC>
 <ETAT_GENERAL>
-<![CDATA[Bon Etat]]>
+<![CDATA[Excellent]]>
 </ETAT_GENERAL>
-<NBRE_GARAGE>1</NBRE_GARAGE>            <CUISINE>
-<![CDATA[Ouverte Aménagée]]>
+<NBRE_GARAGE>1</NBRE_GARAGE>            <SURFACE_TERRASSE>7</SURFACE_TERRASSE>
+<CUISINE>
+<![CDATA[IndependanteEquipee]]>
 </CUISINE>
-<MITOYENNETE>
-<![CDATA[Indépendant]]>
-</MITOYENNETE>
 <STANDING>
-<![CDATA[Normal]]>
+<![CDATA[Grand standing]]>
 </STANDING>
-<MEUBLE>0</MEUBLE>
+<MEUBLE>1</MEUBLE>
 <CHAUFFAGE>
 <![CDATA[Individuel]]>
 </CHAUFFAGE>
-<MECANISME_CHAUFFAGE>
-<![CDATA[Radiateur]]>
-</MECANISME_CHAUFFAGE>
-<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<MODE_CHAUFFAGE>Electrique</MODE_CHAUFFAGE>
 <TYPE_STATIONNEMENT>
 <![CDATA[0]]>
 </TYPE_STATIONNEMENT>
-<NUM_ETAGE>0</NUM_ETAGE>
-<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<NUM_ETAGE>2</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>5</NUM_DERNIER_ETAGE>
+<ASCENSEUR>1</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Oui</PORTAIL_ELECTRIQUE>
 <ETAT_INTERIEUR>
-<![CDATA[Bon]]>
+<![CDATA[Excellent]]>
 </ETAT_INTERIEUR>
 <INTERPHONE>1</INTERPHONE>
-<DIGICODE>0</DIGICODE>
+<DIGICODE>1</DIGICODE>
 <CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>17/05/2019</DATE_DPE>
-<ESTIMATION_ANNUEL_STANDARD_EX_DPE>1271</ESTIMATION_ANNUEL_STANDARD_EX_DPE>
-<GAZEFFETDESERRE>E</GAZEFFETDESERRE>
-<CONSO_ENERGIE_FINALE>206</CONSO_ENERGIE_FINALE>
-<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
-<VALEUR_GES>48</VALEUR_GES>
+<DATE_DPE>20/10/2021</DATE_DPE>
+<CHARGE_ENERGIE_MIN>740</CHARGE_ENERGIE_MIN>
+<CHARGE_ENERGIE_MAX>1040</CHARGE_ENERGIE_MAX>
+<GAZEFFETDESERRE>B</GAZEFFETDESERRE>
+<CONSO_ANNUEL_ENERGIE>248</CONSO_ANNUEL_ENERGIE>
+<VALEUR_GES>7</VALEUR_GES>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
 <VOLETS>
-<![CDATA[Métallique]]>
+<![CDATA[PVC Roulant]]>
 </VOLETS>
-<JARDIN>1</JARDIN>
-<ETAT_EXTERIEUR>
-<![CDATA[Bon]]>
-</ETAT_EXTERIEUR>
-<NBRE_ETAGE>0</NBRE_ETAGE>
-<CHAMBRE_RDC>3</CHAMBRE_RDC>
-<PLAIN_PIED>1</PLAIN_PIED>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>5</NBRE_ETAGE>
 <CALME>1</CALME>
 <CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Oui</ALARME>
+<ALARME>Non</ALARME>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
+<NEUF_ANCIEN>Recent</NEUF_ANCIEN>
 <REGIME_FISCAL>
 </REGIME_FISCAL>
 <TYPE_RESIDENCE>
@@ -524,37 +514,52 @@ Tel : 06.29.46.42.39
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>20/02/2025</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>06/08/2025</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
 <BAIL>0</BAIL>
-<COUT_ENERGIE>
-<![CDATA[1271]]>
-</COUT_ENERGIE>
+<COLOCATION>0</COLOCATION>
 <CPVILLEWEB>
-<![CDATA[69330 MEYZIEU]]>
+<![CDATA[69160 TASSIN LA DEMI LUNE]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[20/02/2024]]>
+<![CDATA[06/08/2024]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
 </DELAI_MANDAT>
-<ETAT_GENERAL>Bon Etat</ETAT_GENERAL>
-<FORME_MANDAT>Vente</FORME_MANDAT>
-<HONORAIRES>
-<![CDATA[18900]]>
-</HONORAIRES>
+<ETAT_GENERAL>Excellent</ETAT_GENERAL>
+<FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
+<LOYER_CC>
+<![CDATA[900]]>
+</LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[418900]]>
+<![CDATA[840]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
-<![CDATA[400000]]>
+<![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[AGMAISONMEYZIEUT4]]>
+<![CDATA[BLT2MEUBLETASSIN]]>
 </REF_AFFAIRE>
-<TYPE_TRANSACTION>Vente</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>            <TITRE_VITRINE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISA_VIS>0</VISA_VIS>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[470]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[470]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>
+<ANNEE_REF_PRIX_ENERGIE>
+<![CDATA[01/01/2021]]>
+</ANNEE_REF_PRIX_ENERGIE>            <TITRE_VITRINE>
 <![CDATA[]]>
 </TITRE_VITRINE>
 <TEXTE_VITRINE>
@@ -605,17 +610,17 @@ Tel : 06.29.46.42.39
 <TEXTE_PASSERELLE_ES>
 <![CDATA[]]>
 </TEXTE_PASSERELLE_ES>
-</MAISON>
+</APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69330</CODE_POSTAL>
+<CODE_POSTAL>69160</CODE_POSTAL>
 <VILLE>
-<![CDATA[MEYZIEU]]>
+<![CDATA[TASSIN LA DEMI LUNE]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>69282</INSEE>
+<INSEE>69244</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -628,8 +633,6 @@ Tel : 06.29.46.42.39
 <ACCES>
 </ACCES>
 <PROXIMITE>
-<BUS>4</BUS>
-<TRAMWAY>20</TRAMWAY>
 </PROXIMITE>
 </LOCALISATION>
 <DEFISCALISATION>
@@ -660,7 +663,7 @@ Tel : 06.29.46.42.39
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[Maison T4 de 90 m² à Meyzieu]]>
+<![CDATA[Appartement Tassin La Demi Lune 2 pièce(s) 47.03 m2]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -674,18 +677,23 @@ Tel : 06.29.46.42.39
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Dans le quartier La Jacquière, à proximité de commodités (Intermarché, pharmacie, école maternelle, école élémentaire, restaurants, tramway et bus TCL), une maison de plain-pied de 4 pièces à de 90 m² environ est disponible à la vente. 
+<![CDATA[A 3min de l'Horloge de Tassin et de tous ses commerces, dans une résidence récente et sécurisée avec piscine, bel appartement T2 entièrement meublé et rénové de 47m2, au 2e étage avec ascenseur. 
 
-Cette maison possède un terrain de 550 m², d'une entrée avec des rangements muraux, un séjour donnant sur une cuisine semi-équipée (meubles hauts et bas, four et micro-onde), un WC indépendant avec rangements et lave-main, une salle de bains et 3 chambres. 
-Un garage fermé attenant vient compléter ce bien. 
+Il est composé d'une entrée avec placard aménagé, d'un séjour donnant sur un beau balcon, d'une cuisine séparée entièrement équipée (avec notamment lave-linge et lave-vaisselle, plaques, four, hotte, réfrigérateur et micro-ondes), d'une chambre avec placard aménagée, d'une salle de bain (avec sèche-serviette) et d'un WC séparé.
 
-DPE : D.
-GES : E.
+Vous bénéficierez en complément d'un box fermé et sécurisé en sous-sol.
 
-Prix de vente TTC : 418 900  euros. 
-Honoraire d'agence : 18 900  euros à la charge de l'acquéreur. 
+DPE nouvelle version : D
+Chauffage et eau chaude individuel électrique.
 
-Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
+Loyer CC : 900 euros dont 60  euros de provision de charges comprenant l'entretien des parties communes ainsi que l'eau froide.
+Dépôt de garantie : 1680.00 euros.
+Honoraires d'agence : 611 euros dont 141 euros d'état des lieux. 
+
+*Disponible immédiatement
+
+CONTACT : Benjamin LAURENT - 07 50 54 90 23 - laurent@via-humanis-immo.fr
+
 ]]>
 </FR>
 <US>
@@ -699,7 +707,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 </ES>
 </COMMENTAIRES>
 <ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
+<COPROPRIETE>Oui</COPROPRIETE>
 <NB_LOTS>
 </NB_LOTS>
 <NB_LOTS_HAB>
@@ -715,16 +723,14 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921a.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921b.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921c.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921d.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921e.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921f.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921g.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921h.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921i.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/3/0/2/9/2/1/55302921j.jpg?DATEMAJ=22/05/2024-15:44:24</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871a.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871b.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871c.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871d.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871e.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871f.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871g.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/2/7/2/8/7/1/56272871h.jpg?DATEMAJ=06/08/2024-15:53:09</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -735,7 +741,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <AFF_ORIGIN_ID>56239676</AFF_ORIGIN_ID>
 <AFF_NUM>FBT4ANNONAYDEUME</AFF_NUM>
 <DATE_CREATION>2024-07-29 16:56:34</DATE_CREATION>
-<DATE_MAJ>30/07/2024</DATE_MAJ>
+<DATE_MAJ>06/08/2024</DATE_MAJ>
 <LIBRELE>29/07/2024</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
@@ -829,7 +835,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <SS_TYPE>1</SS_TYPE>
 <CATEGORIE_MERE>37</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[42000 ANNONAY]]>
+<![CDATA[07100 ANNONAY]]>
 </CPVILLE>
 <NBRE_PIECES>4</NBRE_PIECES>
 <NBRE_CHAMBRES>3</NBRE_CHAMBRES>
@@ -888,7 +894,7 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 <COUP_COEUR>0</COUP_COEUR>
 <BAIL>0</BAIL>
 <CPVILLEWEB>
-<![CDATA[42000 ANNONAY]]>
+<![CDATA[07100 ANNONAY]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
 <![CDATA[29/07/2024]]>
@@ -974,15 +980,14 @@ Disponible de suite.  (4.73 % honoraires TTC à la charge de l'acquéreur.)
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42000</CODE_POSTAL>
+<CODE_POSTAL>07100</CODE_POSTAL>
 <VILLE>
 <![CDATA[ANNONAY]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>
-</INSEE>
+<INSEE>07010</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
