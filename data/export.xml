@@ -331,393 +331,15 @@ Tel : 06.29.46.42.39
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>56336232</AFF_ID>
-<AFF_ORIGIN_ID>56336232</AFF_ORIGIN_ID>
-<AFF_NUM>AG-T4-VILLEURBANNE</AFF_NUM>
-<DATE_CREATION>2024-08-27 17:17:05</DATE_CREATION>
-<DATE_MAJ>28/08/2024</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>813261</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=338fc454c2a893fbda629361aa9d3121&products_id=56336232&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400010</AGENCE_SIRET>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>740.83</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>27/08/2024</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>740.83</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>165.32</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[740.83]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>37</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[69100 VILLEURBANNE]]>
-</CPVILLE>
-<NBRE_PIECES>4</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>64</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
-<NBRE_WC>1</NBRE_WC>            <CUISINE>
-<![CDATA[Nue]]>
-</CUISINE>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Collectif]]>
-</CHAUFFAGE>
-<MECANISME_CHAUFFAGE>
-<![CDATA[Radiateur]]>
-</MECANISME_CHAUFFAGE>
-<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<TYPE_STATIONNEMENT>
-<![CDATA[Extérieur]]>
-</TYPE_STATIONNEMENT>
-<NUM_ETAGE>4</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
-<INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>06/08/2020</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>4</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>27/08/2025</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<CPVILLEWEB>
-<![CDATA[69100 VILLEURBANNE]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[27/08/2024]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOYER_CC>
-<![CDATA[906.15]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[740.83]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[AG-T4-VILLEURBANNE]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69100</CODE_POSTAL>
-<VILLE>
-<![CDATA[VILLEURBANNE]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>69266</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[L'AURORE]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[Appartement T4 de 64 m² à Villeurbanne]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[Sur la résidence L'Aurore à Villeurbanne, à proximité de l'arrêt Laurent Bonnevay, un appartement T4 de 64 m² est disponible au 4ème étage SANS ASCENSEUR. 
-
-Il possède une entrée, un WC indépendant, une salle de bains, 3 chambres, une cuisine fermée non-équipée et un séjour. 
-
-Loyer CC : 906,15  euros dont 165,32  euros de charges comprenant l'entretien des parties communes, le chauffage, l'eau chaude et l'eau froide. 
-Dépôt de garantie : 1 mois de loyer HC. 
-PAS DE FRAIS D'AGENCE. 
-
-*Disponible de suite. 
-**Logement social et soumis à des conditions de ressources. 
-***Demande de logement social en cours de validité obligatoire. 
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/3/6/2/3/2/56336232a.jpg?DATEMAJ=27/08/2024-17:18:33</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/3/6/2/3/2/56336232b.jpg?DATEMAJ=27/08/2024-17:18:33</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/3/6/2/3/2/56336232c.jpg?DATEMAJ=27/08/2024-17:18:33</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/3/6/2/3/2/56336232d.jpg?DATEMAJ=27/08/2024-17:18:33</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/3/6/2/3/2/56336232e.jpg?DATEMAJ=27/08/2024-17:18:33</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/3/6/2/3/2/56336232f.jpg?DATEMAJ=27/08/2024-17:18:33</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
-<AFF_ID>56318331</AFF_ID>
-<AFF_ORIGIN_ID>56318331</AFF_ORIGIN_ID>
-<AFF_NUM>FBT4BISFIRMINY</AFF_NUM>
-<DATE_CREATION>2024-08-26 14:57:28</DATE_CREATION>
-<DATE_MAJ>26/08/2024</DATE_MAJ>
-<LIBRELE>26/08/2024</LIBRELE>
+<AFF_ID>56131418</AFF_ID>
+<AFF_ORIGIN_ID>56131418</AFF_ORIGIN_ID>
+<AFF_NUM>FBT2ANNONAYCANCE</AFF_NUM>
+<DATE_CREATION>2024-07-08 15:37:32</DATE_CREATION>
+<DATE_MAJ>29/08/2024</DATE_MAJ>
+<LIBRELE>08/07/2024</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=1ac1bd1e4155f0119db374cacaeda0b2&products_id=56318331&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=a315eb29c19fada56d63f168f2bc2be2&products_id=56131418&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -789,27 +411,27 @@ PAS DE FRAIS D'AGENCE.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>598.82</LOYER>
+<LOYER>239.68</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>26/08/2024</DATE_MANDAT>
+<DATE_MANDAT>08/07/2024</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>598</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>202.89</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>239</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>73.55</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[598.82]]>
+<![CDATA[239.68]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>38</CATEGORIE_MERE>
+<CATEGORIE_MERE>35</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[42700 FIRMINY]]>
+<![CDATA[07100 ANNONAY]]>
 </CPVILLE>
-<NBRE_PIECES>5</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>105</SURFACE_HABITABLE>
+<NBRE_PIECES>2</NBRE_PIECES>
+<NBRE_CHAMBRES>1</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>44</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -820,20 +442,22 @@ PAS DE FRAIS D'AGENCE.
 <CATEGORIE>1</CATEGORIE>
 <NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
 <NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>5</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>8</NUM_DERNIER_ETAGE>
-<ASCENSEUR>1</ASCENSEUR>
+<NUM_ETAGE>3</NUM_ETAGE>
+<DERNIER_ETAGE>1</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>3</NUM_DERNIER_ETAGE>
+<ASCENSEUR>0</ASCENSEUR>
 <CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>07/03/2023</DATE_DPE>
+<DATE_DPE>11/07/2024</DATE_DPE>
 <GAZEFFETDESERRE>D</GAZEFFETDESERRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
 <JARDIN>0</JARDIN>
-<NBRE_ETAGE>8</NBRE_ETAGE>
+<NBRE_ETAGE>3</NBRE_ETAGE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <REGIME_FISCAL>
@@ -855,17 +479,17 @@ PAS DE FRAIS D'AGENCE.
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>26/08/2025</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>08/07/2025</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
 <BAIL>0</BAIL>
 <CPVILLEWEB>
-<![CDATA[42700 FIRMINY]]>
+<![CDATA[07100 ANNONAY]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[26/08/2024]]>
+<![CDATA[08/07/2024]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -874,17 +498,18 @@ PAS DE FRAIS D'AGENCE.
 <HONO_NEGO_ET_ENTREMISE>
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
+<LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[801.71]]>
+<![CDATA[313.23]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[598.82]]>
+<![CDATA[239.68]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[FBT4BISFIRMINY]]>
+<![CDATA[FBT2ANNONAYCANCE]]>
 </REF_AFFAIRE>
 <REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
@@ -948,14 +573,14 @@ PAS DE FRAIS D'AGENCE.
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42700</CODE_POSTAL>
+<CODE_POSTAL>07100</CODE_POSTAL>
 <VILLE>
-<![CDATA[FIRMINY]]>
+<![CDATA[ANNONAY]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>42095</INSEE>
+<INSEE>07010</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -963,7 +588,7 @@ PAS DE FRAIS D'AGENCE.
 <![CDATA[]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[]]>
+<![CDATA[RESIDENCE CANCE]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -998,7 +623,7 @@ PAS DE FRAIS D'AGENCE.
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[FIRMINY- Grand T4 BIS place de la plantée - rénové et balcon - 105m2]]>
+<![CDATA[ANNONAY - T2 RUE DE L'ARCADE rénové - 44m2]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -1012,19 +637,19 @@ PAS DE FRAIS D'AGENCE.
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[FIRMINY- Grand T4 BIS place de la plantée - rénové et balcon - 105m2
+<![CDATA[ANNONAY - T2 RUE DE L'ARCADE- rénové et balcon - 44m2
 
 - Logement social soumis à conditions de ressources (PLUS) -
-Avis d'imposition 2023 sur 2022 indispensable pour toute candidature, ainsi qu'un NUMERO UNIQUE VALIDE.
+Avis d'imposition 2023 sur 2022 indispensable pour toute candidature, ainsi qu'un NUMERO UNIQUE.
 
-Situé place de la plantée, à quelques pas de la gare de Firminy et donnant sur la rue Victor Hugo, ce spacieux T4 BIS est disponible à la location.
-Au 4eme étage AVEC ASCENSEUR, cet appartement T4  Bis entièrement rénové est composé d'une cuisine séparée vide à aménager avec balcon, d'un salon double donnant sur un 2eme balcon, de 3 chambres, d'une salle de bain, de toilette séparée et de rangements.
-Transports, écoles et commerces à proximité.
-Chauffage collectif au gaz.
+Situé rue de l'arcade à quelques minutes à pieds de la place de la Liberté, ce T2 est disponible à la location.
+Au 3eme étage SANS ASCENSEUR, cet appartement T2 entièrement rénové est composé d'une cuisine séparée vide à aménager , d'un salon avec placard donnant sur un balcon, d'une chambre, d'une salle de bain  avec toilette et d'un espace de rangement.
+Transports et commerces  à proximité.
+Chauffage individuel au gaz.
 
 DPE nouvelle version : D
-Loyer CC : 801.71 EUR, dont 202.89 EUR de charges comprenant l'entretien des parties communes, une provision sur le gaz, le chauffage, l'eau chaude et l'eau froide.
-Dépôt de garantie : 598 euros
+Loyer CC : 313.23 EUR, dont 73.55 EUR de charges comprenant l'entretien des parties communes et une provision sur l'eau froide.
+Dépôt de garantie : 239 euros
 
 PAS DE FRAIS D'AGENCE
 DISPONIBLE DE SUITE
@@ -1057,16 +682,14 @@ DISPONIBLE DE SUITE
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331a.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331b.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331c.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331e.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331f.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331g.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331h.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331i.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331j.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/1/8/3/3/1/56318331k.jpg?DATEMAJ=26/08/2024-15:01:43</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418a.jpg?DATEMAJ=08/07/2024-15:38:26</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418b.jpg?DATEMAJ=08/07/2024-15:38:31</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418c.jpg?DATEMAJ=08/07/2024-15:38:37</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418d.jpg?DATEMAJ=08/07/2024-15:38:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418e.jpg?DATEMAJ=08/07/2024-15:38:46</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418f.jpg?DATEMAJ=08/07/2024-15:38:49</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418g.jpg?DATEMAJ=08/07/2024-15:38:55</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/1/3/1/4/1/8/56131418h.jpg?DATEMAJ=08/07/2024-15:39:02</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
