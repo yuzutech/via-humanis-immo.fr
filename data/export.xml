@@ -894,6 +894,384 @@ Copropriété de 78 lots ().]]>
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
+<AFF_ID>57410782</AFF_ID>
+<AFF_ORIGIN_ID>57410782</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T5-ECULLY</AFF_NUM>
+<DATE_CREATION>2024-11-29 17:01:58</DATE_CREATION>
+<DATE_MAJ>02/12/2024</DATE_MAJ>
+<LIBRELE>
+</LIBRELE>
+<NEGO>813260</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=9a7405dc62ef37ed033994f1705d4af7&products_id=57410782&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400010</AGENCE_SIRET>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[PHILYS Elisabeth ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[PHILYS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Elisabeth]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[06 99 79 90 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[philys@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[Responsable d'agence]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>798.99</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>29/11/2024</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>798.99</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>138.74</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[798.99]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>38</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[69130 ECULLY]]>
+</CPVILLE>
+<NBRE_PIECES>5</NBRE_PIECES>
+<NBRE_CHAMBRES>4</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>80</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>
+<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>            <CUISINE>
+<![CDATA[Nue]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
+<CHAUFFAGE>
+<![CDATA[Individuel]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<NUM_ETAGE>4</NUM_ETAGE>
+<DERNIER_ETAGE>1</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
+<ASCENSEUR>0</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<INTERPHONE>1</INTERPHONE>
+<DIGICODE>1</DIGICODE>
+<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>03/06/2020</DATE_DPE>
+<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<NBRE_ETAGE>4</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<GRENIER>0</GRENIER>
+<ALARME>Non</ALARME>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>29/11/2025</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
+<COLOCATION>0</COLOCATION>
+<CPVILLEWEB>
+<![CDATA[69130 ECULLY]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[29/11/2024]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>
+<FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[937.73]]>
+</LOYER_CC>
+<NORMES_ASSAINISSEMENT>0</NORMES_ASSAINISSEMENT>
+<PRIX_DEPART>
+<![CDATA[798.99]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[AG-T5-ECULLY]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISA_VIS>0</VISA_VIS>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>69130</CODE_POSTAL>
+<VILLE>
+<![CDATA[ECULLY]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>69081</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[LA SAUVEGARDE]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[T5 de 80 m² à Eculy]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[DEMANDE DE LOGEMENT SOCIAL DANS LE 69 OBLIGATOIRE.
+Logement social et soumis à des conditions. 
+
+Un appartement T5 de 80 m² est disponible sur le chemin de la Sauvegarde à Ecully, situé au 4ème étage SANS ASCENSEUR. 
+Il possède une entrée, 4 chambres, un séjour, une cuisine fermée non-équipée, un WC indépendant et une salle d'eau. 
+
+Loyer CC : 937,74  euros dont 138,75  euros de charges comprenant l'entretien des parties communes et l'eau froide. 
+Dépôt de garantie : 1 mois de loyer HC.
+PAS DE FRAIS D'AGENCE. 
+
+Disponible de suite. 
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782a.jpg?DATEMAJ=02/12/2024-09:57:42</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782b.jpg?DATEMAJ=02/12/2024-09:57:43</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782c.jpg?DATEMAJ=02/12/2024-09:57:44</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782d.jpg?DATEMAJ=02/12/2024-09:57:45</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782e.jpg?DATEMAJ=02/12/2024-09:57:47</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782f.jpg?DATEMAJ=02/12/2024-09:57:48</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/4/1/0/7/8/2/57410782g.jpg?DATEMAJ=02/12/2024-09:57:50</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
 <AFF_ID>53483926</AFF_ID>
 <AFF_ORIGIN_ID>53483926</AFF_ORIGIN_ID>
 <AFF_NUM>01036</AFF_NUM>
@@ -11584,7 +11962,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>53482315</AFF_ORIGIN_ID>
 <AFF_NUM>T2-STANDIOL-JEREMY</AFF_NUM>
 <DATE_CREATION>2019-04-26 11:18:02</DATE_CREATION>
-<DATE_MAJ>24/10/2024</DATE_MAJ>
+<DATE_MAJ>02/12/2024</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>815410</NEGO>
@@ -11763,6 +12141,9 @@ PAS DE FRAIS D'AGENCE.
 <ADDITIONALINFOS>
 <![CDATA[Loue]]>
 </ADDITIONALINFOS>
+<AFFICHETTE>
+<![CDATA[]]>
+</AFFICHETTE>
 <COLOCATION>0</COLOCATION>
 <COMMENTAIRES_RDO>
 <![CDATA[Hono. Loc. Locat. : 326,88Hono. Etat Locat. : 122,58Hono. Etat Prop. : 122,58Total Hono. Prop. : 449,46Date état avanc. : 18/11/2020]]>
@@ -11805,7 +12186,7 @@ PAS DE FRAIS D'AGENCE.
 <![CDATA[Appartement T2]]>
 </TITRE_VITRINE>
 <TEXTE_VITRINE>
-<![CDATA[Maison individuelle T2 de 41 m² en R+1 comprenant, une entrée donnant sur salon/salle à manger avec placard, une cusine fermée aménagée et à l'étage une chambre avec placard et une salle d'eau avec wc. Ce bien ne dispose pas de jardin. Loyer CC : 468 EUR (charges : taxe ordures ménagères) Dépôt de garantie : 460 EUR Honoraires agence : 449,46 EUR (dont 122,58 EUR d'état des lieux) DPE vierge  Disponible le 4 novembre 2020]]>
+<![CDATA[  Maison individuelle T2 de 41 m² en R+1 comprenant, une entrée donnant sur salon/salle à manger avec placard, une cusine fermée aménagée et à l'étage une chambre avec placard et une salle d'eau avec wc. Ce bien ne dispose pas de jardin. Loyer CC : 468 EUR (charges : taxe ordures ménagères) Dépôt de garantie : 460 EUR Honoraires agence : 449,46 EUR (dont 122,58 EUR d'état des lieux) DPE vierge  Disponible le 4 novembre 2020]]>
 </TEXTE_VITRINE>
 <TEXTE_PERSO_1>
 <![CDATA[]]>
@@ -11921,7 +12302,7 @@ PAS DE FRAIS D'AGENCE.
 <FR>
 <![CDATA[Maison de village T2 de 41 m²  comprenant, une entrée donnant sur salon/salle à manger avec placard, une cusine fermée aménagée et à l'étage une chambre avec placard et une salle d'eau avec wc.
 
-
+Des travaux d'isolation et le changement du chauffage vont être réalisés. 
 
 
 ]]>
@@ -12122,6 +12503,9 @@ PAS DE FRAIS D'AGENCE.
 <![CDATA[Bail Professionnel]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
+<AFFICHETTE>
+<![CDATA[]]>
+</AFFICHETTE>
 <CPVILLEWEB>
 <![CDATA[13560 Sénas]]>
 </CPVILLEWEB>
@@ -12157,10 +12541,18 @@ PAS DE FRAIS D'AGENCE.
 <VISITE_DOSSIER_ACTE_LOCATAIRE>
 <![CDATA[1500]]>
 </VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
+<![CDATA[La Capelette]]>
 </TITRE_VITRINE>
 <TEXTE_VITRINE>
-<![CDATA[]]>
+<![CDATA[  Zone de la Capelette 
+
+Bureaux à louer au 1er et dernier étage d'un immeuble récent avec parking. Le rdc est occupé par des commerces, et le 1er des bureaux uniquement.
+Il se compose d'une pièce de 73 m²  climatisée.
+Au 1er étage avec ascenseur. 
+
+Proche accès autoroute et commerces au pied de l'immeuble (auchan, salon de coiffures, banques...)
+
+Loyer soumlis à TVA]]>
 </TEXTE_VITRINE>
 <TEXTE_PERSO_1>
 <![CDATA[]]>
