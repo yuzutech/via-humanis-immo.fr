@@ -1978,16 +1978,16 @@ Copropriété de 78 lots ().]]>
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58253807</AFF_ID>
-<AFF_ORIGIN_ID>58253807</AFF_ORIGIN_ID>
-<AFF_NUM>AG-T4-Lyon8</AFF_NUM>
-<DATE_CREATION>2025-04-08 15:08:01</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<AFF_ID>53483964</AFF_ID>
+<AFF_ORIGIN_ID>53483964</AFF_ORIGIN_ID>
+<AFF_NUM>C301-T4</AFF_NUM>
+<DATE_CREATION>2020-02-13 17:50:14</DATE_CREATION>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
-<NEGO>813261</NEGO>
+<NEGO>813264</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=5176fb71bc081986b90a9c0f6ac51345&products_id=58253807&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200780&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=f4957d05a4004328768033c0ef6fb3f9&products_id=53483964&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -1996,51 +1996,51 @@ Copropriété de 78 lots ().]]>
 </STATUT>
 </INFO_GENERALES>
 <AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_ID>200780</AGENCE_ID>
 <AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier - IMMOGIC]]>
 </AGENCE_NOM>
 <AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
+<![CDATA[86 avenue du Maréchal Foch]]>
 </AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_CP>78100</AGENCE_CP>
 <AGENCE_VILLE>
-<![CDATA[ECULLY]]>
+<![CDATA[SAINT-GERMAIN-EN-LAYE]]>
 </AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_TELEPHONE>+33 1 86 22 29 89</AGENCE_TELEPHONE>
 <AGENCE_PORTABLE>
 </AGENCE_PORTABLE>
 <AGENCE_FAX>
 </AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_MAIL>location-idf@via-humanis-immo.fr</AGENCE_MAIL>
 <AGENCE_SITE>
 </AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200780.jpg</AGENCE_LOGO>
 <AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
 <AGENCE_RESEAU>
-<![CDATA[Aucun]]>
+<![CDATA[]]>
 </AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+<AGENCE_SIRET>81527509400036</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
 </AGENCE_BOOKING_URL>
 <AGENCE_BAREME>
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813264</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
+<![CDATA[HADDOUCHE Katia ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
+<![CDATA[HADDOUCHE]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
+<![CDATA[Katia]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
+<![CDATA[06 29 46 42 36]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
+<![CDATA[location-idf@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
@@ -2059,41 +2059,44 @@ Copropriété de 78 lots ().]]>
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1225.69</LOYER>
+<LOYER>1295.2</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>08/04/2025</DATE_MANDAT>
+<NUM_MANDAT>XXX</NUM_MANDAT>
+<TYPE_MANDAT>S</TYPE_MANDAT>
+<DATE_MANDAT>06/02/2020</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1225.69</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>185</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1225.69]]>
+<DEPOT_GARANTIE>1295.2</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>130</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[1295.2]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>37</CATEGORIE_MERE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69008 LYON]]>
+<![CDATA[78300 POISSY]]>
 </CPVILLE>
 <NBRE_PIECES>4</NBRE_PIECES>
 <NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>91.3</SURFACE_HABITABLE>
+<SURFACE_HABITABLE>78.28</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
 <FACADE>0</FACADE>
 <PROFONDEUR>0</PROFONDEUR>
 <NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<ANNEE_CONSTRUCTION>2019</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
-<NBRE_WC>2</NBRE_WC>
-<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>
-<NBRE_PARKING>2</NBRE_PARKING>            <CUISINE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>
+<NBRE_SALLE_EAU>2</NBRE_SALLE_EAU>
+<NBRE_PARKING>1</NBRE_PARKING>            <CUISINE>
 <![CDATA[Ouverte]]>
 </CUISINE>
+<STANDING>
+<![CDATA[Grand standing]]>
+</STANDING>
 <MEUBLE>0</MEUBLE>
 <CHAUFFAGE>
 <![CDATA[Collectif]]>
@@ -2102,37 +2105,38 @@ Copropriété de 78 lots ().]]>
 <![CDATA[Radiateur]]>
 </MECANISME_CHAUFFAGE>
 <MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<TYPE_STATIONNEMENT>
-<![CDATA[0]]>
-</TYPE_STATIONNEMENT>
-<NUM_ETAGE>1</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_ETAGE>5</NUM_ETAGE>
 <NUM_DERNIER_ETAGE>5</NUM_DERNIER_ETAGE>
+<EAU_CHAUDE>
+<![CDATA[Collective]]>
+</EAU_CHAUDE>
+<ACCES_HANDICAPES>1</ACCES_HANDICAPES>
 <ASCENSEUR>1</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
 <ETAT_INTERIEUR>
 <![CDATA[Très bon]]>
 </ETAT_INTERIEUR>
 <INTERPHONE>1</INTERPHONE>
 <DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>08/04/2023</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
+<DATE_DPE>24/05/2019</DATE_DPE>
+<GAZEFFETDESERRE>B</GAZEFFETDESERRE>
+<CONSO_ANNUEL_ENERGIE>81</CONSO_ANNUEL_ENERGIE>
+<VALEUR_GES>17</VALEUR_GES>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
+<ETAT_EXTERIEUR>
+<![CDATA[Très bon]]>
+</ETAT_EXTERIEUR>
 <NBRE_ETAGE>5</NBRE_ETAGE>
 <SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
+<STYLE>
+<![CDATA[Années 50]]>
+</STYLE>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Recent</NEUF_ANCIEN>
 <REGIME_FISCAL>
 </REGIME_FISCAL>
 <TYPE_RESIDENCE>
@@ -2141,7 +2145,7 @@ Copropriété de 78 lots ().]]>
 <![CDATA[]]>
 </OBSERVATIONS>
 <OBSERVATIONS_WEB>
-<![CDATA[]]>
+<![CDATA[- Local à vélo - Contenaires sur voirie]]>
 </OBSERVATIONS_WEB>
 <POINTS_POSITIFS>
 <![CDATA[]]>
@@ -2152,51 +2156,67 @@ Copropriété de 78 lots ().]]>
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>08/04/2026</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>06/02/2021</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<COLOCATION>0</COLOCATION>
+<ADDITIONALINFOS>
+<![CDATA[Loue]]>
+</ADDITIONALINFOS>
+<AFFICHETTE>
+<![CDATA[]]>
+</AFFICHETTE>
+<COMMENTAIRES_RDO>
+<![CDATA[Caution : 1Hono. Loc. Locat. : 1Total Hono. Prop. : 1PC câble : 1PC chauffage : 1PC eau chaude : 1PC eau froide : 1N° Lot logement : 97N° Lot park int. : 61Date état avanc. : 08/02/2022Numéro occupant : ZAC de la COUDRAIE]]>
+</COMMENTAIRES_RDO>
+<CONSIGNES_VISITE>
+<![CDATA[Sas Parking   ""clé""2727""clé""TELEPHONER AVANTA2727B]]>
+</CONSIGNES_VISITE>
 <CPVILLEWEB>
-<![CDATA[69008 LYON]]>
+<![CDATA[78300 POISSY]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[08/04/2025]]>
+<![CDATA[06/02/2020]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
 </DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
 <HONO_NEGO_ET_ENTREMISE>
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
+<HONORAIRES_BAILLEUR>
+<![CDATA[1]]>
+</HONORAIRES_BAILLEUR>
 <LOYER_CC>
-<![CDATA[1410.69]]>
+<![CDATA[1425.2]]>
 </LOYER_CC>
+<NUM_DIGICODE>
+<![CDATA[A2302]]>
+</NUM_DIGICODE>
+<NUMERO_CLE>
+<![CDATA[305]]>
+</NUMERO_CLE>
 <PRIX_DEPART>
-<![CDATA[1225.69]]>
+<![CDATA[1119.09]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[AG-T4-Lyon8]]>
+<![CDATA[C301-T4]]>
 </REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
 <VISITE_DOSSIER_ACTE_LOCATAIRE>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
+<![CDATA[C501 - APPARTEMENT T3]]>
 </TITRE_VITRINE>
 <TEXTE_VITRINE>
-<![CDATA[]]>
+<![CDATA[ *Logements conventionnés et soumis à conditions de ressources. **Les étudiants ne sont pas éligibles au logement.   Dans nouveau quartier, appartement 3 pièces de 60,10 m², très lumineux,  composé d'une cuisine ouverte sur le séjour, 2 chambre, 1 salle d'eau.  1 place de stationnement en sous-sol.  Commerce de proximité, centre commercial de Chambourcy à 2 minutes. Accès à l'Autoroute A13 et A14, accès à la gare de Poissy RER A et du Centre ville par la ligne bus 50.]]>
 </TEXTE_VITRINE>
 <TEXTE_PERSO_1>
 <![CDATA[]]>
@@ -2246,22 +2266,22 @@ Copropriété de 78 lots ().]]>
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69008</CODE_POSTAL>
+<CODE_POSTAL>78300</CODE_POSTAL>
 <VILLE>
-<![CDATA[LYON]]>
+<![CDATA[POISSY]]>
 </VILLE>
 <PAYS>
-<![CDATA[France]]>
+<![CDATA[FRANCE]]>
 </PAYS>
-<INSEE>69388</INSEE>
+<INSEE>78498</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
 <SITUATION>
-<![CDATA[]]>
+<![CDATA[ZAC de la COUDRAIE ]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[BERTHE MORISOT]]>
+<![CDATA[RESIDENCE BOISEO]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -2296,10 +2316,10 @@ Copropriété de 78 lots ().]]>
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[Appartement T4 de 91,30 m² à Lyon 8ème]]>
+<![CDATA[C301 - APPARTEMENT T4 POISSY - 4 pièce(s) - 78.28 m2]]>
 </FR>
 <US>
-<![CDATA[]]>
+<![CDATA[C501 - APPARTEMENT T3 POISSY - 3 pièce(s) - 60.1 m2]]>
 </US>
 <DE>
 <![CDATA[]]>
@@ -2310,22 +2330,22 @@ Copropriété de 78 lots ().]]>
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Sur le secteur de Mermoz à Lyon 8ème, un appartement T4 de 91,30 m² est disponible au 1er étage avec ascenseur, dans une résidence récente. 
+<![CDATA[*Logements conventionnés et soumis à conditions de ressources.
+Les étudiants ne sont pas éligibles au logement. 
 
-Cet appartement possède une entrée avec rangements muraux, 3 chambres dont 1 avec dressing et salle d'eau, 2 WC indépendants, une salle de bains, une buanderie, une cuisine semi-équipée (meubles hauts/bas, hotte et plaques) ouverte sur un séjour donnant sur un balcon. 
-
-2 places de parkings en sous-sol viennent compléter ce bien. 
-
-Loyer CC : 1 410,69  euros dont 185,00  euros de charges comprenant l'entretien des parties communes et le chauffage. 
-Dépôt de garantie : 1 mois de loyer HC.
-PAS DE FRAIS D'AGENCE. 
-
-*Disponible de suite. 
-**Logement conventionné et soumis à des conditions de ressources. 
+Dans nouveau quartier, appartement 4 pièces de 78.28 m², très lumineux,  composé d'une cuisine ouverte sur le séjour, 3 chambres, 2 salles d'eau.
+1 place de stationnement en sous-sol.
+Commerce de proximité, centre commercial de Chambourcy à 2 minutes.
+Accès à l'Autoroute A13 et A14, accès à la gare de Poissy RER A et du Centre ville par la ligne bus 50.
+Loyer CC : 1 425.20 EUR
+Dépôt de Garantie 1 295.20 EUR
+PAS DE FRAIS D'AGENCE
+Disponible de suite.
 ]]>
 </FR>
 <US>
-<![CDATA[]]>
+<![CDATA[
+]]>
 </US>
 <DE>
 <![CDATA[]]>
@@ -2351,15 +2371,17 @@ PAS DE FRAIS D'AGENCE.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807a.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807b.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807c.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807d.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807e.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807f.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807g.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807h.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/5/3/8/0/7/58253807i.jpg?DATEMAJ=08/04/2025-15:11:55</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964a.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964b.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964c.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964d.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964e.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964f.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964g.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964h.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964i.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964j.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/6/4/53483964k.jpg?DATEMAJ=24/01/2025-15:33:10</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -2370,7 +2392,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>58252956</AFF_ORIGIN_ID>
 <AFF_NUM>750</AFF_NUM>
 <DATE_CREATION>2025-04-08 11:59:11</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -2766,8 +2788,7 @@ A 10 minutes à pied de la gare de la Frette , 20 minutes de Paris .
 Située dans une commune paisible des bords de Seine, vous profiterez d'un environnement calme tout en restant proche des commodités et des transports vers Paris.
 Une opportunité rare  avec extérieur dans ce secteur recherché .
 
-Nichée dans un cadre verdoyant de La Frette-sur-Seine, cette ravissante maison vous offre un havre de paix aux portes de Paris. Dotée d'un jardin soigneusement entretenu , ainsi qu' une terrasse neuve .
-
+Nichée dans un cadre verdoyant de La Frette-sur-Seine, cette ravissante maison vous offre un havre de paix aux portes de Paris. Dotée d'un jardin soigneusement entretenu , ainsi qu' une terrasse neuve .  
 La maison comprend:
 Espace de vie lumineux
 Cuisine fonctionnelle et équipée  .
@@ -2827,10 +2848,10 @@ Honoraires d'agence : 827,45  euros dont  190,95  euros d'état des lieux
 <AFF_ORIGIN_ID>58248059</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T2-BEAUBRUN</AFF_NUM>
 <DATE_CREATION>2025-04-07 15:23:46</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
-<NEGO>813261</NEGO>
+<NEGO>813260</NEGO>
 <AFF_URL>
 <![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=94ed45e93cc005f7e2abf12457728b6e&products_id=58248059&show_price=1]]>
 </AFF_URL>
@@ -2871,27 +2892,27 @@ Honoraires d'agence : 827,45  euros dont  190,95  euros d'état des lieux
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
+<![CDATA[PHILYS Elisabeth ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
+<![CDATA[PHILYS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
+<![CDATA[Elisabeth]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
+<![CDATA[06 99 79 90 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
+<![CDATA[philys@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
+<![CDATA[Responsable d'agence]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -3197,400 +3218,13 @@ PAS DE FRAIS D'AGENCE.
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58247970</AFF_ID>
-<AFF_ORIGIN_ID>58247970</AFF_ORIGIN_ID>
-<AFF_NUM>AG-T4-VILLEURBANNE</AFF_NUM>
-<DATE_CREATION>2025-04-07 15:07:18</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>813261</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=c0e339b292fbe6580acd178d75716f93&products_id=58247970&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>1117.77</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>07/04/2025</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1117.77</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>130</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1117.77]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>37</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[69100 VILLEURBANNE]]>
-</CPVILLE>
-<NBRE_PIECES>4</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>90.96</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>2022</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
-<NBRE_WC>1</NBRE_WC>
-<NBRE_GARAGE>1</NBRE_GARAGE>
-<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>            <CUISINE>
-<![CDATA[Ouverte]]>
-</CUISINE>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Individuel]]>
-</CHAUFFAGE>
-<MECANISME_CHAUFFAGE>
-<![CDATA[Radiateur]]>
-</MECANISME_CHAUFFAGE>
-<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<TYPE_STATIONNEMENT>
-<![CDATA[0]]>
-</TYPE_STATIONNEMENT>
-<NUM_ETAGE>1</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>5</NUM_DERNIER_ETAGE>
-<ASCENSEUR>1</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
-<ETAT_INTERIEUR>
-<![CDATA[Bon]]>
-</ETAT_INTERIEUR>
-<INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>01/01/2022</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>5</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>07/04/2026</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<COLOCATION>0</COLOCATION>
-<CPVILLEWEB>
-<![CDATA[69100 VILLEURBANNE]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[07/04/2025]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOYER_CC>
-<![CDATA[1247.77]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[1117.77]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[AG-T4-VILLEURBANNE]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69100</CODE_POSTAL>
-<VILLE>
-<![CDATA[VILLEURBANNE]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>69266</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[JEAN VOILLOT]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[Appartement T4 de 90,96 m² à Villeurbanne]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[Sur le secteur des Brosses à Villeurbanne, un appartement T4 de 90,96 m² est disponible au 1er étage avec ascenseur dans une résidence récente. 
-
-Cet appartement possède une entrée avec rangements, 3 chambres dont une avec une salle d'eau, un WC indépendant, une salle de bains et une cuisine ouverte non-équipée sur un séjour donnant sur un balcon. 
-
-Un garage fermée en sous-sol vient compléter ce bien. 
-
-Loyer CC : 1 247,77  euros dont 130,00  euros de charges comprenant l'entretien des parties communes. 
-Dépôt de garantie : 1 mois de loyer HC. 
-PAS DE FRAIS D'AGENCE. 
-
-*Disponible de suite. 
-**Logement conventionné et soumis à des conditions de ressources. 
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970a.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970b.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970c.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970d.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970e.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970f.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970g.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/4/7/9/7/0/58247970h.jpg?DATEMAJ=07/04/2025-15:11:57</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
 <AFF_ID>56028565</AFF_ID>
 <AFF_ORIGIN_ID>56028565</AFF_ORIGIN_ID>
 <AFF_NUM>FBT3LEMARGUET</AFF_NUM>
 <DATE_CREATION>2024-06-18 14:51:52</DATE_CREATION>
-<DATE_MAJ>07/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>18/06/2024</LIBRELE>
-<NEGO>813261</NEGO>
+<NEGO>813260</NEGO>
 <AFF_URL>
 <![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=205c446abeeccf3e54fbd97001f40422&products_id=56028565&show_price=1]]>
 </AFF_URL>
@@ -3631,27 +3265,27 @@ PAS DE FRAIS D'AGENCE.
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
+<![CDATA[PHILYS Elisabeth ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
+<![CDATA[PHILYS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
+<![CDATA[Elisabeth]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
+<![CDATA[06 99 79 90 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
+<![CDATA[philys@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
+<![CDATA[Responsable d'agence]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -4328,387 +3962,13 @@ PAS DE FRAIS D'AGENCE.
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>57861534</AFF_ID>
-<AFF_ORIGIN_ID>57861534</AFF_ORIGIN_ID>
-<AFF_NUM>T3-CHAMBON</AFF_NUM>
-<DATE_CREATION>2025-01-29 10:51:24</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
-<LIBRELE>17/03/2025</LIBRELE>
-<NEGO>813260</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=068f018e3f162fb9eb718763411d9644&products_id=57861534&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>330.31</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>24/02/2025</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>331</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>20.39</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[330.31]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[42500 LE CHAMBON FEUGEROLLES]]>
-</CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>54</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <CUISINE>
-<![CDATA[Nue]]>
-</CUISINE>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Individuel]]>
-</CHAUFFAGE>
-<MECANISME_CHAUFFAGE>
-<![CDATA[Radiateur]]>
-</MECANISME_CHAUFFAGE>
-<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<NUM_ETAGE>1</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
-<INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>10/01/2019</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>0</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>22/01/2026</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<COLOCATION>0</COLOCATION>
-<CPVILLEWEB>
-<![CDATA[42500 LE CHAMBON FEUGEROLLES]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[22/01/2025]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOYER_CC>
-<![CDATA[350.7]]>
-</LOYER_CC>
-<NOTE_CONFIDENTIELLE>
-<![CDATA[Date mandat : 22/01/2025]]>
-</NOTE_CONFIDENTIELLE>
-<PRIX_DEPART>
-<![CDATA[390.75]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[T3-CHAMBON]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>1</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42500</CODE_POSTAL>
-<VILLE>
-<![CDATA[LE CHAMBON FEUGEROLLES]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>42044</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[Appartement T3 de 54 m² au Chambon-Feugerolles]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[*DEMANDE DE LOGEMENT SOCIAL OBLIGATOIRE DANS LE 42. 
-**Logement social et soumis à des conditions de ressources.
-
-Un appartement T3 de 54 m² est disponible au 1er étage sans ascenseur au Chambon-Feugerolles. L'appartement possède une entrée, 2 chambres, une salle d'eau, un WC indépendant, un séjour et une cuisine ouverte non-équipée. 
-
-Loyer CC : 350,70  euros dont 20,39  euros de charges comprenant l'entretien des parties communes. 
-Dépôt de garantie : 1 mois de loyer HC.
-PAS DE FRAIS D'AGENCE. 
-
-Disponible de suite.
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/8/6/1/5/3/4/57861534a.jpg?DATEMAJ=29/01/2025-11:04:36</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/8/6/1/5/3/4/57861534b.jpg?DATEMAJ=29/01/2025-11:04:36</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/8/6/1/5/3/4/57861534c.jpg?DATEMAJ=29/01/2025-11:04:36</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/8/6/1/5/3/4/57861534d.jpg?DATEMAJ=29/01/2025-11:04:36</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/8/6/1/5/3/4/57861534e.jpg?DATEMAJ=29/01/2025-11:04:36</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/8/6/1/5/3/4/57861534f.jpg?DATEMAJ=29/01/2025-11:04:36</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
 <AFF_ID>58145261</AFF_ID>
 <AFF_ORIGIN_ID>58145261</AFF_ORIGIN_ID>
 <AFF_NUM>FLALBIGNY-LOT6</AFF_NUM>
 <DATE_CREATION>2025-03-19 12:08:41</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>19/03/2025</LIBRELE>
-<NEGO>813260</NEGO>
+<NEGO>813263</NEGO>
 <AFF_URL>
 <![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=04735942847da52dc53435842eea6454&products_id=58145261&show_price=1]]>
 </AFF_URL>
@@ -4749,27 +4009,27 @@ Disponible de suite.
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[BAROIS Florent ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[BAROIS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Florent]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 43 16 76 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[barois@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -5135,9 +4395,9 @@ Estimation des couts annuels d'énergie au 1er Janvier entre 430 euros et 620 eur
 <AFF_ORIGIN_ID>58144843</AFF_ORIGIN_ID>
 <AFF_NUM>FLALBIGNY-T5-LOT3</AFF_NUM>
 <DATE_CREATION>2025-03-19 11:06:13</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>19/03/2025</LIBRELE>
-<NEGO>813260</NEGO>
+<NEGO>813263</NEGO>
 <AFF_URL>
 <![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=267485c6cfe79eaea16ec63d3709f6d8&products_id=58144843&show_price=1]]>
 </AFF_URL>
@@ -5178,27 +4438,27 @@ Estimation des couts annuels d'énergie au 1er Janvier entre 430 euros et 620 eur
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[BAROIS Florent ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[BAROIS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Florent]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 43 16 76 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[barois@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -5559,9 +4819,9 @@ Estimation des couts annuels d'énergie au 1er Janvier entre 450 euros et 650 eur
 <AFF_ORIGIN_ID>58144725</AFF_ORIGIN_ID>
 <AFF_NUM>FLALBIGNY-T5-LOT2</AFF_NUM>
 <DATE_CREATION>2025-03-19 10:42:00</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>19/03/2025</LIBRELE>
-<NEGO>813260</NEGO>
+<NEGO>813263</NEGO>
 <AFF_URL>
 <![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=147762303d7022c5846c411ca3dd77ec&products_id=58144725&show_price=1]]>
 </AFF_URL>
@@ -5602,27 +4862,27 @@ Estimation des couts annuels d'énergie au 1er Janvier entre 450 euros et 650 eur
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[BAROIS Florent ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[BAROIS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Florent]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 43 16 76 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[barois@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -5956,9 +5216,9 @@ Estimation des couts annuels d'énergie au 1er Janvier entre 410 euros et 610 eur
 <AFF_ORIGIN_ID>58138659</AFF_ORIGIN_ID>
 <AFF_NUM>FLALBIGNY-T4-LOT1</AFF_NUM>
 <DATE_CREATION>2025-03-17 17:41:26</DATE_CREATION>
-<DATE_MAJ>09/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>17/03/2025</LIBRELE>
-<NEGO>813260</NEGO>
+<NEGO>813263</NEGO>
 <AFF_URL>
 <![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=b0ba319a22286b8ef9dfea3d97b73ab1&products_id=58138659&show_price=1]]>
 </AFF_URL>
@@ -5999,27 +5259,27 @@ Estimation des couts annuels d'énergie au 1er Janvier entre 410 euros et 610 eur
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[BAROIS Florent ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[BAROIS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Florent]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 43 16 76 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[barois@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -7432,7 +6692,7 @@ Disponible de suite.
 <AFF_ORIGIN_ID>57949401</AFF_ORIGIN_ID>
 <AFF_NUM>C305-T3</AFF_NUM>
 <DATE_CREATION>2025-02-14 11:38:15</DATE_CREATION>
-<DATE_MAJ>08/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -8957,7 +8217,7 @@ Logement conventionné et soumis à des conditions de ressources.
 <AFF_ORIGIN_ID>57951375</AFF_ORIGIN_ID>
 <AFF_NUM>C306-T4</AFF_NUM>
 <DATE_CREATION>2025-02-14 13:18:06</DATE_CREATION>
-<DATE_MAJ>08/04/2025</DATE_MAJ>
+<DATE_MAJ>10/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
