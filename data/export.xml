@@ -1978,16 +1978,16 @@ Copropriété de 78 lots ().]]>
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58186578</AFF_ID>
-<AFF_ORIGIN_ID>58186578</AFF_ORIGIN_ID>
-<AFF_NUM>T3-LYON08</AFF_NUM>
-<DATE_CREATION>2025-03-27 17:41:03</DATE_CREATION>
-<DATE_MAJ>16/04/2025</DATE_MAJ>
+<AFF_ID>58070306</AFF_ID>
+<AFF_ORIGIN_ID>58070306</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T5-GEORGES</AFF_NUM>
+<DATE_CREATION>2025-03-03 17:03:02</DATE_CREATION>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
-<NEGO>813260</NEGO>
+<NEGO>815410</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=81b1074b9843242593edc878e0d1d50a&products_id=58186578&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=ea2ceff16c31b282ac56aaa6afffec89&products_id=58070306&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -2026,27 +2026,27 @@ Copropriété de 78 lots ().]]>
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>815410</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[LAURENT Benjamin ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[LAURENT]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Benjamin]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 50 54 90 23]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[laurent@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -2059,27 +2059,27 @@ Copropriété de 78 lots ().]]>
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>979</LOYER>
+<LOYER>1090</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>27/03/2025</DATE_MANDAT>
+<DATE_MANDAT>03/03/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>979</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>95</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>1090</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>193</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[979]]>
+<![CDATA[1090]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CATEGORIE_MERE>38</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69008 LYON]]>
+<![CDATA[69200 VENISSIEUX]]>
 </CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>64.74</SURFACE_HABITABLE>
+<NBRE_PIECES>5</NBRE_PIECES>
+<NBRE_CHAMBRES>4</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>93.94</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -2088,17 +2088,407 @@ Copropriété de 78 lots ().]]>
 <NBRE_NIVEAUX>1</NBRE_NIVEAUX>
 <ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_WC>2</NBRE_WC>
+<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>
+<NBRE_PARKING>1</NBRE_PARKING>            <CUISINE>
+<![CDATA[Ouverte]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
 <CHAUFFAGE>
-<![CDATA[Individuel]]>
+<![CDATA[Collectif]]>
 </CHAUFFAGE>
 <MECANISME_CHAUFFAGE>
 <![CDATA[Radiateur]]>
 </MECANISME_CHAUFFAGE>
 <MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<TYPE_STATIONNEMENT>
+<![CDATA[Sous-sol]]>
+</TYPE_STATIONNEMENT>
+<NUM_ETAGE>1</NUM_ETAGE>
+<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
+<ASCENSEUR>0</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<INTERPHONE>1</INTERPHONE>
+<DIGICODE>1</DIGICODE>
+<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>03/02/2025</DATE_DPE>
+<CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>2</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<GRENIER>0</GRENIER>
+<ALARME>Non</ALARME>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<NEUF_ANCIEN>Neuf</NEUF_ANCIEN>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>03/03/2026</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
+<COLOCATION>0</COLOCATION>
+<CPVILLEWEB>
+<![CDATA[69200 VENISSIEUX]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[03/03/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>
+<FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[1283]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[1090]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[AG-T5-GEORGES]]>
+</REF_AFFAIRE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>69200</CODE_POSTAL>
+<VILLE>
+<![CDATA[VENISSIEUX]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>69259</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[GEORGES LYVET]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[Appartement T5 neuf de 93,94 m² à Vénissieux]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[Sur le secteur des Minguettes à Vénissieux, venez découvrir cette résidence neuve de 2 étages sans ascenseur. 
+
+Un T5 de 93,94 m² en duplex est disponible et possède une entrée avec rangements, une salle de bains, 2 WC indépendant, 4 chambres dont 1 avec salle d'eau et un séjour ouvert sur une cuisine semi-équipée (meubles hauts/bas, plaques et hotte) donnant sur un balcon. 
+
+Une place de parking en sous-sol vient compléter ces biens. 
+
+Loyer CC : 1 283,00  euros dont 193,00  euros de charges comprenant l'entretien des parties communes et le chauffage. 
+Dépôt de garantie : 1 mois de loyer HC.
+PAS DE FRAIS D'AGENCE. 
+
+*Livraison prévu pour mi-Avril 2025. 
+**Logements conventionnés et soumis à des conditions de ressources. 
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306a.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306b.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306c.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306d.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306e.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306f.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306g.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306h.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306i.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306j.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/3/0/6/58070306k.jpg?DATEMAJ=17/04/2025-12:57:08</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>58070282</AFF_ID>
+<AFF_ORIGIN_ID>58070282</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T4-GEORGES</AFF_NUM>
+<DATE_CREATION>2025-03-03 16:57:30</DATE_CREATION>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
+<LIBRELE>
+</LIBRELE>
+<NEGO>815410</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=44cca145a6893983bcbbbf730f4aba31&products_id=58070282&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>815410</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[LAURENT Benjamin ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[LAURENT]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Benjamin]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[07 50 54 90 23]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[laurent@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>970</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>03/03/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>970</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>185</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[970]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>37</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[69200 VENISSIEUX]]>
+</CPVILLE>
+<NBRE_PIECES>4</NBRE_PIECES>
+<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>89.98</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>
+<NBRE_PARKING>1</NBRE_PARKING>            <CUISINE>
+<![CDATA[Ouverte]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
+<CHAUFFAGE>
+<![CDATA[Collectif]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<TYPE_STATIONNEMENT>
+<![CDATA[Sous-sol]]>
+</TYPE_STATIONNEMENT>
 <NUM_ETAGE>0</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
 <NUM_DERNIER_ETAGE>5</NUM_DERNIER_ETAGE>
 <ASCENSEUR>1</ASCENSEUR>
 <PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
@@ -2106,8 +2496,8 @@ Copropriété de 78 lots ().]]>
 <DIGICODE>1</DIGICODE>
 <CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>13/03/2025</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>B</CONSO_ENERGIE_FINALE_LETTRE>
+<DATE_DPE>03/02/2025</DATE_DPE>
+<CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
@@ -2141,17 +2531,18 @@ Copropriété de 78 lots ().]]>
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>27/03/2026</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>03/03/2026</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
 <COLOCATION>0</COLOCATION>
 <CPVILLEWEB>
-<![CDATA[69008 LYON]]>
+<![CDATA[69200 VENISSIEUX]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[27/03/2025]]>
+<![CDATA[03/03/2025]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -2161,20 +2552,18 @@ Copropriété de 78 lots ().]]>
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[1074]]>
+<![CDATA[1155]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[979]]>
+<![CDATA[990]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[T3-LYON08]]>
+<![CDATA[AG-T4-GEORGES]]>
 </REF_AFFAIRE>
-<REZ_CHAUSSEE>1</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>1</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
@@ -2234,14 +2623,14 @@ Copropriété de 78 lots ().]]>
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69008</CODE_POSTAL>
+<CODE_POSTAL>69200</CODE_POSTAL>
 <VILLE>
-<![CDATA[LYON]]>
+<![CDATA[VENISSIEUX]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>69388</INSEE>
+<INSEE>69259</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -2249,7 +2638,7 @@ Copropriété de 78 lots ().]]>
 <![CDATA[]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[BOULEVARD PINEL]]>
+<![CDATA[GEORGES LYVET]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -2284,7 +2673,7 @@ Copropriété de 78 lots ().]]>
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[Appartement neuf T3 de 64,74 m² à Lyon 8ème]]>
+<![CDATA[Appartement T4 neuf à Vénissieux]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -2298,18 +2687,18 @@ Copropriété de 78 lots ().]]>
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Limite Parilly et Boulevard des Etats-Unis, appartement neuf de 64,74 m² est disponible au rez-de-chaussée sur le Boulevard Pinel à Lyon 8ème. 
+<![CDATA[Sur le secteur des Minguettes à Vénissieux, venez découvrir cette résidence neuve de 4 étages avec ascenseur. 
 
-Il se trouve à l'intérieur de la résidence et possède une entrée avec rangements, un WC indépendant, une salle de bains, 2 chambres dont 1 avec rangements, une cuisine semi-équipée (meubles hauts/bas, plaques et hotte) ouverte sur le séjour et donnant sur une terrasse. 
+T4 de 89,98 m² est disponible et possède une entrée avec rangements, une salle de bains, un WC, 3 chambres et un séjour ouvert sur une cuisine semi-équipée (meubles hauts/bas, plaques et hotte) donnant sur un balcon. 
 
-Une place de parking en sous-sol vient compléter ce bien. 
+Une place de parking en sous-sol vient compléter ces biens. 
 
-Loyer CC : 1 074,00  euros dont 91,00  euros de charges comprenant l'entretien des parties communes. 
+Loyer CC : 1 155,00  euros dont 185,00  euros de charges comprenant l'entretien des parties communes et le chauffage. 
 Dépôt de garantie : 1 mois de loyer HC.
 PAS DE FRAIS D'AGENCE. 
 
-Disponible de suite. 
-Logement conventionné et soumis à des conditions de ressources. 
+*Disponible de suite. 
+**Logements conventionnés et soumis à des conditions de ressources. 
 ]]>
 </FR>
 <US>
@@ -2339,28 +2728,28 @@ Logement conventionné et soumis à des conditions de ressources.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/8/6/5/7/8/58186578a.jpg?DATEMAJ=15/04/2025-17:25:54</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/8/6/5/7/8/58186578b.jpg?DATEMAJ=15/04/2025-17:25:54</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/8/6/5/7/8/58186578c.jpg?DATEMAJ=15/04/2025-17:25:54</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/8/6/5/7/8/58186578d.jpg?DATEMAJ=15/04/2025-17:25:54</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/8/6/5/7/8/58186578e.jpg?DATEMAJ=15/04/2025-17:25:54</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/8/6/5/7/8/58186578f.jpg?DATEMAJ=15/04/2025-17:25:54</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/8/2/58070282a.jpg?DATEMAJ=18/04/2025-16:45:04</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/8/2/58070282b.jpg?DATEMAJ=18/04/2025-16:45:04</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/8/2/58070282c.jpg?DATEMAJ=18/04/2025-16:45:04</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/8/2/58070282d.jpg?DATEMAJ=18/04/2025-16:45:04</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/8/2/58070282e.jpg?DATEMAJ=18/04/2025-16:45:04</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/8/2/58070282f.jpg?DATEMAJ=18/04/2025-16:45:04</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58201477</AFF_ID>
-<AFF_ORIGIN_ID>58201477</AFF_ORIGIN_ID>
-<AFF_NUM>T4-LYON08</AFF_NUM>
-<DATE_CREATION>2025-03-28 12:38:20</DATE_CREATION>
-<DATE_MAJ>16/04/2025</DATE_MAJ>
+<AFF_ID>58070249</AFF_ID>
+<AFF_ORIGIN_ID>58070249</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T3-GEORGES</AFF_NUM>
+<DATE_CREATION>2025-03-03 16:52:40</DATE_CREATION>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
-<NEGO>813260</NEGO>
+<NEGO>815410</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=94eba0adaf7e26c93a93dcb042e4bb8d&products_id=58201477&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=124fc0d8fbd41bf01e2ead99053cb482&products_id=58070249&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -2399,27 +2788,27 @@ Logement conventionné et soumis à des conditions de ressources.
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>815410</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
+<![CDATA[LAURENT Benjamin ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
+<![CDATA[LAURENT]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
+<![CDATA[Benjamin]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
+<![CDATA[07 50 54 90 23]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
+<![CDATA[laurent@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -2432,27 +2821,27 @@ Logement conventionné et soumis à des conditions de ressources.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1078</LOYER>
+<LOYER>822</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>28/03/2025</DATE_MANDAT>
+<DATE_MANDAT>03/03/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1078</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>111</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>822</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>152</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1078]]>
+<![CDATA[822]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>37</CATEGORIE_MERE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69008 LYON]]>
+<![CDATA[69200 VENISSIEUX]]>
 </CPVILLE>
-<NBRE_PIECES>4</NBRE_PIECES>
-<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>78.71</SURFACE_HABITABLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>70</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -2461,24 +2850,31 @@ Logement conventionné et soumis à des conditions de ressources.
 <NBRE_NIVEAUX>1</NBRE_NIVEAUX>
 <ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>
+<NBRE_PARKING>1</NBRE_PARKING>            <CUISINE>
+<![CDATA[Ouverte]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
 <CHAUFFAGE>
-<![CDATA[Individuel]]>
+<![CDATA[Collectif]]>
 </CHAUFFAGE>
 <MECANISME_CHAUFFAGE>
 <![CDATA[Radiateur]]>
 </MECANISME_CHAUFFAGE>
 <MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<NUM_ETAGE>3</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<TYPE_STATIONNEMENT>
+<![CDATA[Sous-sol]]>
+</TYPE_STATIONNEMENT>
+<NUM_ETAGE>0</NUM_ETAGE>
 <NUM_DERNIER_ETAGE>5</NUM_DERNIER_ETAGE>
 <ASCENSEUR>1</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
 <INTERPHONE>1</INTERPHONE>
 <DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
+<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>06/03/2025</DATE_DPE>
+<DATE_DPE>03/02/2025</DATE_DPE>
 <CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
@@ -2490,6 +2886,7 @@ Logement conventionné et soumis à des conditions de ressources.
 <CALME>1</CALME>
 <CLAIR>1</CLAIR>
 <GRENIER>0</GRENIER>
+<ALARME>Non</ALARME>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <NEUF_ANCIEN>Neuf</NEUF_ANCIEN>
@@ -2512,7 +2909,7 @@ Logement conventionné et soumis à des conditions de ressources.
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>28/03/2026</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>03/03/2026</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
@@ -2520,10 +2917,10 @@ Logement conventionné et soumis à des conditions de ressources.
 <BAIL>0</BAIL>
 <COLOCATION>0</COLOCATION>
 <CPVILLEWEB>
-<![CDATA[69008 LYON]]>
+<![CDATA[69200 VENISSIEUX]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[28/03/2025]]>
+<![CDATA[03/03/2025]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -2533,20 +2930,18 @@ Logement conventionné et soumis à des conditions de ressources.
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[1189]]>
+<![CDATA[974]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[1078]]>
+<![CDATA[825]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[T4-LYON08]]>
+<![CDATA[AG-T3-GEORGES]]>
 </REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
@@ -2606,14 +3001,14 @@ Logement conventionné et soumis à des conditions de ressources.
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69008</CODE_POSTAL>
+<CODE_POSTAL>69200</CODE_POSTAL>
 <VILLE>
-<![CDATA[LYON]]>
+<![CDATA[VENISSIEUX]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>69388</INSEE>
+<INSEE>69259</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -2621,7 +3016,7 @@ Logement conventionné et soumis à des conditions de ressources.
 <![CDATA[]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[BOULEVARD PINEL]]>
+<![CDATA[GEORGES LYVET]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -2656,7 +3051,7 @@ Logement conventionné et soumis à des conditions de ressources.
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[Appartement T4 à 78,71 m² à Lyon 8ème]]>
+<![CDATA[Appartements T3 neufs à Vénissieux]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -2670,18 +3065,18 @@ Logement conventionné et soumis à des conditions de ressources.
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[A la limite du secteur Parilly et Etats-Unis à Vénissieux, dans une résidence neuve, datant de ce début d'année, sur le boulevard Pinel, un T4 de 78,71 m² est disponible au 3ème étage avec ascenseur. 
+<![CDATA[Sur le secteur des Minguettes à Vénissieux, venez découvrir cette résidence neuve de 5 étages avec ascenseur. 
 
-Cet appartement possède une entrée avec rangements, 3 chambres, un WC indépendant, une salle de bains et une cuisine semi-équipée (meubles hauts/bas, plaques et hotte) ouverte sur le séjour donnant sur un balcon. 
+Un T3 de 70 m² est disponible et possède une entrée avec rangements, une salle de bains, un WC, 2 chambres et un séjour ouvert sur une cuisine semi-équipée (meubles hauts/bas, plaques et hotte) donnant sur un balcon. 
 
-Une place de parking vient compléter ce bien. 
+Une place de parking en sous-sol vient compléter ces biens. 
 
-Loyer CC : 1 189,00  euros dont 111,00  euros de charges comprenant l'entretien des parties communes. 
-Dépôt de garantie : 1 mois de loyer HC. 
+Loyer CC : 973,69,00  euros dont 152,00  euros de charges comprenant l'entretien des parties communes et le chauffage. 
+Dépôt de garantie : 1 mois de loyer HC.
 PAS DE FRAIS D'AGENCE. 
 
-Disponible de suite. 
-Logement conventionné et soumis à des conditions de ressources. 
+*Disponible de suite. 
+**Logements conventionnés et soumis à des conditions de ressources. 
 ]]>
 </FR>
 <US>
@@ -2711,12 +3106,12 @@ Logement conventionné et soumis à des conditions de ressources.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/0/1/4/7/7/58201477a.jpg?DATEMAJ=28/03/2025-12:41:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/0/1/4/7/7/58201477b.jpg?DATEMAJ=28/03/2025-12:41:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/0/1/4/7/7/58201477c.jpg?DATEMAJ=28/03/2025-12:41:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/0/1/4/7/7/58201477d.jpg?DATEMAJ=28/03/2025-12:41:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/0/1/4/7/7/58201477e.jpg?DATEMAJ=28/03/2025-12:41:56</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/2/0/1/4/7/7/58201477f.jpg?DATEMAJ=28/03/2025-12:41:56</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/4/9/58070249a.jpg?DATEMAJ=18/04/2025-16:43:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/4/9/58070249b.jpg?DATEMAJ=18/04/2025-16:43:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/4/9/58070249c.jpg?DATEMAJ=18/04/2025-16:43:54</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/4/9/58070249d.jpg?DATEMAJ=18/04/2025-16:43:54</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/4/9/58070249e.jpg?DATEMAJ=18/04/2025-16:43:54</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/0/7/0/2/4/9/58070249f.jpg?DATEMAJ=18/04/2025-16:44:08</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -2727,7 +3122,7 @@ Logement conventionné et soumis à des conditions de ressources.
 <AFF_ORIGIN_ID>57785513</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T3-CHAMBON</AFF_NUM>
 <DATE_CREATION>2025-01-22 10:12:42</DATE_CREATION>
-<DATE_MAJ>11/04/2025</DATE_MAJ>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813260</NEGO>
@@ -3812,7 +4207,7 @@ Disponible de suite.
 <AFF_ORIGIN_ID>58270698</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T3-ST_ETIENNE</AFF_NUM>
 <DATE_CREATION>2025-04-10 16:34:12</DATE_CREATION>
-<DATE_MAJ>11/04/2025</DATE_MAJ>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813260</NEGO>
@@ -4964,376 +5359,11 @@ Disponible de suite.
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>56028565</AFF_ID>
-<AFF_ORIGIN_ID>56028565</AFF_ORIGIN_ID>
-<AFF_NUM>FBT3LEMARGUET</AFF_NUM>
-<DATE_CREATION>2024-06-18 14:51:52</DATE_CREATION>
-<DATE_MAJ>16/04/2025</DATE_MAJ>
-<LIBRELE>18/06/2024</LIBRELE>
-<NEGO>813260</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=205c446abeeccf3e54fbd97001f40422&products_id=56028565&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[PHILYS Elisabeth ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[PHILYS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Elisabeth]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 99 79 90 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[philys@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[Responsable d'agence]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>430.11</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>18/06/2024</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>416</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>39.67</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[430.11]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[42000 SAINT ETIENNE]]>
-</CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>63</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>2</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>14/02/2023</DATE_DPE>
-<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>2</NBRE_ETAGE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>18/06/2025</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<CPVILLEWEB>
-<![CDATA[42000 SAINT ETIENNE]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[18/06/2024]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
-<LOYER_CC>
-<![CDATA[469.78]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[0]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[FBT3LEMARGUET]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42000</CODE_POSTAL>
-<VILLE>
-<![CDATA[SAINT ETIENNE]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>42218</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[SAINT ETIENNE - T3 rénové RUE CLAUDE MARGUET - 63m2]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[SAINT ETIENNE - T3 rénové RUE CLAUDE MARGUET - 63m2
-
-- Logement social soumis à conditions de ressources (PLUS) -
-Avis d'imposition 2024 sur revenus 2023 indispensable pour toute candidature, ainsi qu'un NUMERO UNIQUE de demande de logement social.
-
-Situé rue Claude MARGUET, ce T3 est disponible à la location.
-Au 2eme étage SANS ASCENSEUR, cet appartement T3 est composé d'un salon ouvrant sur une cuisine vide à aménager, de 2 chambres, d'une salle de bain avec baignoire et de toilette séparée.
-Transports, commerces et établissements scolaires à proximité.
-Chauffage individuel au gaz.
-
-DPE nouvelle version : E
-Loyer CC : 469.78 euros
-Dont 39.67 euros de charges comprenant la provision pour l'entretien des parties communes.
-Dépôt de garantie : 430 euros
-
-PAS DE FRAIS D'AGENCE
-DISPONIBLE DE SUITE
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565a.jpg?DATEMAJ=18/06/2024-14:55:13</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565b.jpg?DATEMAJ=18/06/2024-14:55:15</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565c.jpg?DATEMAJ=18/06/2024-14:55:18</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565d.jpg?DATEMAJ=18/06/2024-14:55:21</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565e.jpg?DATEMAJ=18/06/2024-14:55:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565f.jpg?DATEMAJ=18/06/2024-14:55:26</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/0/2/8/5/6/5/56028565g.jpg?DATEMAJ=18/06/2024-14:55:29</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
 <AFF_ID>57713272</AFF_ID>
 <AFF_ORIGIN_ID>57713272</AFF_ORIGIN_ID>
 <AFF_NUM>T3-PONT-SALOMON</AFF_NUM>
 <DATE_CREATION>2025-01-07 15:33:09</DATE_CREATION>
-<DATE_MAJ>16/04/2025</DATE_MAJ>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>16/01/2025</LIBRELE>
 <NEGO>813260</NEGO>
 <AFF_URL>
@@ -7352,7 +7382,7 @@ Estimation des couts annuels d'énergie au 1er Janvier 2021 entre 390 euros et 58
 <AFF_ORIGIN_ID>57785486</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T3-UNIEUX</AFF_NUM>
 <DATE_CREATION>2025-01-22 10:05:46</DATE_CREATION>
-<DATE_MAJ>04/04/2025</DATE_MAJ>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813260</NEGO>
@@ -8908,7 +8938,7 @@ Disponible de suite.
 <AFF_ORIGIN_ID>57785433</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T3-FIRMINY</AFF_NUM>
 <DATE_CREATION>2025-01-22 09:59:27</DATE_CREATION>
-<DATE_MAJ>04/04/2025</DATE_MAJ>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813260</NEGO>
@@ -11466,6 +11496,787 @@ Loyer de référence majoré (loyer de base à ne pas dépasser) : 1 405.31EUR. Loyer
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/1/9/6/5/53481965e.jpg?DATEMAJ=11/07/2023-10:22:05</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/1/9/6/5/53481965f.jpg?DATEMAJ=11/07/2023-10:22:05</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/1/9/6/5/53481965g.jpg?DATEMAJ=11/07/2023-10:22:05</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>57902932</AFF_ID>
+<AFF_ORIGIN_ID>57902932</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T3-KINGERSHEIM</AFF_NUM>
+<DATE_CREATION>2025-02-03 16:38:19</DATE_CREATION>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
+<LIBRELE>
+</LIBRELE>
+<NEGO>813260</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=4166b06464a5cc31fb38d898114105df&products_id=57902932&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[PHILYS Elisabeth ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[PHILYS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Elisabeth]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[06 99 79 90 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[philys@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[Responsable d'agence]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>693.99</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Exclusif</TYPE_MANDAT>
+<DATE_MANDAT>03/02/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>693.99</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>211.65</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[693.99]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[68260 KINGERSHEIM]]>
+</CPVILLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>64.78</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>
+<NBRE_GARAGE>1</NBRE_GARAGE>            <CUISINE>
+<![CDATA[Nue]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
+<CHAUFFAGE>
+<![CDATA[Collectif]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<TYPE_STATIONNEMENT>
+<![CDATA[Garage fermé]]>
+</TYPE_STATIONNEMENT>
+<NUM_ETAGE>2</NUM_ETAGE>
+<DERNIER_ETAGE>1</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
+<ASCENSEUR>0</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<INTERPHONE>1</INTERPHONE>
+<DIGICODE>1</DIGICODE>
+<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>14/10/2022</DATE_DPE>
+<CHARGE_ENERGIE_MIN>480</CHARGE_ENERGIE_MIN>
+<CHARGE_ENERGIE_MAX>690</CHARGE_ENERGIE_MAX>
+<GAZEFFETDESERRE>C</GAZEFFETDESERRE>
+<CONSO_ANNUEL_ENERGIE>136</CONSO_ANNUEL_ENERGIE>
+<CONSO_ENERGIE_FINALE>136</CONSO_ENERGIE_FINALE>
+<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
+<VALEUR_GES>26</VALEUR_GES>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>2</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<GRENIER>0</GRENIER>
+<ALARME>Non</ALARME>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>03/02/2026</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
+<COLOCATION>0</COLOCATION>
+<CPVILLEWEB>
+<![CDATA[68260 KINGERSHEIM]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[03/02/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>
+<FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[905.64]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[693.99]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[AG-T3-KINGERSHEIM]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISA_VIS>0</VISA_VIS>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>
+<ANNEE_REF_PRIX_ENERGIE>
+<![CDATA[01/01/2022]]>
+</ANNEE_REF_PRIX_ENERGIE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>68260</CODE_POSTAL>
+<VILLE>
+<![CDATA[KINGERSHEIM]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>68166</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[Appartement T3 de 64,78 m² à Kingersheim]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[*Disponible à partir du 22/02. 
+**Logement conventionné et soumis à des conditions de ressources. 
+
+Sur le secteur de Kingersheim, à proximité du Leclerc, un appartement T3 de 64,78 m² est disponible au 2ème étage SANS ASCENSEUR. 
+
+Cet appartement possède une entrée, 2 chambres dont 1 avec rangements, une salle de bains, un WC indépendant, une cuisine fermée non-équipée et un séjour donnant sur un balcon. 
+
+Une cave ainsi qu'un garage fermée viennent compléter ce bien. 
+
+Loyer CC : 905,64  euros dont 211,65  euros de charges comprenant l'entretien des parties communes, le chauffage, l'eau chaude et l'eau froide. 
+Dépôt de garantie : 1 mois de loyer HC. 
+PAS DE FRAIS D'AGENCE. 
+
+DPE : C. Estimation de la consommation énergétique estimée entre 480  euros et 690  euros par an (prix moyen des énergies indexés au 1er Janvier 2021). 
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/9/0/2/9/3/2/57902932a.jpg?DATEMAJ=03/02/2025-16:38:41</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/9/0/2/9/3/2/57902932b.jpg?DATEMAJ=03/02/2025-16:39:35</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/9/0/2/9/3/2/57902932c.jpg?DATEMAJ=03/02/2025-16:39:20</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/7/9/0/2/9/3/2/57902932d.jpg?DATEMAJ=03/02/2025-16:39:23</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>56382008</AFF_ID>
+<AFF_ORIGIN_ID>56382008</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T4-KINGERSHEIM</AFF_NUM>
+<DATE_CREATION>2024-09-05 17:12:45</DATE_CREATION>
+<DATE_MAJ>18/04/2025</DATE_MAJ>
+<LIBRELE>
+</LIBRELE>
+<NEGO>813260</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=be870db1c7a6363bb458b0b0169e5dee&products_id=56382008&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813260</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[PHILYS Elisabeth ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[PHILYS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Elisabeth]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[06 99 79 90 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[philys@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[Responsable d'agence]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>994.29</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Exclusif</TYPE_MANDAT>
+<DATE_MANDAT>05/09/2024</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>994.29</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>250.55</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[994.29]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>37</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[68260 KINGERSHEIM]]>
+</CPVILLE>
+<NBRE_PIECES>4</NBRE_PIECES>
+<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>88.17</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>2004</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>
+<NBRE_GARAGE>1</NBRE_GARAGE>
+<NBRE_PARKING>2</NBRE_PARKING>            <NBRE_CAVES>1</NBRE_CAVES>
+<CUISINE>
+<![CDATA[Nue]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
+<CHAUFFAGE>
+<![CDATA[Collectif]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<TYPE_STATIONNEMENT>
+<![CDATA[0]]>
+</TYPE_STATIONNEMENT>
+<NUM_ETAGE>2</NUM_ETAGE>
+<DERNIER_ETAGE>1</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
+<ASCENSEUR>0</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<INTERPHONE>1</INTERPHONE>
+<DIGICODE>1</DIGICODE>
+<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>18/02/2023</DATE_DPE>
+<ESTIMATION_ANNUEL_STANDARD_EX_DPE>740</ESTIMATION_ANNUEL_STANDARD_EX_DPE>
+<CHARGE_ENERGIE_MIN>740</CHARGE_ENERGIE_MIN>
+<CHARGE_ENERGIE_MAX>1050</CHARGE_ENERGIE_MAX>
+<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
+<CONSO_ANNUEL_ENERGIE>153</CONSO_ANNUEL_ENERGIE>
+<CONSO_ENERGIE_FINALE>153</CONSO_ENERGIE_FINALE>
+<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
+<VALEUR_GES>30</VALEUR_GES>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>2</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<GRENIER>0</GRENIER>
+<ALARME>Non</ALARME>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<NEUF_ANCIEN>Ancien</NEUF_ANCIEN>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>05/09/2025</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<COLOCATION>0</COLOCATION>
+<CPVILLEWEB>
+<![CDATA[68260 KINGERSHEIM]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[05/09/2024]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>
+<FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[1244.84]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[962.91]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[AG-T4-KINGERSHEIM]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISA_VIS>0</VISA_VIS>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>
+<ANNEE_REF_PRIX_ENERGIE>
+<![CDATA[01/01/2021]]>
+</ANNEE_REF_PRIX_ENERGIE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>68260</CODE_POSTAL>
+<VILLE>
+<![CDATA[KINGERSHEIM]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>68166</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[Appartement T4 à Kingersheim]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[PAS DE FRAIS D'AGENCE, à Kingersheim, au 18 rue de Bruxelles, à proximité du Leclerc, venez découvrir cet appartement T4 de 88,17 m² au 2ème étage SANS ASCENSEUR, dans une petite résidence à taille humaine. 
+
+Cet appartement possède une entrée, 3 chambres avec placards muraux, une cuisine fermée, un grand séjour donnant sur une terrasse, un WC indépendant et une salle de bains. 
+
+Deux places de parking, 1 garage et 1 cave viennent compléter ce bien. 
+
+Loyer CC : 1 244,84  euros dont 250,55  euros de charges comprenant l'entretien des parties communes, le chauffage, l'eau chaude et l'eau froide. 
+Dépôt de garantie : 1 mois de loyer HC. 
+PAS DE FRAIS D'AGENCE. 
+
+**Logement conventionné et soumis à des conditions de ressources. 
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/8/2/0/0/8/56382008a.jpg?DATEMAJ=07/04/2025-11:20:28</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/8/2/0/0/8/56382008b.jpg?DATEMAJ=07/04/2025-11:20:28</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/8/2/0/0/8/56382008c.jpg?DATEMAJ=07/04/2025-11:20:28</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/8/2/0/0/8/56382008e.jpg?DATEMAJ=07/04/2025-11:20:28</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/8/2/0/0/8/56382008f.jpg?DATEMAJ=07/04/2025-11:20:28</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/6/3/8/2/0/0/8/56382008g.jpg?DATEMAJ=07/04/2025-11:20:29</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
