@@ -34,6 +34,7 @@
 }
 
 .menuLink {
+    cursor: pointer;
     background-color: rgba(var(--brand-color-rgb), 0.1);
     color: var(--brand-color);
     padding-top: 1em;

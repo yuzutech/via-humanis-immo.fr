@@ -30,6 +30,27 @@
     white-space: nowrap;
 }
 
+.contact {
+    cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 700;
+    font-size: 0.95em;
+    font-family: inherit;
+}
+
+.contact::before {
+    display: block;
+    content: "";
+    width: 1.25em;
+    height: 1.25em;
+    background: url('/contact-dark.svg') no-repeat;
+    background-size: contain;
+}
+
 .navLink.active {
     color: var(--black-color)
 }
@@ -58,11 +79,13 @@
     display: flex;
     flex: auto;
     justify-content: flex-end;
-    gap: 0.5em;
+    gap: 1.25em;
     height: 50px;
 }
 
 .search {
+    padding-left: 0;
+    padding-right: 0;
     display: flex;
     align-items: center;
     gap: 0.5em;

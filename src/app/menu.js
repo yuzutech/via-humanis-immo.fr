@@ -4,17 +4,24 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import {usePathname} from 'next/navigation'
-import {useEffect, useState} from 'react'
+import { useCallback, useEffect, useState } from "react";
 
 import MobileMenu from '@/app/mobileMenu'
 
 import styles from './menu.module.css'
 import logoStyles from './menuLogo.module.css'
+import { useModal } from "@geist-ui/core";
+import ContactModal from "@/components/contactModal.js";
 
 export default function Menu({variation = "primary"}) {
   const pathname = usePathname()
 
   const [width, setWidth] = useState()
+
+  const { setVisible, bindings} = useModal()
+  const openContactForm = useCallback(() => {
+    setVisible(true)
+  }, [setVisible])
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth)
@@ -72,6 +79,7 @@ export default function Menu({variation = "primary"}) {
         className={clsx(styles.search, styles.navLink, pathname.startsWith('/recherche') && styles.active)}
         href="/recherche"
       >Trouver un bien</Link>
+      <a className={clsx(styles.navLink, styles.contact)} onClick={openContactForm}><span>Nous contacter</span></a>
       <div className={clsx(styles.buttons, styles.navButtons)}>
         <Link
           className={clsx(styles.navLink, styles.button, styles.buttonSecondary, pathname.startsWith('/qui-sommes-nous') && styles.active)}
@@ -79,5 +87,6 @@ export default function Menu({variation = "primary"}) {
         >Qui sommes-nous ?</Link>
       </div>
     </div>
+    <ContactModal setVisible={setVisible} bindings={bindings}/>
   </nav>)
 }
