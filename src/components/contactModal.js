@@ -46,7 +46,7 @@ export default function ContactModal({setVisible, bindings, type = 'gestion-loca
     }
   }, [email, message])
 
-  return (<Modal {...bindings} onClose={() => {
+  return (<Modal {...bindings} disableBackdropClick={true} onClose={() => {
     setVisible(false)
     setObject('gestion-locative')
     setEmail('')
