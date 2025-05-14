@@ -2,7 +2,6 @@ import { fileURLToPath, URL } from 'node:url'
 import path from 'node:path'
 import fs from 'node:fs/promises'
 import { XMLParser } from 'fast-xml-parser'
-import * as b from "next/dist/telemetry/ci-info.js";
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const baseDirectory = path.join(__dirname, '..', 'public', 'data', 'pericles')
@@ -185,7 +184,11 @@ async function getProperties() {
  * @return Promise<Property[]>
  */
 async function getPropertiesFromXml(xmlFile) {
-  const parser = new XMLParser()
+  const parser = new XMLParser({
+    numberParseOptions: {
+      leadingZeros: false
+    }
+  })
   const dataDirectory = path.join(__dirname, '..', 'data')
   const imagesDir = path.join(baseDirectory, 'images')
   const xmlData = await fs.readFile(path.join(dataDirectory, xmlFile), {encoding: 'binary'})
