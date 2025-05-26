@@ -55,12 +55,8 @@ export default function Menu({variation = "primary"}) {
         src="/via-humanis-immobilier.png"
         alt="logo"
         aria-hidden={true}
-        width="48"
-        height="44"/>
-      <div className={logoStyles.wordmark}>
-        <div className={logoStyles.title}>Via Humanis</div>
-        <div className={logoStyles.subtitle}>Immobilier</div>
-      </div>
+        width="192"
+        height="48"/>
     </Link>
     <div className={styles.navLinks}>
       {navLinks.map((link) => {
