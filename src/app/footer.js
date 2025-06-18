@@ -38,11 +38,11 @@ export default function Footer() {
         </ul>
         <div className={styles.group}>
           <div>
-            Notre groupe :
+            Groupe Via Humanis
           </div>
           <div className={styles.image}>
             <a href="https://via-humanis.fr/?utm_source=via-humanis-immo">
-              <Image src="/via-humanis.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
+              <Image src="/via-humanis-color.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
             </a>
           </div>
         </div>
