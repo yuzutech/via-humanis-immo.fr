@@ -18,7 +18,7 @@ export default function Footer() {
       <div className={styles.content}>
         <div className={styles.introduction}>
           <div className={styles.image}>
-            <Image src="/via-humanis-immobilier-horizontal-white.png" alt="Logo Via Humanis Immobilier" aria-hidden={true} width="260" height="64"/>
+            <Image src="/via-humanis-immobilier.png" alt="Logo Via Humanis Immobilier" aria-hidden={true} width="260" height="64"/>
           </div>
           <div className={styles.image}>
             <a href="https://www.fnaim.fr/" target="_blank" rel="noopener noreferrer">
@@ -38,11 +38,11 @@ export default function Footer() {
         </ul>
         <div className={styles.group}>
           <div>
-            Notre groupe :
+            Groupe Via Humanis
           </div>
           <div className={styles.image}>
             <a href="https://via-humanis.fr/?utm_source=via-humanis-immo">
-              <Image src="/via-humanis.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
+              <Image src="/via-humanis-color.png" alt="Logo Via Humanis" aria-hidden={true} width="240" height="48"/>
             </a>
           </div>
         </div>

@@ -42,18 +42,14 @@ export default function MobileMenu() {
       pathname === '/recherche' && styles.containerSearch
     )}>
       <div className={logoStyles.brand}>
+        <Link href="/">
         <Image
           className={logoStyles.logo}
           src="/via-humanis-immobilier.png"
           alt="logo"
           aria-hidden={true}
-          width="48"
-          height="44"/>
-        <Link href="/">
-          <div className={logoStyles.wordmark}>
-            <div className={logoStyles.title}>Via Humanis</div>
-            <div className={logoStyles.subtitle}>Immobilier</div>
-          </div>
+          width="192"
+          height="48"/>
         </Link>
       </div>
       <a href="#" onClick={handleOpen} className={styles.openMenuButton}></a>
