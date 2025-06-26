@@ -556,7 +556,7 @@ Copropriété de 22 lots (Pas de procédure en cours).]]>
 <AFF_ORIGIN_ID>57925792</AFF_ORIGIN_ID>
 <AFF_NUM>T1SAINTGERMAIN</AFF_NUM>
 <DATE_CREATION>2025-02-08 10:58:44</DATE_CREATION>
-<DATE_MAJ>16/05/2025</DATE_MAJ>
+<DATE_MAJ>25/06/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -875,7 +875,7 @@ Prix : 137 000Euro
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[STUDIO  PLEIN CENTRE ST GERMAIN EN LAYE]]>
+<![CDATA[STUDIO  PLEIN CENTRE ST GERMAIN EN LAYE  REFAIT  A NEUF]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -889,12 +889,12 @@ Prix : 137 000Euro
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[STUDIO COSY - PLEIN CENTRE ST GERMAIN-EN-LAYE - 137 000 euros
+<![CDATA[STUDIO COSY - PLEIN CENTRE ST GERMAIN-EN-LAYE - 129 000 euros
 Idéalement situé au coeur de Saint-Germain-en-Laye, charmant studio entièrement rénové de 15m².
 POINTS FORTS :
 
 Emplacement privilégié en centre-ville
-Studio très lumineux
+Studio très lumineux avec belle hauteur sous plafond 
 Rénovation récente, aucun travaux à prévoir
 4ème étage
 Proche de toutes commodités (commerces, transports, restaurants)
@@ -1339,7 +1339,7 @@ Si bail code civil honoraires d'agence : 12%HT du loyer annuel + 420  euros d'ét
 <AFF_ORIGIN_ID>58746442</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T3-JEAN_VOILLOT</AFF_NUM>
 <DATE_CREATION>2025-06-19 10:50:19</DATE_CREATION>
-<DATE_MAJ>23/06/2025</DATE_MAJ>
+<DATE_MAJ>25/06/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813261</NEGO>
@@ -1705,6 +1705,379 @@ PAS DE FRAIS D'AGENCE.
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/6/4/4/2/58746442d.jpg?DATEMAJ=20/06/2025-01:41:25</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/6/4/4/2/58746442e.jpg?DATEMAJ=20/06/2025-01:41:25</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/6/4/4/2/58746442f.jpg?DATEMAJ=20/06/2025-01:41:25</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>58740422</AFF_ID>
+<AFF_ORIGIN_ID>58740422</AFF_ORIGIN_ID>
+<AFF_NUM>AG-T3-INSPIRATION</AFF_NUM>
+<DATE_CREATION>2025-06-17 15:54:20</DATE_CREATION>
+<DATE_MAJ>25/06/2025</DATE_MAJ>
+<LIBRELE>
+</LIBRELE>
+<NEGO>813261</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=3a41b86ae90976668b83704bb29c21c6&products_id=58740422&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[GAUDIN Alice ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[GAUDIN]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Alice]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[06 66 11 35 22]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[gaudin@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[Conseiller en Immobilier]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>1028.59</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>17/06/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>1028.59</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>101.83</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[1028.59]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[69100 VILLEURBANNE]]>
+</CPVILLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>72.12</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
+<NBRE_WC>1</NBRE_WC>            <CUISINE>
+<![CDATA[Nue]]>
+</CUISINE>
+<MEUBLE>0</MEUBLE>
+<CHAUFFAGE>
+<![CDATA[Individuel]]>
+</CHAUFFAGE>
+<MECANISME_CHAUFFAGE>
+<![CDATA[Radiateur]]>
+</MECANISME_CHAUFFAGE>
+<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
+<NUM_ETAGE>5</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
+<ASCENSEUR>1</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
+<INTERPHONE>1</INTERPHONE>
+<DIGICODE>1</DIGICODE>
+<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>17/06/2022</DATE_DPE>
+<CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<NBRE_ETAGE>0</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<GRENIER>0</GRENIER>
+<ALARME>Non</ALARME>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<NEUF_ANCIEN>Recent</NEUF_ANCIEN>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>17/06/2026</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
+<COLOCATION>0</COLOCATION>
+<CPVILLEWEB>
+<![CDATA[69100 VILLEURBANNE]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[17/06/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[1130.42]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[1028.59]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[AG-T3-INSPIRATION]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISA_VIS>0</VISA_VIS>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>69100</CODE_POSTAL>
+<VILLE>
+<![CDATA[VILLEURBANNE]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>69266</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[INSPIRATION]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[Appartement T3 de 72,12 m² à Villeurbanne]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[Sur le secteur des Brosses à Villeurbanne, rue Jean Voillot, un appartement T3 de 72,12 m² est disponible au 5ème étage avec ascenseur. 
+
+Il possède une entrée avec rangements, un séjour donnant sur un balcon et ouvert sur une cuisine non-équipée, 2 chambres, un WC indépendant et une salle de bains. 
+
+Loyer CC : 1 130,42  euros dont 101,83  euros de charges comprenant l'entretien des parties communes et l'eau froide. 
+Dépôt de garantie : 1 028,59  euros. 
+PAS DE FRAIS D'AGENCE. 
+
+*Disponible de suite. 
+**LOGEMENT SOCIAL ET SOUMIS A DES CONDITIONS. 
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/0/4/2/2/58740422a.jpg?DATEMAJ=20/06/2025-01:41:23</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/0/4/2/2/58740422b.jpg?DATEMAJ=20/06/2025-01:41:23</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/0/4/2/2/58740422c.jpg?DATEMAJ=20/06/2025-01:41:23</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/0/4/2/2/58740422d.jpg?DATEMAJ=20/06/2025-01:41:23</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/0/4/2/2/58740422e.jpg?DATEMAJ=20/06/2025-01:41:24</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/4/0/4/2/2/58740422f.jpg?DATEMAJ=20/06/2025-01:41:24</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -11292,7 +11665,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>57371432</AFF_ORIGIN_ID>
 <AFF_NUM>AG-GARAGE-VILLEURBANNE</AFF_NUM>
 <DATE_CREATION>2024-11-26 13:21:07</DATE_CREATION>
-<DATE_MAJ>19/06/2025</DATE_MAJ>
+<DATE_MAJ>25/06/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813261</NEGO>
@@ -12340,7 +12713,7 @@ Loyer soumlis à TVA
 <AFF_ORIGIN_ID>53483973</AFF_ORIGIN_ID>
 <AFF_NUM>Maison-FOURQUEUX</AFF_NUM>
 <DATE_CREATION>2019-01-11 11:18:30</DATE_CREATION>
-<DATE_MAJ>18/06/2025</DATE_MAJ>
+<DATE_MAJ>25/06/2025</DATE_MAJ>
 <LIBRELE>10/12/2020</LIBRELE>
 <NEGO>813264</NEGO>
 <AFF_URL>
@@ -12474,6 +12847,11 @@ Loyer soumlis à TVA
 <![CDATA[Gaz]]>
 </EAU_CHAUDE>
 <ACCES_HANDICAPES>1</ACCES_HANDICAPES>
+<ASCENSEUR>0</ASCENSEUR>
+<PORTAIL_ELECTRIQUE>Oui</PORTAIL_ELECTRIQUE>
+<ETAT_INTERIEUR>
+<![CDATA[Très bon]]>
+</ETAT_INTERIEUR>
 <CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
 <DATE_DPE>01/01/2018</DATE_DPE>
@@ -12486,6 +12864,9 @@ Loyer soumlis à TVA
 </TEXTE_PORTAILS>
 <JARDIN>1</JARDIN>
 <NBRE_ETAGE>1</NBRE_ETAGE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<GRENIER>0</GRENIER>
 <STYLE>
 <![CDATA[Pavillon]]>
 </STYLE>
@@ -12670,7 +13051,7 @@ Loyer soumlis à TVA
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[MAISON FOURQUEUX - 5 pièce(s) - 100 m2]]>
+<![CDATA[MAISON FOURQUEUX NOUVELLE CONSTRUCTION  - 5 pièce(s) - 100 m2]]>
 </FR>
 <US>
 <![CDATA[MAISON FOURQUEUX - 5 pièce(s) - 101 m2]]>
@@ -12727,18 +13108,18 @@ Si bail société  honoraires d'agence 12% HT du loyer annuel + 300  euros d'état 
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973a.jpg?DATEMAJ=20/03/2025-18:13:44</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973b.jpg?DATEMAJ=20/03/2025-18:13:44</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973c.jpg?DATEMAJ=20/03/2025-18:13:45</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973d.jpg?DATEMAJ=20/03/2025-18:13:45</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973e.jpg?DATEMAJ=20/03/2025-18:13:45</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973f.jpg?DATEMAJ=20/03/2025-18:13:46</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973g.jpg?DATEMAJ=20/03/2025-18:13:46</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973h.jpg?DATEMAJ=05/05/2025-12:55:50</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973i.jpg?DATEMAJ=05/05/2025-12:55:50</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973j.jpg?DATEMAJ=05/05/2025-12:55:50</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973k.jpg?DATEMAJ=05/05/2025-12:55:51</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973l.jpg?DATEMAJ=05/05/2025-12:55:51</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973a.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973b.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973c.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973d.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973e.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973f.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973g.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973h.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973i.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973j.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973k.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/3/4/8/3/9/7/3/53483973l.jpg?DATEMAJ=25/06/2025-15:37:18</IMG>
 </IMAGES>
 <PIECES>
 <PIECE>
