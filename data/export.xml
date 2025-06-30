@@ -945,365 +945,11 @@ Cet appartement est vendu occupé .
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58776861</AFF_ID>
-<AFF_ORIGIN_ID>58776861</AFF_ORIGIN_ID>
-<AFF_NUM>FBT3MONTLUEL</AFF_NUM>
-<DATE_CREATION>2025-06-27 17:08:48</DATE_CREATION>
-<DATE_MAJ>27/06/2025</DATE_MAJ>
-<LIBRELE>30/06/2025</LIBRELE>
-<NEGO>813263</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=d897cc2559a1a1e2f75aba02d1c0ea9d&products_id=58776861&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[BAROIS Florent ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[BAROIS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Florent]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 43 16 76 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[barois@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>442.18</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>27/06/2025</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>608.01</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>165.14</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[442.18]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[01120 MONTLUEL]]>
-</CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>56</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>1</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>12/08/2024</DATE_DPE>
-<GAZEFFETDESERRE>C</GAZEFFETDESERRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<NBRE_ETAGE>4</NBRE_ETAGE>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>27/06/2026</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<CPVILLEWEB>
-<![CDATA[01120 MONTLUEL]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[27/06/2025]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOYER_CC>
-<![CDATA[607.32]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[442.18]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[FBT3MONTLUEL]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>01120</CODE_POSTAL>
-<VILLE>
-<![CDATA[MONTLUEL]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>01262</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[MONTLUEL T3 - 56m2 - rue des marronniers]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[MONTLUEL T3 - 56m2 - rue des marronniers
-*DEMANDE DE LOGEMENT SOCIAL DANS LE 01 ET AVIS D'IMPOSITION 2024 SUR REVENUS 2023 OBLIGATOIRES .
-**Logement social et soumis à des conditions de ressources (PLUS).
-
-Situé rue des marronniers, venez visiter cet appartement T3 de 56m².
-Au 1er étage SANS ASCENSEUR, ce logement possède une entrée, une cuisine non-équipée ouverte sur le séjour et donnant sur un balcon,  2 chambres, une salle d'eau avec douche et un WC indépendant .
-
-Loyer CC : 608.01 euros dont 165.14 euros de charges comprenant l'entretien des parties communes , le chauffage et la TEOM
-Dépôt de garantie : 1 mois de loyer HC soit 582 euros.
-
-DPE: D et GES: D
-
-PAS DE FRAIS D'AGENCE.
-Disponible de suite.
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861a.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861b.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861c.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861d.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861e.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861f.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/8/6/1/58776861g.jpg?DATEMAJ=27/06/2025-17:09:31</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
 <AFF_ID>58776769</AFF_ID>
 <AFF_ORIGIN_ID>58776769</AFF_ORIGIN_ID>
 <AFF_NUM>FBT3STDENIS19MARS</AFF_NUM>
 <DATE_CREATION>2025-06-27 16:49:13</DATE_CREATION>
-<DATE_MAJ>27/06/2025</DATE_MAJ>
+<DATE_MAJ>29/06/2025</DATE_MAJ>
 <LIBRELE>30/06/2025</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
@@ -1395,7 +1041,7 @@ Disponible de suite.
 <SS_TYPE>1</SS_TYPE>
 <CATEGORIE_MERE>36</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[01500 AMBERIEU EN BUGEY]]>
+<![CDATA[01500 ST DENIS EN BUGEY]]>
 </CPVILLE>
 <NBRE_PIECES>3</NBRE_PIECES>
 <NBRE_CHAMBRES>2</NBRE_CHAMBRES>
@@ -1450,7 +1096,7 @@ Disponible de suite.
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
 <CPVILLEWEB>
-<![CDATA[01500 AMBERIEU EN BUGEY]]>
+<![CDATA[01500 ST DENIS EN BUGEY]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
 <![CDATA[27/06/2025]]>
@@ -1536,12 +1182,12 @@ Disponible de suite.
 <VISIBLE>true</VISIBLE>
 <CODE_POSTAL>01500</CODE_POSTAL>
 <VILLE>
-<![CDATA[AMBERIEU EN BUGEY]]>
+<![CDATA[ST DENIS EN BUGEY]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>01004</INSEE>
+<INSEE>01345</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -1658,15 +1304,15 @@ Disponible de suite.
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58776701</AFF_ID>
-<AFF_ORIGIN_ID>58776701</AFF_ORIGIN_ID>
-<AFF_NUM>FBT3AMBSANVILLE</AFF_NUM>
-<DATE_CREATION>2025-06-27 16:35:12</DATE_CREATION>
-<DATE_MAJ>27/06/2025</DATE_MAJ>
+<AFF_ID>58775433</AFF_ID>
+<AFF_ORIGIN_ID>58775433</AFF_ORIGIN_ID>
+<AFF_NUM>FBT3AMBJEANMONNET</AFF_NUM>
+<DATE_CREATION>2025-06-27 12:03:43</DATE_CREATION>
+<DATE_MAJ>29/06/2025</DATE_MAJ>
 <LIBRELE>30/06/2025</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=be6ebaf353768b68d5e0bd2c006d9de5&products_id=58776701&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=d6622ce4780a39e1957b25cdb000ee86&products_id=58775433&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -1738,17 +1384,17 @@ Disponible de suite.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>502.6</LOYER>
+<LOYER>497.33</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
 <DATE_MANDAT>27/06/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>502.6</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>85.17</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>497.33</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>84.7</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[502.6]]>
+<![CDATA[497.33]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -1758,7 +1404,7 @@ Disponible de suite.
 </CPVILLE>
 <NBRE_PIECES>3</NBRE_PIECES>
 <NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>72</SURFACE_HABITABLE>
+<SURFACE_HABITABLE>68</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -1770,19 +1416,22 @@ Disponible de suite.
 <NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
 <NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
 <NUM_ETAGE>1</NUM_ETAGE>
-<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
 <ASCENSEUR>0</ASCENSEUR>
-<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<INTERPHONE>1</INTERPHONE>
+<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>07/01/2025</DATE_DPE>
-<GAZEFFETDESERRE>C</GAZEFFETDESERRE>
+<DATE_DPE>05/09/2024</DATE_DPE>
+<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
 <JARDIN>0</JARDIN>
-<NBRE_ETAGE>2</NBRE_ETAGE>
-<GRENIER>0</GRENIER>
+<NBRE_ETAGE>4</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
 <REGIME_FISCAL>
@@ -1822,19 +1471,19 @@ Disponible de suite.
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[587.77]]>
+<![CDATA[582.03]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[502.6]]>
+<![CDATA[497.33]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[FBT3AMBSANVILLE]]>
+<![CDATA[FBT3AMBJEANMONNET]]>
 </REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
@@ -1944,7 +1593,7 @@ Disponible de suite.
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[AMBERIEU EN BUGEY T3 - 72m2 - place Sanville]]>
+<![CDATA[AMBERIEUEN BUGEY T3 - 68m2 - rue Jean Monnet]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -1958,17 +1607,16 @@ Disponible de suite.
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[AMBERIEUEN BUGEY T3 - 72m2 - place Sanville
+<![CDATA[AMBERIEUEN BUGEY T3 - 68m2 - rue Jean Monnet
 *DEMANDE DE LOGEMENT SOCIAL DANS LE 01 ET AVIS D'IMPOSITION 2024 SUR REVENUS 2023 OBLIGATOIRES .
 **Logement social et soumis à des conditions de ressources (PLUS).
 
-Situé rue Jean Monnet, venez visiter cet appartement T3 de 72m².
-Au 1er étage sans ascenseur, ce logement possède une entrée, une cuisine non-équipée ouverte sur le séjour , une débarras, 2 chambres, une salle de bain avec baignoire et un WC indépendant .
+Situé rue Jean Monnet, venez visiter cet appartement T3 de 68m².
+Au 1er étage sans ascenseur, ce logement possède une entrée, une cuisine non-équipée ouverte sur le séjour et donnant sur un balcon, un débarras à aménager, 2 chambres, une salle de bain et un WC indépendant .
 
-Loyer CC : 587.77 euros dont 85.17 euros de charges comprenant l'entretien des parties communes et la TEOM
-Dépôt de garantie : 1 mois de loyer HC soit 502.60 euros.
-Chauffage, eau froide/chaude individuel gaz
-Possibilité d'avoir un parking sécurisé en supplément.
+Loyer CC : 582.03 euros dont 84.70 euros de charges comprenant l'entretien des parties communes et la TEOM
+Dépôt de garantie : 1 mois de loyer HC soit 497 euros.
+Chauffage individuel gaz
 DPE: D et GES: D
 
 PAS DE FRAIS D'AGENCE.
@@ -2002,14 +1650,16 @@ Disponible de suite.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701a.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701b.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701c.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701d.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701e.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701f.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701g.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/6/7/0/1/58776701h.jpg?DATEMAJ=27/06/2025-16:40:49</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433a.jpg?DATEMAJ=27/06/2025-16:41:58</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433b.jpg?DATEMAJ=27/06/2025-16:41:58</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433c.jpg?DATEMAJ=27/06/2025-16:41:58</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433d.jpg?DATEMAJ=27/06/2025-16:41:58</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433e.jpg?DATEMAJ=27/06/2025-16:41:59</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433f.jpg?DATEMAJ=27/06/2025-16:41:59</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433g.jpg?DATEMAJ=27/06/2025-16:41:59</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433h.jpg?DATEMAJ=27/06/2025-16:41:59</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433i.jpg?DATEMAJ=27/06/2025-16:41:59</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/7/5/4/3/3/58775433j.jpg?DATEMAJ=27/06/2025-16:41:59</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
