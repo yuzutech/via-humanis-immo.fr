@@ -395,16 +395,15 @@ Cet appartement est vendu occupé .
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>59081656</AFF_ID>
-<AFF_ORIGIN_ID>59081656</AFF_ORIGIN_ID>
-<AFF_NUM>AG-T3-ROUGEMONT</AFF_NUM>
-<DATE_CREATION>2025-08-18 10:14:43</DATE_CREATION>
-<DATE_MAJ>11/09/2025</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>813261</NEGO>
+<AFF_ID>59170301</AFF_ID>
+<AFF_ORIGIN_ID>59170301</AFF_ORIGIN_ID>
+<AFF_NUM>FBT4ASCHILTIGHEIM</AFF_NUM>
+<DATE_CREATION>2025-09-12 17:00:36</DATE_CREATION>
+<DATE_MAJ>12/09/2025</DATE_MAJ>
+<LIBRELE>22/09/2025</LIBRELE>
+<NEGO>813263</NEGO>
 <AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=67bcafda7d46528dee62d7d1ac2ae64b&products_id=59081656&show_price=1]]>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=62f921f52965719a23e5822eaacc6580&products_id=59170301&show_price=1]]>
 </AFF_URL>
 <VISITE_VIRTUELLE>
 <![CDATA[]]>
@@ -443,27 +442,27 @@ Cet appartement est vendu occupé .
 </AGENCE_BAREME>
 </AGENCE>
 <NEGOCIATEUR>
-<NEGOCIATEUR_ID>813261</NEGOCIATEUR_ID>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
 <NEGOCIATEUR_NOM>
-<![CDATA[GAUDIN Alice ]]>
+<![CDATA[BAROIS Florent ]]>
 </NEGOCIATEUR_NOM>
 <NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[GAUDIN]]>
+<![CDATA[BAROIS]]>
 </NEGOCIATEUR_NOM_FAMILLE>
 <NEGOCIATEUR_PRENOM>
-<![CDATA[Alice]]>
+<![CDATA[Florent]]>
 </NEGOCIATEUR_PRENOM>
 <NEGOCIATEUR_TEL_FIXE>
-<![CDATA[06 66 11 35 22]]>
+<![CDATA[07 43 16 76 00]]>
 </NEGOCIATEUR_TEL_FIXE>
 <NEGOCIATEUR_EMAIL>
-<![CDATA[gaudin@via-humanis-immo.fr]]>
+<![CDATA[barois@via-humanis-immo.fr]]>
 </NEGOCIATEUR_EMAIL>
 <NEGOCIATEUR_PHOTO>
 <![CDATA[]]>
 </NEGOCIATEUR_PHOTO>
 <NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
+<![CDATA[]]>
 </NEGOCIATEUR_FONCTION>
 <NEGOCIATEUR_NUM_RSCA>
 <![CDATA[]]>
@@ -476,27 +475,27 @@ Cet appartement est vendu occupé .
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>983.84</LOYER>
+<LOYER>820</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>18/08/2025</DATE_MANDAT>
+<DATE_MANDAT>12/09/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>983.84</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>77.76</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>8200</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>188</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[983.84]]>
+<![CDATA[820]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CATEGORIE_MERE>37</CATEGORIE_MERE>
 <CPVILLE>
-<![CDATA[69100 VILLEURBANNE]]>
+<![CDATA[67300 SCHILTIGHEIM]]>
 </CPVILLE>
-<NBRE_PIECES>3</NBRE_PIECES>
-<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>65.92</SURFACE_HABITABLE>
+<NBRE_PIECES>4</NBRE_PIECES>
+<NBRE_CHAMBRES>30</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>0</SURFACE_HABITABLE>
 <SURFACE_SEJOUR>0</SURFACE_SEJOUR>
 <SURFACE_TERRAIN>0</SURFACE_TERRAIN>
 <SHON>0</SHON>
@@ -505,42 +504,22 @@ Cet appartement est vendu occupé .
 <NBRE_NIVEAUX>1</NBRE_NIVEAUX>
 <ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
 <CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
-<NBRE_WC>1</NBRE_WC>            <CUISINE>
-<![CDATA[Ouverte]]>
-</CUISINE>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Individuel]]>
-</CHAUFFAGE>
-<MECANISME_CHAUFFAGE>
-<![CDATA[Radiateur]]>
-</MECANISME_CHAUFFAGE>
-<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<NUM_ETAGE>5</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>5</NUM_DERNIER_ETAGE>
-<ASCENSEUR>1</ASCENSEUR>
-<INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NUM_ETAGE>6</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>7</NUM_DERNIER_ETAGE>
+<CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
 <AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>17/09/2023</DATE_DPE>
-<CONSO_ENERGIE_FINALE_LETTRE>C</CONSO_ENERGIE_FINALE_LETTRE>
+<DATE_DPE>13/01/2025</DATE_DPE>
+<GAZEFFETDESERRE>B</GAZEFFETDESERRE>
 <RISQUE_POLLUTION>0</RISQUE_POLLUTION>
 <TEXTE_PORTAILS>
 <![CDATA[]]>
 </TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>5</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
+<NBRE_ETAGE>7</NBRE_ETAGE>
 <VENDU>0</VENDU>
 <SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Recent</NEUF_ANCIEN>
 <REGIME_FISCAL>
 </REGIME_FISCAL>
 <TYPE_RESIDENCE>
@@ -560,18 +539,16 @@ Cet appartement est vendu occupé .
 <PRESTATIONS_COMMENTAIRES>
 <![CDATA[]]>
 </PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>18/08/2026</DATE_ECHEANCE_MANDAT>
+<DATE_ECHEANCE_MANDAT>12/09/2026</DATE_ECHEANCE_MANDAT>
 <TYPE_BAIL>
 <![CDATA[Loi de 89 Habitation]]>
 </TYPE_BAIL>
 <COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<COLOCATION>0</COLOCATION>
 <CPVILLEWEB>
-<![CDATA[69100 VILLEURBANNE]]>
+<![CDATA[67300 SCHILTIGHEIM]]>
 </CPVILLEWEB>
 <DATE_PREMIER_MANDAT>
-<![CDATA[18/08/2025]]>
+<![CDATA[12/09/2025]]>
 </DATE_PREMIER_MANDAT>
 <DELAI_MANDAT>
 <![CDATA[14]]>
@@ -580,20 +557,19 @@ Cet appartement est vendu occupé .
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[1061.6]]>
+<![CDATA[1008]]>
 </LOYER_CC>
 <PRIX_DEPART>
-<![CDATA[983.84]]>
+<![CDATA[820]]>
 </PRIX_DEPART>
 <PRIX_MANDAT>
 <![CDATA[0]]>
 </PRIX_MANDAT>
 <REF_AFFAIRE>
-<![CDATA[AG-T3-ROUGEMONT]]>
+<![CDATA[FBT4ASCHILTIGHEIM]]>
 </REF_AFFAIRE>
 <REZ_CHAUSSEE>0</REZ_CHAUSSEE>
 <TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
 <VISITE_DOSSIER_ACTE_BAILLEUR>
 <![CDATA[1]]>
 </VISITE_DOSSIER_ACTE_BAILLEUR>
@@ -653,14 +629,14 @@ Cet appartement est vendu occupé .
 </APPARTEMENT>
 <LOCALISATION>
 <VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69100</CODE_POSTAL>
+<CODE_POSTAL>67300</CODE_POSTAL>
 <VILLE>
-<![CDATA[VILLEURBANNE]]>
+<![CDATA[SCHILTIGHEIM]]>
 </VILLE>
 <PAYS>
 <![CDATA[France]]>
 </PAYS>
-<INSEE>69266</INSEE>
+<INSEE>67447</INSEE>
 <SECTEUR>
 <![CDATA[]]>
 </SECTEUR>
@@ -668,7 +644,7 @@ Cet appartement est vendu occupé .
 <![CDATA[]]>
 </SITUATION>
 <NOM_RESIDENCE>
-<![CDATA[LE ROUGEMONT]]>
+<![CDATA[]]>
 </NOM_RESIDENCE>
 <ACCES>
 </ACCES>
@@ -703,7 +679,7 @@ Cet appartement est vendu occupé .
 </DEFISCALISATION>
 <INTITULE>
 <FR>
-<![CDATA[Appartement T3 de 65,92 m² à Villeurbanne]]>
+<![CDATA[NEUF ? T4 76m2 ? rue Clémenceau ? SCHILTINGHEIM]]>
 </FR>
 <US>
 <![CDATA[]]>
@@ -717,16 +693,28 @@ Cet appartement est vendu occupé .
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[Sur le secteur de Ferrandière-Maisons Neuves à Villeurbanne, un appartement T3 de 65,92 m² est disponible au 5ème étage avec ascenseur. 
+<![CDATA[NEUF ? T4 76m2 ? rue Clémenceau ? SCHILTINGHEIM
+Sans frais d'agence et disponible à partir du 22 Septembre 2025.
+Logement conventionné soumis à des CONDITIONS DE RESSOURCES.
 
-Le logement possède une entrée, un WC indépendant, une salle de bains, 2 chambres, un séjour ouvert sur une cuisine non-équipée et un balcon. 
+Au 6eme étage avec ascenseur, dans immeuble neuf de sept étages, devenez les premiers locataires de cet appartement T4 de 76m2.
 
-Loyer CC : 1 061,60  euros dont 77,76  euros comprenant l'entretien des parties communes. 
-Dépôt de garantie : 983,84  euros. 
-PAS DE FRAIS D'AGENCE. 
+Situé rue Clémenceau à Schiltigheim, à proximité immédiate nombreux commerces (LECLERC, boulangerie, pharmacie) et des écoles, avec l'École des Pruneliers et le Collège Lamartine à moins de 500 mètres.
 
-*Disponible de suite. 
-**LOGEMENT SOCIAL ET SOUMIS A DES CONDITIONS DE RESSOURCES. 
+Le logement se compose d'un séjour/cuisine aménagée de 24m2, ouvrant sur un balcon de 14m2, un cellier, de 3 chambres, d'une salle de bain avec baignoire et de WC séparé.
+
+Deux places de stationnement complètent le logement.
+
+Loyer CC : 1 008  euros/mois dont 188 euros de charges incluant l'entretien des communs, de l'ascenseur et des extérieurs, l'enlèvement des ordures ménagères ainsi qu'une provision sur le chauffage et l'eau chaude (soumis à la régularisation annuelle).
+Déport de garantie : 820  euros
+Pas de frais d'agence.
+
+Eau chaude et Chauffage collectif (système au sol alimenté au gaz de ville)
+Eau froide et électricité en charge individuelle.
+
+DPE : B (82KWh/m2/an) et GES: B (10 kgsCO2/m2/an)
+Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 592 euros et 800 euros/an (prix moyens des énergies indexés sur les années 2021, 2022 et 2023, abonnement compris).
+
 ]]>
 </FR>
 <US>
@@ -756,13 +744,1093 @@ PAS DE FRAIS D'AGENCE.
 <EN_VIAGER>Non</EN_VIAGER>
 </VIAGER>
 <IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656a.jpg?DATEMAJ=18/08/2025-10:15:24</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656b.jpg?DATEMAJ=18/08/2025-10:15:28</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656c.jpg?DATEMAJ=18/08/2025-10:15:31</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656d.jpg?DATEMAJ=18/08/2025-10:15:35</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656e.jpg?DATEMAJ=18/08/2025-10:15:39</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656f.jpg?DATEMAJ=18/08/2025-10:15:42</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/0/8/1/6/5/6/59081656g.jpg?DATEMAJ=18/08/2025-10:15:46</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/7/0/3/0/1/59170301a.jpg?DATEMAJ=12/09/2025-17:02:15</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/7/0/3/0/1/59170301b.jpg?DATEMAJ=12/09/2025-17:03:59</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/7/0/3/0/1/59170301c.jpg?DATEMAJ=12/09/2025-17:04:16</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>59145838</AFF_ID>
+<AFF_ORIGIN_ID>59145838</AFF_ORIGIN_ID>
+<AFF_NUM>FBT2ASCHILTIGHEIM</AFF_NUM>
+<DATE_CREATION>2025-09-05 14:45:17</DATE_CREATION>
+<DATE_MAJ>12/09/2025</DATE_MAJ>
+<LIBRELE>29/09/2025</LIBRELE>
+<NEGO>813263</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=e51d3c79977bafe3c3e09fcebefa0f35&products_id=59145838&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[BAROIS Florent ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[BAROIS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Florent]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[07 43 16 76 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[barois@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>590</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>05/09/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>590</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>130</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[590]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>35</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[67300 SCHILTIGHEIM]]>
+</CPVILLE>
+<NBRE_PIECES>2</NBRE_PIECES>
+<NBRE_CHAMBRES>1</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>0</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NUM_ETAGE>3</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>7</NUM_DERNIER_ETAGE>
+<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>23/01/2025</DATE_DPE>
+<GAZEFFETDESERRE>C</GAZEFFETDESERRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<NBRE_ETAGE>7</NBRE_ETAGE>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>05/09/2026</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<CPVILLEWEB>
+<![CDATA[67300 SCHILTIGHEIM]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[05/09/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[720]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[590]]>
+</PRIX_DEPART>
+<REF_AFFAIRE>
+<![CDATA[FBT2ASCHILTIGHEIM]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>67300</CODE_POSTAL>
+<VILLE>
+<![CDATA[SCHILTIGHEIM]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>67447</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[NEUF  T2 43m2 ? rue Clémenceau ? SCHILTINGHEIM]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[NEUF  T2 43m2 ? rue Clémenceau ? SCHILTINGHEIM
+
+Sans frais d'agence et disponible à partir du 22 Septembre 2025.
+Logement conventionné soumis à des CONDITIONS DE RESSOURCES.
+
+Au 3eme étage avec ascenseur, dans immeuble neuf de sept étages, devenez les premiers locataires de cet appartement T2 de 43m2.
+
+Situé rue Clémenceau à Schiltigheim, à proximité immédiate nombreux commerces (LECLERC, boulangerie, pharmacie) et des écoles, avec l'École des Pruneliers et le Collège Lamartine à moins de 500 mètres.
+
+Le logement se compose d'un séjour/cuisine aménagée de 24m2, ouvrant sur un balcon de 10m2, un cellier, d'une chambre de 12m2, d'une salle d'eau avec douche et WC.
+
+Une place de stationnement complète le logement.
+
+Loyer CC : 720  euros/mois dont 130 euros de charges incluant l'entretien des communs, de l'ascenseur et des extérieurs, l'enlèvement des ordures ménagères ainsi qu'une provision sur le chauffage et l'eau chaude (soumis à la régularisation annuelle).
+
+Déport de garantie : 590  euros
+Pas de frais d'agence.
+
+Eau chaude et Chauffage collectif (système au sol alimenté au gaz de ville)
+Eau froide et électricité en charge individuelle.
+
+DPE : C (99KWh/m2/an) et GES: C (15 kgsCO2/m2/an)
+Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 455 euros et 615 euros/an (prix moyens des énergies indexés sur les années 2021, 2022 et 2023, abonnement compris).
+
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/8/3/8/59145838a.jpg?DATEMAJ=05/09/2025-14:49:23</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/8/3/8/59145838b.jpg?DATEMAJ=05/09/2025-14:49:23</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/8/3/8/59145838c.jpg?DATEMAJ=05/09/2025-14:49:23</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>59145788</AFF_ID>
+<AFF_ORIGIN_ID>59145788</AFF_ORIGIN_ID>
+<AFF_NUM>FBT4ASCHILTIGHEIM</AFF_NUM>
+<DATE_CREATION>2025-09-05 14:36:51</DATE_CREATION>
+<DATE_MAJ>12/09/2025</DATE_MAJ>
+<LIBRELE>29/09/2025</LIBRELE>
+<NEGO>813263</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=d9a1b74ce58613b118751b7ca73f927c&products_id=59145788&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[BAROIS Florent ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[BAROIS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Florent]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[07 43 16 76 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[barois@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>865</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>05/09/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>865</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>210</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[865]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>37</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[67300 SCHILTIGHEIM]]>
+</CPVILLE>
+<NBRE_PIECES>4</NBRE_PIECES>
+<NBRE_CHAMBRES>3</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>84</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NUM_ETAGE>2</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>7</NUM_DERNIER_ETAGE>
+<ASCENSEUR>1</ASCENSEUR>
+<CONSOMMATIONENERGETIQUE>B</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>22/01/2025</DATE_DPE>
+<GAZEFFETDESERRE>B</GAZEFFETDESERRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>7</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>05/09/2026</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
+<CPVILLEWEB>
+<![CDATA[67300 SCHILTIGHEIM]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[05/09/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[1075]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[865]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[FBT4ASCHILTIGHEIM]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>67300</CODE_POSTAL>
+<VILLE>
+<![CDATA[SCHILTIGHEIM]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>67447</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[NEUF ? T4 84m2 ? rue Clémenceau ? SCHILTINGHEIM]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[NEUF ? T4 84m2 ? rue Clémenceau ? SCHILTINGHEIM
+
+Sans frais d'agence et disponible à partir du 22 Septembre 2025.
+Logement conventionné soumis à des CONDITIONS DE RESSOURCES.
+
+Au 2eme étage avec ascenseur, dans immeuble neuf de sept étages, devenez les premiers locataires de cet appartement T4 de 84m2.
+
+Situé rue Clémenceau à Schiltigheim, à proximité immédiate nombreux commerces (LECLERC, boulangerie, pharmacie) et des écoles, avec l'École des Pruneliers et le Collège Lamartine à moins de 500 mètres.
+
+Le logement se compose d'un séjour/cuisine aménagée de 35m2, ouvrant sur un balcon de 10m2, un cellier, de 3 chambres, d'une salle de bain avec baignoire et de WC séparé.
+
+Deux places de stationnement complètent le logement.
+
+Loyer CC : 1 075  euros/mois dont 210 euros de charges incluant l'entretien des communs, de l'ascenseur et des extérieurs, l'enlèvement des ordures ménagères ainsi qu'une provision sur le chauffage et l'eau chaude (soumis à la régularisation annuelle).
+
+Déport de garantie : 865  euros
+Pas de frais d'agence.
+
+Eau chaude et Chauffage collectif (système au sol alimenté au gaz de ville)
+Eau froide et électricité en charge individuelle.
+
+DPE : B (71KWh/m2/an) et GES: B (9 kgsCO2/m2/an)
+Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 591 euros et 800 euros/an (prix moyens des énergies indexés sur les années 2021, 2022 et 2023, abonnement compris).
+
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/8/8/59145788a.jpg?DATEMAJ=05/09/2025-14:54:21</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/8/8/59145788b.jpg?DATEMAJ=05/09/2025-14:54:21</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/8/8/59145788c.jpg?DATEMAJ=05/09/2025-14:54:21</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>59145738</AFF_ID>
+<AFF_ORIGIN_ID>59145738</AFF_ORIGIN_ID>
+<AFF_NUM>FBT3ASCHILTIGHEIM</AFF_NUM>
+<DATE_CREATION>2025-09-05 14:25:13</DATE_CREATION>
+<DATE_MAJ>12/09/2025</DATE_MAJ>
+<LIBRELE>29/09/2025</LIBRELE>
+<NEGO>813263</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=8afed47c637016405f0d23a2f3f15873&products_id=59145738&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[ECULLY]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[BAROIS Florent ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[BAROIS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Florent]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[07 43 16 76 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[barois@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>725</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>05/09/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>725</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>170</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[725]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[67300 SCHILTIGHEIM]]>
+</CPVILLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>60</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NUM_ETAGE>2</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>7</NUM_DERNIER_ETAGE>
+<CONSOMMATIONENERGETIQUE>C</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>23/01/2025</DATE_DPE>
+<GAZEFFETDESERRE>C</GAZEFFETDESERRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>7</NBRE_ETAGE>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>05/09/2026</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<CPVILLEWEB>
+<![CDATA[67300 SCHILTIGHEIM]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[05/09/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOI_CARREZ>1</LOI_CARREZ>
+<LOYER_CC>
+<![CDATA[895]]>
+</LOYER_CC>
+<PRIX_DEPART>
+<![CDATA[725]]>
+</PRIX_DEPART>
+<REF_AFFAIRE>
+<![CDATA[FBT3ASCHILTIGHEIM]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>67300</CODE_POSTAL>
+<VILLE>
+<![CDATA[SCHILTIGHEIM]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>67447</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[NEUF -T3 60m2 - rue Clémenceau - SCHILTINGHEIM]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[NEUF -T3 60m2 - rue Clémenceau - SCHILTINGHEIM
+
+Sans frais d'agence et disponible à partir du 22 Septembre 2025.
+Logement conventionné soumis à des CONDITIONS DE RESSOURCES.
+
+Au 2eme étage avec ascenseur, dans immeuble neuf de sept étages, devenez les premiers locataires de cet appartement T3 de 60m2.
+
+Situé rue Clémenceau à Schiltigheim, à proximité immédiate nombreux commerces (LECLERC, boulangerie, pharmacie) et des écoles, avec l'École des Pruneliers et le Collège Lamartine à moins de 500 mètres.
+
+Le logement se compose d'un séjour/cuisine aménagée de 23m2, ouvrant sur un balcon de 8m2, un cellier, de 2 chambres, d'une salle d'eau avec douche et de WC séparé.
+
+ Un box fermé complète le logement.
+
+
+Loyer CC : 895  euros/mois dont 170 euros de charges incluant l'entretien des communs, de l'ascenseur et des extérieurs, l'enlèvement des ordures ménagères ainsi qu'une provision sur le chauffage et l'eau chaude (soumis à la régularisation annuelle).
+
+Déport de garantie : 725  euros
+Pas de frais d'agence.
+
+Eau chaude et Chauffage collectif (système au sol alimenté au gaz de ville)
+Eau froide et électricité en charge individuelle.
+
+DPE : C (84KWh/m2/an) et GES: C (11 kgsCO2/m2/an)
+Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 495 euros et 669 euros/an (prix moyens des énergies indexés sur les années 2021, 2022 et 2023, abonnement compris).
+
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/3/8/59145738a.jpg?DATEMAJ=05/09/2025-14:49:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/3/8/59145738b.jpg?DATEMAJ=05/09/2025-14:49:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/3/8/59145738c.jpg?DATEMAJ=05/09/2025-14:49:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/3/8/59145738d.jpg?DATEMAJ=05/09/2025-14:49:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/3/8/59145738e.jpg?DATEMAJ=05/09/2025-14:49:53</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/1/4/5/7/3/8/59145738f.jpg?DATEMAJ=05/09/2025-14:51:17</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -4895,429 +5963,6 @@ Bail société : 12% HT du loyer annuel (TVA à 20%) + 443,73  euros TTC d'état des
 </BIEN>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>58144843</AFF_ID>
-<AFF_ORIGIN_ID>58144843</AFF_ORIGIN_ID>
-<AFF_NUM>FLALBIGNY-T5-LOT3</AFF_NUM>
-<DATE_CREATION>2025-03-19 11:06:13</DATE_CREATION>
-<DATE_MAJ>04/09/2025</DATE_MAJ>
-<LIBRELE>19/03/2025</LIBRELE>
-<NEGO>813263</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=267485c6cfe79eaea16ec63d3709f6d8&products_id=58144843&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[BAROIS Florent ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[BAROIS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Florent]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 43 16 76 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[barois@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>1450</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<DATE_MANDAT>19/03/2025</DATE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1450</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>170</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1450]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>38</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[69250 ALBIGNY SUR SAONE]]>
-</CPVILLE>
-<NBRE_PIECES>5</NBRE_PIECES>
-<NBRE_CHAMBRES>4</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>130</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>37</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
-<NBRE_WC>1</NBRE_WC>
-<ETAT_GENERAL>
-<![CDATA[Excellent]]>
-</ETAT_GENERAL>
-<NBRE_SALLE_EAU>1</NBRE_SALLE_EAU>
-<NBRE_PARKING>2</NBRE_PARKING>            <NBRE_CAVES>1</NBRE_CAVES>
-<CUISINE>
-<![CDATA[Equipee]]>
-</CUISINE>
-<STANDING>
-<![CDATA[Grand standing]]>
-</STANDING>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Individuel]]>
-</CHAUFFAGE>
-<MODE_CHAUFFAGE>PompeChaleur</MODE_CHAUFFAGE>
-<TYPE_STATIONNEMENT>
-<![CDATA[Extérieur]]>
-</TYPE_STATIONNEMENT>
-<NUM_ETAGE>1</NUM_ETAGE>
-<DERNIER_ETAGE>0</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
-<ASCENSEUR>0</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
-<ETAT_INTERIEUR>
-<![CDATA[Excellent]]>
-</ETAT_INTERIEUR>
-<INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>A</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>27/05/2024</DATE_DPE>
-<CHARGE_ENERGIE_MIN>450</CHARGE_ENERGIE_MIN>
-<CHARGE_ENERGIE_MAX>650</CHARGE_ENERGIE_MAX>
-<GAZEFFETDESERRE>A</GAZEFFETDESERRE>
-<CONSO_ANNUEL_ENERGIE>46</CONSO_ANNUEL_ENERGIE>
-<VALEUR_GES>1</VALEUR_GES>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<ETAT_EXTERIEUR>
-<![CDATA[Excellent]]>
-</ETAT_EXTERIEUR>
-<NBRE_ETAGE>2</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<NEUF_ANCIEN>Recent</NEUF_ANCIEN>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>19/03/2026</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<COLOCATION>0</COLOCATION>
-<CPVILLEWEB>
-<![CDATA[69250 ALBIGNY SUR SAONE]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[19/03/2025]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>            <ETAT_COMMUNS>Excellent</ETAT_COMMUNS>
-<ETAT_GENERAL>Excellent</ETAT_GENERAL>
-<FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
-<LOYER_CC>
-<![CDATA[1620]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[1860]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[FLALBIGNY-T5-LOT3]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>
-<ANNEE_REF_PRIX_ENERGIE>
-<![CDATA[01/01/2021]]>
-</ANNEE_REF_PRIX_ENERGIE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69250</CODE_POSTAL>
-<VILLE>
-<![CDATA[ALBIGNY SUR SAONE]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>69003</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-<BUS>10</BUS>
-<RER>5</RER>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[ALBIGNY - QUAI VILLEVERT - T5 130 m2 1er étage]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[Sans frais d'agence et disponibilité immédiate.
-Logement conventionné soumis à des CONDITIONS DE RESSOURCES.
-
-Au 1er étage sans ascenseur, dans une magnifique maison bourgeoise comprenant 6 lots fraichement rénovés, offrant des logements aux prestations de qualités et sur un terrain clos et sécurisée, devenez les premiers locataires de cet appartement T5 de 130m2.
-
-Appartement T5 de 130m2, situé à Albigny sur Saône, au calme du quai de Villevert, en rive droite de la Saône à 300 mètres en amont du pont de Neuville.
-
-A proximité immédiate de la gare du TER d'Albigny en direction de Lyon Part Dieu ou de Vaise, les Bus 40, 43, 70, 84, 96, 97 ou S14 se trouvent à 10 minutes à pied 
-Les commerces de proximité et les écoles se rejoignent en 10-15 minutes à pied et en 5 minutes en vélo via la piste cyclable des bords de Saône.
-
-Le logement se compose d'un séjour/cuisine aménagée de 37m2, ouvrant sur un balcon, d'une chambre de 13m2 avec un coin dressing sa propre salle d'eau et un petit balcon, d'une deuxième chambre de 13m2 avec sa salle d'eau attenante au salon et de 2 chambres de 15 et 14m2 avec placards. 
-
-Deux WC séparés dont un avec lave main, une salle de bain moderne et fonctionnelle avec baignoire et double vasque et une buanderie complètent ce bien.
-
-Deux places de stationnement et une cave complètent le logement. 
-Un local vélo est à disposition au sein de la résidence et un jardin arboré est également accessible à tous les locataires. 
-
-Loyer CC : 1 620  euros/mois dont 170 euros de charges incluant l'entretien des communs et des extérieurs et l'enlèvement des ordures ménagères  
-Déport de garantie : 1 450  euros
-Pas de frais d'agence.
-Chauffage individuel par pompe à chaleur
-Eau et électricité en charge individuelle.
-
-DPE : A (46kWh/m2/an) et GES: A (1kgCO2/m2/an)
-Estimation des couts annuels d'énergie au 1er Janvier entre 450 euros et 650 euros/an (abonnement compris).
-
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843a.jpg?DATEMAJ=20/03/2025-17:44:14</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843b.jpg?DATEMAJ=20/03/2025-17:44:15</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843c.jpg?DATEMAJ=20/03/2025-17:44:15</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843d.jpg?DATEMAJ=20/03/2025-17:44:16</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843e.jpg?DATEMAJ=20/03/2025-17:44:16</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843f.jpg?DATEMAJ=20/03/2025-17:44:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843g.jpg?DATEMAJ=20/03/2025-17:44:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843h.jpg?DATEMAJ=20/03/2025-17:44:18</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843i.jpg?DATEMAJ=20/03/2025-17:44:18</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843j.jpg?DATEMAJ=20/03/2025-17:44:18</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843k.jpg?DATEMAJ=20/03/2025-17:44:19</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843l.jpg?DATEMAJ=20/03/2025-17:44:19</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/1/4/4/8/4/3/58144843m.jpg?DATEMAJ=20/03/2025-17:44:20</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
 <AFF_ID>58786834</AFF_ID>
 <AFF_ORIGIN_ID>58786834</AFF_ORIGIN_ID>
 <AFF_NUM>BL-PARKINGBARBUSSE</AFF_NUM>
@@ -6037,380 +6682,6 @@ PAS DE FRAIS D'AGENCE.
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/6/7/1/7/8/58767178l.jpg?DATEMAJ=27/06/2025-14:45:35</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/6/7/1/7/8/58767178m.jpg?DATEMAJ=27/06/2025-14:45:37</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/7/6/7/1/7/8/58767178n.jpg?DATEMAJ=27/06/2025-14:45:40</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
-<AFF_ID>58668625</AFF_ID>
-<AFF_ORIGIN_ID>58668625</AFF_ORIGIN_ID>
-<AFF_NUM>BL-T2RIVEDEGIER-747</AFF_NUM>
-<DATE_CREATION>2025-06-11 10:55:08</DATE_CREATION>
-<DATE_MAJ>01/09/2025</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>815410</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=3f4bb93cacdc9923ccc259edbfdc33e6&products_id=58668625&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier Limonest - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[ECULLY]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>815410</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[LAURENT Benjamin ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[LAURENT]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Benjamin]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 50 54 90 23]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[laurent@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<LOCATION>
-<LOYER>420.82</LOYER>
-<TYPE_LOYER>HC</TYPE_LOYER>
-<INFO_PRIX>1</INFO_PRIX>
-<TYPE_MANDAT>Delegation</TYPE_MANDAT>
-<FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>420</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>121.1</PROVISION_SUR_CHARGES>
-<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[420.82]]>
-</LOYER_BASE>                    </LOCATION>
-<APPARTEMENT>
-<SS_TYPE>1</SS_TYPE>
-<CATEGORIE_MERE>36</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[42800 RIVE DE GIER]]>
-</CPVILLE>
-<NBRE_PIECES>2</NBRE_PIECES>
-<NBRE_CHAMBRES>1</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>61</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>1</CATEGORIE>
-<NBRE_SALLE_BAIN>1</NBRE_SALLE_BAIN>
-<NBRE_WC>1</NBRE_WC>            <CUISINE>
-<![CDATA[Nue]]>
-</CUISINE>
-<MEUBLE>0</MEUBLE>
-<CHAUFFAGE>
-<![CDATA[Collectif]]>
-</CHAUFFAGE>
-<MODE_CHAUFFAGE>Gaz</MODE_CHAUFFAGE>
-<NUM_ETAGE>4</NUM_ETAGE>
-<DERNIER_ETAGE>1</DERNIER_ETAGE>
-<NUM_DERNIER_ETAGE>4</NUM_DERNIER_ETAGE>
-<ASCENSEUR>1</ASCENSEUR>
-<PORTAIL_ELECTRIQUE>Non</PORTAIL_ELECTRIQUE>
-<INTERPHONE>1</INTERPHONE>
-<DIGICODE>1</DIGICODE>
-<CONSOMMATIONENERGETIQUE>D</CONSOMMATIONENERGETIQUE>
-<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
-<DATE_DPE>09/05/2022</DATE_DPE>
-<GAZEFFETDESERRE>D</GAZEFFETDESERRE>
-<CONSO_ENERGIE_FINALE_LETTRE>D</CONSO_ENERGIE_FINALE_LETTRE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<JARDIN>0</JARDIN>
-<NBRE_ETAGE>4</NBRE_ETAGE>
-<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
-<CALME>1</CALME>
-<CLAIR>1</CLAIR>
-<GRENIER>0</GRENIER>
-<ALARME>Non</ALARME>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>13/05/2026</DATE_ECHEANCE_MANDAT>
-<TYPE_BAIL>
-<![CDATA[Loi de 89 Habitation]]>
-</TYPE_BAIL>
-<COUP_COEUR>0</COUP_COEUR>
-<BAIL>0</BAIL>
-<COLOCATION>0</COLOCATION>
-<CPVILLEWEB>
-<![CDATA[42800 RIVE DE GIER]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[14/05/2024]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
-<HONO_NEGO_ET_ENTREMISE>
-<![CDATA[0]]>
-</HONO_NEGO_ET_ENTREMISE>
-<LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
-<LOYER_CC>
-<![CDATA[541.92]]>
-</LOYER_CC>
-<PRIX_DEPART>
-<![CDATA[447.68]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[0]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[BL-T2RIVEDEGIER-747]]>
-</REF_AFFAIRE>
-<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
-<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
-<VISA_VIS>0</VISA_VIS>
-<VISITE_DOSSIER_ACTE_BAILLEUR>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_BAILLEUR>
-<VISITE_DOSSIER_ACTE_LOCATAIRE>
-<![CDATA[1]]>
-</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</APPARTEMENT>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>42800</CODE_POSTAL>
-<VILLE>
-<![CDATA[RIVE DE GIER]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>42186</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[T2 Rive de Gier]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[RIVE DE GIER - Cour Gambetta - T2 61m2
-
-- Logement social soumis à conditions de ressources (PLUS)  -
-Avis d'imposition 2024 sur 2023 indispensable pour toute candidature
-
-Situé à côté de la mairie de Rive de Gier, au 4eme étage avec ascenseur, ce spacieux T2 de 61m2 est composé d'un salon, d'une cuisine semi-séparée et non meublée, d'une chambre, d'une salle de bain et de WC séparés.
-Chauffage, eau chaude et eau froide compris dans le loyer.
-
-DPE nouvelle version : D
-Loyer CC : 541.92EUR, dont 121.10EUR de charges.
-Dépôt de garantie : 420 euros
-
-PAS DE FRAIS D'AGENCE
-DISPONIBLE DE SUITE
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/6/6/8/6/2/5/58668625a.jpg?DATEMAJ=14/06/2025-16:49:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/6/6/8/6/2/5/58668625b.jpg?DATEMAJ=14/06/2025-16:49:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/6/6/8/6/2/5/58668625c.jpg?DATEMAJ=14/06/2025-16:49:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/6/6/8/6/2/5/58668625d.jpg?DATEMAJ=14/06/2025-16:49:17</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/8/6/6/8/6/2/5/58668625e.jpg?DATEMAJ=14/06/2025-16:49:17</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
