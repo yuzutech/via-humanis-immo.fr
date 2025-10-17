@@ -9600,7 +9600,7 @@ DPE : B. Estimation des dépenses annuelles d'énergies indexés au 15 août 2015 so
 <AFF_ORIGIN_ID>56382008</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T4-KINGERSHEIM</AFF_NUM>
 <DATE_CREATION>2024-09-05 17:12:45</DATE_CREATION>
-<DATE_MAJ>22/09/2025</DATE_MAJ>
+<DATE_MAJ>16/10/2025</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813261</NEGO>
@@ -9677,17 +9677,17 @@ DPE : B. Estimation des dépenses annuelles d'énergies indexés au 15 août 2015 so
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>781</LOYER>
+<LOYER>994.29</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Exclusif</TYPE_MANDAT>
 <DATE_MANDAT>05/09/2024</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>781</DEPOT_GARANTIE>
-<PROVISION_SUR_CHARGES>397.8</PROVISION_SUR_CHARGES>
+<DEPOT_GARANTIE>994.29</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>250.55</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[781]]>
+<![CDATA[994.29]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -9794,7 +9794,7 @@ DPE : B. Estimation des dépenses annuelles d'énergies indexés au 15 août 2015 so
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[1178.8]]>
+<![CDATA[1244.84]]>
 </LOYER_CC>
 <PRIX_DEPART>
 <![CDATA[962.91]]>
@@ -9934,7 +9934,7 @@ DPE : B. Estimation des dépenses annuelles d'énergies indexés au 15 août 2015 so
 </INTITULE>
 <COMMENTAIRES>
 <FR>
-<![CDATA[PAS DE FRAIS D'AGENCE, à Kingersheim, au 18 rue de Bruxelles, à proximité du Leclerc, venez découvrir cet appartement T4 de 88,17 m² au 2ème étage SANS ASCENSEUR, dans une petite résidence à taille humaine. 
+<![CDATA[PAS DE FRAIS D'AGENCE, à Kingersheim, au 18 rue de Bruxelles, à proximité du Leclerc, venez découvrir cet appartement T4 de 88,17 m² au 2ème étage et dernier étage SANS ASCENSEUR, dans une petite résidence à taille humaine. 
 
 Cet appartement possède une entrée, 3 chambres avec placards muraux, une cuisine fermée, un grand séjour donnant sur une terrasse, un WC indépendant et une salle de bains. 
 
@@ -9944,7 +9944,7 @@ Loyer CC : 1 244,84  euros dont 250,55  euros de charges comprenant l'entretien 
 Dépôt de garantie : 1 mois de loyer HC. 
 PAS DE FRAIS D'AGENCE. 
 
-**Logement conventionné et soumis à des conditions de ressources. 
+**Logement conventionné et soumis à des conditions et variant selon les ressources (loyer de 693,45  euros (60%) à 994,29  euros (130%) HC.
 ]]>
 </FR>
 <US>
