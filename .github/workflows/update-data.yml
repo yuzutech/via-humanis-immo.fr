@@ -21,8 +21,8 @@ jobs:
         node tasks/update-data.js
     - name: Commit and push
       run: |
-        git config --global user.name "Guillaume Grossetie"
-        git config --global user.email "ggrossetie@yuzutech.fr"
+        git config --global user.name "Jn Bourrat"
+        git config --global user.email "jnbourrat.dev@gmail.com"
         git add public/data/pericles/images
         git commit -a -m "Update Real Estate Assets" || true
         git push
