@@ -2,329 +2,11 @@
 <LISTEPA>
 <BIEN>
 <INFO_GENERALES>
-<AFF_ID>59667060</AFF_ID>
-<AFF_ORIGIN_ID>59667060</AFF_ORIGIN_ID>
-<AFF_NUM>Garage-Lyon07</AFF_NUM>
-<DATE_CREATION>2025-12-10 17:34:31</DATE_CREATION>
-<DATE_MAJ>18/01/2026</DATE_MAJ>
-<LIBRELE>
-</LIBRELE>
-<NEGO>813263</NEGO>
-<AFF_URL>
-<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=4dc33d852de1e7ba5a625eae2f92b65e&products_id=59667060&show_price=1]]>
-</AFF_URL>
-<VISITE_VIRTUELLE>
-<![CDATA[]]>
-</VISITE_VIRTUELLE>                 <STATUT>
-<![CDATA[En cours]]>
-</STATUT>
-</INFO_GENERALES>
-<AGENCE>
-<AGENCE_ID>200778</AGENCE_ID>
-<AGENCE_NOM>
-<![CDATA[Via Humanis Immobilier - Via Humanis Immobilier]]>
-</AGENCE_NOM>
-<AGENCE_ADRESSE>
-<![CDATA[3 allée du Moulin Berger]]>
-</AGENCE_ADRESSE>
-<AGENCE_CP>69130</AGENCE_CP>
-<AGENCE_VILLE>
-<![CDATA[Écully]]>
-</AGENCE_VILLE>
-<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
-<AGENCE_PORTABLE>
-</AGENCE_PORTABLE>
-<AGENCE_FAX>
-</AGENCE_FAX>
-<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
-<AGENCE_SITE>
-</AGENCE_SITE>
-<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
-<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
-<AGENCE_RESEAU>
-<![CDATA[Aucun]]>
-</AGENCE_RESEAU>
-<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
-</AGENCE_BOOKING_URL>
-<AGENCE_BAREME>
-</AGENCE_BAREME>
-</AGENCE>
-<NEGOCIATEUR>
-<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
-<NEGOCIATEUR_NOM>
-<![CDATA[BAROIS Florent ]]>
-</NEGOCIATEUR_NOM>
-<NEGOCIATEUR_NOM_FAMILLE>
-<![CDATA[BAROIS]]>
-</NEGOCIATEUR_NOM_FAMILLE>
-<NEGOCIATEUR_PRENOM>
-<![CDATA[Florent]]>
-</NEGOCIATEUR_PRENOM>
-<NEGOCIATEUR_TEL_FIXE>
-<![CDATA[07 43 16 76 00]]>
-</NEGOCIATEUR_TEL_FIXE>
-<NEGOCIATEUR_EMAIL>
-<![CDATA[barois@via-humanis-immo.fr]]>
-</NEGOCIATEUR_EMAIL>
-<NEGOCIATEUR_PHOTO>
-<![CDATA[]]>
-</NEGOCIATEUR_PHOTO>
-<NEGOCIATEUR_FONCTION>
-<![CDATA[Conseiller en Immobilier]]>
-</NEGOCIATEUR_FONCTION>
-<NEGOCIATEUR_NUM_RSCA>
-<![CDATA[]]>
-</NEGOCIATEUR_NUM_RSCA>
-<NEGOCIATEUR_VILLE_RSAC>
-<![CDATA[]]>
-</NEGOCIATEUR_VILLE_RSAC>
-<NEGOCIATEUR_DESCRIPTION>
-<![CDATA[]]>
-</NEGOCIATEUR_DESCRIPTION>
-</NEGOCIATEUR>
-<VENTE>
-<TYPE_MANDAT>S</TYPE_MANDAT>
-<DATE_MANDAT>10/12/2025</DATE_MANDAT>
-<PRIX>28000.00</PRIX>
-<PRIX_NET>28000</PRIX_NET>
-<PRIX_HORS_HONO_ACQ>28000</PRIX_HORS_HONO_ACQ>                    <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
-</VENTE>
-<PARKING>
-<SS_TYPE>5</SS_TYPE>
-<CATEGORIE_MERE>7</CATEGORIE_MERE>
-<CPVILLE>
-<![CDATA[69007 LYON]]>
-</CPVILLE>
-<NBRE_PIECES>0</NBRE_PIECES>
-<NBRE_CHAMBRES>0</NBRE_CHAMBRES>
-<SURFACE_HABITABLE>0</SURFACE_HABITABLE>
-<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
-<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
-<SHON>0</SHON>
-<FACADE>0</FACADE>
-<PROFONDEUR>0</PROFONDEUR>
-<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
-<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
-<CATEGORIE>5</CATEGORIE>
-<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
-<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
-<NUM_ETAGE>-2</NUM_ETAGE>
-<NUM_DERNIER_ETAGE>0</NUM_DERNIER_ETAGE>
-<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
-<TEXTE_PORTAILS>
-<![CDATA[]]>
-</TEXTE_PORTAILS>
-<NBRE_ETAGE>0</NBRE_ETAGE>
-<VENDU>0</VENDU>
-<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
-<REGIME_FISCAL>
-</REGIME_FISCAL>
-<TYPE_RESIDENCE>
-</TYPE_RESIDENCE>
-<OBSERVATIONS>
-<![CDATA[]]>
-</OBSERVATIONS>
-<OBSERVATIONS_WEB>
-<![CDATA[]]>
-</OBSERVATIONS_WEB>
-<POINTS_POSITIFS>
-<![CDATA[]]>
-</POINTS_POSITIFS>
-<DIAG_COMMENTAIRES>
-<![CDATA[]]>
-</DIAG_COMMENTAIRES>
-<PRESTATIONS_COMMENTAIRES>
-<![CDATA[]]>
-</PRESTATIONS_COMMENTAIRES>
-<DATE_ECHEANCE_MANDAT>10/12/2026</DATE_ECHEANCE_MANDAT>
-<COUP_COEUR>0</COUP_COEUR>
-<CPVILLEWEB>
-<![CDATA[69007 LYON]]>
-</CPVILLEWEB>
-<DATE_PREMIER_MANDAT>
-<![CDATA[10/12/2025]]>
-</DATE_PREMIER_MANDAT>
-<DELAI_MANDAT>
-<![CDATA[14]]>
-</DELAI_MANDAT>            <POINTS_NEGATIFS>
-<![CDATA[]]>
-</POINTS_NEGATIFS>
-<PRIX_DEPART>
-<![CDATA[31000]]>
-</PRIX_DEPART>
-<PRIX_MANDAT>
-<![CDATA[28000]]>
-</PRIX_MANDAT>
-<REF_AFFAIRE>
-<![CDATA[Garage-Lyon07]]>
-</REF_AFFAIRE>
-<TYPE_TRANSACTION>Vente</TYPE_TRANSACTION>            <TITRE_VITRINE>
-<![CDATA[]]>
-</TITRE_VITRINE>
-<TEXTE_VITRINE>
-<![CDATA[]]>
-</TEXTE_VITRINE>
-<TEXTE_PERSO_1>
-<![CDATA[]]>
-</TEXTE_PERSO_1>
-<TEXTE_PERSO_2>
-<![CDATA[]]>
-</TEXTE_PERSO_2>
-<TEXTE_PERSO_3>
-<![CDATA[]]>
-</TEXTE_PERSO_3>
-<TEXTE_PERSO_1_US>
-<![CDATA[]]>
-</TEXTE_PERSO_1_US>
-<TEXTE_PERSO_2_US>
-<![CDATA[]]>
-</TEXTE_PERSO_2_US>
-<TEXTE_PERSO_3_US>
-<![CDATA[]]>
-</TEXTE_PERSO_3_US>
-<TEXTE_PERSO_1_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_1_DE>
-<TEXTE_PERSO_2_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_2_DE>
-<TEXTE_PERSO_3_DE>
-<![CDATA[]]>
-</TEXTE_PERSO_3_DE>
-<TEXTE_PERSO_1_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_1_ES>
-<TEXTE_PERSO_2_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_2_ES>
-<TEXTE_PERSO_3_ES>
-<![CDATA[]]>
-</TEXTE_PERSO_3_ES>
-<TEXTE_PASSERELLE_US>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_US>
-<TEXTE_PASSERELLE_DE>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_DE>
-<TEXTE_PASSERELLE_ES>
-<![CDATA[]]>
-</TEXTE_PASSERELLE_ES>
-</PARKING>
-<LOCALISATION>
-<VISIBLE>true</VISIBLE>
-<CODE_POSTAL>69007</CODE_POSTAL>
-<VILLE>
-<![CDATA[LYON]]>
-</VILLE>
-<PAYS>
-<![CDATA[France]]>
-</PAYS>
-<INSEE>69387</INSEE>
-<SECTEUR>
-<![CDATA[]]>
-</SECTEUR>
-<SITUATION>
-<![CDATA[]]>
-</SITUATION>
-<NOM_RESIDENCE>
-<![CDATA[LES GIRONDINS]]>
-</NOM_RESIDENCE>
-<ACCES>
-</ACCES>
-<PROXIMITE>
-</PROXIMITE>
-</LOCALISATION>
-<DEFISCALISATION>
-<GIRARDIN>
-</GIRARDIN>
-<BORLOO>
-</BORLOO>
-<DEROBIEN>
-</DEROBIEN>
-<SCELLIER>
-</SCELLIER>
-<ZRR>
-</ZRR>
-<LMNP_LMP>
-</LMNP_LMP>
-<LMNP_BOUVARD>
-</LMNP_BOUVARD>
-<MALRAUX>
-</MALRAUX>
-<MONUMENT_HISTORIQUE>
-</MONUMENT_HISTORIQUE>
-<NUE_PROPRIETE>
-</NUE_PROPRIETE>
-<MICROFONCIER>
-</MICROFONCIER>
-<SCELLIER_OUTRE_MER>
-</SCELLIER_OUTRE_MER>
-</DEFISCALISATION>
-<INTITULE>
-<FR>
-<![CDATA[3 garages à vendre à Lyon 7]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</INTITULE>
-<COMMENTAIRES>
-<FR>
-<![CDATA[Situé au coeur du 7e arrondissement, dans le nord de Gerland - nouveau quartier des Girondins :
-
-Dans une résidence neuve et sécurisé, reste 3 garages à la vente :
-- 2 garages au R-2 : 31 000  euros chacun
--1  garage au R-1 : 28 000  euros
-
-N'hésitez pas à nous contacter pour plus d'information.
-]]>
-</FR>
-<US>
-<![CDATA[]]>
-</US>
-<DE>
-<![CDATA[]]>
-</DE>
-<ES>
-<![CDATA[]]>
-</ES>
-</COMMENTAIRES>
-<ALUR>
-<COPROPRIETE>Non</COPROPRIETE>
-<NB_LOTS>
-</NB_LOTS>
-<NB_LOTS_HAB>
-</NB_LOTS_HAB>
-<CHARGES_ANNUELLES>
-</CHARGES_ANNUELLES>
-<PROCEDURES>0</PROCEDURES>
-<NOM_PROCEDURE>
-<![CDATA[]]>
-</NOM_PROCEDURE>
-</ALUR>
-<VIAGER>
-<EN_VIAGER>Non</EN_VIAGER>
-</VIAGER>
-<IMAGES>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/6/6/7/0/6/0/59667060a.jpg?DATEMAJ=23/12/2025-15:40:01</IMG>
-<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/6/6/7/0/6/0/59667060b.jpg?DATEMAJ=23/12/2025-15:40:01</IMG>
-</IMAGES>
-<PIECES>
-</PIECES>
-</BIEN>
-<BIEN>
-<INFO_GENERALES>
 <AFF_ID>59725534</AFF_ID>
 <AFF_ORIGIN_ID>59725534</AFF_ORIGIN_ID>
 <AFF_NUM>T5-OSTARA</AFF_NUM>
 <DATE_CREATION>2025-12-26 09:33:47</DATE_CREATION>
-<DATE_MAJ>18/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813263</NEGO>
@@ -1851,7 +1533,7 @@ Dossier complet sur demande : plans, notice, disponibilité, modalités (et option
 <AFF_ORIGIN_ID>59350548</AFF_ORIGIN_ID>
 <AFF_NUM>AG-T3-LYON07</AFF_NUM>
 <DATE_CREATION>2025-10-10 11:10:44</DATE_CREATION>
-<DATE_MAJ>12/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813261</NEGO>
@@ -3143,6 +2825,371 @@ Copropriété de 18 lots ().]]>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/3/9/8/8/7/0/59398870k.jpg?DATEMAJ=19/12/2025-15:31:49</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/3/9/8/8/7/0/59398870l.jpg?DATEMAJ=19/12/2025-15:31:49</IMG>
 <IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/9/3/9/8/8/7/0/59398870m.jpg?DATEMAJ=19/12/2025-15:31:49</IMG>
+</IMAGES>
+<PIECES>
+</PIECES>
+</BIEN>
+<BIEN>
+<INFO_GENERALES>
+<AFF_ID>55885630</AFF_ID>
+<AFF_ORIGIN_ID>55885630</AFF_ORIGIN_ID>
+<AFF_NUM>FBT3LEMARGUET</AFF_NUM>
+<DATE_CREATION>2024-05-27 16:00:59</DATE_CREATION>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
+<LIBRELE>29/08/2025</LIBRELE>
+<NEGO>813263</NEGO>
+<AFF_URL>
+<![CDATA[https://v2.immo-facile.com/catalog/admin-v2/product_info.php?action=popup_agence&products_autorised=true&mmanufacturers_id=200778&msites_id=134362&site=134362&msites_code=viahumanis_030723&cle=4ea7aee2c28d9a42c53de7e12bda148a&products_id=55885630&show_price=1]]>
+</AFF_URL>
+<VISITE_VIRTUELLE>
+<![CDATA[]]>
+</VISITE_VIRTUELLE>                 <STATUT>
+<![CDATA[En cours]]>
+</STATUT>
+</INFO_GENERALES>
+<AGENCE>
+<AGENCE_ID>200778</AGENCE_ID>
+<AGENCE_NOM>
+<![CDATA[Via Humanis Immobilier - Via Humanis Immobilier]]>
+</AGENCE_NOM>
+<AGENCE_ADRESSE>
+<![CDATA[3 allée du Moulin Berger]]>
+</AGENCE_ADRESSE>
+<AGENCE_CP>69130</AGENCE_CP>
+<AGENCE_VILLE>
+<![CDATA[Écully]]>
+</AGENCE_VILLE>
+<AGENCE_TELEPHONE>+33 4 85 92 98 41</AGENCE_TELEPHONE>
+<AGENCE_PORTABLE>
+</AGENCE_PORTABLE>
+<AGENCE_FAX>
+</AGENCE_FAX>
+<AGENCE_MAIL>contact@via-humanis-immo.fr</AGENCE_MAIL>
+<AGENCE_SITE>
+</AGENCE_SITE>
+<AGENCE_LOGO>https://media.immo-facile.com/../segments/immo/catalog/images/manufacturers_logo/200778.jpg</AGENCE_LOGO>
+<AGENCE_PHOTO>https://media.immo-facile.com/</AGENCE_PHOTO>
+<AGENCE_RESEAU>
+<![CDATA[Aucun]]>
+</AGENCE_RESEAU>
+<AGENCE_SIRET>81527509400044</AGENCE_SIRET>                <AGENCE_DETENTION_FONDS>NON</AGENCE_DETENTION_FONDS>                <AGENCE_BOOKING_URL>
+</AGENCE_BOOKING_URL>
+<AGENCE_BAREME>
+</AGENCE_BAREME>
+</AGENCE>
+<NEGOCIATEUR>
+<NEGOCIATEUR_ID>813263</NEGOCIATEUR_ID>
+<NEGOCIATEUR_NOM>
+<![CDATA[BAROIS Florent ]]>
+</NEGOCIATEUR_NOM>
+<NEGOCIATEUR_NOM_FAMILLE>
+<![CDATA[BAROIS]]>
+</NEGOCIATEUR_NOM_FAMILLE>
+<NEGOCIATEUR_PRENOM>
+<![CDATA[Florent]]>
+</NEGOCIATEUR_PRENOM>
+<NEGOCIATEUR_TEL_FIXE>
+<![CDATA[07 43 16 76 00]]>
+</NEGOCIATEUR_TEL_FIXE>
+<NEGOCIATEUR_EMAIL>
+<![CDATA[barois@via-humanis-immo.fr]]>
+</NEGOCIATEUR_EMAIL>
+<NEGOCIATEUR_PHOTO>
+<![CDATA[]]>
+</NEGOCIATEUR_PHOTO>
+<NEGOCIATEUR_FONCTION>
+<![CDATA[Conseiller en Immobilier]]>
+</NEGOCIATEUR_FONCTION>
+<NEGOCIATEUR_NUM_RSCA>
+<![CDATA[]]>
+</NEGOCIATEUR_NUM_RSCA>
+<NEGOCIATEUR_VILLE_RSAC>
+<![CDATA[]]>
+</NEGOCIATEUR_VILLE_RSAC>
+<NEGOCIATEUR_DESCRIPTION>
+<![CDATA[]]>
+</NEGOCIATEUR_DESCRIPTION>
+</NEGOCIATEUR>
+<LOCATION>
+<LOYER>360.62</LOYER>
+<TYPE_LOYER>HC</TYPE_LOYER>
+<INFO_PRIX>1</INFO_PRIX>
+<TYPE_MANDAT>Delegation</TYPE_MANDAT>
+<DATE_MANDAT>01/08/2025</DATE_MANDAT>
+<FRAIS_AGENCE>1</FRAIS_AGENCE>
+<DEPOT_GARANTIE>360</DEPOT_GARANTIE>
+<PROVISION_SUR_CHARGES>42.77</PROVISION_SUR_CHARGES>
+<GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
+<REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
+<![CDATA[360.62]]>
+</LOYER_BASE>                    </LOCATION>
+<APPARTEMENT>
+<SS_TYPE>1</SS_TYPE>
+<CATEGORIE_MERE>36</CATEGORIE_MERE>
+<CPVILLE>
+<![CDATA[42000 SAINT ETIENNE]]>
+</CPVILLE>
+<NBRE_PIECES>3</NBRE_PIECES>
+<NBRE_CHAMBRES>2</NBRE_CHAMBRES>
+<SURFACE_HABITABLE>59</SURFACE_HABITABLE>
+<SURFACE_SEJOUR>0</SURFACE_SEJOUR>
+<SURFACE_TERRAIN>0</SURFACE_TERRAIN>
+<SHON>0</SHON>
+<FACADE>0</FACADE>
+<PROFONDEUR>0</PROFONDEUR>
+<NBRE_NIVEAUX>1</NBRE_NIVEAUX>
+<ANNEE_CONSTRUCTION>0</ANNEE_CONSTRUCTION>
+<CATEGORIE>1</CATEGORIE>
+<NBRE_SALLE_BAIN>0</NBRE_SALLE_BAIN>
+<NBRE_WC>0</NBRE_WC>            <MEUBLE>0</MEUBLE>
+<NUM_ETAGE>1</NUM_ETAGE>
+<DERNIER_ETAGE>0</DERNIER_ETAGE>
+<NUM_DERNIER_ETAGE>2</NUM_DERNIER_ETAGE>
+<CONSOMMATIONENERGETIQUE>E</CONSOMMATIONENERGETIQUE>
+<AFFICHAGE_DPE>1</AFFICHAGE_DPE>
+<DATE_DPE>15/03/2022</DATE_DPE>
+<GAZEFFETDESERRE>E</GAZEFFETDESERRE>
+<RISQUE_POLLUTION>0</RISQUE_POLLUTION>
+<TEXTE_PORTAILS>
+<![CDATA[]]>
+</TEXTE_PORTAILS>
+<JARDIN>0</JARDIN>
+<NBRE_ETAGE>2</NBRE_ETAGE>
+<SEJOUR_DOUBLE>0</SEJOUR_DOUBLE>
+<CALME>1</CALME>
+<CLAIR>1</CLAIR>
+<VENDU>0</VENDU>
+<SELECTION_PAGE_ACCUEIL>0</SELECTION_PAGE_ACCUEIL>
+<REGIME_FISCAL>
+</REGIME_FISCAL>
+<TYPE_RESIDENCE>
+</TYPE_RESIDENCE>
+<OBSERVATIONS>
+<![CDATA[]]>
+</OBSERVATIONS>
+<OBSERVATIONS_WEB>
+<![CDATA[]]>
+</OBSERVATIONS_WEB>
+<POINTS_POSITIFS>
+<![CDATA[]]>
+</POINTS_POSITIFS>
+<DIAG_COMMENTAIRES>
+<![CDATA[]]>
+</DIAG_COMMENTAIRES>
+<PRESTATIONS_COMMENTAIRES>
+<![CDATA[]]>
+</PRESTATIONS_COMMENTAIRES>
+<DATE_ECHEANCE_MANDAT>27/05/2025</DATE_ECHEANCE_MANDAT>
+<TYPE_BAIL>
+<![CDATA[Loi de 89 Habitation]]>
+</TYPE_BAIL>
+<COUP_COEUR>0</COUP_COEUR>
+<BAIL>0</BAIL>
+<CPVILLEWEB>
+<![CDATA[42000 SAINT ETIENNE]]>
+</CPVILLEWEB>
+<DATE_PREMIER_MANDAT>
+<![CDATA[01/08/2025]]>
+</DATE_PREMIER_MANDAT>
+<DELAI_MANDAT>
+<![CDATA[14]]>
+</DELAI_MANDAT>            <FORME_MANDAT>Location</FORME_MANDAT>
+<HONO_NEGO_ET_ENTREMISE>
+<![CDATA[0]]>
+</HONO_NEGO_ET_ENTREMISE>
+<LOYER_CC>
+<![CDATA[403.39]]>
+</LOYER_CC>
+<POINTS_NEGATIFS>
+<![CDATA[]]>
+</POINTS_NEGATIFS>
+<PRIX_DEPART>
+<![CDATA[345.64]]>
+</PRIX_DEPART>
+<PRIX_MANDAT>
+<![CDATA[0]]>
+</PRIX_MANDAT>
+<REF_AFFAIRE>
+<![CDATA[FBT3LEMARGUET]]>
+</REF_AFFAIRE>
+<REZ_CHAUSSEE>0</REZ_CHAUSSEE>
+<TYPE_TRANSACTION>Location</TYPE_TRANSACTION>
+<VISA_VIS>0</VISA_VIS>
+<VISITE_DOSSIER_ACTE_BAILLEUR>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_BAILLEUR>
+<VISITE_DOSSIER_ACTE_LOCATAIRE>
+<![CDATA[1]]>
+</VISITE_DOSSIER_ACTE_LOCATAIRE>            <TITRE_VITRINE>
+<![CDATA[]]>
+</TITRE_VITRINE>
+<TEXTE_VITRINE>
+<![CDATA[]]>
+</TEXTE_VITRINE>
+<TEXTE_PERSO_1>
+<![CDATA[]]>
+</TEXTE_PERSO_1>
+<TEXTE_PERSO_2>
+<![CDATA[]]>
+</TEXTE_PERSO_2>
+<TEXTE_PERSO_3>
+<![CDATA[]]>
+</TEXTE_PERSO_3>
+<TEXTE_PERSO_1_US>
+<![CDATA[]]>
+</TEXTE_PERSO_1_US>
+<TEXTE_PERSO_2_US>
+<![CDATA[]]>
+</TEXTE_PERSO_2_US>
+<TEXTE_PERSO_3_US>
+<![CDATA[]]>
+</TEXTE_PERSO_3_US>
+<TEXTE_PERSO_1_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_1_DE>
+<TEXTE_PERSO_2_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_2_DE>
+<TEXTE_PERSO_3_DE>
+<![CDATA[]]>
+</TEXTE_PERSO_3_DE>
+<TEXTE_PERSO_1_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_1_ES>
+<TEXTE_PERSO_2_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_2_ES>
+<TEXTE_PERSO_3_ES>
+<![CDATA[]]>
+</TEXTE_PERSO_3_ES>
+<TEXTE_PASSERELLE_US>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_US>
+<TEXTE_PASSERELLE_DE>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_DE>
+<TEXTE_PASSERELLE_ES>
+<![CDATA[]]>
+</TEXTE_PASSERELLE_ES>
+</APPARTEMENT>
+<LOCALISATION>
+<VISIBLE>true</VISIBLE>
+<CODE_POSTAL>42000</CODE_POSTAL>
+<VILLE>
+<![CDATA[SAINT ETIENNE]]>
+</VILLE>
+<PAYS>
+<![CDATA[France]]>
+</PAYS>
+<INSEE>42218</INSEE>
+<SECTEUR>
+<![CDATA[]]>
+</SECTEUR>
+<SITUATION>
+<![CDATA[]]>
+</SITUATION>
+<NOM_RESIDENCE>
+<![CDATA[]]>
+</NOM_RESIDENCE>
+<ACCES>
+</ACCES>
+<PROXIMITE>
+</PROXIMITE>
+</LOCALISATION>
+<DEFISCALISATION>
+<GIRARDIN>
+</GIRARDIN>
+<BORLOO>
+</BORLOO>
+<DEROBIEN>
+</DEROBIEN>
+<SCELLIER>
+</SCELLIER>
+<ZRR>
+</ZRR>
+<LMNP_LMP>
+</LMNP_LMP>
+<LMNP_BOUVARD>
+</LMNP_BOUVARD>
+<MALRAUX>
+</MALRAUX>
+<MONUMENT_HISTORIQUE>
+</MONUMENT_HISTORIQUE>
+<NUE_PROPRIETE>
+</NUE_PROPRIETE>
+<MICROFONCIER>
+</MICROFONCIER>
+<SCELLIER_OUTRE_MER>
+</SCELLIER_OUTRE_MER>
+</DEFISCALISATION>
+<INTITULE>
+<FR>
+<![CDATA[Appartement Saint Etienne 3 pièce(s) 59 m2]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</INTITULE>
+<COMMENTAIRES>
+<FR>
+<![CDATA[SAINT ETIENNE - T3 RUE CLAUDE MARGUET - 59m2
+
+*DEMANDE DE LOGEMENT SOCIAL DANS LE 42 ET AVIS D'IMPOSITION 2025 SUR REVENUS 2024 OBLIGATOIRES .
+**Logement social et soumis à conditions de ressources (PLUS)
+
+Situé rue Claude MARGUET, ce T3 est disponible à la location.
+Au 1Er étage sans ascenseur, cet appartement T3 est composé d'une cuisine vide à aménager, d'un salon, de 2 chambres, d'une salle de bain avec baignoire et de toilette séparée.
+Transports, commerces et établissements scolaires à proximité.
+Chauffage individuel au gaz.
+
+DPE nouvelle version : E
+Loyer CC : 403.39EUR
+Dont 42.77 EUR de charges comprenant la provision pour l'entretien des parties communes.
+Dépôt de garantie : 360 euros
+
+PAS DE FRAIS D'AGENCE
+DISPONIBLE DE SUITE
+]]>
+</FR>
+<US>
+<![CDATA[]]>
+</US>
+<DE>
+<![CDATA[]]>
+</DE>
+<ES>
+<![CDATA[]]>
+</ES>
+</COMMENTAIRES>
+<ALUR>
+<COPROPRIETE>Non</COPROPRIETE>
+<NB_LOTS>
+</NB_LOTS>
+<NB_LOTS_HAB>
+</NB_LOTS_HAB>
+<CHARGES_ANNUELLES>
+</CHARGES_ANNUELLES>
+<PROCEDURES>0</PROCEDURES>
+<NOM_PROCEDURE>
+<![CDATA[]]>
+</NOM_PROCEDURE>
+</ALUR>
+<VIAGER>
+<EN_VIAGER>Non</EN_VIAGER>
+</VIAGER>
+<IMAGES>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/8/5/6/3/0/55885630a.jpg?DATEMAJ=20/03/2025-18:00:39</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/8/5/6/3/0/55885630b.jpg?DATEMAJ=20/03/2025-18:00:39</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/8/5/6/3/0/55885630c.jpg?DATEMAJ=20/03/2025-18:00:39</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/8/5/6/3/0/55885630d.jpg?DATEMAJ=20/03/2025-18:00:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/8/5/6/3/0/55885630e.jpg?DATEMAJ=20/03/2025-18:00:40</IMG>
+<IMG>https://media.immo-facile.com/office20/viahumanis_030723/catalog/images/pr_p/5/5/8/8/5/6/3/0/55885630f.jpg?DATEMAJ=20/03/2025-18:00:40</IMG>
 </IMAGES>
 <PIECES>
 </PIECES>
@@ -5461,7 +5508,7 @@ DPE NOUVELLE VERSION. Montant estimé des dépenses annuelles d'énergie pour un us
 <AFF_ORIGIN_ID>55807826</AFF_ORIGIN_ID>
 <AFF_NUM>T3STCHAMONDPETIN</AFF_NUM>
 <DATE_CREATION>2024-05-14 17:26:25</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>10/06/2025</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
@@ -5843,7 +5890,7 @@ DISPONIBLE DE SUITE
 <AFF_ORIGIN_ID>59666989</AFF_ORIGIN_ID>
 <AFF_NUM>T3bis-GAMBETTASTETIENNE</AFF_NUM>
 <DATE_CREATION>2025-12-10 17:18:39</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813263</NEGO>
@@ -5920,7 +5967,7 @@ DISPONIBLE DE SUITE
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>426.72</LOYER>
+<LOYER>431.16</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
@@ -5930,7 +5977,7 @@ DISPONIBLE DE SUITE
 <PROVISION_SUR_CHARGES>58.45</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[426.72]]>
+<![CDATA[431.16]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -6009,7 +6056,7 @@ DISPONIBLE DE SUITE
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[485.17]]>
+<![CDATA[489.61]]>
 </LOYER_CC>
 <POINTS_NEGATIFS>
 <![CDATA[]]>
@@ -6156,10 +6203,10 @@ DISPONIBLE DE SUITE
 Situé rue Gambetta venez visiter cet appartement T3 de 67m².
 Au 3ème étage SANS ascenseur, ce logement possède une entrée, une cuisine non-équipée, un double séjour, 2 chambres, une salle d'eau avec douche et un WC indépendant .
 
-Loyer CC : 485,17 euros dont 58.45 euros de charges incluant l'entretien des parties communes et la TEOM
+Loyer CC : 489.61 euros dont 58.45 euros de charges incluant l'entretien des parties communes et la TEOM
 
 Chauffage et eau chaude INDIVIDUEL gaz
-Dépôt de garantie : 1 mois de loyer HC soit 369 euros.
+Dépôt de garantie : 1 mois de loyer HC soit 431 euros.
 DPE: E et GES: E
 
 PAS DE FRAIS D'AGENCE.
@@ -6209,7 +6256,7 @@ Disponible de suite.
 <AFF_ORIGIN_ID>59584216</AFF_ORIGIN_ID>
 <AFF_NUM>FBT2RIVEDEGIER2nd</AFF_NUM>
 <DATE_CREATION>2025-11-25 11:41:05</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>02/12/2025</LIBRELE>
 <NEGO>813263</NEGO>
 <AFF_URL>
@@ -6285,7 +6332,7 @@ Disponible de suite.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>326</LOYER>
+<LOYER>329.39</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
@@ -6295,7 +6342,7 @@ Disponible de suite.
 <PROVISION_SUR_CHARGES>96.2</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[326]]>
+<![CDATA[329.39]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -6371,7 +6418,7 @@ Disponible de suite.
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[422.2]]>
+<![CDATA[425.59]]>
 </LOYER_CC>
 <POINTS_NEGATIFS>
 <![CDATA[]]>
@@ -6518,10 +6565,10 @@ Disponible de suite.
 Situé rue Anatole France, venez visiter cet appartement T2 de 51m².
 Au 1er étage avec ascenseur, ce logement possède une entrée, une cuisine non-équipée, un séjour, 1 chambre, une salle de bain et un WC indépendant .
 
-Loyer CC : 422.20 dont 96.20 euros de charges incluant l'entretien des parties communes, la TEOM et une provision sur l'eau froide
+Loyer CC : 425.59 dont 96.20 euros de charges incluant l'entretien des parties communes, la TEOM et une provision sur l'eau froide
 
 Chauffage et eau chaude INDIVIDUEL gaz
-Dépôt de garantie : 1 mois de loyer HC soit 370 euros.
+Dépôt de garantie : 1 mois de loyer HC soit 329 euros.
 DPE: D et GES: D
 
 PAS DE FRAIS D'AGENCE.
@@ -6953,7 +7000,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>59666953</AFF_ORIGIN_ID>
 <AFF_NUM>T2-SAINTETIENNE-STJEAN</AFF_NUM>
 <DATE_CREATION>2025-12-10 17:11:47</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813263</NEGO>
@@ -7030,7 +7077,7 @@ PAS DE FRAIS D'AGENCE.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>383.2</LOYER>
+<LOYER>387.18</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
@@ -7039,7 +7086,7 @@ PAS DE FRAIS D'AGENCE.
 <PROVISION_SUR_CHARGES>42.18</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[383.2]]>
+<![CDATA[387.18]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -7118,7 +7165,7 @@ PAS DE FRAIS D'AGENCE.
 <![CDATA[0]]>
 </HONO_NEGO_ET_ENTREMISE>
 <LOYER_CC>
-<![CDATA[425.38]]>
+<![CDATA[429.36]]>
 </LOYER_CC>
 <NOTE_CONFIDENTIELLE>
 <![CDATA[Date mandat : 25/11/2025]]>
@@ -7268,10 +7315,10 @@ PAS DE FRAIS D'AGENCE.
 Situé rue Saint Jean venez visiter cet appartement T2 de 52m².
 Au 4ème étage SANS ascenseur, ce logement possède une entrée, une cuisine non-équipée, un séjour, 1chambre, une salle d'e bain avec baignoire et un WC.
 
-Loyer CC : 425,38 euros dont 42,18 euros de charges incluant l'entretien des parties communes et la TEOM
+Loyer CC : 429.36 euros dont 42,18 euros de charges incluant l'entretien des parties communes et la TEOM
 
 Chauffage et eau chaude INDIVIDUEL gaz
-Dépôt de garantie : 1 mois de loyer HC soit 369 euros.
+Dépôt de garantie : 1 mois de loyer HC soit 387 euros.
 DPE: E et GES: E
 
 PAS DE FRAIS D'AGENCE.
@@ -7320,7 +7367,7 @@ Disponible de suite.
 <AFF_ORIGIN_ID>58450433</AFF_ORIGIN_ID>
 <AFF_NUM>T5-LESMUREAUX-FRANCOISEDOLTO</AFF_NUM>
 <DATE_CREATION>2025-05-20 14:54:30</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -7397,17 +7444,17 @@ Disponible de suite.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1130</LOYER>
+<LOYER>1141.75</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
 <DATE_MANDAT>05/12/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1130</DEPOT_GARANTIE>
+<DEPOT_GARANTIE>1141.75</DEPOT_GARANTIE>
 <PROVISION_SUR_CHARGES>219.3</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1130]]>
+<![CDATA[1141.75]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -7527,7 +7574,7 @@ Disponible de suite.
 </HONO_NEGO_ET_ENTREMISE>
 <LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[1349.3]]>
+<![CDATA[1361.05]]>
 </LOYER_CC>
 <POINTS_NEGATIFS>
 <![CDATA[]]>
@@ -7687,8 +7734,8 @@ Nos logements sont conçus selon les dernières normes environnementales et offren
 - Balcons pour profiter de l'extérieur
 - Stationnements sécurisés
 
-Loyer CC : 1 349,30  euros dont 219,30  euros de charges de copropriété + chauffage collectif  gaz + eau froide
-Dépôt de garantie : 1 130,00  euros
+Loyer CC : 1 349.30  euros dont 219,30  euros de charges de copropriété + chauffage collectif  gaz + eau froide
+Dépôt de garantie : 1 141.75  euros
 2 places de stationnement en sous-sol inclus
 
 PAS DE FRAIS D'AGENCE.
@@ -7737,7 +7784,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>58450451</AFF_ORIGIN_ID>
 <AFF_NUM>T3-LESMUREAUX-FRANCOISEDOLTO</AFF_NUM>
 <DATE_CREATION>2025-05-20 14:57:03</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -7814,17 +7861,17 @@ PAS DE FRAIS D'AGENCE.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>920</LOYER>
+<LOYER>929.56</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
 <DATE_MANDAT>05/12/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>920</DEPOT_GARANTIE>
+<DEPOT_GARANTIE>929.56</DEPOT_GARANTIE>
 <PROVISION_SUR_CHARGES>159.98</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[920]]>
+<![CDATA[929.56]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -7865,7 +7912,7 @@ PAS DE FRAIS D'AGENCE.
 <TYPE_STATIONNEMENT>
 <![CDATA[Sous-sol]]>
 </TYPE_STATIONNEMENT>
-<NUM_ETAGE>1</NUM_ETAGE>
+<NUM_ETAGE>3</NUM_ETAGE>
 <NUM_DERNIER_ETAGE>3</NUM_DERNIER_ETAGE>
 <ASCENSEUR>1</ASCENSEUR>
 <PORTAIL_ELECTRIQUE>Oui</PORTAIL_ELECTRIQUE>
@@ -7944,7 +7991,7 @@ PAS DE FRAIS D'AGENCE.
 </HONO_NEGO_ET_ENTREMISE>
 <LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[1079.98]]>
+<![CDATA[1089.54]]>
 </LOYER_CC>
 <POINTS_NEGATIFS>
 <![CDATA[]]>
@@ -8090,7 +8137,7 @@ Logement conventionné et soumis à conditions de ressources.
 
 Découvrez notre nouvelle résidence au coeur du quartier Françoise Dolto aux Mureaux, un véritable havre de paix dans un environnement privilégié.
 
-Notre résidence contemporaine propose 10 appartements neufs de type T3, du RDC au 3ème étage avec ascenseur, conçus pour répondre à toutes vos attentes en matière de confort et de bien-être.
+Notre résidence contemporaine propose 10 appartements neufs de type T3, au 3ème étage avec ascenseur, conçus pour répondre à toutes vos attentes en matière de confort et de bien-être.
 
 Profitez d'un quartier calme et verdoyant, parfaitement adapté pour les familles. A proximité immédiate :
 - Groupe scolaire Françoise Dolto à quelques pas
@@ -8103,8 +8150,8 @@ Nos logements sont conçus selon les dernières normes environnementales et offren
 - Balcons pour profiter de l'extérieur
 - Stationnements sécurisés
 
-Loyer CC : 1 079,98  euros dont 159,98  euros de charges de copropriété + chauffage collectif  gaz + eau froide
-Dépôt de garantie : 920,00  euros
+Loyer CC : 1 089.54  euros dont 159,98  euros de charges de copropriété + chauffage collectif  gaz + eau froide
+Dépôt de garantie : 929.56  euros
 Place de stationnement en sous-sol inclus
 
 PAS DE FRAIS D'AGENCE.
@@ -10920,7 +10967,7 @@ Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 455 euros et 61
 <AFF_ORIGIN_ID>58424603</AFF_ORIGIN_ID>
 <AFF_NUM>MaisonT4-LESMUREAUX-FRANCOISEDOLTO</AFF_NUM>
 <DATE_CREATION>2025-05-16 14:39:22</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -10997,16 +11044,16 @@ Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 455 euros et 61
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1310</LOYER>
+<LOYER>1323.62</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1310</DEPOT_GARANTIE>
+<DEPOT_GARANTIE>1323.62</DEPOT_GARANTIE>
 <PROVISION_SUR_CHARGES>206</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1310]]>
+<![CDATA[1323.62]]>
 </LOYER_BASE>                    </LOCATION>
 <MAISON>
 <SS_TYPE>2</SS_TYPE>
@@ -11129,7 +11176,7 @@ Estimation des couts annuels d'énergie au 1er Janvier 2025 entre 455 euros et 61
 </HONO_NEGO_ET_ENTREMISE>
 <LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[1516]]>
+<![CDATA[1529.62]]>
 </LOYER_CC>
 <NOTE_CONFIDENTIELLE>
 <![CDATA[Date mandat : 16/05/2025]]>
@@ -11314,8 +11361,8 @@ Nos logements sont conçus selon les dernières normes environnementales et offren
 - Terrasse et jardin pour profiter de l'extérieur
 - Stationnements sécurisés
 
-Loyer CC : 1 516,00  euros dont 206,00  euros de charges de copropriété + eau froide
-Dépôt de garantie : 1 310,00  euros
+Loyer CC : 1 529.62  euros dont 206,00  euros de charges de copropriété + eau froide
+Dépôt de garantie : 1 323.62  euros
 Chauffage individuel gaz
 Place de stationnement en sous-sol inclus
 
@@ -11366,7 +11413,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>58443577</AFF_ORIGIN_ID>
 <AFF_NUM>T4-LESMUREAUX-FRANCOISEDOLTO</AFF_NUM>
 <DATE_CREATION>2025-05-19 11:28:36</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -11443,16 +11490,16 @@ PAS DE FRAIS D'AGENCE.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>1020</LOYER>
+<LOYER>1030.6</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>1020</DEPOT_GARANTIE>
+<DEPOT_GARANTIE>1030.6</DEPOT_GARANTIE>
 <PROVISION_SUR_CHARGES>195.29</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[1020]]>
+<![CDATA[1030.6]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -11572,7 +11619,7 @@ PAS DE FRAIS D'AGENCE.
 </HONO_NEGO_ET_ENTREMISE>
 <LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[1215.29]]>
+<![CDATA[1225.89]]>
 </LOYER_CC>
 <POINTS_NEGATIFS>
 <![CDATA[]]>
@@ -11732,8 +11779,8 @@ Nos logements sont conçus selon les dernières normes environnementales et offren
 - Balcons pour profiter de l'extérieur
 - Stationnements sécurisés
 
-Loyer CC : 1 215,29  euros dont 195,29  euros de charges de copropriété + chauffage collectif  gaz + eau froide
-Dépôt de garantie : 1 020,00  euros
+Loyer CC : 1 225.89  euros dont 195,29  euros de charges de copropriété + chauffage collectif  gaz + eau froide
+Dépôt de garantie : 1 030.60  euros
 Place de stationnement en sous-sol inclus
 
 PAS DE FRAIS D'AGENCE.
@@ -11782,7 +11829,7 @@ PAS DE FRAIS D'AGENCE.
 <AFF_ORIGIN_ID>58424513</AFF_ORIGIN_ID>
 <AFF_NUM>T2-LESMUREAUX-FRANCOISEDOLTO</AFF_NUM>
 <DATE_CREATION>2025-05-16 14:20:28</DATE_CREATION>
-<DATE_MAJ>27/01/2026</DATE_MAJ>
+<DATE_MAJ>28/01/2026</DATE_MAJ>
 <LIBRELE>
 </LIBRELE>
 <NEGO>813264</NEGO>
@@ -11859,17 +11906,17 @@ PAS DE FRAIS D'AGENCE.
 </NEGOCIATEUR_DESCRIPTION>
 </NEGOCIATEUR>
 <LOCATION>
-<LOYER>780</LOYER>
+<LOYER>788.11</LOYER>
 <TYPE_LOYER>HC</TYPE_LOYER>
 <INFO_PRIX>1</INFO_PRIX>
 <TYPE_MANDAT>Delegation</TYPE_MANDAT>
 <DATE_MANDAT>16/05/2025</DATE_MANDAT>
 <FRAIS_AGENCE>1</FRAIS_AGENCE>
-<DEPOT_GARANTIE>780</DEPOT_GARANTIE>
+<DEPOT_GARANTIE>788.11</DEPOT_GARANTIE>
 <PROVISION_SUR_CHARGES>124.83</PROVISION_SUR_CHARGES>
 <GARANTIE_REVENTE>Non</GARANTIE_REVENTE>
 <REGUL_CHARGES>Previsionnelles_mensuelles_annuelle</REGUL_CHARGES>                    <AFFICHAGE_ENCADREMENT_LOYER>0</AFFICHAGE_ENCADREMENT_LOYER>                                        <LOYER_BASE>
-<![CDATA[780]]>
+<![CDATA[788.11]]>
 </LOYER_BASE>                    </LOCATION>
 <APPARTEMENT>
 <SS_TYPE>1</SS_TYPE>
@@ -11989,7 +12036,7 @@ PAS DE FRAIS D'AGENCE.
 </HONO_NEGO_ET_ENTREMISE>
 <LOGEMENT_OCCUPE>0</LOGEMENT_OCCUPE>
 <LOYER_CC>
-<![CDATA[904.83]]>
+<![CDATA[912.94]]>
 </LOYER_CC>
 <POINTS_NEGATIFS>
 <![CDATA[]]>
@@ -12148,8 +12195,8 @@ Nos logements sont conçus selon les dernières normes environnementales et offren
 - Balcons pour profiter de l'extérieur
 - Stationnements sécurisés
 
-Loyer CC : 904,83  euros dont 124,83  euros de charges de copropriété + chauffage collectif  gaz + eau froide
-Dépôt de garantie : 780,00  euros 
+Loyer CC : 912.94  euros dont 124,83  euros de charges de copropriété + chauffage collectif  gaz + eau froide
+Dépôt de garantie : 788.11  euros 
 Place de stationnement en sous-sol inclus
 
 PAS DE FRAIS D'AGENCE. 
